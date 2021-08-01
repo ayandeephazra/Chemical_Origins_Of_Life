@@ -29,23 +29,31 @@ y0_lowC_50 = [0.05, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_25 = [0.025, 0.025, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_0 = [0, 0.05, 0, 0, 0, 0, 0, 0, 0, 0]
 
-t = np.linspace(0, 1, 1000)
-
+t = np.linspace(0, 1, 5)
+print(t)
 x = 3 * np.exp(-2 * t)
 y = 0.5 * np.exp(t)
-X = np.stack((x, y), axis=-1)  # First column is x, second is y
+  # First column is x, second is y
 
+y100_init = [0.1, 0, 0, 0, 0]
+y100_1 = [0.127076, 0.108147856, 0.107081378, 0.085476309, 0.099750315]
+y100_2 = [0.003104, 0.0000159, 0.0000261, 0, 0.0000327]
+y100_3 = [0.0000624, 0.010187, 0.009817, 0.007252, 0.008992]
+y100_4 = [0, 0, 0, 0, 0]
+y100_5 = [0.0000181, 0.0000311, 0, 0.0000395, 0.00000589]
+
+X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
 differentiation_method = ps.FiniteDifference(order=2)
 
 feature_library = ps.PolynomialLibrary(degree=3)
 
-optimizer = ps.STLSQ(threshold=0.2)
+optimizer = ps.STLSQ(threshold=0.01)
 
 model = ps.SINDy(
     differentiation_method=differentiation_method,
     feature_library=feature_library,
     optimizer=optimizer,
-    feature_names=["x", "y"]
+    feature_names=["y1", "y2", "y3", "y4", "y5"]
 )
 
 
@@ -53,29 +61,3 @@ model.fit(X, t=t);
 
 
 model.print()
-
-
-x0 = 6
-y0 = -0.1
-
-t_test = np.linspace(0, 1, 100)
-x_test = x0 * np.exp(-2 * t_test)
-y_test = y0 * np.exp(t_test)
-
-sim = model.simulate([x0, y0], t=t_test)
-
-
-fig, ax = plt.subplots(1, 1, figsize=(5, 5))
-ax.plot(x0, y0, "ro", label="Initial condition", alpha=0.6, markersize=8)
-ax.plot(x_test, y_test, "b", label="Exact solution", alpha=0.4, linewidth=4)
-ax.plot(sim[:, 0], sim[:, 1], "k--", label="SINDy model", linewidth=3)
-ax.set(xlabel="x", ylabel="y")
-ax.legend()
-#plt.imshow(img.reshape((28, 28)))
-fig.show()
-
-
-
-
-
-
