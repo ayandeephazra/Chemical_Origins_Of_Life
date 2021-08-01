@@ -15,7 +15,7 @@ def lorenz(z, t):
         z[0] * z[1] - (8 / 3) * z[2]
     ]
 np.random.seed(100)
-
+print("")
 # initial concentrations Glycine to Alanine
 # G A GG AA AG/GA GAG/GGA GGG GGGG AAG/AGA AAA
 y0_100 = [0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
