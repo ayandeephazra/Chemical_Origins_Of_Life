@@ -29,7 +29,8 @@ y0_lowC_50 = [0.05, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_25 = [0.025, 0.025, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_0 = [0, 0.05, 0, 0, 0, 0, 0, 0, 0, 0]
 
-t = np.linspace(0, 1, 5)
+# time in units of days, 1 is 1 day
+t = np.linspace(0, 4, 5)
 print(t)
 x = 3 * np.exp(-2 * t)
 y = 0.5 * np.exp(t)
@@ -47,7 +48,7 @@ differentiation_method = ps.FiniteDifference(order=2)
 
 feature_library = ps.PolynomialLibrary(degree=3)
 
-optimizer = ps.STLSQ(threshold=0.01)
+optimizer = ps.STLSQ(threshold=0.00001)
 
 model = ps.SINDy(
     differentiation_method=differentiation_method,
