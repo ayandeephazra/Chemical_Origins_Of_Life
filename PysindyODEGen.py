@@ -37,11 +37,11 @@ y = 0.5 * np.exp(t)
   # First column is x, second is y
 
 y100_init = [0.1, 0, 0, 0, 0]
-y100_1 = [0.127076, 0.108147856, 0.107081378, 0.085476309, 0.099750315]
-y100_2 = [0.003104, 0.0000159, 0.0000261, 0, 0.0000327]
-y100_3 = [0.0000624, 0.010187, 0.009817, 0.007252, 0.008992]
+y100_1 = [0.1, 0.068516, 0.068512554, 0.068512653, 0.06851261]
+y100_2 = [0, 0, 0, 0, 0]
+y100_3 = [0, 0.010187, 0.012749887, 0.012749946, 0.01274996]
 y100_4 = [0, 0, 0, 0, 0]
-y100_5 = [0.0000181, 0.0000311, 0, 0.0000395, 0.00000589]
+y100_5 = [0, 0, 0, 0, 0]
 
 X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
 differentiation_method = ps.FiniteDifference(order=2)
@@ -66,37 +66,39 @@ print("\n")
 
 for i in range(2):
     y100_init = [0.1, 0, 0, 0, 0]
-    y100_1 = [0.127076, 0.108147856, 0.107081378, 0.085476309, 0.099750315]
-    y100_2 = [0.003104, 0.0000159, 0.0000261, 0, 0.0000327]
-    y100_3 = [0.0000624, 0.010187, 0.009817, 0.007252, 0.008992]
+    y100_1 = [0.1, 0.068516, 0.068512554, 0.068512653, 0.06851261]
+    y100_2 = [0, 0, 0, 0, 0]
+    y100_3 = [0, 0.010187, 0.012749887, 0.012749946, 0.01274996]
     y100_4 = [0, 0, 0, 0, 0]
-    y100_5 = [0.0000181, 0.0000311, 0, 0.0000395, 0.00000589]
+    y100_5 = [0, 0, 0, 0, 0]
 
     X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
 
     t1 = 0.1*np.random.normal(loc=0, scale=1, size=5)
-    t1[t1<0] = 0
+    #t1[t1<0] = 0
     t2 = 0.1*np.random.normal(loc=0, scale=1, size=5)
-    t2[t2 < 0] = 0
+    #t2[t2 < 0] = 0
     t3 = 0.1*np.random.normal(loc=0, scale=1, size=5)
-    t3[t3 < 0] = 0
+    #t3[t3 < 0] = 0
     t4 = 0.1*np.random.normal(loc=0, scale=1, size=5)
-    t4[t4 < 0] = 0
+    #t4[t4 < 0] = 0
     t5 = 0.1*np.random.normal(loc=0, scale=1, size=5)
-    t5[t5 < 0] = 0
+    #t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
 
-    print(noise)
+
 
     X=X+noise
 
+    X[X < 0] = 0
+    print(noise, "\n\n", X)
     differentiation_method = ps.FiniteDifference(order=2)
 
     feature_library = ps.PolynomialLibrary(degree=3)
 
     #use 0.05 for good clean results
-    optimizer = ps.STLSQ(threshold=0.00001)
+    optimizer = ps.STLSQ(threshold=0.001)
 
     model = ps.SINDy(
         differentiation_method=differentiation_method,
