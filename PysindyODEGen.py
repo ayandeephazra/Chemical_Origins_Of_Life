@@ -86,19 +86,18 @@ for i in range(2):
     #t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
+    print(X, "\n")
 
-
-
-    X=X+noise
+    X = X+noise
 
     X[X < 0] = 0
-    print(noise, "\n\n", X)
+    print(noise, "\n\n", X, "\n")
     differentiation_method = ps.FiniteDifference(order=2)
 
     feature_library = ps.PolynomialLibrary(degree=3)
 
     #use 0.05 for good clean results
-    optimizer = ps.STLSQ(threshold=0.001)
+    optimizer = ps.STLSQ(threshold=0.1)
 
     model = ps.SINDy(
         differentiation_method=differentiation_method,
