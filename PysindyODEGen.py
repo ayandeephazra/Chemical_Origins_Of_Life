@@ -1,6 +1,8 @@
 
 import matplotlib.pyplot as plt
 import matplotlib
+from scipy import stats
+from scipy.stats import invgauss as ig
 matplotlib.use('TkAgg')
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
@@ -86,6 +88,9 @@ for i in range(2):
     #t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
+    print(noise, "\n")
+    noise = noise + noise*stats.norm.ppf(noise, loc=0.1, scale=0.5)
+    print(noise, "\n")
     print(X, "\n")
 
     X = X+noise
