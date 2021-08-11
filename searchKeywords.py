@@ -12,5 +12,5 @@ for i in range(len(list)):
     f = open("files/" + str(list[i]), "r", encoding="utf-8")
 
     content = f.read()
-    if content.find('elec') != -1:
+    if content.find('hardness') != -1:
         print(content, list[i])

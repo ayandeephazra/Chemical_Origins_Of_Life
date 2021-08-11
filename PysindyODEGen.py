@@ -67,25 +67,26 @@ model.print()
 print("\n")
 
 for i in range(10):
-    y100_init = [0.09, 0.01, 0, 0, 0]
-    y100_1 = [0.075, 0.053246277, 0.053244499, 0.053244498, 0.053244501]
-    y100_2 = [0.025, 0.019920837, 0.019919003, 0.019919049, 0.019919044]
-    y100_3 = [0, 0.007370377, 0.007369057, 0.007369122, 0.00736912]
-    y100_4 = [0, 6.38e-04, 6.38e-04, 6.38e-04, 6.38e-04]
-    y100_5 = [0, 2.63e-03, 2.63e-03, 2.63e-03, 2.63e-03]
+
+    y100_init = [0.075, 0.025, 0, 0, 0]
+    y100_1 = [0.075, 0.05324628, 0.0532445, 0.0532445, 0.0532445]
+    y100_2 = [0.025, 0.01992084, 0.019919,  0.01991905, 0.01991904]
+    y100_3 = [0, 0.00737038, 0.00736906, 0.00736912, 0.00736912]
+    y100_4 = [0, 0.000638, 0.000638, 0.000638, 0.000638]
+    y100_5 = [0, 0.00263, 0.00263, 0.00263, 0.00263]
 
 
     X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
 
-    t1 = np.random.normal(loc=0, scale=0.25, size=5)
+    t1 = np.random.normal(loc=0, scale=0.1, size=5)
     #t1[t1<0] = 0
-    t2 = np.random.normal(loc=0, scale=0.25, size=5)
+    t2 = np.random.normal(loc=0, scale=0.1, size=5)
     #t2[t2 < 0] = 0
-    t3 = np.random.normal(loc=0, scale=0.25, size=5)
+    t3 = np.random.normal(loc=0, scale=0.1, size=5)
     #t3[t3 < 0] = 0
-    t4 = np.random.normal(loc=0, scale=0.25, size=5)
+    t4 = np.random.normal(loc=0, scale=0.1, size=5)
     #t4[t4 < 0] = 0
-    t5 = np.random.normal(loc=0, scale=0.25, size=5)
+    t5 = np.random.normal(loc=0, scale=0.1, size=5)
     #t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
@@ -98,7 +99,7 @@ for i in range(10):
     feature_library = ps.PolynomialLibrary(degree=3)
 
     #use 0.05 for good clean results
-    optimizer = ps.STLSQ(threshold=0.0002)
+    optimizer = ps.STLSQ(threshold=0.0005)
 
     model = ps.SINDy(
         differentiation_method=differentiation_method,
