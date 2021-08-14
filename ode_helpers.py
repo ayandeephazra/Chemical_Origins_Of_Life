@@ -22,5 +22,6 @@ def state_plotter(times, states, fig_num):
         fig.delaxes(ax[n // num_cols][n % num_cols])
 
     fig.tight_layout()
+    plt.show()
 
     return fig, ax

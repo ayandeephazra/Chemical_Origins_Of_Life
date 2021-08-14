@@ -18,7 +18,7 @@ def f(t, y, c):
 
 
 tspan = np.linspace(0, 4, 5)
-yinit = [0, 0.05, 0.05, 0, 0, 0]
+yinit = [0, 0.09, 0.01, 0, 0, 0]
 c = [4, 3, -2, 0.5]
 
 sol = solve_ivp(lambda t, y: f(t, y, c),
