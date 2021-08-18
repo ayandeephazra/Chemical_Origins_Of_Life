@@ -1,0 +1,8 @@
+Hydroxyapatite (HAP) is a natural bioceramic which is currently used in scaffolds and coatings for the regrowth of osseous tissue but offers poor load-bearing capacity compared to other biomaterials.
+The deformation mechanisms responsible for the mechanical behavior of HAP are not well understood, although the advent of multiscale modeling offers the promise of improvements in many materials through computational materials science.
+This work utilizes molecular dynamics to study the nanoscale deformation mechanisms of HAP in uniaxial tension and compression.
+It was found that deformation mechanisms vary with loading direction in tension and compression leading to significant compression/tension asymmetry and crystal anisotropy.
+Bond orientation and geometry relative to the loading direction was found to be an indicator of whether a specific bond was involved in the deformation of HAP in each loading case.
+Tensile failure mechanisms were attributed to stretching and failure in loading case-specific ionic bond groups.
+The compressive failure mechanisms were attributed to coulombic repulsion in each case, although loading case-specific bond group rotation and displacement were found to affect specific failure modes.
+The elastic modulus was the highest for both tension and compression along the Z direction (i.e. normal to the basal plane), followed by Y and X.

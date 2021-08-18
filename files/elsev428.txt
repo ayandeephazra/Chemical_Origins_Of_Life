@@ -1,0 +1,7 @@
+Ceramic-metal (CaO·Al2O3–Al and CaO·Al2O3–Ag) compounds were prepared by mechanical milling and consolidated through an in-situ sintering process.
+The aim of this work is to study the effects of the Al and Ag particles to ceramic-base compound, primarily in the microstructure, and its mechanical and antimicrobial properties.
+Chemical systems with a 1:1 M ratio between CaCO3 and Al2O3 powder were formed, with the addition of 10 wt% Al or 10 wt% Ag, respectively.
+The compound material that consolidated were microstructurally characterized through X-ray diffraction, scanning electron microscopy, optic microscopy, and X-ray computed tomography.
+In addition, the hardness, the fracture toughness, the transversal elastic modulus, and the antimicrobial property were evaluated.
+The results of X-ray diffraction identified the formation of the calcium aluminate phases, such as CaO·6Al2O3 (hibonite:CA6), CaO·2Al2O3 (grossite:CA2), and CaO·Al2O3 (krotite:CA); as well as Al and Ag were identified in its respective system.
+In addition, the mechanical properties show changes compared to the reference material that was synthesized under the same conditions and, finally, these materials also have an antimicrobial effect, against the Staphylococcus bacterium that is common in the oral cavity, when studied in synthetic saliva.

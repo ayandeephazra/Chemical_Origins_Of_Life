@@ -1,0 +1,6 @@
+Based on experimental and theoretical studies, the 607 GPa bulk modulus of nanodiamond 2–5 nm was determined, which significantly exceeds the bulk modulus of diamond crystal (443 GPa) and approaches the values typical of ultrahard fullerite (600–1000 GPa).
+Bulk modulus of nanodiamond 2–5 nm was experimentally measured by piezospectroscopy using a diamond anvil cell with anvils made of synthetic diamond with a high (~60%) 13C isotope content.
+The Raman frequency in such diamond is at 1306 cm−1 and does not interfere with the recording of a peak at 1325 cm−1 of nanodiamond 2–5 nm.
+The bulk compression modulus was calculated from the dependence of the displacement of two Raman bands at 1325 cm−1 and 1600 cm−1 (the latter does not apply to sp2 bonds) of nanodiamond 2–5 nm on pressure up to 68 GPa.
+Simulation of nanodiamond 1.2–5.9 nm confirms experimental results and also predicts the rise of bulk modulus with a decrease of nanoparticles size.
+Analysis of simulated structures suggests a possible explanation of observed effect due to increasing contribution of surficial compressed bonds when nanoparticles size reduces.

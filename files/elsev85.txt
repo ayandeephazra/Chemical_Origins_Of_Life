@@ -1,0 +1,18 @@
+Objective This study evaluated physical and mechanical properties and characterized the filler particles of seven composites.
+Materials and methods Filtek Supreme (FS, 3M Oral Care), Forma (FO, Ultradent), Charisma Diamond (CD, Kulzer), Spectra Smart (SS, Dentsply), Filtek Bulk Fill (FB, 3M Oral Care), Tetric N-Ceram Bulk Fill (TB, Ivoclar), and Cention N (Ivoclar) in self- (CNSC) or dual-curing (CNDC) were evaluated.
+Fillers size, shape, and content were analyzed by scanning electron microscopy (SEM) and X-ray dispersive energy spectroscopy (EDX).
+Disk-shaped specimens (n = 5) were prepared for sorption (SP) and solubility (SL).
+Flexural strength and elastic modulus were tested at 24 h and 12 months (n = 10).
+Degree of conversion (DC%) and maximum rate of polymerization (Rpmax) were evaluated using micro-Raman spectroscopy.
+SP and SL results were submitted to Kruskal-Wallis one-way ANOVA and Dunn's pairwise test (α = 0.05).
+Mechanical properties were analyzed by 2-way ANOVA and Tukey's test (α = 0.05).
+DC% of CNSC and CNDC was compared by independent t-test (α = 0.05).
+Rpmax results were analyzed by 1-way ANOVA and Tukey's test (α = 0.05).
+Results The composites differed regarding filler size, shape, and content.
+CD and CNSC showed lower SP than FS.
+SS had lower SL than CNSC and CNDC.
+CNDC presented higher DC% than CNSC.
+CD, TB, and CNDC showed the highest Rpmax.
+TB, CNSC, and CNDC showed the lowest 24-h flexural strengths.
+Mechanical properties of CD did not decrease, while FO, TB, and CNSC showed a significant reduction after storage.
+Conclusions Monomer composition and fillers characteristics greatly influenced the physico-mechanical properties of the tested composites.

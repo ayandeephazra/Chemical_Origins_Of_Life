@@ -1,0 +1,7 @@
+The high-pressure behavior of a natural ettringite [Ca6Al2(SO4)3(OH)12·27H2O, a = 11.2104(2) Å, c = 21.4350(3) Å, sp.
+gr.
+P31c] has been studied by single-crystal X-ray diffraction with a diamond-anvil cell up to 4.22 GPa, using the methanol:ethanol = 4:1 mixture as a hydrostatic pressure-transmitting fluid.
+The isothermal bulk modulus (K 0 = −V(∂P / ∂V)) was found to be 26.6(5) GPa.
+Ettringite shows a significant anisotropic compressional pattern, being more compressible on (001) than along [001] (i.e. the fibers growing axis), with K(c)0 ~ 2K(a,b)0.
+The mechanisms at the atomic scale, which govern the structure deformation, have been described by a series of structure refinements up to 2.3 GPa.
+The structure evolution in response to the applied pressure indicates a plausible densification of the hydrogen-bond network between the Ca(OH)4(H2O)4 polyhedra and the SO4 tetrahedra, which results in a softening and ultimately in a collapse of the whole structure at pressures > 3 GPa.

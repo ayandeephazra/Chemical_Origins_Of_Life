@@ -1,0 +1,8 @@
+Water is the main limiting factor for survival and growth for desert plants, and plants can alleviate water deficits under drought by adjusting water potential (Ψ).
+However, the water potential adjustment capacity and water-sensitivity at the tissue level among shrub species remains unclear.
+The objective of this study was to evaluate water potential adjustment capacity and water-sensitivity of different tissues in Artemisia ordosica and Caragana korshinskii through calculating the water relation parameters from pressure-volume (P-V) curves.
+The present study found that the sensitivity coefficients, −1/β and −1/b, were gradually decreased with increasing degree of lignification in A.
+ordosica and C.
+korshinskii, suggesting that younger tissues with low lignification are more sensitive to water deficit.
+Additionally, the younger tissues with more negative osmotic potential at full turgor (Ψπ, sat), water potential at turgor loss point (Ψtlp), and lower the bulk modulus of elasticity (ε), the relative water deficit at turgor loss point (RWDtlp), apoplastic water fraction (AWF) and total hydraulic capacitance (C total ), which indicated that younger tissues have stronger turgor adjustment capacity compared to osmotic adjustment capacity and them were more easily lose water during times of decreased water potential because of higher cell wall elasticity and weaker water storage capacity.
+Collectively, the present study highlighted that younger tissues are more sensitive to drought due to their weaker water potential adjustment capacity and provided critical insight into water physiological mechanism or sensitivity of species to drought.

@@ -1,0 +1,8 @@
+Quartz, one of most abundant mineral in the continental Crust, is conventionally used in exploration of the stress state of the Crust through analysis of its structural and mechanical properties.
+To better infer the state of stress in the Crust, we quantified such properties of quartz under non-hydrostatic stress environment through First-principles calculation.
+The reduction of the crystal lattice and shear modulus under non-hydrostatic stresses differ from their hydrostatic results.
+The differences of lattice constants under non-hydrostatic stress with their hydrostatic equivalent values nearly linear increase with increasing differential stress (σd).
+The bulk modulus of quartz, however, does not display any non-hydrostatic effect.
+Non-hydrostatic stress has no obvious effect on the Young's modulus- Yc (The Ya , Yb , and Yc used here to represent the Young's modulus in a , b , and c axis); however when the positive additional stress applied on a -axis, it would cause an increase in Ya and Yb ; and when negative additional stress applied on a -axis, it would cause a decrease in Ya and Yb .
+The difference of Ya and Yb at different stress state indicates that σd has significant effect on the lattice strain of quartz that would influence the dynamic process in depth of the Earth.
+The quantified function of non-hydrostatic stress on lattice and elastic properties of quartz were listed and would be an important part in establishing the stress state in the Crust and would influence the understanding of the past and on-going dynamic process at the depth.

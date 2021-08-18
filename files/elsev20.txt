@@ -1,0 +1,14 @@
+We designed an experiment to simultaneously measure the dynamic and static elastic moduli of the reservoir rocks.
+The static moduli experiments were conducted by using strain gauges while the dynamic moduli were calculated from the measurement of ultrasonic P- and S-wave velocities at a central dominant frequency of 1 MHz by P- and S-wave transducers housed inside the pressure cell.
+To increase the accuracy of our dynamic measurements we directly measured S-wave velocity and no estimation has been used to predict S velocity from its recorded P- velocity, which is customary in past studies.
+Our experimental design had a fixed loading-unloading stress rate at 1 MPa/min.
+We observed that for sandstones with porosity ranging from 8% to 24%, the dynamic bulk moduli can be up to 44% higher than the static moduli.
+The results are in agreement with some, but not all of the existing empirical equations in the literature.
+We confirmed that by using P-wave velocity -a non-destructive method- the UCS (Unconfined Compressive Strength) value for sandstones could also be estimated.
+Dynamic bulk's modulus ranged from 4-13GPa while the static bulk modulus was simultaneously measured and ranged from 2-11GPa for the same samples.
+This paper extended to measure dynamic Young's modulus and Poisson's ratio for four time periods of the study to investigate the effect of stress and time relaxation on the properties of the sandstones.
+We measured the elastic properties of non-loaded samples before applying the stress, right after the unloading, 20 days and 60 days after the experiment.
+The pattern for all the samples showed an increase of Young's modulus right after the stress application and then gradual decrease of this value over time as a result of relaxation; however, most of the samples could not reach the original values of the moduli due to irreversible deformation at micro-level.
+Dynamic moduli show great sensitivity to detection of irreversible deformations as compared to static moduli.
+Finally, we checked the compatibility of empirical equations on predicting UCS values based on the P-wave velocity for sandstones.
+The predicted UCS by the nominated equation is quite accurate, which shows the great potential of dynamic studies as a non-destructive experiment to estimate this value for the sandstones.

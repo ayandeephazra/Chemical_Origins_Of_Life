@@ -1,0 +1,5 @@
+Celecoxib, an anti-inflammatory drug for pain and arthritis, is currently only available in capsule form.
+To reduce the onset time for a faster action and to lower the manufacturing cost, the tablet dosage form is more preferred.
+However, the commercial celecoxib (Form III) is not suitable for direct compression (DC) tablet manufacture due to poor flow, low bulk density, and tablet lamination.
+In this work, we overcome these challenges using a pharmaceutically acceptable dimethyl sulfoxide (DMSO) solvate of celecoxib.
+Aided with the DMSO solvate, an acceptable DC tablet formulation was successfully developed to manufacture tablets containing 200 mg celecoxib, with satisfactory manufacturability, disintegration, and in vitro dissolution performance.

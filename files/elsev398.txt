@@ -1,0 +1,9 @@
+A methodology for upscaling 3D coupled Hydro-Mechanical (HM) properties of fractured porous rocks is developed theoretically, tested on synthetic fractured rock samples, and applied to a real site.
+The upscaled HM equations take into account the HM coupling in the dual matrix/fracture medium, comprising the cracks system as well as the intact porous matrix, yielding the equivalent stiffness tensor and two different sets of equivalent tensorial Biot coefficients Bij (I) and Bij (II) and moduli M(I) and M(II) for the upscaled system (I and II become identical only under certain hypotheses).
+We provide detailed theoretical expressions in the general tensorial case,and in the particular case of statistically homogeneous and isotropic cracks.
+The real site application is performed in a damaged and fractured claystone around the GMR gallery (Meuse/Haute-Marne Underground Research Laboratory).
+The geometric structure of the fracture set around the "Excavation Damage Zone" of the GMR gallery is described by a hybrid model comprising: (i) a set of 10 000 fissures with radially inhomogeneous statistics (size, thickness and density increasing towards the wall) and; (ii) a deterministic set of large curved fractures, periodically spaced along the axis of the gallery according to a 3D chevron pattern.
+Both "3D" and "2D transverse" distributions of the upscaled coefficients are calculated, and displayed using spheres or ellipsoids.
+Global tensorial coefficients are also obtained by upscaling the entire annular fractured zone.
+Equivalent isotropic coefficients are extracted from these tensors: Young modulus E, bulk modulus K, Lamé shear modulus μ, Poisson ratio ν, and HM coupling coefficients: the Biot coefficient B and the Biot modulus M.
+In all cases considered, we discuss the impact of the degree of fissuring and fracturing on the upscaled stiffness and hydro-mechanical coefficients.

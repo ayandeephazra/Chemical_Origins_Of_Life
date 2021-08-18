@@ -1,0 +1,9 @@
+Waste plastics are often indiscriminately disposed into the built environment and sometimes voyaged into the sea, constitute nuisance to the built environment and disturb aquatic life.
+These threats have birthed researches for the promotion of circular economy in plastic waste management.
+However, few studies have investigated the use of waste plastic in the production of eco-bricks.
+This study examined the effect of moisture content and soil types on the characterisation of eco-bricks under compressive load.
+Samples of eco-bricks were produced using laterite, sharp sand and stone dust at 0%, 5%, 10%, 15% and 20% moisture contents as infill materials.
+The soil samples were tested of specific gravity, fineness modulus and uniformity coefficient computation to determine the suitability of the samples, while the eco-bricks produced with the soil samples were subjected to compressive load.
+The study found a positive relationship between soil moisture content and compressive strength of eco-bricks produced with sharp sand and stone dust while the compressive strength of laterite bottle bricks had a negative relationship with the moisture content.
+Also, the specific strength, Poisson’s ratio and bulk density of the eco-bricks were satisfactory at varying soil moisture contents.
+The study concludes that soil moisture content affects the performance of bottle bricks and adequate consideration for soil types in the production of eco-bricks is paramount.

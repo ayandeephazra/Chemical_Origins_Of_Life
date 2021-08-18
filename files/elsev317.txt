@@ -1,0 +1,223 @@
+The amorphous structure of metallic glasses results in distinct mechanical and physical properties that are not exhibited by conventional crystalline alloys.
+For example, the disordered structure leads to high yield strength and wear resistance [1,2], high magnetic permeability [3], and high corrosion resistance [4] in some metallic glasses, meaning that bulk metallic glasses (BMGs) are promising materials for engineering applications.
+Paradoxically, however, the absence of structural order in metallic glasses is not conducive to their bulk manufacture, which hinders their use and application.
+Fewer than 1000 BMGs have been developed in the last 50 years, and many of these comprised multiple components; indeed, BMGs usually contain three or more components [5].
+In addition, the nonequilibrium nature of the amorphous phase indicates that various processing parameters, such as cooling rates and enhanced surface diffusion, affect the formation ability of amorphous metallic glass [6].
+This generates an enormous combinatorial space of composition-processing parameters for BMGs, rendering a trial-and-error based design method extremely challenging.
+The conventional development of metallic glasses mainly relies on experience; for instance, metallic glasses are known to form in systems near deep eutectics [7].
+In recent decades, various empirical models based on factors such as thermodynamics [8–10], valence electron distribution [11], atomic size mismatches [12], and transformation temperatures [13] have provided fundamental insights into metallic glass-forming conditions.
+However, these models are usually limited to certain metallic glass compositions, and there is no universal model capable of predicting the glass-forming ability of unknown alloys.
+Recently, machine-learning (ML) approaches have been utilized to predict the properties of metallic materials.
+For example, Xue et al. developed ML models to search for shape memory alloys with targeted transformation temperatures [14,15].
+Cheng et al. formulated a materials design strategy combining ML models with experiments to find high entropy alloys with large hardness [16].
+Feng et al. utilized a deep neural network to predict the defects in stainless steel [17].
+Sun et al. developed ML models to predict the glass-forming ability of binary metallic alloys [18].
+Ward et al. constructed a ML framework for accelerating the design of engineered metallic glasses and validated it via commercially viable fabrication methods [19].
+Ren et al. introduced ML-based iteration and high-throughput experiments to rapidly discover new glass-forming systems [20].
+Several studies have used ML approaches to identify the correlations between glass-forming ability and the experimentally measured properties of an alloy [21,22].
+These studies thus confirmed that ML methods were reliable and efficient in discovering new metallic glasses and predicting their properties.
+In this work, we developed and validated a general ML framework for the prediction of the properties and design of metallic glasses, based on their compositions.
+A dataset of metallic glasses was created by collecting data from several related studies [23–34] and the Landolt-Bornstein handbook on amorphous ternary alloys [35].
+These data covered variables such as BMG glass-forming ability, critical casting diameter, and elastic properties.
+ML tools such as random forest (RF) and symbolic regression were used to create models for predicting the desired properties of metallic glass compositions.
+Key descriptors or features were screened by a three-step selection method during model constructions, and symbolic regression was used to develop mathematical expressions based on these features.
+This ML framework was shown to accelerate the development of new metallic glass-forming systems and provide a greater understanding of the physics underpinning the properties of metallic glasses.
+The k-fold (with k = 100) cross-validation (CV) test was conducted here to evaluate the performance of different ML models.
+The initial dataset was randomly and equally split into k sub-datasets, a training set with (k-1) sub-datasets, and a testing set with the remaining sub-datasets.
+The ML model was built on the training set, and the performance was measured with the testing set.
+This process was repeated k times, and the cross-validation accuracy was obtained by the average value of the k results; this could be regarded as an estimation of the testing accuracy.
+The data on BMGs were collected from several publicly available resources and partitioned into four training sets: glass-forming ability (GFA); critical casting diameter (D max); characteristic transformation temperatures (CTTs); and elastic moduli (EM).
+The training sets represented a wide range of elements, including metals and metalloids, with the GFA and D max datasets containing 54 elements, the CTT datasets containing 42 elements, and the EM datasets containing 48 elements (Fig. 1 ).
+GFA describes whether an alloy can form an amorphous bulk (i.e., a BMG) via rapid cooling (e.g., by copper-mold casting, injection molding, or suction casting), an amorphous ribbon (i.e. a ribbon metallic glass, or RMG), or a crystalline alloy (CRA).
+If there have been conflicting reports about the GFA of individual alloys, the highest GFA was selected for our dataset.
+For example, Al25Gd55Ni20 was reported in the Landolt-Bornstein handbook [35] to form an RMG, but Fang et al. found that this alloy can form a bulk sample with a diameter of 3 mm [32], so it was denoted a BMG in our dataset.
+This GFA dataset consisted of 6471 unique alloy compositions in total, comprising 1211 BMGs, 1552 CRAs, and 3708 RMGs.
+In terms of physical metallurgy, the critical cooling rate of an alloy is the most reliable and quantifiable measurement of its GFA [34].
+This is the slowest cooling rate above which no crystallization occurs during the solidification of an alloy, and is determined using data from multiple solidifications at different cooling rates.
+D max is a slightly less rigorous parameter and much easier to experimentally obtain than the critical cooling rate, as it is the largest diameter or the largest section-thickness of an alloy when it is cast into a fully amorphous rod or plate.
+In general, the slower the cooling rate, the larger the D max, and the higher the GFA.
+The D max dataset contained values for 5934 entries.
+For BMG alloys, only the critical copper-mold casting diameter values reported in the literature were included, i.e., the D max of samples from injection molding and suction casting were not considered.
+For RMG alloys, a single and small value of 0.1 mm for D max was assumed as appropriate for this dataset, as this was half the D max of the smallest reported BMG, Ti50Cu42.5Ni7.5 [34].
+The D max of CRAs was set at 0.
+As with the GFA dataset, if there were multiple values of D max, the highest was used.
+Various criteria have been proposed to compare the GFA of alloys, with most based on CTTs [36].
+Varying combinations of transformation temperatures have been found to determine the relationship of D max to GFA criteria, such as the supercooled liquid range ∆T = T x − T g [36] and the reduced glass transition temperature T rg = T g/T l [37].
+Here, T g is the glass transition temperature, T x is the onset of crystallization temperature, and T l is the liquidus temperature.
+The CTT dataset was assembled from 674 measurements of differential thermal analysis or differential scanning calorimetry at a constant heating rate, with most of the entries obtained at rate of 20 K/min.
+When multiple values of a CTT were reported, their averaged value was used here.
+The EM data included the shear moduli G and bulk moduli B of BMGs.
+The ratio of G to B correlated with the fracture toughness, intrinsic plasticity, and GFA of metallic glasses [34].
+The Young's moduli can be calculated with G and B based on the isotropic mechanical property of BMGs.
+In addition, strong linear relationships between fracture tensile strength and Young's moduli, hardness and Young's moduli, yield shear stress and shear moduli were found in the previous works [34,38,39].
+The EM dataset contained 278 unique BMGs, and their moduli were measured with resonant ultrasonic spectroscopy (RUC).
+The dataset shows all reported values of a property for each given alloy, indicating that there are multiple values for some properties of a given alloy.
+However, the difference between the multiple values is small.
+To simplify the following ML process, the average of multiple values was used for such property of a particular BMG.
+For example, the values of shear modulus of Mg65Cu25Tb10 were 19.4 GPa and 19.6 GPa reported by Wang et al. [34] and Chen et al. [39], respectively.
+Thus, the mean of 19.5 GPa was used in the following analysis for the shear modulus of Mg65Cu25Tb10.
+Candidate features (X) are the input for an ML model (f) to predict the desired properties (Y), i.e., Y = f(X).
+Thus, for a given target property Y, an adequate set of X had to be identified to ensure that a well-performing ML model was generated.
+As the physics underlying the glass transformation of an alloy are not well understood, as many potential descriptions as possible should be included to predict the GFA and D max.
+The feature candidates of an alloy were thus compiled with the basic elemental parameters, thermodynamic parameters, valence electron distribution, and atomic volume of the alloy elements.
+The elemental parameters were based on the elemental properties from experiments or density functional theory (DFT) simulations, and comprised, inter alia, atomic fundamental properties (e.g., atomic number, period, group in the periodic table), chemical properties (e.g., Pauling electronegativity, Mulliken electronegativity), and physical properties (density, melting temperature, specific heat capacity).
+The alloy feature candidates were calculated from the corresponding elemental properties (shown in Table 1 ) based on the linear mixture rule (x 1) [40] and the reciprocal mixture rule (x 2) [41], and their deviation (xD) [42] and discrepancy (xd) were also calculated [42], with Eqs. (1)–(4).(1)x1=∑i=1Naixi (2)x2=∑i=1Naixi−1 (3)xD=∑i=1Naixi−x12 (4)xd=∑i=1Nai1−xi/x12,where a i and x i are the atomic fraction and elemental properties of the i-th constituent, respectively.
+Thermodynamic parameters reflect the driving force for glass transformation, and these parameters (which are defined in the equations below) include the mixing enthalpy (H mix) based on Miedema's empirical method [43] (Eq. (5)), the normalized mixing entropy (S mix/R), based on fundamental thermodynamics [44] (Eq. (6)), the normalized mismatch entropy (S mis/k B), estimated via a relationship given by Takeuchi et al. [12] (Eq. (7)), as well as two parameters denoted PHS mis (Eq. (8)) and PHSS (Eq. (10)) proposed by Rao et al. [45], and a similar self-defined parameter PHS mix (Eq. (9)):(5)Hmix=4∑j=iN∑i=1N∆Hijaiaj (6)Smix/R=−∑i=1Nailnai (7)Smis/kB≅Rmd2/21.92 (8)PHSmis=Hmix·Smis/kB (9)PHSmix=Hmix·Smix/R (10)PHSS=Hmix·Smis/kB·Smix/R,where ΔH ij is the molar mixing enthalpy for binary liquid alloys [12], R is the gas constant, k B is the Boltzmann constant, R m d is the discrepancy of R m calculated with Eq. (4).
+The valence electron distributions comprised the number (sVEC, pVEC, dVEC) and the fraction (f s, f p, f d) of electrons in the s, p, d valence orbitals of an element, based on the linear mixture rule [46], as given by Eq. (11).
+The equation for the average atomic volume (V mm and V mc) was constructed by Wang et al. [47] to predict the bulk modulus, which may affect the GFA, and is given by Eq. (12):(11)fspd=spdVEC/VEC1 (12)Vmmc=∑i=1Nai·43πRmc3where VEC 1 is the average number of valence electrons, as calculated by Eq. (1).
+In summary, 94 feature candidates, termed as zero-generation features, were generated for further study.
+As the range of magnitudes of the generated feature candidate alloys varied broadly, the use of Euclidian distances in computations such as decision trees, neural networks, and K-nearest neighbors (KNN), typical of some ML models, may not be appropriate.
+Therefore, the feature-scaling method was adopted to normalize the scale of features, thus serving as a preprocessing step prior to feature selection and model construction [48].
+The min-max normalization (or min-max rescaling) method was applied to rescale features in this work, and the feature candidate alloys were scaled to a predefined domain [a, b], according to Eq. (13):(13)x′=a+b−ax−minxmaxx−minxwhere a = 0.2, b = 0.8, x is the original feature, x′ is the normalized feature, and min x and max x are the minimum and maximum value of the original feature.
+Tang et al. [49] found that the general domain [0, 1] might affect the performance of some ML algorithms, e.g. neural networks, and they recommended the use of smaller domains, such as [0.2, 0.8].
+Feature selection is a key process that has a critical effect on the performance of the ML model.
+It involves selecting a subset of relevant features for model construction, and enables some irrelevant features to be discarded with minimal loss of information.
+Thus, a three-step feature-selection method (TFS) was adopted to screen the normalized feature candidates in the GFA and D max dataset (as shown in Fig. 2 ).
+Initially, a feature that is highly correlated with other features can be considered to contain similar information.
+Thus, a correlation-based feature selection (CFS) method was used to remove these redundant features.
+The Pearson correlation coefficient (PCC) is a measurement of the linear correlation between two features X 1 and X 2, and is given by Eq. (14):(14)PCCX1X2=EX1−EX1X2−EX2σX1σX2,where σ X1 and σ X2 denote the standard deviation of features X 1 and X 2, and E is the expectation.
+PCC has a value between −1 and 1, where −1 represents a wholly negative linear correlation, 1 represents a wholly positive linear correlation, 0 represents no linear correlation, and a value > 0.75 or <−0.75 indicates a strong correlation.
+The highly cross-correlated features are thus revealed and able to be removed, and the remaining n features are denoted the first-generation features.
+The selection of the first-generation features is also based on domain knowledge.
+For example, metallic glass structures are generally built based on a hard spheres model, wherein the atoms are assumed to be densely and randomly packed.
+Thus, R c1 is removed when it is highly correlated with R m1.
+After this, a widely used filter method known as variance threshold (VT) was adopted to further screen the first-generation features.
+The VT method assumes that a low-variance feature generally has very little predictive power, and thus m features whose variance (Var) is below a certain threshold (as determined by Eq. (15) below) are removed:(15)VarX=EX−EX2.
+The ReliefF feature selection algorithm [50] searches for k nearest neighbor samples from the same class H(x), and for k nearest neighbors from each different class M(x).
+During this process, the weights of features are adjusted by comparing in-class distances and inter-class distances after N iterations.
+This procedure is given by(16)WfN=WfN−1+∑C≠ClassxPx1−Pclassx∑i=1kx−MixNk·rangex−∑j=1kx−HjxNk·rangex,where P(x) is the probability of x, and range(x) is the difference between the maximum value and minimum value of each feature, which is 0.6 for the normalized features in this study.
+Next, a subset containing (n-m) features is selected using of the ReliefF algorithm to accurately compare the performance of these features, and the results are denoted the second-generation features.
+Finally, wrapper methods were used to determine the final feature subsets.
+Wrapper methods are based on greedy search algorithms, including sequential forward selection (SFS) and sequential backward selection (SBS).
+These evaluate possible feature subsets and select the subset that produces the best performance for a specific ML algorithm (which was an RF in this work).
+Thus, for a given dimensional feature set X ⁎, SFS starts from the null set, and sequentially adds the best feature x + that maximizes the prediction accuracy (J) when combined with the already selected feature subset X k, until the accuracy is satisfied [51].
+This is expressed by(17)Xk+1=Xk+x+;x+=argmaxJXk+x,x∈X∗−Xk.
+In contrast, SBS starts from the full set X ⁎ and sequentially removes the worst feature x − that least reduces the prediction accuracy from X k, until the accuracy is satisfied [51], as given by(18)Xk−1=Xk−x−;x−=argmaxJXk−x,x∈Xk.
+Around 20 ML algorithms available in the WEKA library, including linear ML algorithms (linear regression, logistic regression, elastic net, ridge regression), nonlinear ML algorithms (naive bayes, bayes net, decision tree, k-nearest neighbors, locally weighted learning, support vector machines, Gaussian regression, neural network), ensemble ML algorithms (random forest, bagging, stacking), were used evaluated in terms of second-generation features via the cross-validation test [52].
+The random forest (RF) algorithm super-performed over the other ML algorithms and thus was used for further in the study.
+Since mathematical expressions for regression problems were not available in the RF model, symbolic regression based on genetic programming was used to distil mathematical formulas from the desired properties and chosen features [53].
+The initial expressions were generated by randomly combining mathematical operators, functions, constants, and non-normalized chosen features.
+Next, new formulas were continuously iterated by genetic programming and finally evolve to the optimal formula.
+The performance of the classification models was measured by their classification accuracy, which describes the proportion of the samples that were correctly classified.
+The performance of the regression models was measured by the correlation coefficient r (19)r=∑i=1nyi^−y ̄2∑i=1nyi−y ̄2and the root mean square error (RMSE)(20)RMSE=∑i=1n1ny^i−yi2where yi^ is the prediction and y ̄ is the average of y i, and the r value lies between 0 and 1, with 1 indicating a perfect fit.
+The k-fold (with k = 100) cross-validation (CV) test was conducted here to evaluate the performance of different ML models.
+The initial dataset was randomly and equally split into k sub-datasets, a training set with (k-1) sub-datasets, and a testing set with the remaining sub-datasets.
+The ML model was built on the training set, and the performance was measured with the testing set.
+This process was repeated k times, and the cross-validation accuracy was obtained by the average value of the k results; this could be regarded as an estimation of the testing accuracy.
+We address a design problem as finding new kinds of BMG alloys.
+In this section, we will show a ML solution for this issue.
+The ability to form a bulk metallic glass was not measured during melt spinning, i.e., the bulk-forming ability of an RMG alloy is unknown.
+This limits the ability of the ML model to classify RMG alloys, especially distinguish RMG from BMG alloys.
+Thus, we can find new BMG alloys from RMG alloys (shown as Table S2) which are categorized as BMG alloys by the VTS6-GFA model.
+Thirteen RMGs with a high probability (>60%) of belonging to BMG were chosen and their glass-forming ability were rechecked, five of them, La55Al20Cu25 [74], Zr60Al15Cu25 [75], Pd56Ni24P20 [76], Mg65Cu25Ce10 [77], and La50Al25Cu25 [78] are found to form bulk samples.
+The classification performance of the VTS6-GFA model improved as shown in Fig. 10 .
+Those validations and iterations confirm the correctness, generalization and predictive ability of our ML model.
+The Pearson correlation coefficient (PCC) between two features X 1 and X 2 were calculated, where X i (i = 1, 2, 3, ...
+94) denotes the 94 zero-generation features, and the target variable of the GFA data was not included.
+Based on the PCC values between −0.75 and 0.75, 35 first-generation features were selected from the 94 zero-generation features and thus from the GFA dataset.
+Fig. 3c shows that the CV classification accuracy of the ML model built on the CFS subset (CFS-GFA) can reach 89.52%, which is greater than that of the ML models constructed on the feature candidates and other subsets.
+However, the dimensionality of feature space must be further reduced to achieve a balance between performance and complexity, with a tolerance of 2% for CV classification accuracy.
+Thus, as shown in Fig. 3a and b, 14 features with a variance > 0.01 were selected by VT, and another subset containing 14 features was given by use of the ReliefF algorithm.
+The VT subset leads to a cross-validation classification accuracy (88.89%), more or less the same as that of 88.21% based on the ReliefF subset.
+Feature selection was further conducted with the two subsets by using the SBS and SFS methods.
+The results show that the SBS and SFS give the same subset.
+This feature selection yields the VT-SS-6 with the six features of VEC 1, sVEC, H f d, T b2, Gp 1, and Wd from the VT subset and the ReF-SS-6 with the six features of KD, Kd, VECd, Wd, S mix/R, and T b d from the ReliefF subset, clearly indicating that VT-SS-6 and ReF-SS-6 have completely different features.
+Fig. 3c shows that the ML model with the six VT-SS-6 features (VTS6-GFA) had a CV classification accuracy of 88.13% and the ML model with the ReF-SS-6 features had a CV classification accuracy of 87.15%.
+The difference between the two CV classification accuracies is about 1%, although the two six-features subsets are completely different.
+This result might indicate that there are some correlations between the two subsets.
+Nevertheless, to simplify the following ML analysis, we took the VT-SS-6 subset as the final feature subset.
+A good ML model should be able to provide accurate prediction with as less as possible number of features.
+The CFS-GFA model had the best classification accuracy of 89.52% with 36 features.
+The VTS6-GFA model uses only six features and has a classification accuracy of 88.13%, which indicates that the six-features play the major role in the classification, although the classification accuracy is reduced by 1.39%.
+Fig. 4a shows the confusion matrix of the VTS6-GFA model, which has an accuracy of 88.13%.
+In this context, precision is the ratio of relevant samples to retrieved samples.
+For example, 1151 alloys were classified as BMG alloys by the ML model, and 1073 were labeled as BMGs in our dataset, meaning that the precision of BMG classification was 93.2%.
+In addition, recall or true positive rate is the fraction of retrieved relevant samples among the total relevant samples: for instance, 3463 out of 3708 RMG-labeled alloys were classified as RMG alloys by the ML model, and thus the recall of RMG was 93.4%.
+Thus, if one wants to use this ML model to distinguish GFAs (BMG or RMG) from non-GFAs (CRA), the precision of GFA predictions is 92.5%, and the recall can reach as high as 96.4%.
+Another widely used measurement, the receiver operating characteristic (ROC) curve, is shown in Fig. 4b.
+The ROC curve is created by plotting the true positive rate against the false positive rate.
+The false positive rate is the probability of falsely rejecting the null hypothesis.
+For example, 70 of 1552 RMG-labeled and 8 of 3708 CRA-labeled alloys were categorized as BMG alloys by our VTS6-GFA model, and thus the false positive rate of predicting BMG using this model was 1.5%.
+The area under the ROC curve (AUC) can be applied to describe the performance of a classification model.
+AUC usually varies between 0.5 and 1, where 0.5 represents the uninformative classifier or so-called “random guess”, a value > 0.95 represents an excellent classifier and a value = 1 is the perfect classifier.
+The AUC of classifying crystalline alloys and amorphous alloys classifications is 0.95, and the AUC of distinguishing BMG-labeled alloys from other alloys can reach 0.98.
+This excellent prediction accuracy indicates that our model can be used to discover new GFAs.
+The GFA distributions of 6471 alloys with six SBS-chosen features are shown in Fig. 4c–e, and provide some information on the key features required for the formation of BMGs.
+Alloys should be composed of elements with significant differences in work function and heat of fusion; valence electrons might weaken the glass-forming ability; the boiling temperature of alloys cannot be high; and the presence of subfamily elements, such as La and Zr, might enhance the glass forming ability.
+The 764 incorrect predictions of our ML model are marked with white crosses, and it was possible that the ML model incorrectly classified an alloy whose neighbors in the feature space had a different GFA.
+The D max dataset was constructed from the GFA dataset by removing these BMGs which did not have the value of measured D max.
+In this way, the D max dataset has the same 35 first-generation features as those in the GFA dataset.
+Subsequently, 13 high-influence features were selected by VT and ReliefF to compare their performance.
+Finally, two six-feature subsets were selected by SBF and SFS with a 0.01 reduction of the correlation coefficient (r).
+Fig. 5a shows that the ML model (CFS-D max) on the CFS subset outperforms other feature subsets in the k-fold CV test.
+The ML model on the ReliefF subset (r = 0.8542) performs much better than the VT subset (r = 0.8339) in the k-fold CV test, i.e., features in the ReliefF subset are the second-generation features.
+It can be seen that the ML model based on the SBS-6 subset (r = 0.8503) has a similar r value to that of the SFS-6 subset (r = 0.8511).
+Fig. 5b indicates that the ML model applied to the SFS-6 subset (S mix/R, H f d, H mix, Wd, T b2, K 1) had a smaller RMSE than does SBS-6 (AN 1, KD, T m d, T b2, ANd, T b d) in the k-fold CV test.
+The ML model applied to the SFS-5 subset (S mix/R, H f d, H mix, Wd, T b2) had an r value of 0.8419 and an RMSE of 1.2389 mm, and the performance increased significantly (r = 0.8511, RMSE = 1.2063 mm) when adding feature K 1.
+Compared with the best-performing CFS-D max model, 28 features were removed with only a 0.0089 reduction of r and 0.0272 mm increase of RMSE in the SFS-6 subset.
+Fig. 5c shows a plot of the ML-predicted values against the measured values for Dmax with the SFS-6 subset.
+Setting a ± 10 mm predicting error yields nine outliers, six of them shown in Table 2 have an error bigger than ±15 mm.
+The ML model applied to the SFS-6 subset (SFS6-D max) significantly overestimated the D max of Zr41Ti14Cu12.5Ni8C2Be22.5, which can be explained by the fact that it has a much lower D max than a similar composition of Zr41.2Ti13.8Cu12.5Ni10Be22.5. This also might be the reason for the underestimated D max of Zr41.2Ti13.8Cu12.5Ni10Be22.5. There were four Al-Co-Sc-Y alloys and three X36Y20Al24Co20 (X = Sc, Gd, Y) alloys in our dataset, and most of these had measured D max values <5 mm, except Y36Sc20Al24Co20.
+Thus, the D max of Y36Sc20Al24Co20 and Y36Sc20Al24Co10Ni10 were underestimated.
+The alloys Mg65Cu15Ag10Gd10 (measured D max = 7.5 mm) and Ni-P-Pd RMG (measured D max = 0.1 mm) perturbed the prediction of Mg59.5Cu22.9Ag6.6Gd11 and Pd40Ni40P20, respectively.
+In summary, the discrepancies between predictions and observations might be caused by two reasons.
+The first is that the ML model is not able to predict the property that changes abruptly from its neighbors in the feature space.
+In this case, a more rigorous ML model should be developed to enhance the model capacity.
+The other reason is that some observations may not be reliable.
+More experiments should be conducted to ensure the reported experimental data.
+Reliable data are essential to ML, especially when the dataset is small.
+Overall, the SFS6-D max model can predict the D max of alloys well.
+Symbolic regression (SR) was used to search for a parameter that can be generated using non-normalized features in the SFS-6 subset without the six outliers mentioned above, and with the integer constant, and the operators +−×÷exp.
+A series of parameters of D max were generated with 1, 2, and 3 features, respectively.
+Next, three linear least-square (LLS) models were built with these parameters, revealing that the LLS model using γ3 had the highest r value of 0.7125.
+Its performance in the k-fold CV test is shown in Fig. 6a.
+Eqs. (21) and (22) indicate that a high S mix (mixing entropy, J · mol−1 · K−1) can promote GFA, which meets the confusion principle [55].
+Eqs. (22) and (23) show that K 1 (the thermal conductivity, W · m−1 · K−1) of a solid alloy will affect its GFA, and that high thermal conductivity might lead to a slow critical cooling rate, i.e. big casting diameter [56].
+The influence of H mix (mixing enthalpy, kJ · mol−1) can be seen in Eq. (23), where a weak mixing enthalpy fosters the formation of a solid-solution phase, and an ultra-negative mixing enthalpy leads to the formation of a intermetallic phase [56]; both of these hinder glass formation.
+Thus, three prerequisites for forming BMGs are (1) a high mixing entropy, (2) a high average thermal conductivity, and (3) an appropriate negative mixing enthalpy, approximately equal to −28 kJ/mol (∂γ3∂Hmix=0).(21)Dmax−1F∝γ1=exp−6Smix/R (22)Dmax−2F∝γ2=K1exp−7Smix/R2 (23)Dmax−3F∝γ3=Smix/R3+K1Smix/R−78791+56Hmix+Hmix2+exp1917−1744Smix/R
+One RF model, one LLS model based on symbolic regression, and 20 LLS models based on previously proposed GFA criteria were built on the CTT dataset without six outliers described in Section 3.2. The performance of these models was compared by a k-fold CV text.
+It can be seen in Table 3 that the ML model (Fig. 6b) outperformed other formulas in the k-fold CV test, as it had a much higher r (0.7723) and smaller RMSE (2.8915 mm).
+The next best was the LLS model based on SR (r = 0.6721), and then the χ-criteria.
+The PCC values of 94 feature candidates and three CTTs were calculated.
+The CTTs and six features, namely T m1, H f1, Gpd, Gp 1, X P1, and X P d, were highly correlated with each other.
+Thus, the symbolic regression was conducted using these six non-normalized features, the integer constant, and the operators +−×÷exp.
+SR parameters were generated for T g , T x, and T l, respectively, as given by Eqs. (24), (25), and (26):(24)Tg∝φg=1737Tm1−Hf13148+1354Hf1 (25)Tx∝φx=Tm1 (26)Tl∝φl=Tm1−3Rm1Tm1.
+The SR results showed that T g, T x, and T l (critical transition temperature, K) are largely and directly influenced by T m1 (average melting temperature, K), which is shown by the fact that r > 0.93 in Fig. 7a.
+Eq. (24) indicates that the glass transition temperature will increase then decrease as H f1 (average heat of fusion, kJ · mol−1) increases.
+The liquidus temperature will increase as R m1 (average atomic radius, nm) decreases, and the small atomic radius might enhance the resistance of the alloy to phase transition.
+In our previous work on the prediction of the mechanical properties of metal-metal amorphous alloys [72], four features (X p1, V mm, R m d, and S mix/R) were found to be crucial.
+Extending the results to the dataset built in this work, ML models have been constructed to predict the EM of metallic-metallic and metalloid-metallic bulk metallic glasses.
+The global optimization method and the exhaustive feature selection method was utilized in this low-dimensional feature space.
+Fifteen ML models were built on all possible subsets of four influential features, and the performance of these ML models was compared (as shown in Fig. 8a and b) to find the best predictive model for the shear (G) and bulk (B) moduli, respectively.
+The r value of the ML model for predicting shear moduli reached a maximum of 0.9836 when the subset contained R m d and X p1, and the RMSE reached a minimum of 3.609 GPa.
+The r value for bulk moduli reached a maximum of 0.9843 when the subset contained all features, and this decreased slightly to 0.9840 when R m d was removed.
+Thus, the subset containing X p1, V mm, and S mix/R, which had an RMSE of 9.531 GPa, was considered as the best subset for bulk moduli.
+Fig. 8c and d show the excellent predictive power of this subset, in the plot of the ML-predicted values against the measured values for G and B, respectively, with the best selected subset having three features.
+There are four exceptions, shown as Table 4 and dots outside the blue region.
+The high measured shear modulus (>75 GPa) of Fe49Cr15Mo14C15B6Er1 and Fe50Mn10Mo14Cr4C16B6, whose X p1 are close to Ni80P20, led to the overestimation of Ni80P20.
+The V mm value of Fe71Nb6B23 (measured B = 182.6 GPa) is similar to that of Fe80P11C9; therefore, the ML model overestimated the modulus of Fe80P11C9.
+The similarity of V mm and X p1 values between Pt74.7Cu1.5Ag0.3P18.0B4.0Si1.5 and Au49.0Ag5.5Pd2.3Cu26.9Si16.3 led to the incorrect ML model-based prediction of their bulk moduli.
+The SR parameters α and β were generated using four non-normalized features, the integer constant, and the operators +−×÷exp.
+The performances of LLS models built on two-features parameters in the k-fold CV test are shown in Fig. 9 .
+The LLS models based on these SR parameters all performed well, with r > 0.93.
+The SR results are given by Eqs. (27)–(29), and show that a smaller V mm (average atomic volume, Å3) results in a higher G (shear modulus, GPa) and B (bulk modulus, GPa).
+Eq. (28) supports Park's work, as it shows that high mixing entropy coupled with disordered amorphous structure manifests small shear transformation zone sizes, which could make the shear bands more difficult to form and propagate, leading to higher shear moduli [73].
+When considering Pauling electronegativity, higher electronegativity corresponds to stronger atomic bonding, and therefore higher bulk moduli.(27)G1F∝α1=1Vmm (28)G2F∝α2=1Vmm−2Smix/R (29)B1F∝β1=14169+2Vmm3 (30)B2F∝β2=1366XP12Vmm+4XP12+456214−Vmm2
+We address a design problem as finding new kinds of BMG alloys.
+In this section, we will show a ML solution for this issue.
+The ability to form a bulk metallic glass was not measured during melt spinning, i.e., the bulk-forming ability of an RMG alloy is unknown.
+This limits the ability of the ML model to classify RMG alloys, especially distinguish RMG from BMG alloys.
+Thus, we can find new BMG alloys from RMG alloys (shown as Table S2) which are categorized as BMG alloys by the VTS6-GFA model.
+Thirteen RMGs with a high probability (>60%) of belonging to BMG were chosen and their glass-forming ability were rechecked, five of them, La55Al20Cu25 [74], Zr60Al15Cu25 [75], Pd56Ni24P20 [76], Mg65Cu25Ce10 [77], and La50Al25Cu25 [78] are found to form bulk samples.
+The classification performance of the VTS6-GFA model improved as shown in Fig. 10 .
+Those validations and iterations confirm the correctness, generalization and predictive ability of our ML model.
+In this study, we have presented a general ML framework for the prediction, design, and understanding of metallic glasses.
+These models were constructed based on datasets built from metallic glass experiments comprising over 6000 samples.
+We used these datasets to train and cross-validate ML models with an RF algorithm to predict the GFA, D max, shear moduli, and bulk moduli.
+A three-step feature selection method was proposed for ML, and it performed well with the GFA and D max models.
+Based on the ML-based GFA model, BMGs should be composed of elements with significant differences in work function and heat of fusion; valence electrons might weaken the glass-forming ability; the boiling temperature of alloys cannot be high; and the presence of subfamily elements might enhance the glass forming ability.
+In addition, mathematical expressions were generated from SR and LLSs for regression problems.
+Three properties that favor the formation of BMGs with large casting diameters were proposed, as follows: (1) high mixing entropy, (2) high average thermal conductivity, and (3) appropriate negative mixing enthalpy, of approximately −28 kJ/mol.
+The CTTs of metallic glasses were thus determined to be largely and directly influenced by the average melting temperatures of the alloys of which they are composed.
+The shear and bulk moduli of BMGs are negatively correlated with the average atomic volume of the constituent alloys, the mixing entropy enhance the shear moduli and the average Pauling electronegativity influences the bulk moduli of BMGs.
+This ML framework can guide the discovery and understanding of new BMGs with desired properties.

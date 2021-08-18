@@ -1,0 +1,7 @@
+The influence of thermal processing on the potential energy, atomic structure, and mechanical properties of metallic glasses is examined using molecular dynamics simulations.
+We study the three-dimensional binary mixture, which was first relaxed near the glass transition temperature and zero pressure, and then rapidly cooled deep into the glass phase.
+It was found that glasses annealed at higher temperatures are relocated to higher energy states and their average glass structure remains more disordered, as reflected in the height of the first two peaks in the pair distribution function.
+The results of mechanical testing demonstrate that both the shear modulus and yielding peak increase significantly when the annealing temperature approaches T g from above.
+Moreover, the shear modulus becomes a strong function of strain rate only for glasses relaxed at temperatures sufficiently higher than the glass transition temperature.
+Based on the spatial distribution of nonaffine displacements, we show that the deformation mode changes from brittle to ductile upon increasing annealing temperature.
+These results can be useful for the design and optimization of the fabrication processes of bulk glassy alloys with improved plasticity.

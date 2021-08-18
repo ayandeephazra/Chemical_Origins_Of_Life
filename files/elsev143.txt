@@ -1,0 +1,9 @@
+Earth-based plasters can be very eco-efficient both in terms of embodied energy and technical efficiency, although they are vulnerable to water when unstabilized.
+An experimental campaign was developed to assess the workability and the mechanical properties of formulated earth-based plastering mortars with a 1:3 (illitic clayish earth:aggregate) volumetric ratio.
+The aggregate components include different proportions of coarse and fine siliceous sands and the partial replacement of fine sand by a phase change material (PCM) or the addition of a low content of oat fibers.
+A pre-mixed earth mortar produced with clayish earth picked from the same pit was assessed as control.
+Mortars were tested to evaluate workability and density in the fresh state, and results were compared to dry bulk density, dynamic modulus of elasticity, flexural, compressive and adhesive strengths and dry abrasion resistance.
+Results show that even 15% replacement of the fine sand by the PCM significantly changes the workability, apart from decreasing the shrinkage and dry bulk density and reducing the mechanical strength of the mortars.
+Therefore, the addition of this type of PCM, that most probably have advantages in terms of thermal behavior of the plasters, may have important drawbacks in the fresh and hardened state of earth plasters that should also be considered.
+The addition of oat fibers does not show any improvement on the workability and mechanical characteristics of the earth mortars.
+In these mixed sand mortars, higher coarse sand content promotes a decrease in mechanical performance, showing the advantage of using sand with a well graded particle size distribution.

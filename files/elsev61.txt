@@ -1,0 +1,11 @@
+MgPd2 is an intermetallic compound with a reversible hydrogen uptake near ambient conditions.
+Hydrogenation occurs near room temperature at pressures below 0.1 MPa to form a hydrogen-rich MgPd2H0.88 phase.
+In this work, hydrogen sorption isotherms were measured at 283 K ≤ T ≤ 328 K as well as at a cryogenic temperature of 77 K and pressure values up to 0.1 MPa by manometric and gravimetric methods.
+In addition, the gravimetric hydrogen sorption uptake under isobaric conditions was determined and compared with the structural information based on the previous work by Götze et al. At lower pressures we suggest the formation of the MgPd2H0.14 phase at isobaric conditions of p = 2.5 MPa and T > 437 K.
+We propose a model combining the hydrogen sorption properties and the volume expansion during the hydrogenation process for describing the phase diagram of the MgPd2–H system.
+The model was used to describe the experimental data in the temperature range of 283 K ≤ T ≤ 328 K and extrapolate them to higher temperatures.
+The critical point of MgPd2H0.88 was calculated to be at T c = 358 K and p c = 0.23 MPa.
+Below this critical point, two phases – the hydrogen-poor and the hydrogen-rich ones – coexist.
+However, the critical temperature is much lower than in PdH-systems (563 K), which makes it more attractive for potential applications at moderate temperatures and pressures than PdHx.
+The calculated enthalpy of the H2 absorption into MgPd2H0.88 is ΔH abs  = −38.7 (mol−1 H2), whereas the calculated enthalpy of desorption is ΔH des  = 42.4 kJ (mol−1 H2).
+The resulting Gibbs free energy of nearly ΔG ≈ −3.7 kJ mol−1 indicates a reversible absorption and desorption process at temperature and pressure values close to ambient conditions.

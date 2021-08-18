@@ -1,0 +1,5 @@
+Bulk modulus is a key material property which provides fundamentals on the chemical bonding nature of a material as well as for deriving other related material properties, such as Young’s modulus and Grüneinsen constant.
+Traditional numerical methods of estimating bulk modulus often involve layers of approximations and cost considerably.
+In this work, we propose a novel and efficient numerical framework to estimate bulk modulus using the ab initio calculated data.
+Based on the generalized polynomial chaos expansion (gPC) method, our approach does not impose any physical priori and is mathematically rigorous and versatile.
+We have demonstrated the reliability and efficiency of the proposed method by estimating the bulk modulus of Ti3SiC2 and Sb2Te3 with comparison to conventional methods.

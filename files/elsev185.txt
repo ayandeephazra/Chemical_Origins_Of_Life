@@ -1,0 +1,12 @@
+Polyether ether ketone (PEEK) and PEEK composites are viable candidates for orthopedic implants owing to their ability for modulus match of surrounding bone tissue.
+The structural properties of these systems for load-bearing application in the body can be tailored by incorporating carbon fibers; to this end, polyacrylonitrile (PAN) and pitch fibers are commonly incorporated in the PEEK matrix.
+Mechanical property optimization for a given medical application requires consideration of carbon fiber type and volume fraction, as well as processing conditions for the composite systems.
+While much is known about the bulk mechanical properties of PEEK and PEEK composites, little is known about the nanomechanical properties of these systems.
+Insight into nanoscale behavior can offer valuable information about fiber-matrix interactions that may influence long-term integrity of these biomaterials when used in load bearing medical device applications.
+In this study, we utilize nanoindentation as a method to characterize mechanical behavior of clinical grade PEEK and PEEK composites.
+We examine PEEK formulations with pitch and PAN fibers and evaluate a range of thermal treatments known to influence polymer microstructure.
+We use a conospherical tip of 1.5 μm in radius and a conospherical tip of 20 μm radius to determine indentation modulus over different length scales.
+We correlate these findings with previous characterization on these same PEEK systems using microindentation.
+A novelty of this work is that we combine nanoindentation with k-means clustering to quantitatively discern the influence of heat treatment and carbon fiber type on the mechanical behavior of PEEK composites and their constituents.
+We demonstrate that nanoindentation is an effective characterization tool for discerning fiber-matrix interactions and measuring the mechanical behavior in response to thermal treatment and carbon fiber type in PEEK composites.
+Nanoindentation is shown to be a viable tool for characterizing complex biomaterials and can serve as an effective technique to guide optimization of microstructures for long-term structural applications in the body.

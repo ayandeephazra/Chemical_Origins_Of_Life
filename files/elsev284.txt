@@ -1,0 +1,6 @@
+In this study, high entropy metallic glasses (HEMGs) were developed through a combination of concepts for designing metallic glasses (main element + transition metal + metalloid element) and high-entropy alloys (more than five elements, each element having an atomic concentration between 5 at.% and 35 at.%).
+The developed metallic glass alloys are composed of Co-Fe-Ni main elements, transition metals (Cr, Mo) and metalloid elements (C, B).
+Moreover, the present work reports the thermal, mechanical and magnetic properties of (CoFeNi)50(CrMo)50- x (CB) x alloys with x = 20, 25, 30.
+The developed as-spun HEMGs exhibit typical paramagnetic properties even for a high amount of ferromagnetic elements (Co, Fe, and Ni) and have high elastic modulus (103–160 GPa) and hardness (14–27 GPa), thus possessing mechanical properties similar to well-known Co-based metallic glasses (Co-Cr-Mo-C-B system).
+In addition, some of the bulk samples prepared with a diameter of 2 mm form bulk metallic glasses with a high compressive strength around 3.5 GPa.
+The mechanisms determining the stability of the supercooled liquid, as well as the paramagnetic and mechanical properties for the developed non-equiatomic HEMGs, are discussed.

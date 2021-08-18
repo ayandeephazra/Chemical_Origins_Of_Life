@@ -1,0 +1,9 @@
+Acoustic metamaterial attains uncommon material properties over natural material such as negative effective mass density or negative effective bulk modulus or both.
+The effective bulk modulus of a classical acoustic reactive filter such as Helmholtz resonator has been observed negative, using lumped element model, at resonance point, which desires further investigations.
+Present research demonstrates and establishes robust method to estimate and measure acoustic metamaterial properties of a Helmholtz resonator analytically, numerically and experimentally in detail.
+The proposed numerical technique simulates ASTM-2611 standard of measurement to extract corresponding reflection and transmission coefficients to evaluate the effective acoustic metamaterial properties.
+The subsequent investigations have been carried out by taking eight different configurations of Helmholtz resonators such as parallel and series using similar and dissimilar resonators.
+Performance of each configuration has been investigated analytically, numerically and validated experimentally.
+At last, a finite array of Helmholtz resonators has been investigated.
+From investigations, it has been observed that five configurations of Helmholtz resonators and finite array have negative effective mass density and effective bulk modulus.
+Summarizing, the present research endeavors analytical, numerical and experimental investigations of different configurations of Helmholtz resonators in detail, which is first in its own kind.

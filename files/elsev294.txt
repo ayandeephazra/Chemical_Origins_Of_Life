@@ -1,0 +1,6 @@
+The main objective of this study is to propose an approach to estimate the hyperbolic stress-strain and bulk-modulus model parameters of normally consolidated granular soil mass by using the P- and S-wave velocities.
+To this end, the small-strain elastic moduli and their dependence on mean effective pressure are obtained by the seismic velocities based on the equations from theory of elasticity and soil mechanics.
+They are then combined with two empirical correlations developed based on the data reported in the literature to determine the model parameters.
+To prove the feasibility of this approach, a non-invasive seismic survey including seven surface seismic refraction profiles and an invasive down-hole testing were conducted separately at two different granular sites in Iran, from which the P- and S-wave velocities were derived.
+The velocity values were then employed to evaluate the hyperbolic stress-strain and bulk-modulus model parameters based on the proposed approach.
+The findings of this study may be used as an appropriate reference for the economic and accurate determination of nonlinear deformation parameters of in-situ granular soil mass using the surface or borehole seismic surveying.

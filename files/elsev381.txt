@@ -1,0 +1,7 @@
+Elastic modulus is one of the key elemental material parameters.
+Its variation with temperature has long been concerned by researchers.
+In this study, a new temperature-dependent elastic modulus model without phenomenological fitting parameters for metallic bulk materials is developed.
+The model is capable of predicting the Young's modulus, elastic constant, and shear modulus at different temperatures.
+Good agreement is obtained between values predicted by the model and available experimental data of body-centered-cubic metals, faced-centered-cubic metals, wrought superalloys, and cast superalloys.
+The inherent relationships between temperature-dependent elastic modulus, coefficient of expansion, heat capacity (or Debye temperature), and melting point of metallic materials are uncovered by the model.
+Additionally, the model also provides a new method to predict elastic moduli: the elastic moduli at extremely high and low temperatures, which are difficult to obtain through experiments, can be predicted by the model with reference of an easy-to-access elastic modulus.

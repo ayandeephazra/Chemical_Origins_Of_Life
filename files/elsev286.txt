@@ -1,0 +1,7 @@
+Hydrogen storage properties of Nb x (Ti0.7Cr0.3)1-x (x = 0.3, 0.4, 0.5, 0.6) alloys with a body centered cubic (BCC) structure and the crystal structure of their hydrides were investigated.
+These alloys absorbed hydrogen up to around 1.8 H/M by forming a di-hydride phase in the absorption process, and desorbed to 0.8 H/M to transform to a mono-hydride phase during the desorption process.
+These behaviors are similar to those of Ti–Cr–V and Ti–Cr–Mo alloys with the BCC structure.
+XRD patterns indicated that the alloys transformed to the mono-hydride with a slightly distorted BCC structure (orthorhombic structure), and then to the di-hydride with a CaF2 structure.
+With increasing Nb content, both the lattice constants for all phases, and the equilibrium pressures for the absorption and desorption processes increased.
+This indicated that Nb x (Ti0.7Cr0.3)1-x does not follow the well-known relationship of equilibrium pressures decreasing with increasing lattice constants.
+However, the logarithmic equilibrium pressures had a linear relationship with their estimated bulk modulus.

@@ -1,0 +1,7 @@
+Nanostructured materials likely exhibit different mechanical properties from the corresponding bulk materials and have potential applications in a variety of areas.
+In this work, we use molecular dynamics simulation with embedded-atom potential to investigate the dependence of the mechanical properties of Cu nanowires of square cross-section, including Young's modulus, yield stress and surface force, on cross-sectional area and temperature for the Cu nanowires with cross-sectional areas in a range of 13.1 to 117.6 nm2 in a temperature range of 100 to 500 K.
+The simulation results reveal that the Young's modulus increases with the increase of the cross-sectional area at the same temperature and decreases with the increase of temperature for the same cross-sectional area.
+The yield stress decreases with the increase of the cross-sectional area at the same temperature in the range of 100 to 400 K and increases with the increase of the cross-sectional area at 500 K, while it decreases with the increase of temperature for the same cross-sectional area.
+The surface force decreases with the increase of the cross-sectional area at the same temperature and with the increase of temperature for the same cross-sectional area.
+Semi-empirical expressions relating the mechanical properties to temperature are proposed.
+Using the semi-empirical expressions, the Young's modulus at 0 K is found to decrease with the decrease of the cross-sectional area, and the yield stress at 0 K is found to decrease linearly with the increase of the cross-sectional area.

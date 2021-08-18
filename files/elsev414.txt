@@ -1,0 +1,3 @@
+Dilatometric and shear modulus measurements on four Zr-based glasses both below and above the glass transition temperature upon linear heating and isothermal conditions are performed.
+It is found that density changes occurring upon structural relaxation and crystallization are closely related to the relaxation of the shear modulus.
+The obtained results are discussed in terms of the Interstitialcy theory.

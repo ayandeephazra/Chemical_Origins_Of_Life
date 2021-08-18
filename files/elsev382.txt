@@ -1,0 +1,8 @@
+A comprehensive data package of cyclic simple shear tests was used to critically check and revise a plasticity model for sand.
+These cyclic simple shear tests were performed using Monterey No.
+0/30 sand with different relative densities and under complex loading conditions including asymmetrical cyclic loading with various initial shear stresses and overburden pressures.
+The newly revised model carries several novel concepts: using a strain increment dependent flow rule and loading/unloading criterion that results in explicit integrations of stress-strain model equations; the density dependency extended to more ingredients of the model structure, especially to plastic shear and bulk moduli that achieves ‘one set of model parameters for one sand’ for cyclic loading responses; and the appropriate use of three intrinsic history dependent variables, i.e., the latest stress reversal point, the virgin loading (i.e. maximum pre-stress) stress ratio, and the accumulated plastic deviatoric strains that contribute greatly to the enhanced capabilities of the revised model.
+The model is first calibrated based on three symmetrical cyclic loading responses.
+Using the single set of model parameters, the model is then used to predict the sand behavior under asymmetrical cyclic loadings and different initial confining pressures.
+Lastly, the model predictions are checked against empirical correlations established between cyclic resistance ratio (CRR) with initial shear stresses and confining pressures, or the commonly referred to K α and Κ σ effects.
+The obtained model predictions not only compare relatively well with the test data, but the K α and Κ σ effects based on model predictions follow the trend of empirical relationships too.

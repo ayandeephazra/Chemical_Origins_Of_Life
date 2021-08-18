@@ -1,0 +1,8 @@
+The compound was synthesized using arc-melting technique and high-pressure X-ray diffraction studies were carried out up to 25 GPa.
+It is found to remain in its parent AuCu3 type structure up to the highest pressure studied.
+Birch-Murnaghan equation of state fit of pressure-volume data gives the bulk modulus to be 262 GPa while the bulk modulus of the similar isoelectronic compound – URh3 is 133 GPa.
+Rh and Ir being isoelectronic transition metals, their compounds with uranium metal show a dramatic change in the compressibility of the material.
+First principle computations indicate a significantly large contribution of 5-f electrons of uranium in UIr3.
+A strong f-d hybridization in UIr3, as compared to URh3, results in high bulk modulus values of UIr3.
+The high structural stability of UIr3 is also predicted from the density of state plots as compared to URh3.
+Computed elastic constants of UIr3 indicate the mechanical stability of the lattice.

@@ -1,0 +1,183 @@
+Rock brittleness is a term commonly used in rock engineering applications to identify the possible failure characteristics of the rock mass (Zhang et al., 2016a).
+Brittle rock is characterized by fracture failure at or slightly beyond the yield stress (Obert and Duvall, 1967).
+Brittleness index, as a term used to quantify the brittleness of rock mass, was defined by various methods or models from rock-mechanics experiments (Hucka and Das, 1974; Goktan, 1991; Altindag, 2002; Gong and Zhao, 2007; Rybacki et al., 2016).
+Shale gas has become a new bright spot in the global unconventional oil and gas exploration and development in the recent years.
+Shale gas reservoirs need to be hydraulically fractured to create an effective fracture network for recovering an economically viable quantity of gas.
+The possibility of creating an effective fracture network is dependent on many factors, among which the shale formation's brittleness plays a major role (Zhang et al., 2016a).
+Shale brittleness index has been used as an important tool to screen hydraulic fracturing candidates (Jarvie et al., 2007; Rickman et al., 2008; Wang and Gale, 2009; Chong et al., 2010; Li et al., 2013).
+In shale gas development practice, the mechanical brittleness index defined by Rickman et al. (2008), consisting of normalized dynamic Young's modulus and Poisson's ratio obtained through logging interpretation, was considered as a practical model to quantify the mechanical brittleness of shales.
+The normalizations of Young's modulus and Poisson's ratio in Rickman et al. (2008) were not general expressions and were redefined as (Jin et al., 2015):(1)BImer=(En + v n)/2where the brittleness index is noted as BI mer, with the subscript “mer” referring to mechanical brittleness index calculated according to the equation originally proposed by Rickman et al. (2008); E n and v n are normalized Young's modulus and Poisson's ratio, respectively, and are defined as(2)En=(E-Emin)/(Emax-Emin) (3)vn=(vmax-v)/(vmax-vmin)where E min and E max are the minimum and maximum dynamic Young's modulus for the investigated formation; v min and v max are dynamic minimum and maximum Poisson's ratio for the investigated formation, respectively.
+equation (1) indicates that formation with higher Young's modulus (E) and lower Poisson's ratio (ν) is of a higher brittleness.
+By defining a mineralogical brittleness index, brittle minerals in shales are also used to screen hydraulic fracturing candidates (Jarvie et al., 2007; Wang and Gale, 2009; Slatt and Abousleiman, 2011; Jin et al., 2015; Zhang et al., 2016a).
+Discrepancy exists in selection of brittle minerals for the mineralogical brittleness indexation.
+For example, the weight fraction of quartz was used as a mineralogical brittleness index by Jarvie et al. (2007), while the weight fraction of quartz, feldspar, mica and carbonate minerals was used as a mineralogical brittleness index by Jin et al. (2015).
+Shale generally contains a variety of minerals, including brittle minerals and clay minerals.
+Quartz, feldspar, calcite and dolomite are generally considered as brittle minerals.
+Although other minerals such as mica and pyrite may also be more brittle than clay (Jin et al., 2015; Xiang et al., 2016; Zhang et al., 2016b), they are not generally considered for mineralogical brittleness indexation because they are minor minerals in shales.
+In Chinese shale gas industry, four brittle minerals, including quartz, feldspar, calcite, and dolomite, are generally taken for calculating the mineralogical brittleness index (GB/T 31484, 2015), and this index is called as BRMC4:(4)BRMC4 = (W Q + W F + W C + W D)/WT where W Q, W F, W C and W D are the weights of quartz, feldspar, calcite, and dolomite, respectively; and, W T is the total mineral weight.
+The objective of this study is to check the traditionally used mineralogical brittleness index (BRMC4) defined in equation (4), and to develop a new mineralogical brittleness index, expressed as a function of weighting brittle minerals.
+For this objective, twenty blocky shale samples were taken from Wufeng-Lower Longmaxi Formations in the Shuanghe outcrop area, Sichuan Basin, southwestern China, and prepared to cylindrical specimens.
+The cylindrical specimens were tested by using an improved triaxial apparatus.
+The Young's modulus, Poisson's ratio and compressive strength of the cylindrical specimens under confining pressure of 5 MPa were determined.
+The mineral compositions of the shale samples were tested through the X-ray diffraction (XRD).
+Beginning from correlation analysis between different variables (Young's modulus, compressive strength, mechanical brittleness index and BRMC4), a new mineralogical brittleness index, as a function of weighting brittle minerals, is proposed.
+This new index is verified by actual detected hydraulic fracture interval in a case study, demonstrating its effectiveness in evaluating shale brittleness.
+LFLab-I Triaxial Stress Strain Experimental System (Fig. 2 a), from Research Institute of Petroleum Exploration and Development, PetroChina, was used to conduct the tests on the cylindrical specimens.
+The test procedure is the same for all the twenty specimens, including test preparation and test process.
+The test preparation includes: (1) place the specimen wrapped with heat shrinkable tubing on the bottom plate; (2) install the axial displacement transducer and radial displacement transducer on the specimen (Fig. 2b); (3) seal the confining pressure barrel with sealing ring tightly; (4) increase the confining pressure and the axial pressure with loading velocity of 0.05 MPa/s to 5 MPa and 8 MPa, respectively.
+The test process consists of: (1) increasing axial pressure at a step of 10 MPa with an axial loading velocity of 0.05 MPa/s while the confining pressure is kept constant at 5 MPa; (2) stable flow rate of helium gas is measured with a flowmeter, at each step, with confining and axial pressures being kept constant for 0.2–0.5 h; (3) the test terminates until the specimen is failed; (4) during the whole test process, the axial pressure, the axial and lateral strains are recorded automatically through data acquisition and control system (Fig. 2a).
+At the beginning of the test process, either axial strain or lateral strain records are put to zero, if any induced by the test preparation as described above.
+Among the twenty tested specimens, three specimens (CNSH2-3, CNSH11-1 and CNSH-SZS-2) contain natural cracks.
+The diameter of another three specimens (CNSH-SZS-4, CNSH-SZS-8 and CNSH-HTT-15) is less than 23 mm, and the radial sensor could not tighten the specimen, resulting in incorrect measurement of lateral strain.
+The test on other three specimens (CNSH6-3, CNSH-SZS-5 and CNSH-SZS-6) was not successful due to an operational problem.
+The test results of the remaining eleven specimens are thus available for the following analysis.
+The black shales in Wufeng (Upper Ordovician)-Lower Longmaxi (Lower Silurian) formations, in the Sichuan Basin, south-western China, are presently one of the main shale gas development targets in China (Zou et al., 2016).
+The Wufeng-Lower Longmaxi formations in Sichuan Basin can be subdivided into biozones by graptolite (Chen et al., 2015), as shown by the stratigraphic column of well YJ1 (Liang et al., 2017, Fig. 1 a).
+Twenty black shale samples were taken from Wufeng-Longmaxi formations in Shuanghe outcrop area, Sichuan Basin, south-western China (Fig. 1b).
+After removing the weathered surface layer, fresh shale samples were taken in a size larger than 200 mm × 200 mm × 200 mm.
+The descriptions of the shale samples are given in Table 1 .
+The blocky shale samples were cored in laboratory to get cylindrical specimens with length of 50 mm and diameter of 25 mm.
+All the samples were cored perpendicularly to the bedding planes.
+The two ends of each specimen were then polished to keep them smooth, parallel to each other, and perpendicular to the cylinder's axis.
+Twenty specimens were obtained for mechanical-permeability test and each was given the same ID as its original shale sample.
+Parallel specimens were obtained for XRD tests.
+By using X-ray diffraction apparatus, the intensity of the characteristic peak for each specific mineral can be measured and transferred to weight percentage of the minerals contained in a shale sample.
+Small segments from the blocky shale samples were taken for porosity test by helium-injection method with confining pressure of 1000psi and pore pressure of 200psi.
+LFLab-I Triaxial Stress Strain Experimental System (Fig. 2 a), from Research Institute of Petroleum Exploration and Development, PetroChina, was used to conduct the tests on the cylindrical specimens.
+The test procedure is the same for all the twenty specimens, including test preparation and test process.
+The test preparation includes: (1) place the specimen wrapped with heat shrinkable tubing on the bottom plate; (2) install the axial displacement transducer and radial displacement transducer on the specimen (Fig. 2b); (3) seal the confining pressure barrel with sealing ring tightly; (4) increase the confining pressure and the axial pressure with loading velocity of 0.05 MPa/s to 5 MPa and 8 MPa, respectively.
+The test process consists of: (1) increasing axial pressure at a step of 10 MPa with an axial loading velocity of 0.05 MPa/s while the confining pressure is kept constant at 5 MPa; (2) stable flow rate of helium gas is measured with a flowmeter, at each step, with confining and axial pressures being kept constant for 0.2–0.5 h; (3) the test terminates until the specimen is failed; (4) during the whole test process, the axial pressure, the axial and lateral strains are recorded automatically through data acquisition and control system (Fig. 2a).
+At the beginning of the test process, either axial strain or lateral strain records are put to zero, if any induced by the test preparation as described above.
+Among the twenty tested specimens, three specimens (CNSH2-3, CNSH11-1 and CNSH-SZS-2) contain natural cracks.
+The diameter of another three specimens (CNSH-SZS-4, CNSH-SZS-8 and CNSH-HTT-15) is less than 23 mm, and the radial sensor could not tighten the specimen, resulting in incorrect measurement of lateral strain.
+The test on other three specimens (CNSH6-3, CNSH-SZS-5 and CNSH-SZS-6) was not successful due to an operational problem.
+The test results of the remaining eleven specimens are thus available for the following analysis.
+Based on data in Tables 2 and 3, correlations between different variables are analyzed and the significance of r-value (correlation coefficient) between any two variables is determined by t-test (Neter et al., 1988).
+The test compares computed t-value with tabulated t c by using the null hypothesis.
+If the computed t-value is greater than tabulated t c, the null hypothesis is rejected.
+This means that r is significant.
+If the computed t-value is less than tabulated t c, the null hypothesis is not rejected, and the correlation is not significant.
+In this study, a 95% confidence level (C.L.) is chosen for the t-test.
+The statistical correlations are discussed below.
+The correlation between Young's modulus and compressive strength is shown in Fig. 5 a.
+Young's modulus is positively correlated to compressive strength with a correlation coefficient of 0.71.
+This positive relationship may be stable with different confining pressures (Rybacki et al., 2015).
+The correlation between mechanical brittleness index (BI mer) and compressive stress is shown in Fig. 5b.
+The mechanical brittleness index (BI mer) is highly correlated to compressive strength with a correlation coefficient of 0.83, implying that stronger rocks are more brittle.
+Note that the mechanical brittleness index (BI mer) is a composite parameter of Young's modulus and Poisson's ratio.
+The correlations shown in Fig. 5 are consistent with the relationships between mechanical parameters found by previous studies (for example, Rybacki et al., 2015), demonstrating that our mechanical test results are reliable.
+The correlation between (W Q + W F + W C + W D)/W T (i.e., BRMC4 defined in equation (4)) and mechanical brittleness index (BI mer) is shown in Fig. 6 .
+The correlation between (W Q + W F + W C + W D)/W T and the mechanical brittleness index (BI mer) is not statistically significant (the computed t-value of 2.20, is less than tabulated t c value of 2.26).
+This implies that the use of BRMC4 as a mineralogical brittleness index is questionable.
+A new mineralogical brittleness index, expressed as a function of brittle minerals with respective weighting coefficients determined by the bulk modulus of the different brittle minerals will be proposed in the following.
+Fig. 3a and Fig. 3b are axial pressure-axial strain and lateral strain-axial strain curves respectively for the eleven tested specimens.
+The Young's modulus is determined as the slope of the linear segment in the axial pressure-axial strain curve (Fig. 4a).
+The Poisson's ratio is determined as the slope of the segment picked in the lateral strain-axial strain curve (Fig. 4b) with the same axial strain interval for determination of Young's modulus.
+The compressive strength is determined as the maximum axial pressure when the specimen is on failure (Fig. 4a).
+Shale porosity and mechanical parameters (including Young’ modulus, Poisson's ratio and compressive strength) of the eleven tested specimens are set forth in Table 2 .
+The mechanical brittleness index (BI mer), calculated by using Rickman's equation (1) for the eleven tested specimens, is also set forth in Table 2 (Column 7).
+XRD mineral compositions and BRMC4 calculated by using equation (4), of the eleven specimens, are set forth in Table 3 .
+Based on data in Tables 2 and 3, correlations between different variables are analyzed and the significance of r-value (correlation coefficient) between any two variables is determined by t-test (Neter et al., 1988).
+The test compares computed t-value with tabulated t c by using the null hypothesis.
+If the computed t-value is greater than tabulated t c, the null hypothesis is rejected.
+This means that r is significant.
+If the computed t-value is less than tabulated t c, the null hypothesis is not rejected, and the correlation is not significant.
+In this study, a 95% confidence level (C.L.) is chosen for the t-test.
+The statistical correlations are discussed below.
+The correlation between Young's modulus and compressive strength is shown in Fig. 5 a.
+Young's modulus is positively correlated to compressive strength with a correlation coefficient of 0.71.
+This positive relationship may be stable with different confining pressures (Rybacki et al., 2015).
+The correlation between mechanical brittleness index (BI mer) and compressive stress is shown in Fig. 5b.
+The mechanical brittleness index (BI mer) is highly correlated to compressive strength with a correlation coefficient of 0.83, implying that stronger rocks are more brittle.
+Note that the mechanical brittleness index (BI mer) is a composite parameter of Young's modulus and Poisson's ratio.
+The correlations shown in Fig. 5 are consistent with the relationships between mechanical parameters found by previous studies (for example, Rybacki et al., 2015), demonstrating that our mechanical test results are reliable.
+The correlation between (W Q + W F + W C + W D)/W T (i.e., BRMC4 defined in equation (4)) and mechanical brittleness index (BI mer) is shown in Fig. 6 .
+The correlation between (W Q + W F + W C + W D)/W T and the mechanical brittleness index (BI mer) is not statistically significant (the computed t-value of 2.20, is less than tabulated t c value of 2.26).
+This implies that the use of BRMC4 as a mineralogical brittleness index is questionable.
+A new mineralogical brittleness index, expressed as a function of brittle minerals with respective weighting coefficients determined by the bulk modulus of the different brittle minerals will be proposed in the following.
+As shown above, the simple sum of brittle minerals, i.e., (W Q + W F + W C + W D)/W T, is not significantly correlated to the mechanical brittleness index (BI mer) (Fig. 6).
+It may be necessary to differentiate the unit weight contribution of different brittle minerals, to the brittleness of the whole rock.
+In fact, different brittle minerals have their proper mechanical properties, such as bulk modulus and shear modulus (Fjaer et al., 2008), resulting in different mineral brittleness.
+The bulk modulus is selected as the most representative parameter in this respect, since deformation and fractures take place in 3D space either in laboratory tests or in hydraulic fracturing practice.
+The bulk modulus of the four brittle minerals (quartz, feldspar, calcite and dolomite) mostly found in shales are set forth in Table 4 .
+The data in Table 4 are taken from Fjaer et al. (2008, their Table A3).
+As can be seen, in Table 4, quartz has the smallest bulk modulus in comparison with other three brittle minerals.
+The bulk modulus of quartz is about half of the bulk modulus of the other three brittle minerals.
+Quartz is thus the most brittle mineral.
+In comparison, the other three brittle minerals are much less brittle than quartz.
+A new mineralogical brittleness index expressed as a function of weighting brittle minerals, can be written as:(5)BIbm = (CQ × W Q + CF × W F + CC × W C + CD × W D)/WT where the new mineralogical brittleness index is noted as BI bm, with the subscript “bm” referring to brittle minerals; CQ, CF, CC and CD are the weighting coefficient, in respect to shale brittleness, of quartz, feldspar, calcite and dolomite, respectively; W Q, W F, W C and W D are the weights of quartz, feldspar, calcite, and dolomite, respectively; and, W T is the total mineral weight.
+The weighting coefficients CQ, CF, CC and CD in equation (5) can be assigned based on the observation that feldspar, calcite and dolomite have higher bulk modulus in comparison with quartz (Table 4), resulting in lower mineral brittleness.
+If a weighting coefficient 1 is arbitrarily assigned to quartz, then the weighting coefficients of other brittle minerals can be determined as the ratio of bulk modulus of quartz versus that of these three brittle minerals (Table 5 ).
+Equation (5) is thus rewritten, with weighting coefficients given in Table 5, as:(6)BIbm = (W Q+0.49 × W F+0.51 × W C+0.44 × W D)/W T where all variables have the same meanings as in equation (5).
+In equation (6), an average weighting coefficient of 0.44 in Table 5 for dolomite is taken.
+One can take a specified weighting coefficient for dolomite according to the bulk modulus of this brittle mineral measured in a special application case.
+By using equation (6), the new mineralogical brittleness index (BI bm) of the tested specimens is calculated (Table 6 ).
+Fig. 7 shows the correlation between the new mineralogical brittleness index (BI bm) and the mechanical brittleness index (BI mer) is statistically significant (the computed t-value of 2.79, is greater than tabulated t c value of 2.26).
+It means that the new mineralogical brittleness index (BI bm) defined in equation (6) can be a useful tool in quantifying shale brittleness.
+Note that the new mineralogical brittleness index (BI bm) defined in equation (6) is a relative index since the weighting coefficient of quartz is arbitrarily assigned to be 1 (Table 5).
+However, it can be verified that no matter what value is assigned to the weighting coefficient of quartz as a starting point, the correlation between the new mineralogical brittleness index (BI bm) and the mechanical brittleness index (BI mer), shown in Fig. 7, keeps exactly the same.
+The new mineralogical brittleness index (BI bm) has determinant weighting coefficients for different brittle minerals once an arbitrary coefficient is assigned to quartz, thus facilitating its practical use.
+A weighting coefficient of 1 is preferential to be assigned to quartz, because it assures the new mineralogical brittleness index (BI bm) falling in the range of (0, 1), which is a common character of this kind of indexes.
+The new mineralogical brittleness index (BI bm) is thus robust to characterize shale brittleness.
+As shown above, the simple sum of brittle minerals, i.e., (W Q + W F + W C + W D)/W T, is not significantly correlated to the mechanical brittleness index (BI mer) (Fig. 6).
+It may be necessary to differentiate the unit weight contribution of different brittle minerals, to the brittleness of the whole rock.
+In fact, different brittle minerals have their proper mechanical properties, such as bulk modulus and shear modulus (Fjaer et al., 2008), resulting in different mineral brittleness.
+The bulk modulus is selected as the most representative parameter in this respect, since deformation and fractures take place in 3D space either in laboratory tests or in hydraulic fracturing practice.
+The bulk modulus of the four brittle minerals (quartz, feldspar, calcite and dolomite) mostly found in shales are set forth in Table 4 .
+The data in Table 4 are taken from Fjaer et al. (2008, their Table A3).
+As can be seen, in Table 4, quartz has the smallest bulk modulus in comparison with other three brittle minerals.
+The bulk modulus of quartz is about half of the bulk modulus of the other three brittle minerals.
+Quartz is thus the most brittle mineral.
+In comparison, the other three brittle minerals are much less brittle than quartz.
+A new mineralogical brittleness index expressed as a function of weighting brittle minerals, can be written as:(5)BIbm = (CQ × W Q + CF × W F + CC × W C + CD × W D)/WT where the new mineralogical brittleness index is noted as BI bm, with the subscript “bm” referring to brittle minerals; CQ, CF, CC and CD are the weighting coefficient, in respect to shale brittleness, of quartz, feldspar, calcite and dolomite, respectively; W Q, W F, W C and W D are the weights of quartz, feldspar, calcite, and dolomite, respectively; and, W T is the total mineral weight.
+The weighting coefficients CQ, CF, CC and CD in equation (5) can be assigned based on the observation that feldspar, calcite and dolomite have higher bulk modulus in comparison with quartz (Table 4), resulting in lower mineral brittleness.
+If a weighting coefficient 1 is arbitrarily assigned to quartz, then the weighting coefficients of other brittle minerals can be determined as the ratio of bulk modulus of quartz versus that of these three brittle minerals (Table 5 ).
+Equation (5) is thus rewritten, with weighting coefficients given in Table 5, as:(6)BIbm = (W Q+0.49 × W F+0.51 × W C+0.44 × W D)/W T where all variables have the same meanings as in equation (5).
+In equation (6), an average weighting coefficient of 0.44 in Table 5 for dolomite is taken.
+One can take a specified weighting coefficient for dolomite according to the bulk modulus of this brittle mineral measured in a special application case.
+By using equation (6), the new mineralogical brittleness index (BI bm) of the tested specimens is calculated (Table 6 ).
+Fig. 7 shows the correlation between the new mineralogical brittleness index (BI bm) and the mechanical brittleness index (BI mer) is statistically significant (the computed t-value of 2.79, is greater than tabulated t c value of 2.26).
+It means that the new mineralogical brittleness index (BI bm) defined in equation (6) can be a useful tool in quantifying shale brittleness.
+Note that the new mineralogical brittleness index (BI bm) defined in equation (6) is a relative index since the weighting coefficient of quartz is arbitrarily assigned to be 1 (Table 5).
+However, it can be verified that no matter what value is assigned to the weighting coefficient of quartz as a starting point, the correlation between the new mineralogical brittleness index (BI bm) and the mechanical brittleness index (BI mer), shown in Fig. 7, keeps exactly the same.
+The new mineralogical brittleness index (BI bm) has determinant weighting coefficients for different brittle minerals once an arbitrary coefficient is assigned to quartz, thus facilitating its practical use.
+A weighting coefficient of 1 is preferential to be assigned to quartz, because it assures the new mineralogical brittleness index (BI bm) falling in the range of (0, 1), which is a common character of this kind of indexes.
+The new mineralogical brittleness index (BI bm) is thus robust to characterize shale brittleness.
+Well A in Sichuan Basin, south-western China (well location see Fig. 1) is a vertical well.
+The mechanical brittleness index (BI mer) is shown in the left of column 5 (red curve, Fig. 8 ).
+The fracture pressure is shown in the right of column 5 (black curve, Fig. 8).
+The weight of brittle minerals from logging interpretation is shown in column 6.
+The BRMC4 (simple sum weight of brittle minerals including quartz, feldspar, calcite and dolomite), is shown in column 7 (blue curve) in Fig. 8.
+The new mineralogical brittleness index (BI bm) proposed in this study, is shown in column 7 (red curve) in Fig. 8.
+Two perforation intervals are 4119–4120.5m and 4124.5–4,126 m (column 9, Fig. 8).
+The two perforation intervals were hydraulically fractured together.
+Before and after the hydraulic fracturing operation, RST logging was run in the interval of 3825–4,143 m to detect the hydraulic fracture interval (column 8, Fig. 8).
+The SIGM recording contrast before the hydraulic fracturing (blue curve in column 8, Fig. 8) and after the hydraulic fracturing (red curve in column 8, Fig. 8), shows that the detected hydraulic fracture interval is 4115.5–4,126 m with a height of 10.5 m.
+The relative high value interval of mechanical brittleness index (BI mer), of BRMC4 and of the new mineralogical brittleness index (BI bm), and the relative low value of fracture pressure, all correspond to the actual detected hydraulic fracture interval.
+However, the relative high value interval of the new mineralogical brittleness index (BI bm) is the most outstanding and most discernible.
+More importantly, at depths below about 4,127 m where no hydraulic fracture is detected, the mechanical brittleness index (BI mer) and BRMC4 show, however, relatively high values (high brittleness), whereas the new mineralogical brittleness index (BI bm) shows relatively low values (less brittle) indicating rightly limestone barrier.
+The fracture pressure (black curve in the right of column 5, Fig. 8) at depths below about 4,127 m shows relatively high values indicating also limestone barrier.
+Note that from 4,127 m to deeper, shale lithofacies change gradually to limestone lithofacies.
+The new mineralogical brittleness index (BI bm) shows low values and indicates limestone barrier.
+Well A in Sichuan Basin, south-western China (well location see Fig. 1) is a vertical well.
+The mechanical brittleness index (BI mer) is shown in the left of column 5 (red curve, Fig. 8 ).
+The fracture pressure is shown in the right of column 5 (black curve, Fig. 8).
+The weight of brittle minerals from logging interpretation is shown in column 6.
+The BRMC4 (simple sum weight of brittle minerals including quartz, feldspar, calcite and dolomite), is shown in column 7 (blue curve) in Fig. 8.
+The new mineralogical brittleness index (BI bm) proposed in this study, is shown in column 7 (red curve) in Fig. 8.
+Two perforation intervals are 4119–4120.5m and 4124.5–4,126 m (column 9, Fig. 8).
+The two perforation intervals were hydraulically fractured together.
+Before and after the hydraulic fracturing operation, RST logging was run in the interval of 3825–4,143 m to detect the hydraulic fracture interval (column 8, Fig. 8).
+The SIGM recording contrast before the hydraulic fracturing (blue curve in column 8, Fig. 8) and after the hydraulic fracturing (red curve in column 8, Fig. 8), shows that the detected hydraulic fracture interval is 4115.5–4,126 m with a height of 10.5 m.
+The relative high value interval of mechanical brittleness index (BI mer), of BRMC4 and of the new mineralogical brittleness index (BI bm), and the relative low value of fracture pressure, all correspond to the actual detected hydraulic fracture interval.
+However, the relative high value interval of the new mineralogical brittleness index (BI bm) is the most outstanding and most discernible.
+More importantly, at depths below about 4,127 m where no hydraulic fracture is detected, the mechanical brittleness index (BI mer) and BRMC4 show, however, relatively high values (high brittleness), whereas the new mineralogical brittleness index (BI bm) shows relatively low values (less brittle) indicating rightly limestone barrier.
+The fracture pressure (black curve in the right of column 5, Fig. 8) at depths below about 4,127 m shows relatively high values indicating also limestone barrier.
+Note that from 4,127 m to deeper, shale lithofacies change gradually to limestone lithofacies.
+The new mineralogical brittleness index (BI bm) shows low values and indicates limestone barrier.
+Shale brittleness is an important parameter for evaluating shale reservoirs.
+We have performed the correlation analysis between triaxial test and XRD results of shale samples from Wufeng-Longmaxi Formations in Sichuan Basin.
+From this study, we draw the following conclusions.(1)The correlation analysis of the test data indicates that the simple sum of brittle minerals (BRMC4) is not statistically correlated to the mechanical brittleness index (BI mer).
+BRMC4 may be a questionable estimator of shale brittleness.(2)Considering the bulk modulus of different brittle minerals, a new mineralogical brittleness index (BI bm), expressed as a function of weighting brittle minerals with different weighting coefficients, is developed.
+The new index is statistically correlated to the mechanical brittleness index (BI mer).(3)The new mineralogical brittleness index in equation (6), can be used directly to subsurface conditions as a shale brittleness index, because the mineralogical compositions, specifically, the brittle mineral contents are not influenced by in-situ stress conditions and/or formation temperature.(4)The new mineralogical brittleness index (BI bm) was applied to a case study for its effectiveness in characterizing shale brittleness.
+Because of a large amount of XRD data available from laboratory for calibrating the logging interpretation of mineralogical compositions, the new mineralogical brittleness index (BI bm) has large application prospective and its application has proved to be valuable for developing the studied shale gas reservoirs.

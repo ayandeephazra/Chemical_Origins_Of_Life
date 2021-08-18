@@ -1,0 +1,11 @@
+The search of ultra hard materials is inevitable in high pressure device applications.
+Nitrides of group-14 elements have been foreseen as potential candidates in replacing existing hard materials.
+In a recent experiment, pyrite structures of SiN2, GeN2 and SnN2 have been synthesized at high pressure and are shown to have high bulk modulus.
+Though their existence and bulk modulus are known, limited studies have been devoted to SiN2, GeN2 and SnN2.
+In the present work, we have performed the first principles calculations to investigate structural, electronic, mechanical and vibrational properties at ambient as well as high pressure condition.
+The physical properties of SnN2 and high pressure lattice dynamical properties of SiN2 and GeN2 are explored for the first time.
+SiN2 has higher bulk modulus among all MN2 (where M = Si, Sn and Ge), and increases further with increase in pressure.
+The increase in elastic moduli of MN2 have been related to the shortening of M-N bond length at high pressure.
+Electronic properties of these pyrites suggest that the bandgap increases with pressure.
+We further characterize these MN2 at high pressure using theoretically calculated Raman spectra.
+Frequency of N–N stretching A g and T g modes confirms the single bond character of nitrogen dimer in all studied MN2 compounds.

@@ -1,0 +1,9 @@
+The special intrinsic characteristics of shale formations, such as multiscale pore systems and complex mineral components, make the simulation of shale properties more difficult than that of sandstone properties.
+As such, one prerequisite of numerically predicting the physical properties of shale samples is to construct accurate shale models that include those special features.
+To this end, the study presents a novel hybrid stochastic modeling algorithm, called DEM-QSGSA, which integrates the discrete element method (DEM) and the quartet structure generation set algorithm (QSGSA), to build the necessary multicomponent and multiscale shale models.
+To investigate the effects of the components on the shale properties, the DEM-QSGSA was used to generate a dozen digital shale models with different mineral components containing quartz, feldspar, calcite, clay minerals, pyrite, and organic matter.
+The accuracy of the models was verified by comparing the characteristics of pore systems and the percentages of mineral components of the generated models with the ones of the SEM images of real shale samples.
+The electrical resistivity, bulk modulus, and shear modulus of these shale models were obtained using FEM.
+The results of electrical and elastic properties of these digital rocks indicate that the increase in abundance of the organic matter (OM) pores, intraparticle (intraP) pores, clay minerals, or OM results in a decrease in the electrical resistivity and elastic moduli when the pore systems of shale models are saturated with water.
+However, when the volume fraction of pyrite becomes larger, the elastic moduli increases and electrical resistivity decreases.
+Moreover, comparison of the sensitivity indices of the variables shows that pyrite has the largest effect on the electrical and elastic properties of shale samples, whilst clay minerals exert a moderate impact on them.

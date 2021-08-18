@@ -1,0 +1,8 @@
+Severe plastic deformation of bulk metallic glasses leads to rejuvenation of the amorphous structure.
+Here we present results demonstrating an improved plasticity for a Cu45Zr45Al5Ag5 bulk metallic glass alloy rejuvenated by severe plastic deformation via high-pressure torsion (HPT).
+Nanoindentation as well as atomic force microscopy measurements performed on the cross-section of HPT samples provide evidence for the enhancement in plasticity.
+A robust algorithm developed to reliably detect and quantify the discontinuities (pop-ins) in the nanoindentation load–displacement curves is applied to a large dataset.
+The results related to the rejuvenated structure demonstrate (i) a reduction of the number of detectable pop-ins as well as (ii) a reduction of their displacement offset.
+Furthermore, (iii) a pronounced increase in the total creep value is observed and correlates with a plasticity criterion as well as a reduced hardness and Young’s modulus that are heterogeneously distributed across the samples due to localized strain softening during HPT.
+Finally, (iv) atomic force microscopy topographies obtained from selected indents support the findings, showing less pronounced steps in the plastic pile-up.
+The experimental results indicate that rejuvenation by HPT processing leads to structural and dynamical heterogeneities, increased atomic mobility and an improved plastic deformation response.

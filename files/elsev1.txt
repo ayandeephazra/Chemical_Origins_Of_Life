@@ -1,0 +1,5 @@
+Bulk modulus (B) is a measure of atomic bond strength, affecting the mechanical behavior of materials, especially for ceramic materials having little plastic deformation.
+Tailoring B of ceramic materials can be achieved by element-substitution.
+However, such tailoring is more or less based on the trial-and-error approach.
+We investigated the correlation between electron work function (EWF) and B of transition metal (TM)-substituted MC carbides through first-principles calculation.
+It was shown that TMs with higher EWFs generally resulted in higher bulk modulus, demonstrating that EWF is a promising guiding parameter for selecting effective substitutes.

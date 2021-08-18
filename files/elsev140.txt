@@ -1,0 +1,5 @@
+Investigation of elastic properties of nanosized diamond films reveals, that their elastic properties in the range ± 5% significantly depend on the reconstructions of their surfaces.
+Strong correlation between lateral contraction/dilation of the surface and its layer elastic modulus is observed.
+In contrast to the recent report of stiffening of nanodiamonds smaller than 2 nm in size, our research suggests more complex influence of crystal morphology on elastic properties of nanodiamonds.
+We have found, that in accordance with our previous results for nanofilms with (110) and (100) faces, dilatation of nanofilms with amplitude of up to 5% should be expected and 5% contraction of (111) face.
+This results in corresponding change in values of their elastic moduli, compared to those of bulk single crystal diamonds.

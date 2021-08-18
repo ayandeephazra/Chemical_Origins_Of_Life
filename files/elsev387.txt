@@ -1,0 +1,3 @@
+Baric dependencies of the thermalphysic properties and melting temperature, as well as the thermal equation of state for niobium were obtained based on the pair interatomic Mie-Lenard-Jones potential and the crystal Einstein model.
+Calculations of niobium thermalphysic properties pressure dependencies made along two isotherms 300 K and 3000K are in good agreement with the experimental data.
+The charts of the pressure dependencies for the following properties were obtained: the Debye temperature, the first, the second and the third Grüneisen parameters, isothermal bulk modulus, isochoric and isobaric heat capacity, volumetric coefficient of thermal expansion and the melting temperature.

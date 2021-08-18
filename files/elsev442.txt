@@ -1,0 +1,11 @@
+Briquetting is a continuous compaction process to transform loose powders into solid briquettes.
+The density and strength of formed briquettes vary significantly in the process, affecting the quality of products.
+This work presented a numerical modelling of briquetting based on Finite Element Method (FEM), focusing on the evolutions of briquette structure and stress.
+The mechanical behaviour of powders was characterised by the density independent Drucker-Prager Cap (DPC) model.
+The parameters in the DPC model were determined by conducting experimental die compaction on iron ore fines.
+The stress distributions inside the briquettes at the maximum compression and ejection stages were analysed.
+The relative density, Von Mises stress and hydrostatic pressure showed clear declines from the top to the bottom.
+The effects of powder-wall friction and feeding pressure on briquetting were studied.
+The average relative density and power draw increased almost linearly with increasing feeding pressure.
+However, a nonlinear trend was observed with increasing friction.
+The results suggested that an optimal briquetting process could be achieved by selecting proper boundary conditions.

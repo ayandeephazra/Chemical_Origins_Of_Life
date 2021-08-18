@@ -1,0 +1,9 @@
+The compatibility between anti-icing additives and emulsified asphalt binders has an important effect on the durability and stability performance of anti-icing emulsified asphalt binders.
+This research aims to investigate the effect of anti-icing additives on the stability performance of emulsified asphalt binders.
+In this study, the effect of emulsifier ion type and anti-icing additives properties (Zeta potential, fineness modulus, bulk density and content) were investigated by laboratory tests.
+Based on the results, it is found that the stability of the cationic emulsified asphalt binder is better than that of anionic emulsified asphalt binder after adding the anti-icing additive.
+For cationic emulsified asphalt binder, the stability is related to Zeta potential, and the stability time tends to increase with an increase in Zeta potential.
+Besides, the particle size of anti-icing additives also has an obvious effect on the stability of the emulsified asphalt binder.
+Based on the test results, it is not recommended to mix anti-icing additives which have small bulk density and fine particle size with cationic emulsified asphalt binder.
+In addition, the stability time of cationic emulsified asphalt binder decreases with an increase in additives content.
+These findings in this study are helpful for the application of anti-icing emulsified asphalt binders on existing asphalt pavement for the purposes of melting snow and anti-icing.

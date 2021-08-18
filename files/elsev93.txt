@@ -1,0 +1,8 @@
+The present study demonstrates the mixing process of lime stabilized fly ash bricks.
+In India, fly ash bricks are gaining popularity against fired clay bricks due to their green benefits.
+However, the lack of technical guidelines on mixing methodology, and disproportionate moisture content in raw materials adversely affect the performance and production of fly ash bricks.
+To mitigate this, dry and powdered form hydrated lime is suggested in place of slaked lime to avoid the excess moisture content.
+This study experimentally examines the combined effect of two distinct mixing sequences at five different moisture contents on the properties of hydrated lime fly ash (HLF) bricks.
+Compressive strength, dry bulk density, water absorption, percentage voids, dynamic modulus of elasticity, impact energy, and drying shrinkage were selected as the parameters for comparison of HLF bricks.
+Bricks with 15% moisture content produced by a two-stage mixing sequence were found to have enhanced mechanical and durability performance.
+Furthermore, economic and environmental comparisons (in terms of embodied energy and embodied carbon calculations) revealed that HLF bricks are more beneficial compared to fired clay bricks.

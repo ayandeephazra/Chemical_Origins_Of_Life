@@ -1,0 +1,9 @@
+As a typical transition metal nitride and promising spintronic material, CrN has many controversial results because of crystallographic nitrogen defects.
+One is the bulk softening resulting from electrons transition from localized to itinerated.
+Hence, well crystalline CrN synthesized is extremely important to clear the structure behavior under pressure.
+Compressed experiments of well crystalline CrN synthesized were measured up to 30.2 GPa in DAC.
+Our results show a similar bulk modulus from B1 = 210.7 GPa of Fm-3m phase to B2 = 214.2 GPa of Pnma phase across the whole process of phase transition between 5.3 GPa–8.1 GPa.
+The X-ray photoemission spectra indicate no remarkable change of electron transferring between Cr and N and no difference of p-d hybridization across the phase transition.
+It is found that the softening of CrN does not take place during the phase transition despite of the change of the d spin correlation.
+However, compared to N vacancies that destabilize structure, the nitrogen atoms play a very important role in the magnetic material as magnetic interaction medium ligand atoms and in material elastic properties as well.
+This work is significant to further understand high pressure behavior of transition metal nitrides.

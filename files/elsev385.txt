@@ -1,0 +1,8 @@
+Glass forming ability (GFA) of metallic glasses is a central topic for engineering applications and understanding glassy nature.
+Here, we report a series of Ti-based bulk metallic glasses (BMGs, (Ti41Zr25Be26Ni8)100-xCux) with excellent GFA and mechanical properties.
+The (Ti41Zr25Be26Ni8)93Cu7 glassy rod with 52 mm in diameter and 75 mm in length was successfully prepared by copper mould casting, and exhibits remarkable high yield strength, apparent plastic strain and high specific strength of 2182 MPa, 2.1% and 4.06 × 105 N·m/kg, respectively.
+Meanwhile, the (Ti41Zr25Be26Ni8)93Cu7 BMG shows larger values of reduced glass transition temperature, γ parameter and lower Gibbs free energy that indicates smaller driving force for crystallization, these results are in well agreement with its exceptional GFA.
+In addition, it has revealed that Poisson's ratios of the glassy alloys is strongly correlated with GFA.
+Furthermore, it shows that Ti-based metallic glasses with higher Poisson's ratios generally exhibit better GFA in the same glass forming system.
+The present results provide robust BMG-candidates for material science and engineering application where require large critical diameters.
+And the novel GFA-criterion based on the correlation between Poisson’ ratio and GFA would provide guideline for developing new Ti-based BMGs.

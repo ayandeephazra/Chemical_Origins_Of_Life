@@ -1,0 +1,9 @@
+Bulk metallic glasses (BMGs) are potential candidate materials for numerous structural applications.
+However, this class of materials has a major limitation for engineering applications due to their inferior resistance to fatigue wear.
+In present work, a novel micro-scale repetitive impact test was utilized for fatigue testing of ZrCu-based BMGs (Zr63.6-x Cu18Ni10.4Al8Fe x , x = 0, 3, 5 at.%), and specific attention was paid to the micro-alloying effect on wear resistance.
+Transmission electron microscopy of as-cast Zr58.6Cu18Ni10.4Al8Fe5 revealed amorphous structure with the formation of a second glassy phase of few nanometers in diameter.
+Although these structural changes have minor effects on hardness and modulus, they have a substantial influence on fatigue wear resistance.
+Phase separation was found to promote numerous shear bands, which induced strain hardening, and improved the crack resistance.
+Consequently, all these features are considered to contribute the improved wear resistance.
+On the contrary, a monolithic glass without Fe addition lacks any microstructural features that can provide means for the local arrest of shear bands and incipient fatigue cracks.
+These findings improve the understanding of the impact fatigue mechanisms and provide suggestions for the future design of BMGs with excellent wear performance.

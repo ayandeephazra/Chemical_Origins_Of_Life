@@ -1,0 +1,6 @@
+This work designs a double porosity material (DPM) composed of two types of pores, i.e., the micro-pore from the porous layer and the meso-pore made by the labyrinthine channel.
+The both loss mechanisms of two different pores are combined to explore the low frequency sound absorption.
+All theoretical, numerical and experimental results show that the DPM possesses much lower frequency sound absorption than that of homogenous porous material (HPM) under the same thickness.
+Both the pressure and particle velocity distributions reveal that the sound absorption peaks are induced by the resonances of the labyrinthine channel and the hybrid resonance between the porous layer and labyrinthine channel respectively.
+Moreover, unconventional features such as negative bulk modulus and slow sound speed are observed around the resonant frequencies of the DPM.
+Finally, the absorption tailoring of the DPM with different strategies is investigated.

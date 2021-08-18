@@ -1,0 +1,13 @@
+Purpose To investigate the mechanical performance and fracture reliability of new generation, bulk-fill resin composites of different viscosities.
+Methods Forty sound maxillary premolars were prepared into Class I cavities comprised of 5 mm width × 5 mm length × 5 mm thickness.
+The teeth were randomly allocated into four groups (n = 10) according to the restorative material: Negative control – without restoration; Positive control – conventional resin composite (Opallis; FGM) was applied using increments of up to 2.0 mm-thick; Bulk-Regular – bulk-fill resin composite of regular viscosity (Opus Bulk Fill; FGM) was applied using a single increment of 5 mm-thick; and Bulk-Flow – a low-viscosity bulk-fill resin composite (Opus Bulk Fill Flow; FGM) was applied as the first increment with ∼3.5 mm-thick, followed by two final increments of Opallis (∼1.5 mm-thick).
+The teeth were stored at 37 °C, for 24 h, and submitted to a mechanical testing machine (DL500; EMIC) under a compressive loading.
+Work of fracture (W f ) was also obtained.
+All data were analyzed using ANOVA and Tukey (α = 5%).
+Reliability of restorations and probability of failure were analyzed by Weibull analysis.
+Results The non-restored teeth showed the weakest behavior of the study.
+All the restored groups demonstrated similar mechanical properties to each other (p ≥ 0.242).
+The positive and negative controls failed exclusively within the cohesiveness of enamel/dentin, whereas the bulk-fill-based restorations showed a mixture of cohesive and mixed failures.
+The restored groups showed an overall similar reliability, although the Bulk-Regular group demonstrated greater characteristic strength than the positive control.
+Conclusion The novel bulk-fill resin composites of low and regular viscosities show promising application in the restoration of Class I cavities in premolars, demonstrating similar mechanical performance and reliability as compared with restorations prepared using conventional resin composites.
+From the bulk-fill materials, the version with regular viscosity presented the greatest compliant behavior of the study.

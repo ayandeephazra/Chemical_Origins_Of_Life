@@ -1,0 +1,8 @@
+In this study, we prepared a host-guest (H-G) complex containing graphene (Gp) by utilizing the H-G supramolecular force of cyclodextrin (Cd) and azobenzene (Ab).
+Then we synthesized a conductive composite (CC) by using Gp-Cd-Ab H-G complex.
+Fourier transform infrared spectroscopy (FT-IR) of CC confirmed the presence of H-G supramolecular assemblies.
+Electrochemical impedance spectroscopy (EIS) showed CC had smaller bulk resistance.
+The tensile curves showed CC had larger Young’s modulus.
+CC had the properties of conductive and mechanical self-healing.
+CC also showed strain sensing performance.
+Thus the composite showed potential application in healable soft sensor.

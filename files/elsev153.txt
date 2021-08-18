@@ -1,0 +1,7 @@
+We present a model of pressure-dependent melting temperature to describe the physical fact that both cooling and pressurization can cause the solidification of liquid metal.
+Based on the Force-Heat Equivalence Energy Density Principle, an equivalent relationship between the heat energy variations during cooling and the mechanical work during pressurization is established as the molten metal solidifies.
+Then, this equivalent relationship is applied to develop a pressure-dependent melting temperature model without any adjustable parameter for metals.
+The model reveals the inner relationship between melting temperature, pressure, the bulk modulus and its first pressure derivative at zero pressure.
+The predicted results by our model are in good agreement with the available experimental data.
+Moreover, this study provides insights into the fundamental understanding of quantitative effect of pressure on melting temperature, which is in contrast to the well-known Lindemann's and Simon's equations that are both empirical melting temperature equations.
+It is worth noting that the melting curve of metals to very high pressure can be well predicted by our model only needing two experimental data at low pressures.

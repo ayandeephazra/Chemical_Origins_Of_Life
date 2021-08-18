@@ -1,0 +1,6 @@
+Pentamode metamaterials (PMMs) are a new class of three-dimensional (3D) mechanical metamaterials, engineered to have unusual elastic property of vanishing shear modulus.
+Here ‘penta’ denotes five, referring to only one non-zero but five vanishing eigenvalues in the elasticity tensor of isotropic materials.
+PMMs gain their properties from their rationally designed structural architecture rather than their composition, mimicking the behavior of fluids but are solid, hard to compress yet easy to deform.
+Compared to most up-to-date design methods based on rigid-body double-cone concept, this paper is to propose, for the first time, a new generative design method using topology optimization to find novel micro-lattice architectures, to enable pentamode properties through the overall elastic deformation of the micro-lattice.
+The design problem is then formulated to make the micro-lattice have a large but realistically attainable ratio of effective bulk modulus compared to the shear modulus, corresponding to the isotropic microstructure with the effective Poisson’s ratio close to 0.5. The larger of the ratio, the better of the PMM solids to simulate liquids.
+Several numerical cases with the additive manufacture technique (SLM: selective laser melting) are used to demonstrate the effectiveness of the proposed topological design method in this paper.

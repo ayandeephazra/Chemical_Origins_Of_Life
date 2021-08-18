@@ -1,0 +1,7 @@
+Yttrium hexahydride, YH6 with transition temperature, T c of 224 K in high pressure of 165 GPa is interesting because it has the highest pressure application efficiency.
+In this paper, we calculated the discontinuity in the elastic moduli and longitudinal sound velocity at T c of YH6.
+The calculated changes at T c in the bulk modulus, Δ B B is 43 ppm, Young’s modulus, Δ Y Y is 46 ppm and longitudinal sound velocity, Δ v L v L is 15 ppm.
+These results showed the role of phonons in this hydride superconductor and the values are within the range of most ultrasonic techniques.
+The van Hove scenario may be relevant in YH6 due to the large density of states near the Fermi level.
+In this paper the electron-phonon coupling constant of YH6 in this scenario was calculated to be λvH = 0.040.
+The elastic anomalies at the transition temperature were compared with other type of superconducting materials.

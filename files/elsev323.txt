@@ -1,0 +1,6 @@
+Mechanical strength along with high biocompatibility and water absorbing are among main characteristics of a desirable scaffold for cartilage tissue engineering.
+Having these properties, polyvinyl alcohol (PVA) can be a good option for constructing cartilage tissue engineering scaffolds.
+In this study, PVA hydrogel was produced by freeze-thaw crosslinking method, and its mechanical properties such as viscoelastic and hyperplastic behavior, which cannot be obtained analytically, was investigated with a coupled finite element (FE)-optimization algorithm and stress relaxation experimental data.
+To obtain isotropic hyper-viscoelastic constitutive parameters of PVA scaffolds, the Mooney-Rivlin and Neo-Hooke strain energy functions, in which shear and bulk moduli varies with time, were applied.
+Results showed that predicted mechanical responses of scaffolds by the Mooney-Rivlin model better fitted stress-relaxation experiments than those obtained by Neo-Hooke one.
+Also, the properties obtained from the finite element model, such as the bulk and the shear moduli, showed that, after successful in vitro and in vivo experiments, PVA hydrogel may be introduced as a cartilage substitute for future tissue engineering therapies.

@@ -1,0 +1,10 @@
+Glasses in the range 50Bi2O3-30B2O3-(20-x)BaO-xRedmud, x = 0.1–0.5 wt%, were synthesized and characterized for use as low melting point radiation shield glass solder using a combination of spectroscopic, thermal analysis and MCNPX simulation.
+The MCNPX general purpose Monte Carlo code was used to determine the Gamma-ray half-value layer (HVL) for several photon energies.
+The results showed that the HVL and the mass neutron removal cross-section, for neutrons below 15 MeV, of the samples under investigation were comparable to that of the shields used in nuclear reactors as moderators and Gamma-ray shields.
+The thermal studies of the glass samples showed they remained amorphous over the heating range of 30–1000 °C while at the same time having low softening temperatures and large values of Tc-Tg, indicating high heating rate independent stability.
+The bulk modulus calculated using bond compression model suggest that the glass system would be ideal to repair currently existing construction material without compromising the structural integrity.
+Spectroscopic analysis of the glass system showed the presence of BO4 and BO3 units as the major network former while BiO6 acted as an intermediate.
+The Raman spectrum also showed overlapping bands of SiO4 and B-O vibrations.
+The Optical absorption showed the presence of various bismuth ions active in both the UV and NIR region.
+The structural analysis was also complimented by x-ray diffraction (XRD) which showed two halos consistent with the borate network and energy dispersive spectroscopy (EDS) and scanning electron microscope (SEM) analysis which showed no major nucleation or crystalline phases.
+The Fe3+ content of red mud showed the most impact on the molar volume and bond compression bulk modulus of the samples.

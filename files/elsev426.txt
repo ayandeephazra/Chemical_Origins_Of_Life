@@ -1,0 +1,7 @@
+To understand the shear banding evolution and the effect of individual shear band on deformation mechanisms of bulk metallic glass composites (BMGCs), tensile tests of CuZrAlNb BMGCs have been in situ studied.
+It is found that the type and sequence of shear bands are independent of volume fraction of crystalline phase.
+All the types of shear bands can be considered as shear bands controlled by stress affected zones (SAZs) at crystal/matrix interface and those far away from SAZs.
+Based on the analysis of elastic energy dissipation, the shear bands far away from SAZs play a dominant role in the deformation stability.
+For current BMGCs, the propagation of shear bands far away from SAZs can be delayed by reducing the average elastic energy dissipation.
+High Young's modulus and volume fraction of crystalline phase are effective for decreasing the average elastic energy stored in shear bands.
+It is expected that the obtained results can offer better understanding of deformation mechanism in bulk metallic glass composites, which should be beneficial to design bulk metallic glass composites with improved mechanical performances.

@@ -1,0 +1,7 @@
+In-situ high pressure synchrotron angle-dispersive x-ray diffraction (AXRD) studies have been performed for HfB2, an ultra high temperature refractory alloy with AlB2 structure, by using a diamond anvil cell (DAC) at room temperature.
+The mechanical constants (bulk modulus K, shear modulus G, Young's modulus E, Poisson's ratio ν, density ρ, and Debye temperatures Θ D ) of bulk HfB2 are measured by ultrasound experiments at room temperature.
+Furthermore, the compression behavior and elastic properties of HfB2 under pressure are investigated using density functional theory.
+The experimental results are in good agreement with the theoretical calculations.
+The pressure dependence of mechanical constants and elastic anisotropy of HfB2 are discussed.
+The experimental data and theoretical calculations results show that HfB2 has a distinct anisotropic compression behavior along the a- and c-axes, and the anisotropy increases as the pressure is increasing.
+These markedly elastic properties are attributes to the strongly directional bonding between Hf and B atoms.

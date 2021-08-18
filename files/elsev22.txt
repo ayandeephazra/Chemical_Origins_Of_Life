@@ -1,0 +1,7 @@
+Properties of materials greatly differ in nanoparticle form compared to their bulk counterpart.
+Strain mechanism, elastic properties and cation distribution play a major role as particle size decreased to nanoscale level and therefore it is necessary to evaluate these properties precisely through reliable methodology.
+In the present work, a detailed investigation has been carried out on nanocrystalline particles of Mg–Mn co-substituted CdFe2O4 to estimate intrinsic strain through Williamson-Hall (W–H) analysis.
+The results were compared with those obtained from Scherrer equation and Rietveld refinement.
+Bertuat method was used to estimate the cation distribution of spinel ferrite.
+Elastic properties such as, stiffness constant, Young's modulus, bulk modulus, rigidity modulus, Poisson's ratio and Debye temperature were studied by using the band positions of tetrahedral – A and octahedral – B sites observed through infrared spectra.
+The obtained results were discussed in the light of strain mechanism, elastic constants and substitution of Mg–Mn ions in the CdFe2O4.

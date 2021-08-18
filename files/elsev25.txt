@@ -1,0 +1,6 @@
+MgO is an abundant mineral in the rocky mantle of terrestrial planets, but its melting behaviors remain enigmatic.
+Here we introduce a simple theoretical model to investigate the B1-liquid transition of MgO up to 370 GPa.
+Vibrational free energies of B1–MgO are fully computed by the moment recurrence technique in quantum statistical physics.
+On that basis, we associate the melting temperature with the isothermal bulk modulus via the work-heat equivalence principle.
+This strategy allows us to quantitatively explain recent experimental data.
+Our numerical analyses would yield insights into planetary dynamics and evolution.

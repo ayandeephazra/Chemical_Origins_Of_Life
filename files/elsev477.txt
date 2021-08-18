@@ -1,0 +1,10 @@
+Compressive properties of arable and forest soils are typically derived from data obtained in uniaxial confined compression tests.
+However, the stress field, final state of compression and thus compressive properties derived from such tests are dependent on sample dimensions, soil-cylinder wall friction and soil material properties.
+In this study, we analysed the stress field and bulk density distribution within a cylindrical soil sample under uniaxial compression, and how these are affected by sample dimension, soil-cylinder wall friction and elastic properties of soil.
+For this, we modelled a uniaxial compression test using the finite element method (FEM) and performed simulations for a range of sample diameter to height ratios (D/h), different values of soil-wall friction coefficient (μ) and different soil elastic properties (Young’s modulus and Poisson’s ratio).
+We use experimental data to validate the findings.
+The results showed a high impact of soil-cylinder wall friction on the stress field within the sample.
+This resulted in stress concentration at the top of sample edges (walls) and decreasing stresses at the bottom of the sample.
+However, the relative impact of soil-wall friction on sample average behaviour decreased with increasing D/h.
+These results suggest that the effect of soil-wall friction on sample-average bulk density cannot be neglected unless D/h >8.
+Correction of bulk density for μ and D/h could be a practical way to compare data obtained in laboratories using different sample sizes.

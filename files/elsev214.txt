@@ -1,0 +1,6 @@
+The weld spot of (Ti41Zr25Be28Fe6)93Cu7 bulk metallic glass is characterized after friction stir spot welding.
+The mechanical and thermal properties of different zones of the weld spot are studied using X-ray diffraction, Vickers micro hardness, nanoindentation and differential scanning calorimetry.
+Base metal (BM), stir zone under the tool shoulder and around the tool tip (SSZ), stir zone under the tool tip (TSZ) and thermos-mechanically affected zone (TMAZ); have been identified in the weld spot.
+The TMAZ reveals the minimum hardness, while the TSZ presents the lowest elastic modulus and the greatest thermal stability.
+The highest hardness and elastic modulus and also the less thermal stability are observed in the SSZ.
+Analysis of the pop-in marks on the P - h curves verifies the formation of tensile stress in the TSZ, creation of the excess free volume in the TMAZ and the formation of nanocrystals in the SSZ during welding.

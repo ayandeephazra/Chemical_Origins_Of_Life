@@ -1,0 +1,13 @@
+Variation of volume with temperature is a significant engineering consideration for numerous applications.
+In addition, the molar volume is a central property along with the bulk modulus in the scope of developing high pressure Gibbs energy multi-component databases.
+In this work, a semi-empirical model is proposed to describe the bulk modulus, thermal expansion coefficient and molar volume at atmospheric pressure.
+It is built based on a multi-frequency Einstein-Grüneisen model.
+The present methodology has several advantages over the use of polynomial functions.
+First of all, a self-consistent description of the molar volume and related properties together with heat capacity is achieved.
+This is an interesting feature in the scope of performing consistent assessments of diverse data in joint optimizations.
+Second, this description is directly compatible with the 3rd generation CALPHAD framework, as some parameters are shared in common.
+Therefore, it can be used to develop multi-component molar volume databases.
+Third, the model is built on physical considerations, enabling to perform reliable extrapolations outside the range of available data.
+Finally, the proposed description is valid down to 0K, allowing a direct integration of ab initio calculations.
+The above mentioned features are highlighted in the assessment of α-Sn and β-Sn, for which a critical review of the literature data is provided, as well as of solid CaO.
+The obtained results suggest that the proposed model can be applied successfully to a large variety of elements and compounds, as it can notably account for unusual features such as a negative thermal expansion at low temperature.

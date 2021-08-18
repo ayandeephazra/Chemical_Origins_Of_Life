@@ -1,0 +1,213 @@
+Grabs are a type of equipment used for unloading dry bulk cargo vessels as displayed in Fig. 1 .
+They remove substances such as iron ore or coal from the ship and transfer it to a hopper on the quay.
+The grabbing process consists of three steps: lowering the grab into the material, penetrating the material on impact and then tensioning the closing cables to commence closing of the grab.
+During closing, the two halves of the bucket further penetrate the material until the blades meet.
+The material is pushed into the bucket, where it slides along its surface.
+After closing, the hoisting cables are also tensioned and the full grab is hoisted out of the vessel towards the hopper on the quay.
+Fig. 1 shows that the computational costs of a single simulation of the required 77 m3 of bulk material for grab operation are decreasing for coarser element sizes.
+These costs have been determined for a 2014 hexa-core workstation PC and elements with a particle density of 4000 kg/m3 and a shear modulus of 300 MPa.
+It can be seen that the computational costs are approximately 104 h for elements with the same size as the pellets of the material model, which is impractical for the virtual prototyping of grabs.
+In fact, a computing time of 24 h or less is desirable when simulating a large number of grab design variations.
+To achieve this desired reduction in computation costs, particle scaling techniques are investigated (Fig. 2 ).
+Roessler and Katterfeld [23] give a brief overview of the scaling techniques used in literature.
+They identify three general categories: exact scaling of grain and equipment scale; coarse graining or upscaling; and scalping, where only the larger particles in a size distribution are considered.
+The exact scaling approaches are described by Feng et al. [11,12]; Poschel et al. [23].
+Schott et al. [25] scaled particles and equipment to experimentally investigate excavating motion characteristic for grabs, bulldozers and reclaimers.
+The determined scale factors for the torque resulting from exact scaling laws did not match the scale factors found experimentally.
+Coarse graining or particle upscaling is a technique where the original particles with radius R are substituted by larger, coarser grains with radius R'.
+The main advantage of coarse graining is reducing the number of elements in a simulation which in turn lowers the computational costs.
+Another benefit of using larger grains is that the critical timestep increases as well, reducing the number of iterations required to complete a simulation.
+Coarse graining allows for large-scale simulation involving large volumes of particles while keeping computational expenses affordable.
+However, its effects on accuracy still need to be assessed carefully.
+Coarse graining has been investigated by several researchers, although their findings are not always in agreement.
+For example, Baars [4] writes that the average grain size only matters on the micro scale and “has absolutely no influence on the macro behaviour”, while Achmus and Abdel-Rahman [1] state that “a remarkable scale effect exists” and that “the parameters of the model have to be adapted by means of a new calibration procedure if the scaling factor is changed.” Coarse graining techniques were applied to industrial applications of modelling material flow through transfer chutes by Xie et al. [28], for hopper discharge processes by Grima [13], for pneumatic conveying systems by Sakai and Koshizuka [24] and industrial gas solid flows by Mori et al. [21] accounting for particle fluid interaction.
+Little work has been done on calibration and validation of DEM parameters with upscaled particles.
+Roessler and Katterfeld [23] performed simulations of the angle of repose of sand with an open ended cylinder.
+They used a scale factor up to 12.5 for both the particle and cylinder diameter to ensure the same number of particles in the simulation to effectively observe the bulk behaviour.
+They found that upscaling of both the particles and cylinder diameter had no significant effect on the results of the angle of repose for a constant cylinder diameter to particle size ratio.
+With such approach the computing time is not reduced since the number of particles remains the same.
+Coetzee [9] used a constant drum size and upscaled non-spherical particles to investigate particle upscaling effects on the dynamic angle of repose using a linear contact model.
+With the constant drum size the particles could be scaled up to a factor 4 without compromising the bulk behaviour.
+The calibrated model was then used in a hopper setup where a maximum scale factor of 1.3 could be obtained for the discharge rate.
+While the upscaling limit determined for the vertical velocity profile (2.5) were independent for the outlet opening to particle size ratios up to 21.7. The approach in this paper is different in that we calibrate and validate the DEM model explicitly with the aim to reduce computational cost of modelling >107 particles in a real scale industrial application where the equipment penetrates and excavates the bulk material.
+For such applications particle upscaling in combination with calibration and validation has never before been investigated.
+Moreover we explicitly address the interaction between material and equipment in upscaling the particles in a penetration test with a constant realistic tool size.
+Finally, we validate the scaling approach on the industrial scale.
+This paper aims to develop a coarse graining or particle upscaling approach capturing material-equipment interaction for large-scale bulk handling equipment.
+Both the material model and the material interaction models are scaled.
+Coarse graining is a technique whereby the original particles with radius R are substituted by larger, coarser grains with radius R ′.
+The coarse grain radius R ′ can be expressed as a multiplication of the original grain radius R and a scaling factor s as shown in Eq. (1).
+For example the use of scaling factor s = 2 results in particles twice the original size.
+The accent' will be used for other parameters as well, denoting them at the coarse scale.(1)R′=sR One promising approach to coarse graining, by Bierwisch et al. [5] is based on the idea that the system with the scaled grain size should incorporate the same energy density as the original system with unscaled grains.
+As the potential energy density is independent of the grain radius if the void ratio and particle density are constant, it is necessary that the particle density of the scaled system ρ p′ be identical to that of the original system ρ p (Eq. (2)).
+According to Bierwisch et al., the proposed scaling system does not affect the volume fraction, so the potential energy density of the scaled system is comparable to the original one.(2)ρp=ρp′ Consequently, the mass of the coarse grained particles is scaled according to Eq. (3), while the moment of inertia can be found using Eq. (4).
+(3) m ′ = 4 3 π R ′ 3 ρ ′ = s 3 m (4) I ′ = 2 3 m ′ R ′ 2 = s 5 I In order to create similarity for the kinetic energy density as well, the particle velocities should be the same as in the original system.
+This means that coarse graining should not affect the accelerations and decelerations within the system.
+A system of coarse grained particles is assumed to move identically to the original system of particles (Eq. (5)), implying that the velocity of the coarse grained particle is equal to the average of the group of original particles it is representing [24].
+This satisfies the demand for a similar kinetic energy density shown in Eq. (6).(5)v′=v (6)12m′v′2=s312mv2 The contact stiffness and damping need to be scaled accurately as well, in order to maintain the same energy losses experienced in inelastic collisions.
+In this paper, normal and tangential contact models as per Hertz Mindlin are used:(7)Fn=Fk,n+Fd,n=knδn32en+cnvn32knδn14 (8)Ft=Fk,t+Fd,t=ktδnδtet+ctvtktδn14 kn and k t are the normal and tangential stiffness coefficients and c n and c t are the normal and tangential damping coefficients as defined in Eqs. (9) and (10), while δ n and δ t are the normal and tangential overlaps and e n and e t the normal and tangential unit vectors.(9)kn=43E∗R∗andcn=−256βm∗ (10)kt=−8G∗R∗andct=−256βm∗ Fig. 3 shows the spring-damper system in normal direction of a group of original particles as well as the coarse grain with s = 2.
+As the coarse grain doubles in size, eight of the original particles are replaced by the coarse grain.
+In order to conserve the character of the contact, the stiffness k n′ and damping c n′ of the coarse grained particle need to be the same as the equivalent stiffness k eq and damping c eq of the group of original particles.
+The equivalent stiffness of the original system k eq consists of s 2 pairs of original springs and can be derived using Eq. (11).
+The first step is to determine the stiffness k series of each of the four pairs.
+This can be done based on δ series = sδ n and the definition of k n in Eq. (9):(11)keq=s2kseries=s214Fkδseries1.5=s214Fksδn1.5=s2Fk,series/δn1.5s1.5=s2kns1.5=skn When the same equivalent Young's modulus is maintained for the coarse system (Eq. (12)),(12)E′∗=E∗the stiffness of the coarse system k n′ in Eq. (13) is equal to the equivalent stiffness of the original system k eq. For the tangential stiffness k t, the same scaling factor can be acquired.
+Therefore, the contact stiffness is identical to the equivalent stiffness of the original system.(13)kn′=43E′∗R′∗=s43E∗R∗=skn=keq Eq. (14) shows that the equivalent damping coefficient c eq can be obtained by computing the damping of the s 2 series of springs.
+The damping of each series of springs c series can be determined based on the definition of c n in Eq. (9), δ series = sδ n and the scaling factors for v n (Eq. (5)) and k n (Eq. (13)).(14)ceq=s2cseries=s214Fdvserieskseriesδseries1.5=s214Fdvnkns1.5sδn1.5=s214Fdsvnknδn1.5=s2Fd,series/vnknδn1.5s=s2cns=s1.5cn Eq. (15) then shows that the damping coefficient c n′ of the coarse grain is identical to the equivalent damping c eq. For the tangential damping c t, the same scaling factor can be calculated.
+This confirms that the energy losses due to inelastic collisions are the same for the original and the coarse grained system.(15)cn′=256βm′∗=s1.5256βm∗=s1.5cn=ceq Normal contact forces acting on the particles in the coarse grained system are estimated to be s 3 times larger than in the original system [6].
+This means that the entire group of original particles is considered to be in the same collision as the coarse grained particle.
+The tangential force F t′ in the coarse grained system computed using the same static friction coefficient μ s, as shown in Eq. (16).(16)Ft′=μsFn′=μss3Fn For the contact model with rolling motions, the rotational energy of the coarse grained system also needs to be comparable with the original system (Eq. (17)).
+When rotation is considered, both the original particles and the coarse grain rotate around their respective centre of mass.
+Rotation around other particles is only taken into account when this leads to a rotational velocity θ̇.
+By ensuring that rotational energy is similar, the coarse grain system can be compared to the original system.(17)12I′θ̇′2=s312Iθ̇2 The torques on the coarse grains depend on the contact forces and the radius of the particle, and accordingly the torque is now s 4 times higher than the original torque.
+This is also true for the rolling friction torque.
+Eq. (18) shows the rotational velocity of the coarse grained particle θ ̈' when the coarse grain's torque and moment of inertia (Eq. (4)) are taken into account.
+The resulting angular velocity of the coarse grain satisfies Eq. (17), confirming that the coarse grain has the same rotational energy as the group of original particles and consequently that similarity between the original system and the coarse grain one has been achieved.(18)θ ̈′=T′I′=Ft'R′+μrFn'R′I′=s3FtsR+μrs3FnsRs5I=1sθ ̈ This shows that the coarse grain system has the same energy components as the original one.
+These identical components are the potential energy, the kinetic energy, the dissipation of energy through damping and the rotational energy.
+DEM material models for iron ore pellets in interaction with a grab unloader have been developed by Lommen [20], using two angle of repose tests (ledge and cone test) and a penetration test.
+These tests were selected to represent the characteristic material behaviour and the material interaction behaviour in grabs.
+Fig. 5 shows the ledge and cone angle of repose tests while the penetration test and its tools are shown in Figs. 4 and 6 .
+For the penetration test the size and shape of tool A are similar to the tool used by Asaf et al. [3]), while the two other tools B and C are of equal length and have the same angle, but both have a blunt tip.
+The experimentally measured angle of repose with the ledge test and cone test were 41 and 26 degrees, respectively.
+The iron ore pellets are approximately spherical particles with a diameter between 8 and 14 mm.
+The particle size distribution is shown in Fig. 7 and can be approximated with a normal distribution with an average diameter of 11 mm and a normalized standard deviation of 0.1. This approximation has an R 2 of 0.9997.
+Two contact models have been used in this research; the Hertz-Mindlin model with angular movements restricted and the Hertz-Mindlin model with rolling enabled.
+The rolling-restricted model has been selected because as Bierwisch [6] suggests that this can be useful for spherical particles.
+The rolling-enabled model follows the recommendation by Ai et al. [2] to use model C [2] for quasi-static simulations.
+Following the suggestion of Wensrich and Katterfeld [26], the rolling stiffness of Iwashita and Oda [14] is used and the viscous rolling damping torque is disabled.
+The length, width and height of the ledge test measured 300 mm, 200 mm and 300 mm, respectively.
+The width of the container was 18 times the average diameter, which is lower than the minimum ratio prescribed by Zhou et al. [30] and Derakhshani et al. [10] to exclude wall effects.
+However, here possible wall effects were omitted from the results by excluding particles near the walls.
+The free cone test has been simulated in a similar rectangular set-up as the ledge test, although the filling process differs.
+Instead of filling the volume of the start of the simulation and allowing the material to settle before opening the ledge, the ledge is open and particles are generated with a constant (scale independent) mass flow rate.
+This method of creating an angle of repose resembles the free cone setup as the flowing particles create a slope by settling down.
+The drop height in the simulation is comparable to the experimental drop height making the kinetic energy in the system similar.
+No significant effect of the rectangular setup was expected as possible wall effects were omitted from the results by excluding particles near the walls.
+The DEM input parameters are summarized in Table 1 .
+Two additional input parameters are required with the rolling model: the rolling friction coefficients μ r and φ r.
+These two coefficients influence the rolling behaviour of interparticle contacts and of contacts between particles and equipment, respectively.
+Both material models were calibrated by minimising the difference between experimental and simulation results for both AoR tests leading to the set of parameters in Table 1.
+The DEM input parameters are able to predict the penetration resistance of three different tools in iron ore pellets very well.
+Figs. 8 and 9 show the resistance as the three tools penetrate the iron ore pellets.
+The mean and 95% confidence intervals are plotted based on 10 repetitions of experiments and 10 repetitions for simulations.
+The effect of coarse graining was also investigated using a penetration test, as this is key to modelling material-equipment interaction in grab unloading and other operations involving penetration.
+This penetration test is similar to those described in the calibration, although there are some differences: it uses (blunter) tool shape C from Fig. 6, a penetration rate of 100mms and a maximum penetration depth of 300 mm in order to approximate grab penetration more closely.
+The penetration test has been modelled in such a way that the resistances of the tip and shaft are measured separately.
+The tip is defined as the part of the tool where the cross is still expanding until it reaches the maximum width of 40 mm.
+For tool A and C this defines the shaft height as 225 mm and 265 mm, respectively.
+The used tool length was 200 mm for s = 1.
+For the course grained simulations the tool length, depth and width of the box was scaled with s.
+The width of the box was large enough to exclude wall effects.
+The tool length was also increased with scalefactor s to have a comparable number of particle contacts over the length of the tool.
+The penetration resistance measured in the simulations of s = 2 to s = 5 were related to the tool length of s = 1 as to compare the results.
+For tool C with a tip size of 20 mm the ratio of the tip and particle diameter is between 1.8(s = 1) and 0.36(s = 5), while for the sharp tool (tool A) the ratio is about 0 regardless of the particle scale.
+The penetration resistance of the calibrated particles (s = 1) and of four coarser materials is shown in Fig. 11 for tool C and in Fig. 12 for tool A.
+It can be observed that for both tools the resistance on the tip increases when the grains become larger, averaging an additional 16% and 18% for each step in grain size for tool C and A respectively.
+This small difference might be explained by the smaller number of repetitions performed for tool A simulations.
+Splitting the bulk material into two parts to slide along the shaft is significantly harder for coarser grains since they have to move further to the sides before the tool to pass, leading to higher normal forces and frictional forces on the tip and requires more movement underneath the tool.
+It is likely that the assumption that the coarse grain moves in a similar way to the original system no longer holds during penetration.
+In short, resistance gains as grain size increases, due to the dependence of the penetration process on the particle size.
+The resistance on the shaft is 3–5% of the tip resistance, and does not display such a strong effect as at the tip.
+The small difference between the original system and the coarser ones is possibly caused by the shaft area close to the tip experiencing slightly higher compressive forces due to the additional particle movements required to split the coarser systems.
+The difference in shaft resistance between tool A and C for the coarser grains might be explained by the lesser repetitions and difference in effective shaft height for tool A (225 mm) and tool C (265 mm).
+All the other contacts between the bulk material and the shaft are scaled without affecting the resistance, confirming the validity of coarse graining scheme except for tip forces.
+As the reduction of computational expenses is essential for the virtual prototyping of grabs, ways of mitigating the effects on the splitting of the bulk material have been investigated.
+Since the coarse grains behave adequately in the angle of repose test and for the shaft friction, a solution that incorporates changing behaviour in these tests is ruled out.
+This leads to a solution that changes the contact behaviour of the tip; for example, assigning different contact properties to the tip-particle contacts.
+The tip-particle contacts can be altered in several ways; for example, in their stiffness, damping and sliding behaviour.
+Lowering the stiffness of the particle-tip contacts would make the overlap higher than obtained from Lommen et al. [19] or the value recommended by Cleary [8] and so compress the bulk material, resulting in undesirable local density concentrations around the tip.
+Also, the transfer of a contact from the tip to the shaft would lead to problems since a jump in stiffness would result in undesired jumps in overlap.
+Damping of the contacts did not show any effect on the sensitivity analysis from the previous chapter since contact velocities are low and are therefore not expected to aid in reducing the penetration resistance.
+Adjusting the sliding coefficient of the tip is in fact the most promising solution, since it reduces the additional friction forces caused by the additional travel of the coarse grains to normal proportions.
+Consequently, the sliding behaviour of the tip-particle contacts is selected to resolve the increase in tip forces caused by the coarse graining scheme.
+Influencing the penetration by lowering the wall friction coefficient of the tip on tool C is investigated by assigning a different value to the tip while the wall friction coefficient of the shaft remains unaffected.
+Fig. 13 shows that, for coarse grains with s = 4, the wall friction needs to be reduced to φ w′ = 0.05 in order to achieve the same the penetration characteristics as the original system.
+It appears that the limit for coarse graining of penetration is reached at s = 5, since the wall friction cannot be reduced further and it is no longer possible to compensate for the coarser grains.
+For the material model with rotation restriction both tip friction coefficients φ w′ and φ r′ have been adjusted.
+Fig. 14 shows that the material model including rolling needs more compensation, resulting in an upper limit of s = 3 for the coarse graining of the penetration.
+By applying reduced tip-particle friction coefficients both material models can be coarse grained while maintaining the penetration characteristics of the original system.
+It is expected that due to the lower tip resistance slightly lower reduced wall frictions are expected to compensate for tool A, this suggest that slightly higher scale factors can be used for sharp tool shapes.
+The reason for the difference in the observed maximum scale factors has not yet been fully understood, and could be further investigated by analysing the particle behaviour in close vicinity to the penetration tool and thereby linking particle level behaviour to bulk response.
+The coarse graining scheme leads to a considerable reduction in computational costs and cuts simulation time for a large-scale grab.
+For the material model excluding rotation, the maximum scaling factor of s = 5 reduces the computing time from an estimated 104 hours to just under 18 h.
+The material model including rolling model C can be coarse grained with s = 3, resulting in a computing time of five days.
+With the help of these reductions, the coarse grain material model can now be used to complete full-scale grab simulations within days, instead of years, without significant consequences.
+Achieving a reasonable computational time remains important specifically for application of optimisation algorithms.
+Angle of repose simulations were performed to investigate the effect of coarse graining on the simulated shearing behaviour.
+Fig. 10a shows the angle of repose of particles with a diameter of 7.5 mm and coarse grains with s = 2 (diameter of 15 mm) and s = 4 (diameter of 30 mm), all without rolling.
+For the results displayed in Fig. 10a a fixed box was used.
+It can be observed that the angles produced are comparable, although for very gentle angles the coarse grains with d = 30mm show a steeper angle than the original system.
+It is possible that this is an effect of the limited number of elements in the coarse grain simulations, disturbing the accuracy of the angle measurements.
+For the course grained simulations of the ledge and cone test the dimensions of the box were scaled with s, and for the free cone test the mass flow per unit width was kept constant.
+The results for the material model with rotational motions are shown in Fig. 10b, where it can be observed that the scaling factor does not significantly affect the outcome of the simulations.
+These results demonstrate that the proposed coarse graining scheme is able to predict the shearing behaviour of particles regardless of the chosen scale.
+The effect of coarse graining was also investigated using a penetration test, as this is key to modelling material-equipment interaction in grab unloading and other operations involving penetration.
+This penetration test is similar to those described in the calibration, although there are some differences: it uses (blunter) tool shape C from Fig. 6, a penetration rate of 100mms and a maximum penetration depth of 300 mm in order to approximate grab penetration more closely.
+The penetration test has been modelled in such a way that the resistances of the tip and shaft are measured separately.
+The tip is defined as the part of the tool where the cross is still expanding until it reaches the maximum width of 40 mm.
+For tool A and C this defines the shaft height as 225 mm and 265 mm, respectively.
+The used tool length was 200 mm for s = 1.
+For the course grained simulations the tool length, depth and width of the box was scaled with s.
+The width of the box was large enough to exclude wall effects.
+The tool length was also increased with scalefactor s to have a comparable number of particle contacts over the length of the tool.
+The penetration resistance measured in the simulations of s = 2 to s = 5 were related to the tool length of s = 1 as to compare the results.
+For tool C with a tip size of 20 mm the ratio of the tip and particle diameter is between 1.8(s = 1) and 0.36(s = 5), while for the sharp tool (tool A) the ratio is about 0 regardless of the particle scale.
+The penetration resistance of the calibrated particles (s = 1) and of four coarser materials is shown in Fig. 11 for tool C and in Fig. 12 for tool A.
+It can be observed that for both tools the resistance on the tip increases when the grains become larger, averaging an additional 16% and 18% for each step in grain size for tool C and A respectively.
+This small difference might be explained by the smaller number of repetitions performed for tool A simulations.
+Splitting the bulk material into two parts to slide along the shaft is significantly harder for coarser grains since they have to move further to the sides before the tool to pass, leading to higher normal forces and frictional forces on the tip and requires more movement underneath the tool.
+It is likely that the assumption that the coarse grain moves in a similar way to the original system no longer holds during penetration.
+In short, resistance gains as grain size increases, due to the dependence of the penetration process on the particle size.
+The resistance on the shaft is 3–5% of the tip resistance, and does not display such a strong effect as at the tip.
+The small difference between the original system and the coarser ones is possibly caused by the shaft area close to the tip experiencing slightly higher compressive forces due to the additional particle movements required to split the coarser systems.
+The difference in shaft resistance between tool A and C for the coarser grains might be explained by the lesser repetitions and difference in effective shaft height for tool A (225 mm) and tool C (265 mm).
+All the other contacts between the bulk material and the shaft are scaled without affecting the resistance, confirming the validity of coarse graining scheme except for tip forces.
+As the reduction of computational expenses is essential for the virtual prototyping of grabs, ways of mitigating the effects on the splitting of the bulk material have been investigated.
+Since the coarse grains behave adequately in the angle of repose test and for the shaft friction, a solution that incorporates changing behaviour in these tests is ruled out.
+This leads to a solution that changes the contact behaviour of the tip; for example, assigning different contact properties to the tip-particle contacts.
+The tip-particle contacts can be altered in several ways; for example, in their stiffness, damping and sliding behaviour.
+Lowering the stiffness of the particle-tip contacts would make the overlap higher than obtained from Lommen et al. [19] or the value recommended by Cleary [8] and so compress the bulk material, resulting in undesirable local density concentrations around the tip.
+Also, the transfer of a contact from the tip to the shaft would lead to problems since a jump in stiffness would result in undesired jumps in overlap.
+Damping of the contacts did not show any effect on the sensitivity analysis from the previous chapter since contact velocities are low and are therefore not expected to aid in reducing the penetration resistance.
+Adjusting the sliding coefficient of the tip is in fact the most promising solution, since it reduces the additional friction forces caused by the additional travel of the coarse grains to normal proportions.
+Consequently, the sliding behaviour of the tip-particle contacts is selected to resolve the increase in tip forces caused by the coarse graining scheme.
+Influencing the penetration by lowering the wall friction coefficient of the tip on tool C is investigated by assigning a different value to the tip while the wall friction coefficient of the shaft remains unaffected.
+Fig. 13 shows that, for coarse grains with s = 4, the wall friction needs to be reduced to φ w′ = 0.05 in order to achieve the same the penetration characteristics as the original system.
+It appears that the limit for coarse graining of penetration is reached at s = 5, since the wall friction cannot be reduced further and it is no longer possible to compensate for the coarser grains.
+For the material model with rotation restriction both tip friction coefficients φ w′ and φ r′ have been adjusted.
+Fig. 14 shows that the material model including rolling needs more compensation, resulting in an upper limit of s = 3 for the coarse graining of the penetration.
+By applying reduced tip-particle friction coefficients both material models can be coarse grained while maintaining the penetration characteristics of the original system.
+It is expected that due to the lower tip resistance slightly lower reduced wall frictions are expected to compensate for tool A, this suggest that slightly higher scale factors can be used for sharp tool shapes.
+The reason for the difference in the observed maximum scale factors has not yet been fully understood, and could be further investigated by analysing the particle behaviour in close vicinity to the penetration tool and thereby linking particle level behaviour to bulk response.
+The coarse graining scheme leads to a considerable reduction in computational costs and cuts simulation time for a large-scale grab.
+For the material model excluding rotation, the maximum scaling factor of s = 5 reduces the computing time from an estimated 104 hours to just under 18 h.
+The material model including rolling model C can be coarse grained with s = 3, resulting in a computing time of five days.
+With the help of these reductions, the coarse grain material model can now be used to complete full-scale grab simulations within days, instead of years, without significant consequences.
+Achieving a reasonable computational time remains important specifically for application of optimisation algorithms.
+For a large-scale simulation of a grab unloader a model describing the movements of the grab needs to interact with the DEM model.
+According to Wittenburg [27], multibody dynamics (MBD) deals with systems composed of rigid bodies interconnected by joints and force elements.
+The technique allows the behaviour of these systems to be described in mass-, damping- and stiffness matrices, offering the possibility to solve complex systems with a large number of bodies numerically.
+Research by Brans [7]; Park et al. [22]; Yoo et al. [29] and Langerholc et al. [15] shows that MBD is a suitable tool for the modelling of complex large-scale rigid body mechanisms such as grab unloaders.
+In this paper the grab is modelled with MBD based on Lommen et al. [17,18].
+The previous section presented a general coarse graining approach as well as an adapted approach for penetration processes, which consists of adapted wall friction coefficients for the tip of the blades with toolshape C.
+This adaptation is applied to the tip of the blades of the grab geometry.
+The MBD model is coupled with the DEM model as per Lommen et al. [16], resulting in the co-simulation shown in Fig. 15 .
+The maximum grain size for the rolling-C model has been determined in (Section 4.2) at s = 3, which is lower than the s = 5 for the no-rolling model.
+As a result, a co-simulation with 77 m3 requires 4.6 times more particles, increasing the computational costs.
+Fig. 16 shows the effect of coarse graining on the filling of the grab, with and without compensation for the penetration behaviour.
+Clearly, the increase in grain size results in a decline in the mass of material grabbed when there is no compensation for the increase in penetration resistance.
+When the compensation discussed in Section 4.2 is taken into account, this effect disappears and the predicted amount becomes independent on the selected particle scale - an independence which demonstrates that the adapted coarse graining technique can be used in large-scale grab simulations to save considerable amounts of computation effort without compromising the results.
+In the case of the grab discussed in this paper, the limit for particle upscaling is equal to five times the original size, while the length scale of the particles remains much smaller than the length scales of the grab.
+In this work the coarse graining technique was used to demonstrate that a group of particles can be replaced by a single, coarse particle as long as the particle process is not inherently dependent on the grain size.
+This work focussed on the particle upscaling in relation to material behaviour, as well as the effect of particle upscaling on material equipment interactions for tool penetration and sliding regimes.•The particle upscaling relationships have been theoretically derived and tested for two contact models; Hertz-Mindlin (no-slip) with rolling model C and with rolling of the particles restricted.
+The coarse grained system contains identical quantities of potential, kinetic, rotational and dissipated energy as the original system.
+This was confirmed in simulations of the angle of repose, where the shearing behaviour of coarse grains matched that of the original material model.•The material equipment interaction tested by means of two tool shapes showed that the resistance on the shaft is 3 − 5% of the tip resistance.•The sliding resistance on the shaft of the penetration tool is constant for the tested grain sizes and can be concluded to be scale invariant for quasi static sliding interactions.
+This scale invariance is likely to hold for other flow regimes with sliding contacts as well.•The penetration resistance of the tip is dependent on the grain size.
+Coarse graining of the penetration resulted in an increase of 16% in resistance on the tip of the blunt shaped penetration tool when the grain size was doubled.•A compensation was succesfully applied by lowering the sliding friction of the penetrating tip for coarser grains, bringing the resistance back to normal levels.
+The maximum compensation possible is applying a particle wall friction coefficient of 0 at the tip.•For industrial processes involving penetration of tools, such as bucket elevators, bucket reclaimers and grabs, the maximum applicable course graining scaling factors are limited by the dominant material equipment interaction.•The particle upscaling was succesfully demonstrated and confirmed for an industrial setting for both contact models; Hertz-Mindlin (no-slip) with rolling model C and with rolling of the particles restricted.
+The obtained scalingfactors are 3 and 5 respectively and are limited by the above mentioned particle scale variance of the tip resistance of the penetrating tool.
+With the maximum scale factors the length scales of the particles remain much smaller than the length scales of the grab.•The coarse graining technique resulted in a reduction of the duration of the iron ore pellet grab simulation of 55 times, while the performance and calibrated behaviour including penetration resistance remained constant.
+In conclusion, particle upscaling can be applied succesfully although specific grain size dependent interactions should be identified, evaluated and adapted.
+The representative selected calibration tests can be used to identify specific particle size variant material equipment interactions and adapt them accordingly.
+When coarse graining schemes are carefully applied depending on the case at hand, this technique can then help users to undertake large-scale DEM simulations without affecting results.
+For the excavation process studied in this paper we found different scale factors than previous research aiming at the calibration of DEM parameters for upscaled particles [9,23] which confirms the dependence on process, characteristic equipment size and, possibly, contact models.
+Further work is required to outline the limits and applicability range for particle upscaling.

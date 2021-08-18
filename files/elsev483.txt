@@ -1,0 +1,7 @@
+This study presents a new lightweight corundum refractory (LCR) used for working linings of high-temperature furnaces.
+The LCR contained microporous corundum aggregates replacing tabular corundum aggregates in traditional corundum refractories (TCR).
+The median pore size of the microporous corundum aggregates was 4.20 μm, while the bulk density was 20.3% lower than that of the tabular corundum aggregates.
+The microstructure, cold modulus of rupture (CMOR) and fracture behavior of the LCR in comparison with those of the TCR were analyzed by mercury porosimetry, SEM and three-point bending tests.
+The results showed that the LCR had a better bonding at the interface between the microporous corundum aggregates and the matrix, which increased the percentage of crack propagation within the aggregates.
+Thus, the mechanical properties of the LCR was effectively enhanced.
+Compared with the TCR, the LCR had an 8.2% lower bulk density, while a 64.9% higher CMOR and a 38.2% higher fracture energy were achieved.

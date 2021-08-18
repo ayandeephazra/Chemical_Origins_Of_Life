@@ -1,0 +1,7 @@
+UZr2 has been synthesized using the arc-melting technique.
+At ambient the compound is found to crystallize in a modified C32, AlB2 type structure, called δ-structure and it remains stable up to 20 GPa.
+However, an anomalous decrease of c/a ratio has been observed in different pressure intervals at ambient temperature.
+At elevated temperature c/a ratio, shows a marginal increase with pressure.
+The bulk modulus and its pressure derivative at ambient temperature are found to be 108.3 GPa and 5.0, respectively.
+High-pressure and high-temperature studies reveal a softening in the material at higher temperatures.
+The thermal expansion coefficients are found to decrease from 4.6 × 10−5 K−1 at 1.2 GPa to 2.7 × 10−5 K−1 at 6.6 GPa in the temperature range 300 K–473 K.

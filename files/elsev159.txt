@@ -1,0 +1,6 @@
+In this study, a novel approach of silica-PVA hybrid aerogel synthesis is presented based on the simultaneous sol-gel reaction of the silica precursor tertramethoxysilane (TMOS) and thermally impacted non-solvent induced phase separation of polyvinyl alcohol (PVA).
+The method based on: (1) water from PVA solution is required for hydrolysis of TMOS; (2) methanol from TMOS solution, is a non-solvent for PVA.
+In the result of sol-gel reaction, phase separation and drying during extraction with supercritical CO2, the hybrid SiO2-PVA aerogels were obtained.
+Results indicated that, incorporation of the silica network into the PVA network caused an increase of the specific surface area up to 618 m2/g from 38.3–110 m2/g for pure PVA.
+The Young's modulus was associated with the bulk density.
+The obtained hybrid SiO2-PVA aerogels are a result of two phenomena – the chemical reaction of silica precursor (sol-gel process) and the physical transformation in PVA solution (phase separation).

@@ -1,0 +1,7 @@
+In the present work, thermodynamic properties of the Yb-Sb system have been studied by first-principles based quasiharmonic phonon approach, reporting the temperature-dependent isobaric heat capacity, entropy, formation enthalpy, isothermal bulk modulus, and thermal expansion.
+The effects by using different exchange-correlation functionals and the pseudopotentials on thermodynamic properties are examined.
+The results reveal that the combined Perdew-Burker-Ernzerhof functional revised for solids (PBEsol) together with the pseudopotential with all f-electrons frozen in the core is the best choice.
+This combination leads to an overall good description of the relative phase stabilities and thermodynamic properties, except for the rocksalt YbSb compound which is calculated to have an energy of ~25 kJ/mol-atom above the convex hull.
+The discrepancy is due probably to the change of the Yb valence states between the rocksalt YbSb structure and the other Yb-Sb compounds.
+Furthermore, the present calculations show that the Yb16Sb11 compound is stable.
+The analysis of stretching force constants demonstrates that the extremely strong Yb-Sb bonding is responsible for the stabilities of Yb11Sb10, Yb16Sb11, h-Yb5Sb3, and Yb4Sb3 at high temperatures.

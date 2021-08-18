@@ -1,0 +1,7 @@
+Milk protein concentrate (MPC) is an attractive high protein and low lactose containing ingredient.
+However, its utilization in extruded products remains a challenge because of its sensitivity to high temperature and shear.
+This study compares the physicochemical properties of MPC80 extrudates generated with steam vs. supercritical CO2 (SC–CO2)-based extrusion.
+Compared to steam, SC-CO2 extrudates prevented Maillard browning, evident in a significant (P < 0.01) increase in lightness (87.57–89.65), decreased yellowness (16.06–8.31), and increased whiteness (79.49–86.59) indices.
+SC-CO2 samples had a radial expansion ratio 52% higher than steam and correlated with a reduction in piece and bulk densities (0.21–0.07 g/cm3 and 0.16 to 0.04 g/cm3).
+The internal morphological structures visualized with SEM showed SC–CO2–expanded extrudates possessing substantially smaller cells and higher cell density.
+Texture analysis indicated that hardness and Young's modulus of SC-CO2 extrudates were significantly lower than those of the steam-expanded extrudates (35.71–18.35 N and 70.26 to 5.14 kPa).

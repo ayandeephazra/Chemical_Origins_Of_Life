@@ -1,0 +1,14 @@
+Measuring the effective stress in wellbore stability, prediction of production, and hydraulic fracturing of hydrocarbon reservoirs play a decisive role.
+In order to calculate effective stress, despite knowing the stress and pore pressure conditions, measuring of the Biot's coefficient for different rocks is required.
+The Biot's coefficient has been studied separately in previous studies using both static and dynamic methods.
+In this study, the static and dynamic values of the Biot's coefficients have been calculated simultaneously with the aid of measuring volumetric strain and compressional wave velocity, by making changes through the confining and pore pressures.
+Being equipped with an advanced triaxial system, we were able to measure the velocity of compressional waves along with the volumetric strain of the rock sample by applying hydrostatic confining pressure and pore pressures in a different state of temperature.
+Six similar samples were selected from one of the Iranian gas reservoirs, and Biot tests were conducted on three samples under ambient condition and three samples under reservoir condition (90°).
+The results showed that the value of grain modulus is not pressure-dependent, but the temperature decreased the grain modulus by about 42 percent.
+Measurements also showed that the bulk modulus is dependent on pressure and temperature, so that by raising the Terzaghi effective stress and temperature Bulk modulus increases.
+The calculation of Biot's coefficients showed that the static and dynamic Biot's coefficients are dependent on pressure and temperature so that both coefficients decrease as a result of increasing them.
+Increasing effective stress lead to a considerable decrease in the static coefficient around 6.2% and 15.1% in the ambient and reservoir conditions in turn.
+Also, with applying heat, the dynamic Biot's coefficient in Terzaghi effective stress of 2–8 and 8–20 MPa witnessed a remarkable decline about 8.4 and 17.1%, respectively.
+The results of the experiment show a good correlation between dynamic and static coefficients.
+Also, the reducing effect of temperature on the Biot's coefficient at high pressures is higher than this effect for low pressure in both static and dynamic conditions.
+Moreover, reducing trend of pressure on Biot's coefficients has a more significant impact in the reservoir condition than ambient condition.

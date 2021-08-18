@@ -1,0 +1,8 @@
+We explore relationships among bulk modulus, crack density, and permeability through repetitive loading of Marcellus shale.
+Cumulative cyclic stressing (22–26 MPa with confinement of 24 MPa) is applied at a frequency of 0.05 Hz over 100,000 cycles.
+Changes in acoustic velocities are used to follow changes in dynamic bulk modulus, Poisson ratio, and crack density and to correlate these with bedding-parallel measurements of methane permeability.
+The shale is represented as an orthotropic elastic medium containing a dominant, noninteracting fracture set separated by thin laminae.
+An effective continuum model links permeability evolution to the evolution of the bulk modulus and crack density.
+Bulk modulus is linearly related to crack density by a scaling parameter representing rock fabric and fracture geometry.
+The Poisson ratio and bulk modulus of the intact, uncracked shale are approximated from our data.
+We propose a method for tracking permeability evolution of finely laminated shales using acoustic waves.

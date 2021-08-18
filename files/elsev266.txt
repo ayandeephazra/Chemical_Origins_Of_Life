@@ -1,0 +1,8 @@
+Continuous estimates of penetrometer resistance (Q) would be useful in root elongation and in soil management studies.
+However, penetrometers produce estimates of penetration resistance at discrete time points.
+In this paper, a method with the potential to provide continuous estimates of penetrometer resistance is developed.
+We use measurements of soil water content, shear wave velocity (Vs ) determined from piezo electric devices, and bulk density (ρb ) determined with the heat pulse (HP) method, to estimate penetrometer resistance.
+Soil samples of a loamy sand were packed into cylinders with axial pressures of 50, 100, and 200 kPa, and allowed to equilibrate at matric potentials of −2, −6, −10, −30, −100, −300, and −500 kPa.
+Thermal conductivity (λ), Vs and Q were measured after equilibration.
+A λ-based approach was applied to estimate ρb , and small strain shear modulus (G) was calculated from ρb and Vs .
+Our results confirmed a linear relationship between Q and G (where G = Vs 2 ρb ), which provides a basis to estimate penetrometer data in the field using buried sensors and a physically based model.

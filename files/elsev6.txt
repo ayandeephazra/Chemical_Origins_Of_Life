@@ -1,0 +1,6 @@
+The effects of cooling rate on the structure and properties of lithium disilicate (LS2) glass are investigated using molecular dynamics (MD) computer simulations.
+The evolution of structural features such as pair distribution function, bond angle distribution, and Li coordination distribution are determined, and correlated with dynamic and static properties to elucidate the effects of cooling rate.
+The density, elastic moduli, and diffusion coefficient are found to be highly sensitive to cooling rate, whereas the Si pair distribution function and bond angle distribution are weakly affected by the cooling rate.
+Additionally, the changes of Si-O-Si bond angle and Li coordination number suggest the formation of Li cluster at lower cooling rates.
+Furthermore, by comparing results from other simulations and reported experiments, we confirm that the increase of cooling rate leads to an increase of conductivity and a decrease of density.
+At very high cooling rates, we find that all the atoms in LS2-glass do not relax simultaneously, but do so in two distinct configurations.

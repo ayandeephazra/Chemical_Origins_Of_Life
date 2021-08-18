@@ -1,0 +1,10 @@
+Defects have a decisive influence on the performance of III-V devices.
+In this paper, we systematically investigated the native point defects and impurities in group III nitride semiconductors X-N (X = Al, Ga, In) using density functional theory calculations.
+We studied the geometric and mechanical properties of these nitrides first, the bulk moduli were calculated and analyzed.
+Then by considering both anion-rich and cation-rich conditions, formation energies and corresponding thermodynamic charge transition levels of these defects were presented.
+Specifically, our results indicate the elastic stiffness is reduced with the introduction of defects.
+The nitrogen antisite, the magnesium-nitrogen substitution, and oxygen-X (X = Al, Ga, In) substitution have the most significant decrease in the bulk moduli, which are consistent with their formation energies.
+For native defects, the nitrogen vacancies are the most stable ones, but still are energetically unfavorable for the experimentally detected n-type conductivity of these nitrides.
+Interstitials and antisite defects are uneasy to be formed in n-type situations, but they could act as acceptors in p-type nitrides.
+For magnesium and oxygen impurities, our results have shown that the magnesium usually acts as p-type dopants, and the incorporated oxygen impurities could be the reason for the experimentally detected n-type conductivity.
+By studying and understanding the properties of these defects and impurities, we address new possibilities for designing and performance improvement of the group III nitride devices.

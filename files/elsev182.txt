@@ -1,0 +1,13 @@
+Optical properties and thermodynamic stability of BSb1-xNx ternary alloys in zinc blende structure are investigated by employing the first-principles calculations based on the density functional theory.
+We have evaluated BSb1-xNx ternary alloys for 0 ≤ x ≤ 1 using special quasi-random structures with 16 atoms.
+The generalized gradient approximation of Perdew et al. (PBEsol-GGA) was used as the exchange correlation potential to calculate the structural properties at different nitrogen concentrations x (0 ≤ x ≤ 1).
+The lattice parameter (a), bulk modulus (B) and pressure derivative of bulk modulus (B′) have been evaluated and analyzed for ternary alloys.
+Our obtained results show that the lattice parameter of BSb1-xNx decreases with nitrogen concentration (x) while its bulk modulus increases.The enthalpy of mixing ( Δ H m ) is calculated in the whole composition range.
+The obtained phase diagrams indicate a significant phase miscibility gap.
+The calculated critical temperature is found to be 246.6 K.
+The electronic properties of these ternary alloys were predicted using the Tran–Blaha-modified Becke–Johnson (TB-mBJ) scheme.
+The band gap of BSb1-xNx positively deviate from Vegard's law.
+The optical response functions such as dielectric function and, complex refractive index are determined for BSb1-xNx in the zinc-blende structure.
+In general, our results are in agreement with the available experimental and theoretical data reported in the literature.
+The investigation of the optical response functions for BSb1-xNx ternary alloys is reported for the first time.
+The calculation endorses that the BSb1-xNx ternary is a promising candidate for optoelectronics.

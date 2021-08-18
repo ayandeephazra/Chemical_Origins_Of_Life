@@ -1,0 +1,10 @@
+Tungsten-particle (Wp)-reinforced bulk-metallic-glass composites (Wp/BMGCs) with a Wp volume fraction of 0%–50% were prepared by spark plasma sintering (SPS).
+The sintering process parameters were optimized through an orthogonal experiment.
+With increasing volume fraction of Wp, the compressive yield strength of the Wp/BMGCs decreased, while their ultimate strength and plastic strain increased.
+Nanoindentation experiments revealed that the elastic modulus and hardness of the composites increased with increasing volume fraction of Wp.
+The elastic modulus mismatch between the tungsten particles and metallic glass matrix resulted in a stress concentration at the interface of the two phases, promoting the initiation and propagation of shear bands in the metallic glass matrix.
+Fracture morphology analysis of the composites showed that the failure mode of the composites was shear fracture mode, which is beneficial to the self-sharpening of the composites.
+With increasing volume fraction of Wp, the plastic deformation of Wp became more obvious, and the deformation was most obvious near the shear fracture surface.
+The degree of plastic deformation of Wp in the region far away from the shear fracture surface gradually decreased.
+In addition, the reliability of the mechanical properties of Wp/BMGCs sintered in the same preparation parameters was verified by three-parameter Weibull statistical analysis.
+These results help deepen our understanding of the preparation and mechanical properties of Wp/BMGCs and further promote their application.

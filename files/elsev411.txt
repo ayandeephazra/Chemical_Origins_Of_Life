@@ -1,0 +1,7 @@
+Beginning with the simplification of Gassmann's fluid substitution equation, we propose a simplified bulk modulus of saturated rock in terms of fluid bulk modulus and porosity.
+Using relationship between reflection coefficients and scattering function, we derive a linearized PP-wave reflection coefficient as a function of fluid bulk modulus and modified porosity, and we also present the corresponding elastic impedance, which is useful for modeling how fluids affect seismic reflection amplitudes.
+The accuracy of derived reflection coefficient is confirmed in the case of maximum incidence angle being around 30°.
+Using the derived reflection coefficient and EI, we establish an inversion approach to estimate fluid bulk modulus and porosity from observed seismic data, which involves 1) the estimation of EI from partially stack seismic data, and 2) the extraction of fluid bulk modulus from estimated EI datasets.
+The extraction of fluid bulk modulus is implemented using a nonlinear inversion approach.
+Using the derived elastic impedance we compute the gradient of energy residual with respect to model vector directly, which allows us to implement the nonlinear inversion stably.
+Synthetic tests confirm the stability and robustness of the proposed inversion approach, and applying the inversion approach to a real dataset we obtain meaning results of fluid bulk modulus that are valuable for fluid identification in reservoirs.

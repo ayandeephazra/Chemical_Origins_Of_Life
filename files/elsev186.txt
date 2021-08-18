@@ -1,0 +1,13 @@
+Objectives Using standardized aluminum tooth models, this study: 1) measured the deflection along the cusp wall of models with a Class II cavity restored using either bulk filling or horizontal incremental filling techniques, and 2) calculated the cusp deflection and built-in stress within the restored tooth models for both filling techniques using a finite element (FE) model.
+Methods Standardized tooth models with Class II cavities 4 mm deep, 4 mm high and 6 mm wide were machined out of aluminum.
+The models were restored using Filtek Posterior Restorative A2 shade resin-based composite (RBC).
+Both bulk filling and horizontal incremental filling techniques were used to restore the tooth models.
+After photocuring for 20 s from a single peak wavelength light-curing unit (LCU) with a radiant exitance of 1.25 W/cm2, the deflection of the cusp wall surface was measured using a profilometer.
+A FE model was used to predict the cuspal deflection and built-in stress of the restored tooth models.
+Results The elastic modulus within the FE model was parameterized using cusp deflection data obtained on a bulk filled tooth model.
+An agreement was found between the measured and predicted cusp deflection only when considering partial stress relaxation within the first incremental layer for the two-layer incremental filling technique.
+The calculated built-in stress was significantly reduced within the RBC and along the cavity walls when the cavity was filled incrementally in a horizontal direction compared to when it was bulk filled, resulting in a significantly smaller cusp deflection.
+Significance The FE model was first calibrated and then validated using measured cusp deflection data.
+Partial stress relaxation may play a significant role in the horizontal incremental filling technique.
+The model can be used to predict where the built-in stress within the tooth model occurs.
+This study explains why for a given RBC, a horizontal incremental filling and curing technique results in lower built-in stress within the restored tooth and lower cusp deflection compared to the bulk curing technique.

@@ -1,0 +1,14 @@
+The relationship between interfacial and bulk emulsion viscoelasticity is investigated.
+Water-in-dodecane reverse Pickering emulsions, with a dispersed phase volume fraction of 0.66, stabilized with partially hydrophobic silica particles are addressed.
+Interfacial and bulk viscoelastic properties are probed via 2D and 3D oscillatory shear rheology.
+The silica particles concentration and NaCl content have been varied.
+In the whole range of concentrations studied the elastic modulus (G′) remains always greater than the viscous modulus for 2D and 3D rheology.
+The viscoelastic behavior can be related to the silica concentration both at the interface and in the emulsion.
+Power law dependences towards the silica content are recorded for the interfacial and the bulk emulsion elastic modulus.
+When increasing the NaCl concentration, the viscoelastic properties both at the interface and in the emulsion become stronger.
+The amount of silica and NaCl produces similar effects on both the interface and bulk viscoelastic properties.
+The increase of their concentration induces a rigidification of the dodecane/water interface since G P ′ (interface) increases.
+Such interfacial hardening produces a rigidification of the droplets ( G P ′ (Emulsion) is enhanced).
+Correlations between the interfacial and bulk emulsion viscoelasticity are also extracted from the experimental data.
+This is the first time that these kinds of relationship are reported.
+These results highlight that everything that affects the interfacial viscoelasticity is reflected on the bulk scale of emulsions.

@@ -1,0 +1,5 @@
+Oral solid dosage forms, the most widely used pharmaceutical products, are typically manufactured through a series of processes that transform a blend of drug and excipient particles into a densified product with consistent quality attributes.
+While the densification of powder during processing is crucial and directly impacts the quality of the drug product, there is still scarcity of non-destructive and fast sensor systems that provide access to the powder density at critical process stages.
+This review discusses methods for monitoring density variations of particulate matter by describing their principles and presenting application examples.
+The techniques discussed range from common in-line methods such as near-infrared spectroscopy, acoustic emission and ultrasonic methods as well as techniques with potential to be more frequently applied in a pharmaceutical manufacturing line, i.e., terahertz spectroscopy and imaging, microwave technique, electrical tomography and X-ray based methods.
+This review also compares these techniques in terms of measurement and data processing time, resolution and its ability to be integrated in a process.

@@ -1,0 +1,7 @@
+A new series of Ti40Zr10Cu36−xPd14Gax (x = 2, 4, 8 and 10) alloys with improved plasticity and glass-forming ability (GFA) are produced.
+The strategy is to create local structural heterogeneity in Ti-based bulk metallic glasses (BMGs) by alloying with a soft element which has high negative enthalpy of mixing with Ti-atoms.
+The GFA of Ti40Zr10Cu36−xPd14Gax rods increases with increasing Ga content up to 4 at.%, and for more Ga it decreases.
+Minor addition of Ga (x = 2) is beneficial to improve the strength and ductility of the TiZrCuPd-based BMG due to the formation of local structural heterogeneities which facilitate the formation of a highly organized pattern of multiple shear bands under quasi-static compression.
+Ti40Zr10Cu34Pd14Ga2 BMG shows the best combination of compressive global strain and maximum compressive strength of ∼4.5% and ∼2000 MPa, respectively.
+Comparing the Young's modulus of Ga-containing alloys in amorphous and crystalline state we find that the amorphous state shows significant elastic softening (40–48% smaller) which is useful to reduce stress shielding effect for biomedical applications.
+The alloys show a remarkable thermoplastic formability as the viscosity decreases sharply by an order of magnitude in the supercooled liquid region.

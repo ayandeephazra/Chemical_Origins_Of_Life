@@ -1,0 +1,13 @@
+Conventional hydraulic actuators in which the output force is regulated through servo-valves or variable pumps usually suffer from great noise and low efficiency.
+To overcome this hurdle, a novel force tracking electro-hydraulic actuator based on Pascal's principle is developed.
+The novel device uses an electric cylinder to change the volume of enclosed fluid and generate the desired loading pressure.
+In order to further improve the performance of the novel actuator, an integrated design procedure in which the mechanisms and control structure are designed simultaneously is studied.
+Firstly, the complete mathematical model of the novel actuator is established.
+The nonlinear system is translated into a linear time-varying model by replacing the effective bulk modulus of hydraulic oil with a time-varying coefficient.
+The feasibility of the semi-closed control structure with pressure feedback is analyzed on frequency domain and a compound controller is given.
+Secondly, performance indexes such as stability criteria, bandwidth, control errors and continuous operation capability of the novel actuator are presented in detail.
+Interactions of the design variables are analyzed through numerical simulations.
+Afterwards, a nonlinear constrained multi-objective optimization problem including both mechanical and control parameters is formulated.
+To prevent the optimization progress from falling into local minimum point, a particle swarm algorithm is employed to carry out the optimization design.
+Experiment results demonstrate the effectiveness of the proposed integrated design method.
+And simulations are executed to verify the higher efficiency of the proposed novel electro-hydraulic actuator which is compared with the valve-controlled counterpart.

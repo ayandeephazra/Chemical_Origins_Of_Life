@@ -1,0 +1,6 @@
+We have analyzed in the two different models of volume dependence of Grüneisen parameter (γ).
+The initial Grüneisen parameter γ0 and its logarithmic volume derivatives so called the third order Grüneisen parameter (λ) are obtained from the fitting of experimental data in ε-Fe, NaCl, K, Li, and Na solids.
+We also determined the second order Grüneisen parameter ( q 0 ) using the initial and third order Grüneisen parameters.
+The calculated results of γ 0 are in good agreement with the experimental data for the case of different solids.
+The results of q 0 parameter are compared with the other methods of calculation.
+A comparison result of the two parameters q 0 and λ based on the two models has been presented for the different solids.

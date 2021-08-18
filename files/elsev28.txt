@@ -1,0 +1,5 @@
+High-pressure X-ray diffraction studies on nanocrystals of the GdBO3 and YBO3 rare-earth orthoborates are herein reported up to 17.4(2) and 13.4(2) GPa respectively.
+The subsequent determination of the room-temperature pressure-volume equations of state is presented and discussed in the context of contemporary publications which contradict the findings of this work.
+In particular, the isothermal bulk moduli of GdBO3 and YBO3 are found to be 170(13) and 163(13) GPa respectively, almost 50% smaller than recent findings.
+Our experimental results provide an accurate revision of the high-pressure compressibility behaviour of GdBO3 and YBO3 which is consistent with the known systematics in isomorphic borates and previous ab initio calculations.
+Finally, we discuss how experimental/analytical errors could have led to unreliable conclusions reported elsewhere.

@@ -1,0 +1,10 @@
+Fractured speleothems, important earthquake environmental effects used in paleoseismological studies worldwide, are particularly effective for dating.
+Here, we discuss physical phenomena that can damage caves.
+We supplement the discussion with information (frequency characteristics and ground-motion parameters) from areas of mine openings threatened by induced seismicity, as analogs of cave conduits, as both, from a physical point of view, are underground voids affected by oscillations.
+Theoretical considerations indicate the use of bulk (P-wave) and shear (S-wave) moduli instead of Young's modulus, depending on the type of seismic wave affecting a given speleothem.
+Application of P-wave and shear moduli enables the calculation of a speleothem's natural frequency, based on measured P- and S-wave velocities as well as on the height and diameter of the speleothem.
+The relationship between the natural frequency, the acceleration causing speleothem failure, and the height and diameter of speleothems has been determined.
+Moreover, this acceleration value was compared to expected PGA values in order to find similarities between the two acceleration values.
+We highlight a phenomenon not previously considered in relation to cave environments, i.e., tunnel waves, which can appear in cave walls.
+This effect significantly changes oscillation characteristics in a cave, which can result in damage to speleothems which had not been expected to fail.
+Finally, we present the potential for estimating the minimum magnitude required to damage a cave at a given distance from its source.

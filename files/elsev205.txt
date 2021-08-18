@@ -1,0 +1,7 @@
+An equation of state can be converted into a full constitutive equation by adding to the strain energy a deviatoric component as a function of density change, which specifies incremental shear properties under compression.
+A suitable functional form for the shear term can be found from a semi-empirical linear relation between shear modulus, bulk modulus and pressure satisfied by experimental and computational results, and current Earth models.
+A general representation for the shear modulus behaviour can then be provided in terms of the zero pressure values of the shear and bulk modulus (G0, K0) and their pressure derivatives (G0′, K0′).
+Shear modulus formulations are provided for equations of state in current use.
+The moduli for a third-order Birch-Murnaghan development diverge from the expected linear behaviour at high pressures.
+This divergence may help to explain problems encountered in fitting both shear and bulk modulus behaviour for the deep Earth using mineral physics models.
+Suitable functional forms for constitutive equations for the deep Earth need to take into account the expected behaviour at extreme pressure.

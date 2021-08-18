@@ -1,0 +1,9 @@
+This paper introduces a metaheuristic algorithm for topology optimization of microstructures for cellular materials.
+It combines the harmony search (HS) algorithm with bi-directional evolutionary structural optimization (BESO) features.
+It is assumed that the cellular material comprises periodic base cells.
+Bulk and shear moduli are selected as the objectives of topology optimization with a volume constraint on the material solid phase.
+Each element in the base cell ground structure is treated as a discrete design variable and sensitivity numbers are calculated using homogenization theory.
+Through an iterative process, new sets of design variables are selected and the volume constraint is imposed using the BESO principals.
+Algorithm parameters such as filter radius, harmony memory considering rate (HMCR) and pitch adjusting rate (PAR) are selected experimentally.
+Numerical examples show the capability of the algorithm in designing microstructures of 2D and 3D materials with a high convergence speed.
+The proposed algorithm can also be easily extended to design of materials with other functional properties.

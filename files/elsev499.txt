@@ -1,0 +1,8 @@
+Wave invisibility has quite special meaning on marine vehicles under water, which encourages people to search effective methods for a long history.
+Initiated by this point, we propose a new class of active elastic metamaterials and a cloaking design consisting of double Helmholtz cavities.
+By changing external voltage with different piezoelectric diaphragm stiffness, this structure shows a controllable effective bulk modulus in which a negative value appears over a wide frequency range.
+This configuration with double active cavities provides better tunable abilities to achieve the effective bulk modulus than that with a single cavity.
+In order to design a multilayered cloak and a non-blind cloak, the coupling of the adjacent cavity cells is considered and the control strategy for the periodic cavities with active Helmholtz resonators is developed.
+The parameters of the multilayered acoustic cloak can be obtained by the coordinate transformation method and the corresponding effective medium theory.
+This action can be implemented by the active control on each unit cell to drive the distribution of effective bulk modulus.
+These characteristics with a tunable effective bulk modulus at a very wide frequency range are significant to control elastic wave propagation.

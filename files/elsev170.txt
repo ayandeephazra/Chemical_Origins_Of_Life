@@ -1,0 +1,6 @@
+Cryogenic thermal cycling (CTC, between room temperature and 77 K) of a (Cu,Zr)-based bulk metallic glass (MG) leads to substantial reductions in the initial yield load F y observed on instrumented indentation, and can reverse annealing-induced increases in F y.
+In contrast, for hardness and elastic modulus, CTC has much less effect and can only partially reverse annealing effects.
+The distribution of F y values is wide, reflecting heterogeneity in the MG.
+For a melt-spun Fe-based glass, CTC with more cycles induces similar changes in F y, and has almost no effect on the magnetic properties.
+Such differing effects of CTC can be consistently interpreted in terms of its preferential effect on soft spots in a relatively rigid glass matrix.
+The capability for targeted stimulation of shear-transformation zones permits tailoring of MG properties, clearly facilitates initiation of plastic flow, and offers the prospect of improved plasticity and toughness even in annealed samples.

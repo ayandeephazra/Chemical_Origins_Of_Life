@@ -1,0 +1,10 @@
+The present study aimed to investigate the elastic properties of functionally graded materials using ultrasonic bulk wave velocity features.
+To this end, three Al2O3–Al FGM samples were fabricated by spark plasma sintering method at three different temperatures (1050 °C, 1400 °C, and 1450 °C).
+In addition, two homogenous aluminum and alumina samples were fabricated to evaluate the properties of the initial materials using the initial powders.
+Ultrasonic pulse-echo technique was applied on fabricated samples in order to measure the longitudinal and transverse wave velocities.
+The elastic properties of the graded samples were obtained by wave velocity features and Archimedes density.
+The alumina and aluminum elastic modulus were measured as 394 and 70 GPa, respectively.
+The results indicated that increasing the sintering temperature from 1050 °C to 1400 °C and 1450 °C leads to considerable improvement in the average elastic modulus.
+The average elastic modulus of the graded bundle sintered at 1450 °C (308 GPa) was about 8.5% higher than that of the one sintered at 1400 °C (284 GPa).
+The microstructure analogies of samples illustrated micro-voids and phases agglomeration in all samples.
+The highest wave attenuation was observed in the graded sample with the lowest sintering temperature, i.e., the largest number of micro-voids caused the highest energy absorption in the graded bundle sintered at 1050 °C.

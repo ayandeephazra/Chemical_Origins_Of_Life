@@ -1,0 +1,290 @@
+Due to the high importance of hard-coatings in various industrial applications (such as protecting coatings for machining tools or forming tools), sustained efforts are devoted to developing new coatings with specific functionality or design a new class of multilayered structures.
+One example is to develop multilayers using metastable phases, e.g. metastable cubic-AlN as an epitaxially stabilized interlayer with other stable rocksalt (rs) nitrides.
+For example, Schlögl et al. showed that a significantly higher fracture toughness can be obtained for CrN/AlN multilayers, if the AlN layers are epitaxially stabilized in rocksalt structure [1].
+Aluminum nitride (AlN) is a wide-gap optoelectronic material that is of considerable technological interest [2] with many unique properties such as high hardness, high thermal conductivity and existing in a variety of polymorphs, i.e. at room temperature stable hexagonal wurtzite (wz-AlN), metastable cubic zincblende (zb-AlN), and the high-pressure cubic rock-salt variant (rs-AlN).
+As known from theories and experiments, also the metastable cubic zinc-blende structure exhibits unique properties [2–4].
+Recently, the growth of metastable cubic zb-structured AlN has attracted much interest in the quest for achieving novel and enhanced mechanical and functional properties that are not observed in the hexagonal AlN structure [5].
+Although this metastable cubic phase demonstrates superior properties and advantages over the hexagonal wurtzite-type phase, its synthesis is not straightforward due to its instability at ambient temperature and pressure.
+Some recent investigations already reported the growth of metastable zb-AlN layers during deformation [6,7].
+Here, a multilayer film is specially designed to have a gradient in the atomic and electronic structures, deliberately creating a non-equilibrium stress within the layers to achieve the formation of metastable cubic-AlN constrained by the layers in a controllable manner.
+An important and inevitable variable is impurities introduced to the coatings during synthesis.
+Impurity effects, e.g. oxygen, which is frequently involved in the deposition process, can have remarkable effects on the mechanical properties of the coatings.
+Previous experiments and theoretical studies have been carried out to understand the oxygen effects [8–10].
+However, directly measuring oxygen content and correlating it with mechanical properties at an atomic/nanometer scale are experimentally quite challenging.
+To date, there are no such studies available.
+Furthermore, oxygen incorporation could induce an increase of stability in Ti-Al-N and may lead to a new design concept for transition-metal oxynitride-based hard coatings [11].
+Nowadays, the advance of electron microscopy and spectroscopy, supplemented by density functional theory, enables probing oxygen effects in an unprecedented way.
+Therefore, one additional aim of this study is to directly associate oxygen contents in films with mechanical properties and to establish a relationship between oxygen content and local bulk modulus.
+First-principles calculations in the framework of Density Functional Theory were performed using the Vienna Ab initio Simulation package (VASP) [13,14].
+The electron-ion interactions were described using the projector augmented wave method enabled pseudopotentials [15].
+The exchange-correlation potential was treated with a generalized gradient approximation as parametrized by Perdew-Burke-Ernzerhof (GGA-PBE) [16].
+The plane wave energy cut-off was set to a minimum of 500 eV.
+The reciprocal space was sampled with an equivalent of 14 × 14 × 14 Monkhorst-Pack mesh for cubic conventional cell with 8 atoms.
+CrN was considered in a paramagnetic state with spin up and spin down Cr atoms distributed according to the special quasi-random structures (SQS) [17].
+After structural optimization, elastic properties were calculated using the stress-strain method [18,19] which were subsequently projected on the desired cubic or hexagonal symmetry according to the formalism of Moakher and Norris [20].
+Bulk modulus values were finally calculated as Hill averages of Reuss and Voigt estimates [21] asBH=BR+BV2 BV=(C11+C22+C33)+2(C12+C13+C23)9 BH=1(S11+S22+S33)+2(S12+S13+S23)where Cij and Sij = Cij −1 are matrix of elastic constants and compliances, respectively.
+The supercells used for calculating the bulk modulus contained in total 64 and 72 atoms for the cubic and hexagonal (wurtzite-type) structures, respectively.
+O was considered substitutional replacing N, or interstitial (hence increasing the total number of atoms in the simulation box).
+Calculations with 0, 1 or 5 O atoms (0 at.%, ∼1.5 at.% and ∼7.8 at.% in the cubic and 0 at%, ∼1.4 at.% and ∼6.9 at.% in the wurtzite phase, respectively) were carried out.
+To compare energies of zb-AlN and rs-AlN grown coherently (to MgO or to CrN), we have fixed the (001) in-plane lattice constants to a series of values from 4.00 to 4.40 Å, and for each in-plane lattice constant we have fully relaxed the out-of-plane one, i.e. to achieve a bi-axial (in-plane) stress condition.
+These values correspond to the ground state energy corrected for elastic strain energy corresponding to a prescribed bi-axial stress condition.
+The resulting values are plotted in Fig. 5S.
+To estimate interface energies, slabs composed of 3 N (111) rs planes (CrN or TiN) and 3 N (111) zb-AlN planes, for N = 3, 4, 5 and 6 were constructed and fully optimized (in the case of CrN, the lateral dimension corresponded to a 2 × 2 conventional cubis cell and the magnetic spin up and spin down moments were distributed according to the SQS method) The resulting total energies, being dependent on the slab size N, were fitted withE=N*C1+C2where C1 is then the total energy of (bulk) 3 (111) layers of zb-AlN and 3 (111) layers or rs-CrN (or TiN), and C2 corresponds to 2*gamma*A, with gamma being the interface energy, An interface area and factor 2 comes from the applied periodic boundary conditions.
+Finally, to assess a possible stabilizing effect of vacancies on the zb-AlN phase, SQS structures based on 2 × 2 × 2 conventional zb-AlN cubic cell (hence with 64 atoms) and 3 × 3 × 2 w-AlN cell (72 atoms) were used to randomly distribute either Al or N vacancies.
+The resulting total energies for zb- and w-phases were fitted with splines and their difference used for discussion of the relative stability.
+The CrN/AlN multilayer film with a total thickness of ∼2 μm is composed of 21 repeating identical blocks consisting of 10 bilayers composed of 4 nm thin CrN layers and AlN layers having different thicknesses [12].
+The thickness of the AlN layer was ∼1 nm for the first bilayer and around 10 nm for the last (within a block), with a stepwise increase of 1 nm from one bilayer to the following.
+Hereafter in the text, labels of 1-AlN to 10-AlN refer to AlN layers with corresponding nominal thicknesses (1.0 nm-10.0 nm) in a certain block (cf.
+Fig. 1 ).
+The film was synthesized in an AJA International Orion 5 reactive magnetron sputter system by DC powering one 2′′ Cr and one 3′′ Al target (both 99.6% purity, Plansee Composite Materials GmbH, Austria) at 500 °C substrate temperature in an Ar/N2 gas mixture (flow ratio of 5 sccm Ar/5 sccm N2) at a total pressure of 0.4 Pa.
+The chosen power densities of ∼12.3 (Cr target) and ∼11.0 W/cm2 (Al target) resulted in the deposition rates of ∼10 and ∼24 nm/min for CrN and AlN, respectively.
+The nanolayer structure was realized using computer-controlled shutters, which were mounted in front of the permanently running targets.
+To achieve a dense coating morphology, a bias voltage of −50 V was applied to the growing film during the deposition process (floating potential was ∼ −20 V).
+The substrate holder rotated with a constant rotation speed of ∼1 Hz throughout the whole process.
+Prior to the deposition, the polished MgO (100) substrate (10 × 10 × 0.5 mm3) were ultrasonically pre-cleaned in acetone and ethanol for 5 min each, thermally cleaned at 500 °C for 20 min inside the evacuated deposition chamber (base pressure at room temperature was ∼5 × 10−4 Pa), and Ar-ion etched for 10 min at the same temperature in an Ar atmosphere at a pressure of 6 Pa by applying a constant bias voltage of −750 V to the substrate.
+Cross-sectional transmission electron microscopy (TEM) specimens were prepared using a standard TEM sample preparation approach including cutting, grinding, and dimpling.
+Ar ion milling was carried out at a voltage of 4.0 kV with an angle of 6°, followed by a final low voltage ion-milling of 2.5 kV with an angle of 2° as a final step.
+The phase composition of the multilayer was characterized by smartlab X-Ray Diffractometer (Rigaku, Japan) with Cu Kα radiation (λ = 1.540593 Å).
+A 200 kV field emission TEM/STEM (JEOL2100F) equipped with an image-side CS-corrector was used in this study, which demonstrates a resolution of 1.4 Å at 200 kV.
+The image size of all TEM micrographs recorded on a CCD camera was kept at 2004 pixel × 1335 pixel.
+The exposure time for the HRTEM images was set to 1.0 s.
+The aberration coefficients were set to be sufficiently small for obtaining the HRTEM images under slightly over-focus conditions (close to Scherzer defocus).
+The strain field in CrN/AlN multilayer was calculated on the CS-corrected HRTEM (JEOL 2100F) and STEM images (FEI Titan Themis 60-300 X-FEG S/TEM instrument operated at 300 kV, equipped with a probe corrector for spherical aberration) by geometric phase analysis (GPA) method.
+For scanning TEM (STEM) measurements a spot size of sub-Angstrom and a convergence semi-angle of the electron probe of 23.8 mrad were used.
+Probe currents of ∼70 pA were applied for imaging and up to 400 pA for energy-dispersive X-ray spectroscopy (EDS) measurements.
+EDS experiments were carried out in STEM mode using an FEI Super-X windowless EDS system with 4 synchronized silicon drift detectors.
+A high angle annular dark-field (HAADF) detector covering the angular range of collection semi-angles from 73 to 200 mrad was used for imaging.
+A stack of STEM HAADF images was recorded, and pre-processing before executing any quantitative measurements was carried out, and consequently, a summed and de-noised STEM image with high signal to noise ratios was produced for quantitative strain measurement.
+Extended EELS spectrum-images and HAADF-STEM images were taken using a Gatan high-resolution Quantum ERS energy filter under these conditions: probe size of ∼ 0.8 Å, α = 23.8 mrad, β = 34.7 mrad, dispersion of 0.25 eV and 0.5 eV per channel.
+The pixel resolution for spectrum images was used, and acquisition time for core-loss and low-loss was set to 0.1 s and 0.0001 s, respectively.
+The Dual EELS technique was used for acquiring EELS spectrum-images (low-loss and core-loss).
+EELS spectrum-image analysis was carefully conducted in Digital Micrograph (DM) 2.3 version software.
+Splicing the low loss and core loss spectrum-images and energy calibrations were performed within (DM) software before processing.
+Specific parameters for EELS quantification are detailed in supplementary materials.
+Electron-loss near-edge structures (ELNES) of N-K were acquired from an area of 0.51 nm × 4.08 nm in every AlN layer.
+For valence spectra analysis, plasmon peaks were extracted using the NLLS (non-linear least-square) fitting approach, a plug-in incorporated into DM.
+Plasmon maps were thus obtained.
+First-principles calculations in the framework of Density Functional Theory were performed using the Vienna Ab initio Simulation package (VASP) [13,14].
+The electron-ion interactions were described using the projector augmented wave method enabled pseudopotentials [15].
+The exchange-correlation potential was treated with a generalized gradient approximation as parametrized by Perdew-Burke-Ernzerhof (GGA-PBE) [16].
+The plane wave energy cut-off was set to a minimum of 500 eV.
+The reciprocal space was sampled with an equivalent of 14 × 14 × 14 Monkhorst-Pack mesh for cubic conventional cell with 8 atoms.
+CrN was considered in a paramagnetic state with spin up and spin down Cr atoms distributed according to the special quasi-random structures (SQS) [17].
+After structural optimization, elastic properties were calculated using the stress-strain method [18,19] which were subsequently projected on the desired cubic or hexagonal symmetry according to the formalism of Moakher and Norris [20].
+Bulk modulus values were finally calculated as Hill averages of Reuss and Voigt estimates [21] asBH=BR+BV2 BV=(C11+C22+C33)+2(C12+C13+C23)9 BH=1(S11+S22+S33)+2(S12+S13+S23)where Cij and Sij = Cij −1 are matrix of elastic constants and compliances, respectively.
+The supercells used for calculating the bulk modulus contained in total 64 and 72 atoms for the cubic and hexagonal (wurtzite-type) structures, respectively.
+O was considered substitutional replacing N, or interstitial (hence increasing the total number of atoms in the simulation box).
+Calculations with 0, 1 or 5 O atoms (0 at.%, ∼1.5 at.% and ∼7.8 at.% in the cubic and 0 at%, ∼1.4 at.% and ∼6.9 at.% in the wurtzite phase, respectively) were carried out.
+To compare energies of zb-AlN and rs-AlN grown coherently (to MgO or to CrN), we have fixed the (001) in-plane lattice constants to a series of values from 4.00 to 4.40 Å, and for each in-plane lattice constant we have fully relaxed the out-of-plane one, i.e. to achieve a bi-axial (in-plane) stress condition.
+These values correspond to the ground state energy corrected for elastic strain energy corresponding to a prescribed bi-axial stress condition.
+The resulting values are plotted in Fig. 5S.
+To estimate interface energies, slabs composed of 3 N (111) rs planes (CrN or TiN) and 3 N (111) zb-AlN planes, for N = 3, 4, 5 and 6 were constructed and fully optimized (in the case of CrN, the lateral dimension corresponded to a 2 × 2 conventional cubis cell and the magnetic spin up and spin down moments were distributed according to the SQS method) The resulting total energies, being dependent on the slab size N, were fitted withE=N*C1+C2where C1 is then the total energy of (bulk) 3 (111) layers of zb-AlN and 3 (111) layers or rs-CrN (or TiN), and C2 corresponds to 2*gamma*A, with gamma being the interface energy, An interface area and factor 2 comes from the applied periodic boundary conditions.
+Finally, to assess a possible stabilizing effect of vacancies on the zb-AlN phase, SQS structures based on 2 × 2 × 2 conventional zb-AlN cubic cell (hence with 64 atoms) and 3 × 3 × 2 w-AlN cell (72 atoms) were used to randomly distribute either Al or N vacancies.
+The resulting total energies for zb- and w-phases were fitted with splines and their difference used for discussion of the relative stability.
+Nanometer-scale elemental maps of the first block on these layers are shown in Fig. 5 , where respective elemental maps of Al, N, Cr, and O are indicated.
+The elemental composition distribution once again depicts the thickness gradient of the AlN layers and the CrN layers with a constant thickness.
+Cr and O appear in the maps simultaneously and in anti-phase to Al changes.
+N variations in a different layer are not pronounced.
+Correspondingly, line-profiles via integrating over the entire maps (first few layers over a distance of about 40 nm) are given in Fig. 4S in the Supplementary Material.
+The profiles reveal that elemental interdiffusion occurs across the interfaces to a certain extent.
+With the semi-quantification achieved via the DM software, we can roughly state that the oxygen content in the CrN layers is slightly higher than in the AlN layers, and oxygen changes periodically with the Cr variations.
+These trends match well to EELS quantification (Fig. 2b) although quantification using EELS and EDXS shows a discrepancy due to the different approaches used.
+Nevertheless, this further suggests that oxygen is mainly introduced during the deposition of the CrN layers.
+The varying O concentration also reveals that O prefers to be in CrN layers rather in AlN layers.
+The medium-magnification atomic-resolution STEM image shows an overview of the CrN/AlN multilayer with a gradient in AlN-layer thickness, which increases from 1 nm to ∼10 nm while keeping the CrN layers constant at ∼4.0 nm (Fig. 1a) (an overview low-magnification image is shown in Fig. 1S of the Supplementary Material).
+The STEM-ADF image exhibits a strong bright contrast (a strong dark contrast in STEM-BF) in the first few layers (as compared to the others), and the AlN layers grow epitaxially on the CrN layers with rather sharp interfaces.
+In the first block, the perfect epitaxial growth is obvious.
+However, the increase in layer numbers (and block numbers) leads to a loss of the epitaxial relationship between CrN and AlN accompanied by a wavy-like morphology of interface (which is typical for increasing thickness of sputtered coatings).
+Interface atomic structures are also clearly revealed by high-resolution STEM (and Cs-corrected HRTEM, Fig. 2 S, Supplementary Material).
+A typical HR-STEM image (Fig. 1b), denoting a gradient layer thickness of AlN in the first block, illustrates the actual atomic configuration at the interfaces.
+Relatively, AlN shows a slightly darker contrast as compared with the CrN layer (being brighter).
+The CS-corrected HRTEM image also reveals a clearly resolved interface atomic structure between the cubic AlN and CrN layers.
+In the phase contrast HRTEM image, the AlN layer appears white as compared with the CrN layers.
+Using the high-resolution images, the atomic displacements are evaluated by the geometrical phase analysis (GPA).
+The displacement map is shown in Fig. 1c, and the corresponding in-plane strain (eyy ) and out-of-plane (exx ) maps are given in Fig. 1d and Fig. 1e.
+An integrated displacement distribution in the different layers is plotted in Fig. 1f, exhibiting clear variations.
+These investigations indicate that in the first block, the d (002) interplanar spacing of AlN layer is 2.1 − 2.2 Å, resulting in a lattice constant with a value of 4.2−4.4 Å (the d (200) of CrN is 2.07 Å, resulting in 4.14 Å).
+The large lattice constants of AlN fit to those of zb-AlN (4.40 Å) [22] much better than those of rs-AlN (4.06 Å) [22].
+The lattice constants in the second and third AlN layers are slightly smaller, however still very large, which also corresponds to that of zb-AlN being distinctly different from that of rs-AlN and CrN (4.14 Å, [23,24]).
+Moreover, the d-spacing measurements using HRTEM also corroborate the formation of zb-AlN (Fig. 2S in the Supplementary Material).
+According to the measured interplanar spacings and the crystal symmetry, the multilayer with a gradient structure consists of zb-AlN/CrN in the first 4 bilayers of the first block (where the AlN layers are thinner than 4 nm), rather than rs-AlN/CrN or wz-AlN/CrN configurations.
+Ensuing ELNES spectra obtained from the respective layer further confirms this conclusion.
+In the other blocks (further away from the MgO substrate) we do not observe a zb-AlN formation for thin layers but rather an rs-AlN formation (in the first 4 bilayers), as typically observed for superlattices where AlN layers are combined with rocksalt-structured transition metal nitrides [25].
+In short, in the first block next to the MgO substrate, both zb-AlN (AlN less than 4 nm) and wz-AlN (AlN > 4 nm) occur while from the 2nd block on, both rs-AlN (AlN less than 4 nm) and wz-AlN (AlN > 4 nm) exist.
+Core level EELS and ELNES are used predominantly for chemical and electronic structure analysis [26].
+Fig. 2 shows the ELNES spectra taken from the individual AlN layers with different thicknesses (labeled in Fig. 3 a).
+The N-K absorption edge is very sensitive to variations in the local coordination and neighborhood structures.
+The fine structures of the N-K edges exhibit a subtle change with increasing the AlN layer thickness.
+Only a single peak in the N-K edge appears for 1–4 nm AlN layers.
+However, the feature in the N-K edge of 1.0 nm thin AlN shows a larger broadening than the 2.0 nm or 3.0 nm thin layers, while it shows a certain similarity to the feature of N peak taken from the thick AlN layers.
+In the thick AlN layer, e.g. 5.0 nm and 10 nm thin AlN, several peaks in N-K can be resolved, which resembles the shape characteristic for the wurtzite AlN structure [27].
+Therefore, the N-K peak change suggests a structural transition in AlN with the gradual increase of the thickness.
+The N K-edge fine structures of different AlN polymorphs, i.e., zb-AlN, rs-AlN and wz-AlN, were also calculated using DFT [28]; these show some similarities with the experimental observations.
+However, they are not completely identical, especially the peak shape from the 1.0 nm thin “zb-AlN” layer.
+The fine structure of the N-K edge from rs-CrN with a broad pre-edge is also inserted to Fig. 2a for comparison; it is obviously different from those of the AlN layers.
+In fact, a broadened spectrum of the calculated N-K edge consisting of several peaks is consistent with the measured N-K ELNES to a certain extent [28].
+This further proves the presence of zb-AlN instead of rs-AlN in our multilayers for thin AlN layers since the N-K would show one pronounced pre-edge in the case of rs-AlN [28] rather than multiple peaks.
+In addition, Cr, Al, N, and O relative atomic concentrations in the respective layers can be quantified from EELS spectra (the parameters and settings for the quantification process are detailed in the Supplementary Materials I), which show modulations with the layered structures.
+The relative elemental changes in the individual layers are clearly demonstrated in Fig. 2b, where the first few AlN layers in the first block next to the MgO substrate are shown.
+The EELS quantification also reveals that the change of the residual O content coincides with the variation of the Cr content, giving a similarly varying trend.
+This signifies that O impurities are rich in the CrN layers but relatively rare in the AlN layers.
+The quantification is qualitatively in reasonable agreement with those obtained using energy-dispersive X-ray spectroscopy (EDXS) as shown in the Supplementary Material.
+Furthermore, based on the oxygen profiles, 1) the average oxygen content in the CrN layers in the first block (next to the substrate) is 12 ± 2.5 at% while it is 7 ± 2.5 at% in AlN layers.
+These values are substantially higher than those measured in the region away from the substrate, where the average value is 0.80 ± 0.44 at%; 2) the O content is much higher in the very first CrN layer (close to the free surface of the substrate), and then decreases in the second CrN layer, and almost approaches the lowest level in the third CrN layer at a distance of ∼ 10 nm from substrate.
+Regarding the source of O in the multilayers, we consider that the oxygen impurities in the substrate-near film region were introduced by oxygen contaminations from target and substrate surfaces that were not completely removed in the sputter-cleaning process prior to film growth.
+The valence EELS spectra can provide similar but complementary information on the electronic structure, in contrast to the core level EELS spectra [29,30].
+The bulk plasma peaks (Ep) are due to the excitation of the outer shell (valence) electrons and vary with the valence electron concentrations.
+Recent theoretical calculations predicted that the valence electrons can be used as an indicator for mechanical properties, e.g. hardness and bulk modulus, in nitrides, carbides, and carbonitrides [31].
+It has also been found that the strong scaling correlations exist between the plasmon energy and the elastic properties, hardness, valence electron density, and cohesive energy [32].
+Therefore, mechanical properties can be predicted by measuring the low-loss spectrum.
+The NLLS fitting process of the plasmon peaks allows obtaining a near atomic-scale map of the volume plasmon energy in the multilayer, as shown in the (corresponding to the STEM image of Fig. 3a) colored map in Fig. 3b).
+Ep = 22.7–23.7 eV in the first 4 AlN layers, however, the other AlN layers (wurtzite, from the 5th layer on), exhibit Ep in the range of 21.7–22.7 eV.
+In contrast to AlN, Ep of the CrN layers falls mainly in the range of 24–25 eV.
+An experimentally intensive investigation on the valence electron behavior yielded an empirical relation between Ep and bulk modulus (Bm ) in the nitrides [32]:(1)Bm=10−1.45×Ep2.79=0.03548×Ep2.79GPawhere Ep is given in eV.
+According to the above-established equation, atomic-scale (or nano-meter) distribution of bulk modulus (Bm ) in the AlN and CrN nanolayers can be extracted as shown in Fig. 3c.
+As clearly seen, the bulk modulus (Bm ) at the nanometer scale is not homogeneously distributed within the layers, not even in the same type of layer, i.e. CrN and AlN layers.
+The Bm varies with the different layers and areas, depending on the local composition and environment.
+This is a first direct attempt to experimentally map mechanical properties at the nanometer scale (Note: considering the delocalization of the scattering, in the present case, there are delocalization amounts to 1–2 nm for plasmon losses according to the analysis [26], which degrades the spatial resolution), which, however, is difficult to achieve (with this resolution) using nanoindentation or other established methods.
+Moreover, the estimation of the local mechanical properties is intrinsically coupled with chemical and structural information, which is not possible by any other characterization technique.
+To gain insights into the high-spatial distribution of the bulk modulus (Bm ), the distribution curve of the bulk modulus is plotted as a function of the growth distance (Fig. 3d) via integrating the map (from top to bottom).
+This reveals that Bm of CrN (peak values) is high in the first few layers and then approach a nearly constant value; similarly, Bm of AlN (valley values) also change significantly in the first few AlN layers (zb-AlN range), and later approaches a constant value in the range of wz-AlN.
+From here, the average Bm can be derived.
+For the zb-AlN (the first 4 layers) region, Bm  = 233  ± 9 GPa, wz-AlN (from the 5th layer on) yields 199   ±7GPa, while Bm for CrN is estimated to be 260  ± 13 GPa.
+Corresponding histograms for each region are also in shown Fig. 3S in the Supplementary Material.
+Comparing the present Bm to theoretical calculations yields an excellent agreement.
+Table 1 is a summary of the literature values and the current data, i.e. from Yadav et al. [5] (wz-AlN 202 GPa, zb-AlN 224 GPa, rs-AlN 298 GPa) and Scanavino et al. [33] (wz-AlN 179 GPa, CrN 282–302 GPa).
+Using DFT, the calculated Bm by Fodil et al. is in the range of 192–197 GPa and 250 GPa for wz-AlN and rs-AlN [34], and by Wang et al. Bm is 194 GPa for wz-AlN and 251 GPa for rs-AlN [35], and Zhang et al. reported 194.84 GPa for wz-AlN, 205.57 GPa for zb-AlN and 247.55 GPa for rs-AlN, respectively [22].
+The current experimentally derived bulk modulus of CrN is in a reasonable agreement with the DFT value of 245 GPa for anti-ferromagnetic CrN [36], 250 and 252 GPa for paramagnetic CrN, considering disordered local moment magnetic states on the cubic CrN lattice during DFT calculations, and our DFT calculations of 244 GPa (also for paramagnetic CrN) [17,19,37].
+Moreover, it is interesting to note that the CrN and AlN layers from the 2nd to the 5th layer show a slightly higher Bm compared to the other CrN layers (see Fig. 3d).
+Combined with the chemistry analysis enabled by EELS, it is found that this difference in Bm correlates with a variation in oxygen content in the film.
+Plotting Bm of CrN and AlN against the O content (in the following section) reveals that the decrease of Bm is associated with an oxygen variation, i.e. slightly lower oxygen content in the 2nd to the 5th layer gives a higher value of Bm .
+Note that the composition variation here results in a change of the Bm rather than the strain effect, which is usually observed in the bi-axially strained quantum wells.
+In a summary, measuring the plasmon peaks (or determining valence electron density in the films) enabled the determination of the bulk modulus Bm in zb-AlN, wz-AlN and rs-CrN layers with one nanometer resolution.
+According to the EELS measurements, a likely relationship between the oxygen content and the bulk modulus can be established.
+Veprek et al. showed that the maximum achievable hardness depends on the oxygen impurity content for nanocomposites [38] and that the theoretically predicted bulk modulus has a certain relationship with the presence of impurities, i.e. oxygen [9,11].
+Nonetheless, up to now, no direct experimental evidence has been given to consolidating this theoretical prediction.
+However, simultaneous core-loss EELS and valence EELS spectra enable obtaining impurity oxygen content and volume plasmon energy, Ep, (and hence to calculate bulk modulus, Bm , using Eq. (1)).
+An unambiguous relationship of bulk modulus and impurity level, e.g., O concentration (relative content) in CrN films and wz-AlN and zb-AlN, can be derived.
+Fig. 4 illustrates such a relationship (Fig. 4a–c for rs-CrN, wz-AlN, and zb-AlN, respectively).
+The plots clearly show that Bm in CrN gradually reduces with increasing oxygen content while Bm in wz-AlN and zb-AlN is almost invariable or not significant.
+Therefore, oxygen impurity acts differently in rs-CrN and wz-AlN structures.
+This is experimental evidence directly correlating a mechanical property (here, bulk modulus) with the oxygen impurity level at the near-atomic scale, pointing out how the (residual) oxygen in the nitride films influences the bulk modulus.
+Nanometer-scale elemental maps of the first block on these layers are shown in Fig. 5 , where respective elemental maps of Al, N, Cr, and O are indicated.
+The elemental composition distribution once again depicts the thickness gradient of the AlN layers and the CrN layers with a constant thickness.
+Cr and O appear in the maps simultaneously and in anti-phase to Al changes.
+N variations in a different layer are not pronounced.
+Correspondingly, line-profiles via integrating over the entire maps (first few layers over a distance of about 40 nm) are given in Fig. 4S in the Supplementary Material.
+The profiles reveal that elemental interdiffusion occurs across the interfaces to a certain extent.
+With the semi-quantification achieved via the DM software, we can roughly state that the oxygen content in the CrN layers is slightly higher than in the AlN layers, and oxygen changes periodically with the Cr variations.
+These trends match well to EELS quantification (Fig. 2b) although quantification using EELS and EDXS shows a discrepancy due to the different approaches used.
+Nevertheless, this further suggests that oxygen is mainly introduced during the deposition of the CrN layers.
+The varying O concentration also reveals that O prefers to be in CrN layers rather in AlN layers.
+Direct experimental measurements on bulk modulus (Bm ) with a high spatial-resolution approach indicate that increasing the O impurity level in CrN leads to a reduction of Bm , as shown in Fig. 4a.
+These observations are validated by DFT calculations of elastic properties and, in particular, bulk modulus.
+Fig. 8 presents the calculated bulk moduli of CrN as a function of O impurity level for two cases: O atoms as interstitials in the CrN lattice or as N substituents (i.e., leading to a cubic oxynitride).
+Both show a decreasing trend with increasing O impurity content, which is, on the one hand, more pronounced for interstitial O.
+This can be understood based on interstitial O atoms inducing more significant distortions in lattice than substitutional O atoms.
+On the other hand, the substitutional O defects are energetically much less costly and hence are expected to be more likely to occur than the interstitials.
+In fact, this is also reflected by the fact that the N variations are anti-correlated with those of O (see Fig. 4S) which can be interpreted as the substitutional implementation of O in the lattice.
+Bm reduces from 244 GPa to ∼ 200 GPa when O content rises from 0.0 at% up to 8.0 at%.
+Although the O contents used in calculations is smaller than that measured experimentally, both theory and experiment yield Bm in the similar range, and the calculated results are comparable with the experimental one (Fig. 4a).
+The calculated data are incorporated into the experimental plot in Fig. 4a along with other previously calculated values (inserted).
+Obviously, the calculated data from the literature are also scattered (it is known that the actual magnetic state changes bulk modulus considerably [17,37], however, they are in the same order of magnitude with the measured values.
+Moreover, both experimental and calculated results indicate that O impurities lead to a decrease in the CrN bulk modulus (Bm ).
+In addition to the local distortions, another reason why oxygen incorporation induced a reduction in the Bm of rs-CrN is related to the change of bonding.
+to Baben et al. [11] revealed using DFT that the oxygen addition to (Ti, Al)N leads to a concomitant increase in the metallic bonding character at the expense of covalent bonding, resulting in a decrease of bulk modulus with an increase of oxygen content.
+This argument is expected to hold similarly also for rs-CrN.
+This signifies the importance of O impurities in the nitride coatings.
+In contrast to rs-CrN, the calculated Bm in wz-AlN with O substituting for N reveals that it remains fairly constant with increasing oxygen, which is in agreement with the experimental data (Fig. 4b).
+Several calculated data points are presented in the plot (Fig. 4b) together with the calculated values from other studies.
+There exist some discrepancies in absolute values between experimental and calculated data, which may be attributed to differences in the calculation procedures such as the use of different exchange and correlation potentials.
+However, the variation as a function of oxygen content displays a good agreement.
+Both testify that the presence of O in the multilayer does not change the Bm of wz -AlN significantly, at least for the investigated O content up to ∼10 at.%.
+The effect of oxygen on rs-AlN (rock-salt (B1) AlN) has been also calculated (displayed in Fig. 8), presenting a similar trend to the CrN case.
+Both substitutional and interstitial O in the lattice lead to a reduction of Bm with increasing O content in rs-AlN, a behavior being different to that of wz-AlN (B4).
+The reason may originate from the fact that the structure in rs-AlN (fcc) is more compact as compared to wz-AlN structure, the type of bonding (covalence and ionic percentage), and the impact of O on the relative percentage of the different bonding types.
+The O effect in zb-AlN (Fig. 4c) seems from the limited experimental data available to be quite similar as in wz-AlN.
+That is, increasing the O content does not change the bulk modulus significantly, i.e., at least not up ∼10 at.%.
+Moreover, the experimental results (Bm ) are slightly higher than those reported in the literature and the present work.
+In contrast, the effect of oxygen on zb-AlN by calculation exhibits a decrease of bulk modulus with increasing the O content, similar to the O effect in rs-AlN.
+This discrepancy of Bm in zb-AlN between experiments and calculation remains unclear, however, more experimental data points may help to clarify the effect of O in zb-AlN.
+A surprising finding is the presence of zb-AlN sandwiched between the first CrN layers in the first block of the gradient structure when AlN layer thickness is in the range of 1–4 nm as identified from the HRTEM images analysis.
+Corresponding EELS characterization also corroborates the difference in the electronic structure of individual AlN layers.
+Investigations of AlN/Al multilayers [6] showed that the phase structure of the AlN layers could be controlled through interface strains and that a metastable zb-AlN could be stabilized when the Al thickness was less than 5.0 nm and the AlN thickness was less than 1.0 nm.
+The current CrN/AlN gradient structures exhibit a certain similarity to those AlN/Al structures, however, here, the zb-AlN can be stabilized up to 4 nm using the 4 nm thick CrN, which is intrinsically related to the interface strains.
+DFT calculations have confirmed that zb-AlN can grow up to two atomic layers when using Al as a starting layer [5], ascribing the stabilization to a kinetic driving force instead of a thermodynamic driving force.
+Here, the first zb-AlN grows on the first CrN layer which is strained to the MgO substrate (lattice parameters of CrN and MgO are 4.14 Å and 4.24 Å, respectively [23,24], yielding a lattice mismatch δ = 2.3%; interface between the first CrN and the substrate shows only very few misfit dislocations), and those unrelaxed strains existing in the first CrN layer contribute to the zb-AlN formation in the first few layers.
+The phase transformation from zb-AlN to wz-AlN happens as the AlN layer thickness gets over 4 nm, which leads to a loss of the interface coherency (and hence relaxation of the in-plane lattice constant), forming a wavy morphology via defects, e.g. interface surface terraces.
+Therefore, when the second block starts, the strain effect hardly exists owing to the relaxation caused by thickness increase.
+This is the reason why the zb-AlN forms only in the first block [12].
+The hardly appearing formation of zb-AlN in TiN/AlN multilayers [39] suggests that not only strain effects are critical, but also surface energy terms play an important role.
+The smaller lattice mismatch between TiN and zb-AlN (than between CrN and zb-AlN) would have been more beneficial to stabilize zb-AlN, in contradiction to experimental observations.
+To trace the origin of this difference, we applied DFT to calculate the interface energy of rs-TiN (111) / zb-AlN (111) and rs-CrN (111) / zb-AlN (111) interfaces.
+However, the calculated interface energies (shown in Table 2 ) for both interfaces are not significantly different.
+Therefore, this further speculates that the presence of O could significantly change the interface energy (perhaps decreases in CrN/AlN but increases in the TiN/AlN case).
+Eventually, it facilitates the zb-AlN formation at the rs-CrN (111) / zb-AlN interface.
+This needs detailed DFT calculations with and without the O presence at the interface, which is certainly beyond the scope of current experimental work.
+However, a simple comparison is possibly made.
+This is also nicely presented by a simple comparison of DFT energies of the rs-AlN and zb-AlN as a function of the in-plane lattice parameter, Fig. 5S (supplementary).
+For lattice parameters above ∼ 4.05 Å, clearly, zb-AlN is increasingly preferred over rs-AlN.
+Straining of rs-AlN to the in-plane lattice parameter of 4.20 Å (strained lattice constant of CrN at the MgO interface) leads to an out-of-plane contraction (Poisson's contraction) to 3.98 Å; in the case of zb-AlN, in-plane 4.20 Å yields an out-of-plane lattice constant of 4.59 Å.
+Both of these are significant tetragonal distortions.
+The latter value of 4.59 Å would correspond to d200 = 2.3 Å, which is actually not far from the values reported in Fig. 1f.
+This simple estimation would suggest that the formation of zb-AlN should be even more likely in TiN/AlN multilayers.
+Hence, we envision (also because we observe the zb-AlN formation only in the first block of our CrN/AlN multilayer, where the O-content of especially the CrN layers is very high) that the O content plays a significant role in addition to the above-proposed impact of interface energies.
+DFT calculations of CrN with oxygen contents show that the lattice constant slightly increases with the oxygen content (Fig. 6 a).
+For instance, an increase in oxygen content up to 7.5 at% leads to an increase in lattice constant of CrN by 0.5% for the case of O substitution, whereas the effect is more pronounced when O atoms interstitially reside in CrN (as the green line shows).
+More oxygen dissolved in CrN lattice reduces the lattice mismatch between CrN and zb-AlN (the data point shown in Fig. 6a) hence lowering the stored strain energy and consequently would also stabilize zb-AlN.
+Moreover, the stabilization is further promoted by softening the elastic constants with increasing O content, as demonstrated by the bulk modulus decrease discussed in the next section.
+Since coherent strain effects are even stronger in the TiN/AlN system, it allows us to draw a conclusion that the surface/interface energy terms play a crucial role in stabilizing zb-AlN, which seem to be acceptable for CrN/AlN multilayers (especially with a rather high O content of the CrN layers) but not for TiN/AlN multilayers.
+Additionally, a comparison of the energies of formation for substitutional and interstitial O reveals that N substitution (i.e. formation of oxynitrides) is preferred over interstitial O for all here considered cases.
+Finally, we present a simple evaluation of the phase preference for O.
+Assuming completely incoherent lattices composed of layers with the same number of Al (in AlN) and Cr (in CrN) atoms, we compare the calculated energy of formation with O in either AlN or CrN layer (while the other remains O-free).
+The results in Fig. 6b suggest that O prefers to stay in CrN rather than in zb-AlN and rs-AlN.
+These are fully in-line with the increased O content in CrN layers as compared with AlN (Fig. 2b).
+This behavior persists irrespective of whether O substitution is considered in zb-AlN/CrN or rs-AlN/CrN systems.
+This preference increases with increasing O content, eventually causing an increase of CrN lattice constant minimizing the lattice mismatch, an additional barrier in the case of (semi-)coherent superlattices.
+We further speculate that O in CrN may modify the surface (interface) energy of CrN to a certain extent, which facilitates the formation of zb-AlN.
+Finally, we note that the quantitative ELES measurements shown in Fig. 2b suggest that the AlN layers are actually N-rich.
+One possibility, how to realize such compositions, are Al vacancies which could originate, e.g., from the deposition process by magnetron sputtering.
+We have therefore calculated the energy of formation difference between wurtzite and zinc-blende AlN structures as a function of the composition expressed by the N/(N+Al) ratio (Fig. 7 ).
+It turns out that apart from a small compositional region with N-rich compositions (N/(N+Al)∼0.53–0.55, i.e., N:Al = 1:0.9–1:0.8), the wurtzite phase is always energetically preferred, and becomes stabilized with an increasing amount of vacancies (either Al or N, the latter in the case of N/(N+Al)<0.50).
+The range with zb-AlN being energetically similar to the w-AlN phase corresponds to the compositional range with 5–10% Al vacancies (overall content).
+Therefore, a small amount of metal vacancies, which are suggested by the EELS measurements, could be an additional factor stabilizing the zb-AlN phase.
+Direct experimental measurements on bulk modulus (Bm ) with a high spatial-resolution approach indicate that increasing the O impurity level in CrN leads to a reduction of Bm , as shown in Fig. 4a.
+These observations are validated by DFT calculations of elastic properties and, in particular, bulk modulus.
+Fig. 8 presents the calculated bulk moduli of CrN as a function of O impurity level for two cases: O atoms as interstitials in the CrN lattice or as N substituents (i.e., leading to a cubic oxynitride).
+Both show a decreasing trend with increasing O impurity content, which is, on the one hand, more pronounced for interstitial O.
+This can be understood based on interstitial O atoms inducing more significant distortions in lattice than substitutional O atoms.
+On the other hand, the substitutional O defects are energetically much less costly and hence are expected to be more likely to occur than the interstitials.
+In fact, this is also reflected by the fact that the N variations are anti-correlated with those of O (see Fig. 4S) which can be interpreted as the substitutional implementation of O in the lattice.
+Bm reduces from 244 GPa to ∼ 200 GPa when O content rises from 0.0 at% up to 8.0 at%.
+Although the O contents used in calculations is smaller than that measured experimentally, both theory and experiment yield Bm in the similar range, and the calculated results are comparable with the experimental one (Fig. 4a).
+The calculated data are incorporated into the experimental plot in Fig. 4a along with other previously calculated values (inserted).
+Obviously, the calculated data from the literature are also scattered (it is known that the actual magnetic state changes bulk modulus considerably [17,37], however, they are in the same order of magnitude with the measured values.
+Moreover, both experimental and calculated results indicate that O impurities lead to a decrease in the CrN bulk modulus (Bm ).
+In addition to the local distortions, another reason why oxygen incorporation induced a reduction in the Bm of rs-CrN is related to the change of bonding.
+to Baben et al. [11] revealed using DFT that the oxygen addition to (Ti, Al)N leads to a concomitant increase in the metallic bonding character at the expense of covalent bonding, resulting in a decrease of bulk modulus with an increase of oxygen content.
+This argument is expected to hold similarly also for rs-CrN.
+This signifies the importance of O impurities in the nitride coatings.
+In contrast to rs-CrN, the calculated Bm in wz-AlN with O substituting for N reveals that it remains fairly constant with increasing oxygen, which is in agreement with the experimental data (Fig. 4b).
+Several calculated data points are presented in the plot (Fig. 4b) together with the calculated values from other studies.
+There exist some discrepancies in absolute values between experimental and calculated data, which may be attributed to differences in the calculation procedures such as the use of different exchange and correlation potentials.
+However, the variation as a function of oxygen content displays a good agreement.
+Both testify that the presence of O in the multilayer does not change the Bm of wz -AlN significantly, at least for the investigated O content up to ∼10 at.%.
+The effect of oxygen on rs-AlN (rock-salt (B1) AlN) has been also calculated (displayed in Fig. 8), presenting a similar trend to the CrN case.
+Both substitutional and interstitial O in the lattice lead to a reduction of Bm with increasing O content in rs-AlN, a behavior being different to that of wz-AlN (B4).
+The reason may originate from the fact that the structure in rs-AlN (fcc) is more compact as compared to wz-AlN structure, the type of bonding (covalence and ionic percentage), and the impact of O on the relative percentage of the different bonding types.
+The O effect in zb-AlN (Fig. 4c) seems from the limited experimental data available to be quite similar as in wz-AlN.
+That is, increasing the O content does not change the bulk modulus significantly, i.e., at least not up ∼10 at.%.
+Moreover, the experimental results (Bm ) are slightly higher than those reported in the literature and the present work.
+In contrast, the effect of oxygen on zb-AlN by calculation exhibits a decrease of bulk modulus with increasing the O content, similar to the O effect in rs-AlN.
+This discrepancy of Bm in zb-AlN between experiments and calculation remains unclear, however, more experimental data points may help to clarify the effect of O in zb-AlN.
+The most intriguing finding reported in this study is the growth of metastable zb-AlN layers on CrN layers (4 nm thick) and the transformation of zb-AlN to wz-AlN after a certain thickness (more than 4 nm).
+Further on, we present a first direct mapping of the bulk modulus in nitrides and its correlation with valence electrons at the nanometer scale, and elucidating the influence of the O impurity level on the mechanical properties.
+Zb-AlN films can form within a gradient multilayered structure.
+The multilayered structure exhibits a gradient change in atomic and electronic structures due to the presence of phase transformations.
+Such a structure allows studying mechanical properties of different phases, including the metastable phase (zb-AlN) as well as stable phases (wz-AlN, rs-CrN) via using valance electrons.
+Experimentally measured bulk moduli (Bm ) are in agreement with theoretically calculated values.
+A detailed analysis of the O impurity effect on the bulk modulus is revealed, namely, an increase in O impurity content causes a reduction of the rs-CrN bulk modulus whereas no significant effect on the wz-AlN bulk modulus is measured, in line with the DFT predictions.
+The study provides the guidelines for the design of novel multilayers with atomically controlled properties for potential applications via tailoring the structure, i.e. incorporating the metastable phases and building gradient structures as well as chemical compositions, e.g. by manipulating the oxygen content in the coatings.

@@ -1,0 +1,248 @@
+AMs are artificial materials/structures designed to exhibit unconventional effective properties that are usually not associated with the ordinary composites.
+AMs analogue to electromagnetic metamaterials have already been investigated in recent works, such as negative effective parameters [1,2], negative refractive index or near-zero-index [3,4], energy absorption [5,6], absorber [7–9], acoustic cloaking [10,11], acoustic superlens [12,13] and topologically protected one-way propagation [14].
+So far, most of AMs can primarily be divided into locally resonant acoustic metamaterials (LRAMs) with basic resonators [2,15], membrane-type AMs [1] and other types of AMs based on effective medium theory [16,17].
+For instance, in 2000, Liu et al. [15] first fabricated and investigated an AM that exhibits negative elastic constants with a lattice constant two orders of magnitude smaller than the operating wavelength based on LR structures.
+In 2004, Li et al. [18] theoretically demonstrated a simultaneously negative effective bulk modulus and mass density by dispersing periodic array of soft rubber in water.
+Fang et al. [2] investigated the dynamic behaviors and the effective parameters of the Helmholtz resonant AMs.
+Since then, AMs with the single and double negative properties by LRAMs have gained more attention [19–22].
+By introducing the periodic arrangement of Helmholtz resonators, Lee et al. [19] first experimentally demonstrated acoustic double negativity of an AM with an array of side holes on a tube.
+Yang et al. [23] proposed a new LRAM, so-called the membrane-type AMs with the negative dynamic mass.
+For LRAMs, their absorption losses are usually considerable and their responses associated with a low symmetry are generally anisotropic.
+Furthermore, it is still a considerably technological challenge to encapsulate the high-density particles in a soft matrix material with a highly stable shape and a well controllable arrangement.
+These inherent drawbacks seriously restrict the practical applications of LRAMs.
+To overcome these defects, recently, the researchers introduce the space-coiling technique into AMs, and design the labyrinthine/space-coiling AMs with a geometry-based mechanism [24–29].
+It provides a novel mechanism that the sound wave transmits along the space-coiling instead of a straight line.
+This enables the propagation length of wave to be multiplied, increasing the total propagation time and decreasing the effective phase velocity.
+These labyrinthine AMs have an extremely low absorption loss and a high refractive index.
+For example, Liang et al. [24,26] firstly designed the space-coiling AMs and confirmed the negative refractive index and the dispersive characteristics.
+Li et al. [25] designed an AM with curled channels to achieve an acoustic gradient len with arbitrarily large refractive index and greatly high transmission efficiency.
+Xie et al. [27,28] showed the appearance of the broadband negative refractive index and the broadband impedance matching in a labyrinthine AM.
+Frenzel et al. [29,31] designed the zig-zag channels to achieve the broadband sound attenuation and the double negativity in a three-dimensional (3D) labyrinthine AM.
+Cheng et al. [32] proved the high reflection of the low-frequency sound in an artificial Mie-resonance-based AMs consisting of the zig-zag channels.
+Subsequently, a class of AMs with the labyrinthine structures or Mie-resonances was further developed in many applications, such as the sound absorption and blocking [33], acoustic focusing lens [25], high transmission [34], directional sensing [35,36], acoustic cloaking and tunneling [37].
+To date, AMs are restricted to the simple zigzag channels or inspirations of natural biological structure/materials, which have certain contingency.
+The structure complexity of AMs is endless.
+Hence, how to design geometric structures or bio-inspired configurations with appropriate and precise mathematical formulas, so as to achieve the unusual characteristics of the labyrinthine AMs, is of great importance to broaden the practical applications.
+The self-similar fractal structures and their applications are ubiquitous in the biological and mechanical territories [38].
+Inspired by the fractal and “pseudo-fractal” architectures, the hierarchical phononic crystals and the hyper-lattices with the fractal organizations have been explored [39–41].
+The pseudo-fractal hyper-lattices were designed to regulate phononic detectability through the higher-order structure, which not present in the ordinary lattice [40].
+Recent researches involving acoustic/elastic waves have shown the hierarchical and fractal-like AMs can provide superior wave attenuation in the multiband or deep-subwavelength scale due to their unique structures [42–50].
+Song et al. [42] fabricated a broadband fractal AMs that can shield the low-frequency sounds at specific frequencies.
+Krushynska et al. [47] designed a labyrinthine AM with the Wunderlich sub-wavelength paths, based on self-similar organization, as efficient reflectors to control low-frequency airborne sound.
+Zhao et al. [49] and Man et al. [50] designed the stretched and 3D HFAM respectively to control the ultralow-frequency and multiband acoustic insulation.
+Other related researches have also been reported on controlling the propagation of sound waves by the fractal AMs, such as the broadband wave filtering [51,52], broadband focusing acoustic lens [43].
+Despite these considerable efforts, the challenges still exist.
+For example, almost all of them focus on the sound blocking, as mentioned above articles.
+Ref [46] proposed HFAM with multi-bandgaps primarily to investigate the effects of the fractal order on the band structures, the system robustness of higher-order structures, and the wavefront shaping effect.
+The results showed that the higher-order HFAM can not only increase the total width and number of bandgaps, but also appear the deep-subwavelength bandgap, so the sound attenuation of HFAM was controlled within the bandgaps.
+Moreover, with properly arranged HFAM units, it can flexibly reshape the plane waves from the high- to low-frequency range.
+For the higher-order HFAM, it showed good robustness against the irregular arrangements in the sound transmissions.
+However, the numerical solutions of the density-near-zero and other applications of HFAMs, e.g. sound cloaking and tunneling, have not explored, although they are important for the investigation of HFAMs from other aspects.
+Furthermore, the double negative indices (negative bulk modulus, and negative mass density) play an important role for exotic effective properties and novel applications of AMs, but they have seldom been studied in the labyrinthine fractal AMs.
+Moreover, the existing design methods for the labyrinthine fractal AMs are lack of rigorous mathematical models, limiting the fractal orders of the configuration.
+The multi-scale self-similar fractal models will greatly enrich the design method for AMs.
+As an effort to fill in the above-mentioned research gaps, this work will introduce the effect of the self-similar fractal on HFAM with the negative mass density and bulk modulus on subwavelength scale.
+The significances of the present study can be summarized as the following: (1) the proposed subwavelength HFAMs are capable of producing the rich multipole resonances.
+The significant effects of the fractal-inspired hierarchies on the distributions of the pressure and phase fields of the multipole modes are systematically investigated.
+To further demonstrate resonances characteristics, the pressure magnifications in the center region of HFAM are explored in the presence of the air losses; (2) based on effective medium theory, the negative effective parameters and density-near-zero of HFAM are numerically calculated respectively.
+Meanwhile, the relationships of the negative effective parameters and the width of Hilbert curve channel are discussed; (3) by the negative effective properties, the designed HFAMs with the sparse arrangement are used for the multi-bands sound blocking on subwavelength scale.
+Finally, the effectiveness and applications of HFAMs with the density-near-zero are demonstrated in the zero-phase-difference phenomena, like the quarter bending, sound cloaking and tunneling.
+Here, we consider the influence of Hilbert curve channels K on the monopole and dipole resonances, and pressure magnification of monopole modes, shown in Fig. 4 .
+Firstly, for the first two orders, with the increase of K, it can be seen that the monopole resonances gradually increase and tend to stabilize, while the dipole resonances first decrease and then increases in Fig. 4(a) and (b).
+Secondly, the monopole and dipole resonances of the third order HFAM are increasing gradually in Fig. 4(c).
+Fig. 4(d)–(e) shows the pressure magnifications of monopole resonance in the interconnection center of HFAM.
+From the figure, it is clear that pressure magnifications of HFAM drop rapidly, and then slowly, as the K increases.
+The second and third order HFAM with a longer path have much higher-pressure magnifications, which even approach to the enhancement of 50 times, when the K ≈ 1 mm.
+It indicates that the amount of energy radiates outward less and is largely concentrated in the central area.
+Thus, we enable to change the geometrical parameter of HFAM, such as decreasing the width K, so that the more sound energy of the interconnection center can be concentrated in a low-frequency range.
+It may have a good prospect in the application of energy collection in the presence of losses.
+The 2D unit cells of the first order, the second order and the third order HFAM, are respectively illustrated in Fig. 1 .
+In the design of HFAM, a square with a side length of a/2 is divided into 21-by-21 section.
+The centers of 21-by-21 section are connected from the lower-left and lower-right in a clockwise direction, opening a width of K Hilbert curve channel, as indicated in Fig. 1(a).
+As the fractal order increases, the squares of a/2 are divided into 22-by-22 and 23-by-23 section, respectively, as given in Fig. 1(b) and (c).
+Fig. 1(d)–(f) represents the unit cells of the first to third order HFAM [46].
+The proposed configurations include a square frame and are divided into four sectors with independent curved channels connected at the center.
+For simplicity, each order curve has a length a/2, and the feature segment (i.e., the shortest segment) length of the N-order Hilbert structure is l = a/2N+1 (N = 1,2,3).
+Therefore, the Euclidean total length of fractal waveguide is L = 2N−1 a − l (N = 1,2,3).
+In addition, the sound wave propagation length within a unit cell with Hilbert curve channel is Leff=2N−1−12N+1+2+12N+2aN=123.
+This Hilbert curve eventually fills the entire square area, if fractal order N → ∞ [53].
+Here, considering sound channel of HFAM instead of Hilbert curve, so it cannot be fractal infinitely in a constant square.
+With the increase of fractal order, the thicknesses (H′, H′′, H′′′ and W′, W′′, W′′′) of the structure walls become thinner shown in Fig. 1(d)–(f), hence we can find that the higher of the fractal order, the lighter of HFAM weight.
+Thus, the higher order HFAM is easier to achieve the lightweight characteristic.
+Unlike the mechanism of the Helmholtz resonator-based AMs [2] and the membrane-based AMs [1,23], the labyrinthine AMs are excited by an ultraslow acoustic medium with a high refractive index, when compared with the background medium [24–33].
+In HFAM, the sound waves propagate along Hilbert curve channels instead of straight lines, so the total propagation length of sound wave is multiplied.
+Thus, the effective speed of air particle within HFAM is ultraslow, and it can be efficiently equivalent to an artificial medium with a higher refractive index.
+The effective refractive index n eff is evaluated as the ratio between the approximate total length of the sound wave inside Hilbert curve channel and the length of the inlet and center connected by a straight line in Fig. 1.
+A rough estimation of n eff of HFAM unit can be formulated as(1)neff≈Leffa/2=2N−12N+2+12N+1aaN=123 Here, sound wave propagates along the Hilbert curve channel, n eff of HFAM are much larger than 1 (n eff1 = 2.2, n eff2 = 4.2, n eff3 = 7.8).
+In this study, we consider that HFAM units are uniformly arranged in a square lattice, whose lattice constants are a 0 = 110 mm.
+HFAM can stimulate abundantly resonance modes, such as the monopole and multipole resonances.
+We study the eigenstates of HFAM by COMSOL eigenfrequency module with the periodic boundary conditions.
+The monopole resonance can produce a negative bulk modulus, while the dipole resonance can generate a negative mass density [32].
+The eigenstates of HFAM are shown in Fig. 2 , in which the monopolar and dipolar resonance frequencies of the first, second, third order HFAM are 586 Hz and 1343 Hz, 389 Hz and 806 Hz, 228 Hz and 461 Hz, respectively.
+For the monopole modes of HFAM, in Fig. 2((a) and (c), (e) and (g), (i) and (k)), the sound energies mainly concentrate at the interconnection center of HFAM and radiate sound equal approximately in four Hilbert curve channels directions, where the phases are the same.
+These results indicate that the sound wave simply moves inward and outward in a collective in-phase pattern which is independent of the propagation directions.
+Fig. 2((b) and (d), (f) and (h), (j) and (l)) depict the dipole modes of HFAM, the sound energies concentrate in the opposite sides (the upper-left and lower-right channels), and their phases have a difference of π.
+The sound waves along the opposite directions are out-phase pattern with one inward and the another outward.
+Hence, the designed HFAM can control the behaviors of monopole and dipole modes.
+In addition, with the increasing the fractal order, the monopole and dipole frequencies of the third order HFAM are shifted to lower-frequency range, in which their normalized frequencies are 0.073 and 0.148, respectively.
+Note that the third order HFAM is a deep-subwavelength structure and provides an alternative route to control the propagation of the sound wave with a wavelength as long as nearly 1.5 m.
+Numerical simulation with COMSOL Multiphysics, a FEM analysis and solver software, is further performed to prove the monopole and dipole resonances with the frequency-domain model schematically depicted in Fig. 3(a).
+The calculations are performed here with respect to the pressure magnification in the region of the interconnection center of HFAM.
+The pressure amplifications are calculated based on the average values of the central regions (yellow part) as displayed in Fig. 3(a).
+We consider the propagation of plane wave governed by the Helmholtz equation:(2)∇−1ρ0∇p0−ω2ρ0c2p0=0.
+A harmonic oscillation p in = p 0 e iωt with angular frequency ω and a unit amplitude p 0 = 1 Pa is impacted on the left boundary, where the source excitation is applied to simulate sound plane waves.
+At the top and bottom boundaries, the Floquet-Bloch periodic conditions (p 0(r + a 0) = p 0(r)e −ka 0 ) are applied to simulate an infinite medium in y-direction in Fig. 3(a).
+In addition, considering that the solid material's impedance is much larger than that of air, the solid walls can be regarded as the sound-hard boundary condition [29,34].
+The Perfectly Matched Layer (PML) is performed on the outlet of the waveguide to eliminate the reflected waves.
+When acoustic waves propagate through Hilbert curve channels with small dimensions, the air losses should be considered [32,54].
+As predicted in Fig. 2(a), (e), (i), the localized pressures in the interconnection center of HFAM should increase significantly at the monopolar frequency.
+This behavior is clearly proved by the pressure magnifications in the region of the interconnection center of HFAM, as shown in Fig. 3(b)–(d).
+Fig. 3(b) shows that the maximum magnification of the first order HFAM occurs at 591 Hz with a pressure enhancement of 9.2 times in simulations with lossless.
+The sound pressure field concentrates in the center around monopole resonance.
+Note that there is a small peak and dip around 1300 Hz, in which sound pressure field radiates in the opposite directions.
+The two peaks of pressure magnification confirm the monopole and dipole modes, depicted in Fig. 2(a) and (b).
+Fig. 3(c) shows that the maximum magnification of the second order HFAM occurs at 395 Hz with a pressure enhancement of 10.1 times.
+It is noteworthy that there is a small peak and dip around 801 Hz when the pressure magnification equal to one.
+The two peaks of pressure magnification validate the monopole and dipole mode, shown in Fig. 2(e) and (f).
+Fig. 3(d) shows the maximum magnification of the third order HFAM occurs at 229 Hz with a pressure enhancement of 9.7 times.
+Note that there is a small peak and dip around 456 Hz when the pressure magnification equal to one.
+The two peaks of pressure magnification confirm the monopole and dipole mode, displayed in Fig. 2(i) and (j).
+These results are shown in Fig. 3(b)–(d), at resonance frequencies 591 Hz and 1300 Hz, 395 Hz and 801 Hz, 229 Hz and 456 Hz, which agree with the monopolar and dipolar resonances modes of HFAM displayed in the Fig. 2, respectively.
+To further illustrate the effect of losses, the pressure magnifications in the interconnection center of HFAM with respect to different losses are shown in Fig. 3(b)–(d).
+It is clearly observed that peaks of the pressure magnifications of HFAM around the monopole resonance frequencies decrease sharply and their corresponding frequencies are not shifted as a consequence of losses.
+The peaks and dips of pressure magnification have a small decrease near the dipole resonance frequencies.
+Moreover, the pressure magnifications in the monopole and dipole modes associated with sound blocking behavior are partly suppressed due to losses effect.
+The insets of monopole and dipole mode with loss = 0.032 as shown in Fig. 3(b)–(d), they indicate that amplitudes of pressure field distributions encounter the reduction in any position.
+As mentioned above, these results imply that the monopole and dipole resonances obtained based on eigenstate and frequency-domain calculations are almost consistent, except for the dipole resonance of the first order HFAM.
+Specifically, as compared with the first two orders, in the vicinity of monopole resonance, the third order HFAM not only can obtain convergence of wave energy, but also can regulate sound wavelength with 13.6 times larger than unit dimension in deep-subwavelength scales.
+Here, we consider the influence of Hilbert curve channels K on the monopole and dipole resonances, and pressure magnification of monopole modes, shown in Fig. 4 .
+Firstly, for the first two orders, with the increase of K, it can be seen that the monopole resonances gradually increase and tend to stabilize, while the dipole resonances first decrease and then increases in Fig. 4(a) and (b).
+Secondly, the monopole and dipole resonances of the third order HFAM are increasing gradually in Fig. 4(c).
+Fig. 4(d)–(e) shows the pressure magnifications of monopole resonance in the interconnection center of HFAM.
+From the figure, it is clear that pressure magnifications of HFAM drop rapidly, and then slowly, as the K increases.
+The second and third order HFAM with a longer path have much higher-pressure magnifications, which even approach to the enhancement of 50 times, when the K ≈ 1 mm.
+It indicates that the amount of energy radiates outward less and is largely concentrated in the central area.
+Thus, we enable to change the geometrical parameter of HFAM, such as decreasing the width K, so that the more sound energy of the interconnection center can be concentrated in a low-frequency range.
+It may have a good prospect in the application of energy collection in the presence of losses.
+As one of the effective dynamic parameters of AMs, ρ eff can approach zero in a specific frequency region.
+This density-near-zero AMs has many unique applications, such as perfect transmission with sharp bends and corners [57], sound cloaking [24,57] and tunneling [24,32,57].
+We demonstrate that ρ eff of HFAMs can facilitate sound propagation at the frequency where its ρ eff tends to zero.
+To prove ρ eff ≈ 0 of HFAMs, Fig. 7(a) shows the schematic setup which is used to retrieve ρ eff ≈ 0 of the first order HFAMs.
+We retrieve the four locations pressures P x1, P x2, P x3 and P x4 by carefully arranging HFAMs units based on the complex transmission (T) and reflection (R) coefficients [58].
+In this approach, ρ eff ≈ 0 is obtained from the S-parameters for a plane wave normally incident on HFAMs units.
+The T and R are expressed in terms of the pressures at four locations using Eq. (7), respectively.(7)R=Px2e−jkS1−Px1Px1−Px2ejkS1,T=sinkS1sinkS2Px3ejkS2−Px4Px1−Px2e−jkS1ejkL1+L2,where k = ω / c 0 is the corresponding wave number in air.
+By inverting Eq. (7), we obtain the acoustic impedance Z and the refractive index n,(8)Z=r1−2⋅R+R2−T2,n=−j⋅logxk⋅d, (9)r=±R2−T2−12−4⋅T2,x=1−R2+T2+r2⋅T, The ρ eff relative to the background air can be obtained from above n and Z [61].(10)ρeff=Z⋅n/ρ0 Fig. 7(b)–(d) represents the retrieved and imaginary parts of ρ eff.
+In Fig. 7(b) and (c), the real parts ρ eff occur two dips, which are both equal to zero at the normalized frequencies 0.2843 and 0.1890, respectively.
+Fig. 7(d) displays the real ρ eff of the third HFAM with respect to the normalized frequency.
+In the normalized frequency range from 0.1510 to 0.1545, real ρ eff changes from positive to negative and crosses zero at 0.1537.
+To further investigate the effect of ρ eff ≈ 0, the sound transmissions at density-near-zero are calculated in Fig. 8 .
+Fig. 8(a)–(c) shows that the transmission coefficients approximatively reach 100%, when the normalized frequencies of the incident waves are 0.2843, 0.1890 and 0.1537, respectively.
+The density-near-zero AMs have been demonstrated that their transmissions should be a quasi-static process with an infinitely large phase velocity [3,59].
+Thus, the spatial phase of the transmitted wave should keep constant, i.e. zero-phase-difference.
+The insets of Fig. 8(a)–(c) presents the pressure field distributions at 0.2843, 0.1890 and 0.1537, in which the transmitted waves achieve the zero-phase-difference effects.
+These results imply that the perfect transmissions are obtained at these frequencies, which are exactly the density-near-zero frequencies.
+Meantime, other total transmission also happens near density-near-zero, as HFAM units are arranged sparsely, generating resonance coupling between adjacent units.
+However, the phase patterns of sound waves are altered at the interface between the air and HFAMs slabs presented in Fig. A (Appendix A).
+In addition, the effects of changes on the thicknesses of HFAMs slabs (for example, the first order HFAM) are considered in Fig. B (Appendix B).
+As analyzed above, the proposed HFAM with density-near-zero constructed can produce extraordinary transmission without any phase change.
+In the vicinity of the density-near-zero, ρ eff is close to zero, which the zero-phase-difference effect occurs.
+Therefore, HFAM maybe effectively capable of sound quarter bending, sound cloaking and tunneling.
+In addition, one can adjust the frequency range of density-near-zero of HFAM by changing the width K according to specific requirements.
+Specifically, for the third order HFAM, the normalized frequency of density-near-zero is far less than 1, where it can be applied to phase regulation of sound wave on a deep-subwavelength scale.
+To provide a deep insight into the physical properties of HFAM unit, its effective parameter can be systematically calculated by the transfer matrix method, which has been used in the past to analyze and measure acoustical properties of porous structures [55].
+These structures, which are equivalent to an effectively homogeneous medium with isotropic parameters, are used to analyze wave propagation characteristics under the long wavelength assumption [56].
+The implementation tool is the periodic expression formula of HFAM units of the Pressure Acoustic module of COMSOL Multiphysics.
+Here, the transfer matrix is used to relate the sound pressures and normal acoustic particle velocities on the two faces of a unit layer extending from x = 0 to x = d e as in Fig. 5(a), i.e.,(3)P1V1x=0=TeP2V2x=de,where P i and V i are the complex pressures and complex normal acoustic particle velocities on the two faces of the effective medium, they are expresses as:(4)Pi=Ae−ikeffx+BeikeffxxVi=1ρeffc0Ae−ikeffx−Beikeffxx, The coefficients A and B are the amplitudes of acoustic waves.
+By combining Eqs. (3) and (4), the transfer matrix can be expressed directly in terms of the pressures and velocities on the two surfaces of the unit layer, i.e.,(5)Te=T11T12T21T22=coskeffdejρeffc0sinkeffdejsinkeffde/ρeffc0coskeffde,where k eff = (1/d e)cos−1 T 11 is a complex wave number, and the complex characteristic impedance can be calculated from the displayed matrix equation Z eff = ρ eff ω/k eff.
+The effective mass density ρ eff and bulk modulus B eff are given by Eq. (5) and dispersion relation [56].(6)ρeff=jkeffsinkeffdeωT21/ρ0,Beff=ω2keff/ρeff/ρ0c02.where ρ eff and B eff are the effective parameters normalized to background air, respectively.
+The calculated responses of ρ eff and B eff by transfer matrix method are shown in Fig. 5(b)–(d), respectively.
+Fig. 5(b) illustrates ρ eff and B eff of unit cell of the first order HFAM.
+In the frequency ranges [609 Hz, 792 Hz] and [1192 Hz, 1400 Hz], the values of B eff and ρ eff change from positive value to negative one, respectively, as the monopolar and dipolar resonance occur in Fig. 2(a)–(d).
+In the vicinity of the monopole resonant, B eff is negative where the external pressure and the volume change are out of phase.
+In the vicinity of the dipole resonance, ρ eff is negative where the acceleration response is opposite to the external excitation [32].
+Fig. 5(c) illustrates ρ eff and B eff of the second order HFAM.
+In the frequency ranges [408 Hz, 549 Hz] and [749 Hz, 866 Hz], the values of B eff and ρ eff switch to be negative one, as the monopole and dipole resonances occur in Fig. 2(e)–(h).
+Fig. 5(d) illustrates ρeff and B eff of the third order HFAM.
+In the frequency ranges [230 Hz, 311 Hz] and [386 Hz, 474 Hz], the values of B eff and ρ eff switch to negative one, as the monopolar and dipolar resonances occur in Fig. 2(i)–(l).
+At frequencies near resonance, a considerable amount of energy is stored in the structure.
+Note that ρ eff have two peaks, one is caused by the couple of antiresonance behavior of ρ eff and resonance behavior of B eff, which has been proven previously [32].
+The air loss = 0.0093 is assumed in the simulations of ρ eff and B eff.
+It is clearly seen that the loss influences the peaks and dips of B eff in the vicinity of the monopole resonance.
+The peaks of negative B eff are sharply reduced.
+Corresponding to the pressure magnification in the region of the interconnection center in the insert of Fig. 3(b)–(d), the accumulations of energy are decreased.
+ρ eff crosses zero and the corresponding frequencies are slightly shifted.
+The peaks of negative ρ eff are also sharply reduced.
+In addition, the resonant modes are dependent on the width of Hilbert curve channel K.
+Fig. 6 depicts the negative ρ eff and B eff of HFAM with respect to K.
+It should be noticed that as K increases, the range of negative ρ eff and B eff also widens respectively.
+Interestingly, as observed in Fig. 6(a)–(b), when K increases to nearly 10 mm, the frequency regions of simultaneously negative ρ eff and B eff (claret-colored areas) appear for the first and second order HFAM.
+Hence, the double negativity of ρ eff and B eff can be designed and obtained in broadband frequency range by varying K.
+This provides a good candidate for future research on acoustic negative refraction [27].
+By comparing and analyzing the effective parameters of HFAM units, we can see the following three points.
+First, the proposed HFAM can create negative effective properties, in which monopolar resonance induces negative bulk modulus and the dipolar resonance generates negative mass density.
+Second, both ρ eff and B eff of HFAM are sensitive to the width K, so acoustic characteristic can be regulated and controlled.
+Meanwhile, the first two orders HFAM with simultaneously negative ρ eff and B eff can be accomplished by changing K.
+Third, for the third order HFAM, the normalized frequencies of the lowest effective parameter are [0.086, 0.129], which are far less than 1.
+Therefore, the higher order HFAM maybe effectively capable of sound blocking on a deep-subwavelength scale.
+As one of the effective dynamic parameters of AMs, ρ eff can approach zero in a specific frequency region.
+This density-near-zero AMs has many unique applications, such as perfect transmission with sharp bends and corners [57], sound cloaking [24,57] and tunneling [24,32,57].
+We demonstrate that ρ eff of HFAMs can facilitate sound propagation at the frequency where its ρ eff tends to zero.
+To prove ρ eff ≈ 0 of HFAMs, Fig. 7(a) shows the schematic setup which is used to retrieve ρ eff ≈ 0 of the first order HFAMs.
+We retrieve the four locations pressures P x1, P x2, P x3 and P x4 by carefully arranging HFAMs units based on the complex transmission (T) and reflection (R) coefficients [58].
+In this approach, ρ eff ≈ 0 is obtained from the S-parameters for a plane wave normally incident on HFAMs units.
+The T and R are expressed in terms of the pressures at four locations using Eq. (7), respectively.(7)R=Px2e−jkS1−Px1Px1−Px2ejkS1,T=sinkS1sinkS2Px3ejkS2−Px4Px1−Px2e−jkS1ejkL1+L2,where k = ω / c 0 is the corresponding wave number in air.
+By inverting Eq. (7), we obtain the acoustic impedance Z and the refractive index n,(8)Z=r1−2⋅R+R2−T2,n=−j⋅logxk⋅d, (9)r=±R2−T2−12−4⋅T2,x=1−R2+T2+r2⋅T, The ρ eff relative to the background air can be obtained from above n and Z [61].(10)ρeff=Z⋅n/ρ0 Fig. 7(b)–(d) represents the retrieved and imaginary parts of ρ eff.
+In Fig. 7(b) and (c), the real parts ρ eff occur two dips, which are both equal to zero at the normalized frequencies 0.2843 and 0.1890, respectively.
+Fig. 7(d) displays the real ρ eff of the third HFAM with respect to the normalized frequency.
+In the normalized frequency range from 0.1510 to 0.1545, real ρ eff changes from positive to negative and crosses zero at 0.1537.
+To further investigate the effect of ρ eff ≈ 0, the sound transmissions at density-near-zero are calculated in Fig. 8 .
+Fig. 8(a)–(c) shows that the transmission coefficients approximatively reach 100%, when the normalized frequencies of the incident waves are 0.2843, 0.1890 and 0.1537, respectively.
+The density-near-zero AMs have been demonstrated that their transmissions should be a quasi-static process with an infinitely large phase velocity [3,59].
+Thus, the spatial phase of the transmitted wave should keep constant, i.e. zero-phase-difference.
+The insets of Fig. 8(a)–(c) presents the pressure field distributions at 0.2843, 0.1890 and 0.1537, in which the transmitted waves achieve the zero-phase-difference effects.
+These results imply that the perfect transmissions are obtained at these frequencies, which are exactly the density-near-zero frequencies.
+Meantime, other total transmission also happens near density-near-zero, as HFAM units are arranged sparsely, generating resonance coupling between adjacent units.
+However, the phase patterns of sound waves are altered at the interface between the air and HFAMs slabs presented in Fig. A (Appendix A).
+In addition, the effects of changes on the thicknesses of HFAMs slabs (for example, the first order HFAM) are considered in Fig. B (Appendix B).
+As analyzed above, the proposed HFAM with density-near-zero constructed can produce extraordinary transmission without any phase change.
+In the vicinity of the density-near-zero, ρ eff is close to zero, which the zero-phase-difference effect occurs.
+Therefore, HFAM maybe effectively capable of sound quarter bending, sound cloaking and tunneling.
+In addition, one can adjust the frequency range of density-near-zero of HFAM by changing the width K according to specific requirements.
+Specifically, for the third order HFAM, the normalized frequency of density-near-zero is far less than 1, where it can be applied to phase regulation of sound wave on a deep-subwavelength scale.
+Low-frequency sound blocking has been regarded as a challenging task in airborne sound regime, since the mass density law predicts the required weight of the structure to be excessive [60].
+Recently, Mie-resonance AMs have been adopted to achieve the high reflectivity at the monopole frequency [32].
+Ref [46] has explored the single-unit of HFAM in the waveguide with filling ratio 95.6% for the sound attenuation based on the multi-bandgaps property.
+Here, we show that multiple HFAM units with negative effective parameters enable to shield the low-frequency sound below 1200 Hz by a monolayer sparse arrangement with a subwavelength thickness.
+In the region of negative effective parameters, sound waves are reflected, meaning the sound transmissions are perfectly blocked.
+In Fig. 9(a)–(c), the width of rectangular waveguide is 12a 0.
+The distance between centers of two adjacent HFAM units is 2a 0.
+Therefore, the filling ratio along the x-direction is just 6a 0/12a 0 = 50%, which is almost half of the rate in Ref [46].
+Therefore, the material consumption and construction cost maybe significantly reduced.
+Fig. 9 displays that six HFAM units are uniformly distributed in a wide rectangular waveguide.
+Fig. 9(a)–(c) shows the sound field distributions of the first, second and third order HFAM with six units, when the frequencies of the plane waves 642 Hz, 424 Hz and 238 Hz radiate normally along the y-direction, respectively.
+They are located in the frequency ranges [609 Hz, 792 Hz], [411 Hz, 560 Hz] and [230 Hz, 269 Hz] in Fig. 5(b)–(d), the negative bulk modulus of the first, second and third order HFAM occur.
+It is observed that the sound energies are concentrated inside units and sound waves are partly blocked up due to the high reflections of HFAMs near monopole resonances.
+In the outlet, the sound pressure levels decrease to −23 dB, −47 dB and − 59 dB, which are smaller than the incident sound pressure (0 dB).
+Moreover, the transmission coefficients shown in Fig. 9(d)–(f) as the green dash-dot curves are almost 28.7%, 7.4% and 5.3%.
+Furthermore, with the increase in the number of HFAM units, the sound blocking property will be improved in Fig. 9(d)–(f).
+Particularly, for third order HFAM, there is also a dip near dipole resonance (481 Hz), indicating the negative mass density can block sound propagation.
+Interestingly, except for the dips near monopole and dipole, other troughs (multi-bands with multipolar resonances [47]) are produced in Fig. 9(f).
+When the number of HFAM units increases from 3 to 12, the dips for monopolar resonances are blueshifted and the dips for dipolar resonances are redshifted (except for the first order) relative to the resonance of the single-unit.
+The blueshift and redshift originate from the diffraction coupling between adjacent units [32].
+Based on the discussion above, we can obtain that HFAM can effectively block the propagation of sound wave at a low-frequency range between monopolar and dipolar resonances by simply arranging HFAM units in an array.
+In addition, the monopole and dipole resonance frequencies can be changed with the width K, so the acoustic shielding bands of HFAM are easily adjusted in subwavelength range.
+Besides, compared to the first two orders, the normalized frequencies of near the monopole and dipole resonances of the third order HFAM are respectively 0.0763 and 0.1543, indicating that it can be effectively applied to block sound waves with much longer wavelengths.
+For example, near the monopole resonance, it can control wavelengths up to almost 13 times larger than the lattice constant.
+Thus, this provides an efficient method to design the sound blocking by arranging the higher order HFAM with subwavelength thickness and light-weight in sparse arrays.
+Inspired by the self-similar fractal configurations, Hilbert curves are applied to design a kind of the labyrinthine AMs.
+The numerical results have demonstrated that the proposed HFAM can motivate both the monopole and dipole modes, in which the monopole mode induces the negative bulk modulus and the dipole mode contributes to the negative density, respectively.
+Meanwhile, with the increase of the fractal order, the monopolar and bipolar resonances gradually shift to the lower-frequency domain.
+Furthermore, based on the transfer matrix and S-parameter method, the negative mass density and bulk modulus, and the density-near-zero of HFAM are respectively achieved.
+Although taking the air losses into consideration, the negative effective properties are also obtained.
+In addition, the effects of Hilbert curve channel width on the resonant modes and effective parameters also have been thoroughly analyzed.
+Due to the unique negative property of HFAM, we develop a monolayer HFAM with subwavelength thickness to block the sound propagation at the low-frequency range, e.g. 100–1200 Hz.
+We also prove that the appropriate arrangements of HFAMs in arrays have a perfect transmission in the density-near-zero, in which the zero-phase-difference effects are produced in sound wave regulations, for instance, quarter bending, sound cloaking and tunneling.
+Specially, with the increase of the fractal orders, the zero-phase-difference effects of the third order HFAMs not only obtain on deep-subwavelength scale, but also exhibit the multi-band characteristics.
+Our future work will include the fabrications of the proposed HFAM and experimental verification, as well as investigation of more perfect structures based on the demonstrated phenomena.
+These explorations, therefore, provide useful guidelines for the labyrinthine AMs to modulate the negative effective parameters and zero-phase-difference effects on subwavelength scale.
+The obtained novel properties can be further employed in the device applications of the future functional metamaterials.

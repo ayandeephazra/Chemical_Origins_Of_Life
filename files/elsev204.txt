@@ -1,0 +1,8 @@
+In this work, microstructural dependence of thermal conductivity of two polycrystalline zircaloy-4 samples was analyzed by using an extended Raman thermometry method.
+The thermal conductivity values in examined microstructures were found to vary spatially from 11 to 13 W m−1K−1.
+These values are in the range reported by other bulk measurements that do not consider spatial distribution.
+The Kapitza thermal resistance model is shown to describe the measured dependence of thermal conductivity as a function of grain size.
+Thermal resistance from grain boundaries and inhomogeneities are identified as two potential contributors to the thermal conductivity reduction.
+Nanoindentation tests were performed to obtain the local elastic modulus distribution in the analyzed samples.
+The thermal conductivity values increase with elastic modulus increasing in each sample.
+This result indicates a possibility that at room temperature phonon thermal conductivity makes a non-negligible contribution to the total thermal conductivity in zircaloy-4.

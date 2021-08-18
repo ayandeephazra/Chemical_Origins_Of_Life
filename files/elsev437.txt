@@ -1,0 +1,6 @@
+Brillouin scattering spectroscopy was applied to investigate the effect of calcium on the single-crystal elasticity of majorite garnet, Mj42Py50.5Gr7.5, up to 25 GPa, spanning the conditions of the mantle transition zone.
+The adiabatic bulk and shear moduli, and their pressure derivatives are Ks = 159(2) GPa, μ = 87(1) GPa, K S ′ = 4.3(2) and μ′ = 1.2(1).
+Calcium substitution has a small but resolvable effect on the elasticity of the majorite-pyrope join and lowers both K s and μ by 6 and 3% respectively compared to the calcium-free counterparts.
+The elasticity results, along with literature data, were employed to compute shear seismic gradients associated to the exsolution of CaSiO3 perovskite (CaPv) in pyrolite and MORB below 520 km depth.
+The results show that the exsolution of 18 vol% of CaPv is required to produce gradients comparable to PREM at the bottom of the transition zone, although these amounts are compatible with calcium contents in MORB but too high for pyrolite mineralogy.
+We conclude that the steep shear seismic gradients in the transition zone are compatible with progressive calcium enrichment likely supplied by subducted oceanic crust accumulated at the bottom of the transition zone by stagnating slabs.

@@ -1,0 +1,6 @@
+The mechanical, electrochemical, wear, and corrosive-wear behaviors of a TiZrCuPd bulk glassy alloy were investigated.
+The Ti-based glassy alloy demonstrates a high yield strength of 2.3 GPa, low Young's modulus of 95 GPa, and Vickers microhardness of 7.2 GPa, which are superior to those of the Ti-6Al-4V biomedical alloy.
+The TiZrCuPd glassy alloy shows a good corrosion resistance in the phosphate buffer saline (PBS) solution, owing to the formation the Ti- and Zr-enriched passivation film on the alloy surface.
+The TiZrCuPd alloy displays the lowdry-wear rate of 6.1 × 10−8 mm3 mm N−1and wet-wear rate of 8.0 × 10−8 mm3 mm N−1.
+The triobocorrosionresults illustrate that the TiZrCuPd alloyshows a high pitting corrosion resistance during the wet sliding, which render its good corrosive wear performance.
+The good combination of mechanical, corrosion, and wear properties of the Ti-based glassy alloy make it promising for biomedical applications.

@@ -1,0 +1,10 @@
+Quantification of total soil erosion in wind and water eroded croplands is essential for assessing their contributions and the interaction between them.
+However, it is difficult to quantify total soil erosion amounts by the traditional monitoring and modelling approaches of wind erosion and water erosion.
+To address this problem, a Real Time Kinematic Global Positioning System (RTK GPS) was applied for a series of wind and water eroded croplands in the Bashang area in North China to quantify the total soil erosion amount over a period of 44 years.
+By comparing the elevation of the croplands with a reference surface without erosion, the total soil erosion modulus and its spatial variation were determined.
+Results showed that the erosion moduli of the six croplands ranged from 1.09 to 45.34 Mg ha−1 y−1 with an average modulus of 17.02 Mg ha−1 y−1.
+The croplands in the west suffered from more intense wind erosion compared to the middle and eastern areas; this was due to the presence of forest-grasslands, which served as wind breaks for the croplands in the middle and eastern regions.
+However, the croplands in the east showed the highest total erosion modulus, which was due to the influences of a gully.
+Within the croplands, the slope areas suffered from intense soil erosion which was mainly owing to water erosion.
+The reliability and uncertainty of this approach were discussed in terms of the equipment precision, results accuracy, and possible deposition on the reference surface.
+This study shows that when a suitable reference surface is identified and the erosion amount is considerable, RTK GPS survey can be used as a reliable and effective method to assess the spatially explicit total soil erosion in croplands influenced by both wind and water erosion.

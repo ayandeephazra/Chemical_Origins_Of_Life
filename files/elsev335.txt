@@ -1,0 +1,9 @@
+A synthetic hydrogel material may offer utility as a cartilage replacement if it is able to maintain low friction in different sliding environments and achieve bulk mechanical properties to withstand the severe environment of the joint.
+In this work, we compared the tribological behavior of four double network (DN) hydrogels to that of fresh porcine cartilage in both water and fetal bovine serum (FBS).
+The DN hydrogels were comprised of a negatively charged 1st network and a 2nd network wherein comonomers of varying charge (i.e. neutral, positive, negative, and zwitterionic) were introduced at 10 wt% to an otherwise neutral network.
+A steel ball probe was used to perform microindentation tests to determine the surface elastic modulus of the samples and estimate their contact areas during sliding.
+Friction tests using a stationary probe with a stage that reciprocated at a range of speeds were performed to develop lubrication curves in both water and FBS.
+We found that the DN hydrogels with a neutral or zwitterionic 2nd network had the lowest friction and shear stresses, notably below that of cartilage.
+The differences in charge and structure of the samples were more evident in water than in FBS, as the lubrication responses for all the hydrogels spanned a wider range of values.
+In FBS, the lubrication responses were pushed towards elasto-hydrodynamics with nearly all friction coefficient values falling below 0.3. This indicates that the FBS interacts with the hydrogels and cartilage samples in a similar manner as that of cartilage by maintaining a robust layer of solution at the interface during sliding.
+These DN hydrogels prove to fulfill, and in some cases surpass, the lubrication demands for cartilage replacement in load bearing joints.

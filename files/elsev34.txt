@@ -1,0 +1,8 @@
+Solid solutioning has long been employed to improve the performance of enegineering materials, the degree of improvement generally correlates closely with the resultant lattice parameters.
+It is therefore of great importance for materials design to describe accurately the composition-dependent lattice constants of the solid solutions (SSs).
+However, existing models could hardly reproduce the usually non-linear relationship between the compositions and the lattice constants.
+Herein, we present a new model within the framework of virtual crystal approximation by taking into account both the size factor and the electronic effect.
+The model takes inputs as simple as the fundamental property parameters of the elementary substances and N referential SSs for an N-component system, and can then predict the lattice constant of SS with any composition within the system.
+Systematical validation using datasets obtained from high-throughput first-principles calculations and available experiments confirmed the high reliability and general applicability of our model for various substitutional SSs.
+Applications and limitations of the model as well as outlooks were also discussed.
+It is expected that this model will deepen the understanding of the relationship between the composition and the properties of materials.

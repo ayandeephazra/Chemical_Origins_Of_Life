@@ -1,0 +1,10 @@
+Formation microwave heating treatment (FMHT) is a potential method for degassing coalbed methane.
+Camera pictures and ultrasonic method were used to evaluate the crack propagation on the surface and in the interior of the coal cores, respectively.
+The results suggest that the fracture induced by microwave energy would remarkably increase with increased heating time.
+New fractures and pore sizes produced by microwave energy decreased P- and S-wave velocity in coal cores.
+The amplitude of the frequency spectrum of coal cores decreased after microwave energy treatment.
+The frequency distribution domain in the frequency spectrum of coal cores was also affected by microwave energy treatment.
+The density, bulk modulus and shear modulus of coal decreased with microwave energy treatment.
+Specifically, the slopes of declines in the bulk modulus and shear modulus were larger than that in the coal density.
+The increasing fracture network could improve the permeability of coal for degassing coal seams.
+In a word, the microwave energy has potential for assisting coalbed gas drainageing.

@@ -1,0 +1,11 @@
+Boride-based cermets possess attractive mechanical properties and are promising candidates for hard materials.
+Mo2NiB2–Ni-based cermet, which is a boride-based cermet, exhibits high hardness and attractive transverse rupture strength (TRS) properties through the crystal structure deformation that is caused by Cr or V substitution of Ni in the Mo2NiB2 phase.
+In this study, the effects of Cr substitution on the crystal structure, mechanical properties, and consistency were investigated.
+Cr-substituted Mo2Ni1-x Cr x B2 samples were synthesized via the powder metallurgy method.
+A first-principle calculation was also conducted to obtain the bulk modulus of the Cr-substituted Mo2Ni1-x Cr x B2.
+With the increase of the Cr content x, the tetragonal-Mo2NiB2 phase appeared, while the orthorhombic Mo2NiB2 phase disappeared.
+In the x = 0.6 samples, the Mo2Ni0.4Cr0.6B2, tet-Mo2NiB2 phase was observed.
+According to the Rietveld analysis, substituted Cr atoms occupied the Ni and Mo sites in the tet-Mo2NiB2 structure.
+The Rockwell A-scale hardness (HRA) measurement was performed to investigate the effects of the Cr content on the mechanical properties.
+The HRA values increased with the Cr content, and the maximum HRA value was approximately 87.1 for the x = 0.6 sample.
+The bulk modulus was also affected by the Cr content x in Mo2Ni1-x Cr x B2, and the maximum value was attained at x = 0.75.

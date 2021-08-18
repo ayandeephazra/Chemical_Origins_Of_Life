@@ -1,0 +1,7 @@
+Due to the complexity of conventional and alternative hydrocarbon fuels, simplified mixtures known as surrogates are often used to gain insight into the effect of fuel composition on thermophysical properties and combustion behavior.
+Atomistic simulations are uniquely suited to map changes in both physical properties and liquid structure to compositional changes within mixtures.
+Here, molecular dynamics simulations are used to examine several hydrocarbon mixtures of n-alkanes, n-alkylcyclohexanes, and n-alkylbenzenes, as well as their pure components.
+The simulations accurately predict relevant thermophysical properties such as density, bulk modulus, and excess molar volume as a function of n-alkylbenzene side-chain length, length of the n-alkane, and composition.
+In addition, the molecular-scale structure of the liquids is characterized via angular radial distribution functions and histograms of molecular volumes.
+Changes in fluid structure are used to rationalize non-intuitive trends in thermophysical properties, such as the opposite trends in density of pure n-alkylbenzenes and n-alkylcyclohexanes as a function of alkyl chain length, minima in bulk modulus as a function of composition, and mixtures whose density does not follow the same trend as their pure components.
+This work demonstrates the usefulness of molecular dynamics in fuel-surrogate development, by accurately predicting important fuel properties and, in addition, linking changes in molecular-level liquid structure to changes in fuel properties.

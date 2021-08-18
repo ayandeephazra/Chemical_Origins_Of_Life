@@ -1,0 +1,12 @@
+Rock physics models provide a link between the interior structure of rocks and seismic, petrophysics and geological data.
+Despite considerable advancements in reservoir rock physics, most models are developed to study the sandstone reservoirs, hence their application in the carbonate reservoirs probably needs further discussions.
+This might be due to the nature of sedimentation, existence of multiple pore types, and the diversity in their packing and sorting.
+The rock physics models utilizing effective medium theory provide a more accurate estimation by introducing the pore aspect ratio to such methods.
+However, the pore aspect ratio and the remaining input parameters, including the elastic moduli of minerals, are mostly derived from references and do not necessarily represent the actual rock matrix.
+In this study an algorithm is provided to simultaneously estimate the bulk and shear moduli of minerals and pore aspect ratio.
+The algorithm uses the velocity logs along with Kuster-Toksӧz model to derive an equation in terms of mineral elastic moduli and aspect ratio.
+This equation is then solved using Newton-Raphson method.
+The results are used to calculate the compressional- and shear- velocities in a carbonate gas reservoir that exhibit a reasonable match with the measured logs with mean absolute errors of 10−4% and 2.97%, respectively.
+The estimated elastic parameters are then averaged over different lithologies.
+Application of averaged input parameters resulted in estimation of Vp and Vs with mean absolute errors of 3.54% and 3.88%, respectively.
+The outcome of this study would also assist on determining the rock forming minerals and the number of pore systems available in the matrix.

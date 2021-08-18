@@ -1,0 +1,7 @@
+Highly porous materials with random closed-cell architecture combine isotropy with high stiffness.
+Yet in practice, the complexity of their manufacturing limits the experimental exploration of these materials, for which studies of the elastic response remain to date mainly theoretical.
+In this study, we measure experimentally the elastic moduli of random closed-cell porous-like composites fabricated by 3D-printing.
+These materials contain a high volume fraction (up to 82 vol pct) of non-overlapping, polydisperse void-like spherical inclusions, which are randomly dispersed in a homogeneous polymer matrix.
+We first generate the virtual microstructures of these materials using a random sequential adsorption (RSA) algorithm, and then use numerical homogenization to compute the size of the material representative volume element (RVE).
+The latter is used to assemble the test samples, whereby the void-like inclusions are 3D-printed using a gel-like polymer with mechanical properties that are in high contrast with those of the base polymer thus behaving mechanically as pores.
+Experiments reveal that the proposed isotropic random closed-cell porous materials have bulk and shear moduli that lie very close to the theoretical Hashin-Shtrikman upper bounds for an isotropic porous solid.

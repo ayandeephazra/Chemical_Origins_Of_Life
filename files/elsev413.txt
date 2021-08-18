@@ -1,0 +1,8 @@
+An in-situ high-pressure neutron diffraction experiment was conducted on a δ-phase stabilized plutonium alloy with isotope 242Pu.
+Upon room-temperature compression, neither of the previously reported pressure-induced transformation paths, δ → α′ or δ → γ’ → α′, was observed up to 1.2 GPa.
+Instead, a drastic reduction in the diffraction intensity of the δ phase was observed when the pressure was above 0.8 GPa.
+At the highest pressure of the experiment (1.2 GPa), the diffraction data appear to be characteristic of an amorphous state, manifested by the diminishing intensities of all diffraction lines.
+In addition, no evidence was found to support the transformation to a body-centered tetragonal structure (δ’), which was previously inferred from the diffraction line broadening during initial compression to 0.1 GPa.
+The discrepancies between the present and previous experiments suggest a substantial strain-induced stabilization of the δ-phase and is presumably attributed to the different stress states in the high-pressure environments.
+From the pressure - volume measurements, the determined isothermal bulk modulus for the δ-phase is in the range of 31.9 ± 1.3–34.8 ± 1.8 GPa using different pressure scales, comparable to those obtained from the resonant ultrasound spectroscopy measurements of the alloys of similar composition.
+The pressure-induced elastic softening is neither convinced in the present work, nor can it be resolved from the diffraction experiments if it is intrinsically weak.

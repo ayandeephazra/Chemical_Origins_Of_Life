@@ -1,0 +1,12 @@
+Thermal properties of bulk zinc-blende boron arsenide (BAs) were investigated by performing ab initio calculations using both the local density approximation (LDA) and generalized gradient approximation (GGA) for the exchange-correlation potential.
+Phonon dispersion relations were studied within the framework of density functional perturbation theory (DFPT) and the subsequent thermal properties were computed using the quasi-harmonic approximation (QHA).
+We have computed the temperature dependence of lattice constant ( a o ), isothermal bulk modulus ( B o ), linear thermal expansion coefficient ( α L ), average Grüneisen parameter ( γ ), and specific heat capacity at constant pressure ( C P ) as well as at constant volume ( C V ) of BAs.
+The calculated LDA values at 300 K of B o (142.8 GPa), α L (4.01 × 10−1 K−1), γ (0.816), and C P (0.34 J g−1 K−1) are in excellent agreement with the reported experimental values of 148 GPa, 3.85 × 10−6 K−1, 0.82, and 0.4 J g−1 K−1 respectively in the same order.
+In contrast, the GGA is found to overestimate the values of thermal properties for all the temperatures when compared to LDA, except the isothermal bulk modulus.
+The discrepancy between the computed LDA and GGA values has been discussed in detail.
+Results further indicate that the discrepancy between the computed LDA and GGA values of a o , B o is found to increase with the increase in temperature.
+In contrast, the discrepancy in the values of C P , C V , γ and α L is found to decrease with the increase in temperature.
+In the subsequent calculations, the mode-Grüneisen parameter corresponding to various phonon modes has been computed.
+No negative thermal expansion (NTE) is observed, although, the mode-Grüneisen parameter corresponding to transverse acoustic phonons exhibits a small negative value at the zone-edge of the Brillouin Zone.
+Finally, the intrinsic lattice thermal conductivity ( κ l ) of BAs has been estimated using the Slack’s model.
+Results indicate that the Slack’s model underestimates the κ l of BAs, which is possibly due to the low acoustic Debye temperature ( θ a ) obtained for BAs.

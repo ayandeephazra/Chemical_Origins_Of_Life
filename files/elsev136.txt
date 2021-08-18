@@ -1,0 +1,9 @@
+Considerable research reported in literature shows that corrosive soil degrades the bulk mechanical properties of buried cast iron pipes due to cracks anddegradation of microstructure.
+The nanomechanical properties of the grains of cast iron pipes can also be affected by the corrosion before bulk mechanical properties.
+However, the influence of soil corrosivity on the nanomechanical properties at the granular level is remained unresolved to date.
+This paper addresses this gap and presents the nanomechanical measurements performed on the corroded cast iron specimens and the maximum degradation was quantified.Specimensafter 545 days of burial in corrosive soil conditions were tested by nanoindentation for determining the degradation of their nanomechanical properties.
+The analysis of the test results showed a significant reduction in the nano elastic and nano hardness of the grains of the cast iron due to the diffusion of hydrogen from the surrounding corrosive soil environments.
+The high corrosion rates were found proportional to inducing the maximum degradation of the nano elastic modulus of the grains.
+A relation for the prediction of maximum degradation of the nano elastic modulus of the grains as a function of corrosion rates, pH and moisture content of the clay soil was also developed.
+The finding of the current research is significant as it shows that apart from bulk mechanical properties, the nanomechanical properties of cast iron grains can be degraded by corrosive environments which in turn can affect the service life.
+Furthermore, understanding the mechanical science of the degradation of the grains can assist in manufacturing sustainable ferrous pipes resistive to corrosion soils.

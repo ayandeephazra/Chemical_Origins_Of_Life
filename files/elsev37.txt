@@ -1,0 +1,7 @@
+FeCrMnNiCx (x = 0.1, 0.3, 0.5 and 1) bulk alloys were synthesised by Vacuum Arc Smelting.
+The alloy with 2 at.
+% of carbon (x = 0.1) is a single-phase and uniform material with no element or phase segregation.
+The alloys with higher carbon content were two phase materials.
+The equiatomic FeCrMnNiC alloy with two phases had the best corrosion resistance in 3.5% NaCl solution at room temperature under atmospheric pressure.
+Ion irradiation of FeCrMnNiC0.1 with FCC structure by 600 KeV Xe+2 to 50 displacements per atom (dpa) at 623 K revealed the alloy high radiation hardness by the absence of phase transformation and elemental segregation.
+The single-phase FeCrMnNiC0.1 alloy has a hardness of 7.5 ± 0.84 GPa and reduced Young's modulus of 250 ± 28.1 GPa.

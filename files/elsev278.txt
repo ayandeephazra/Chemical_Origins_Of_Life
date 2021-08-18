@@ -1,0 +1,9 @@
+This paper presents a fully coupled hydraulic-mechanical strain-softening model considering Biot’s effective stress.
+Both the hydraulic and mechanical parameters are considered as functions of the confining pressure and plastic shear strain.
+Using the proposed fully coupled hydraulic-mechanical model, the displacement, stress and pore-water pressure around a circular tunnel in both Mohr-Coulomb and Hoek-Brown strain-softening rock masses are derived using a non-associated flow rule.
+The proposed solutions are validated by the conventional hydraulic-mechanical elasto-brittle-plastic and strain softening rock mass using analytical and numerical methods, and the examples of the fully coupled hydraulic-mechanical strain-softening rock mass are investigated.
+The results show that the seepage force enlarges the displacement, residual and plastic radii.
+With the increase in the initial pore-water pressure, the displacement, water inflow, residual and plastic radii increase in an approximately linear manner.
+The increasing bulk modulus of the solid constituent increases the above four variables, which reach the approximate limit values, corresponding to the Darcy’s effective stress solutions, when Ks  = 10 K 0.
+The increasing permeability of the plastic rock mass reduces the increasing rate of the pore-water pressure but increases the water inflow.
+For the proposed fully coupled examples, both the hydraulic parameters of permeability and Biot’s coefficient show a non-linear decrease with the increasing radius.

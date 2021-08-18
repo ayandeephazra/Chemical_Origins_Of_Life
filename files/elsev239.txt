@@ -1,0 +1,15 @@
+Understanding the mechanical response of coal to CO2 injection is necessary to determine the suitability of a seam for carbon capture and underground storage (CCUS).
+The bulk elastic properties of a coal or shale, which determine its mechanical response, are controlled by the elastic properties of its individual components, i.e. macerals and minerals.
+The elastic properties of minerals are relatively well understood, and attempts have been made previously to acquire maceral elastic properties (Young's modulus) by means of nanoindentation.
+However, due to the resolution of a nanoindent and small size of macerals, the response is likely to be from a combination of macerals composition and minerals.
+Here atomic force microscopy is used for the first time to give a unique understanding of the local Youngs modulus of individual macerals, with a precision of 10 nm in both immature and mature coals/shale.
+Alginite, cutinite, inertinite and sporinite macerals are analysed from a samples of cannel coal (rich in cutinite), paper coal (enriched in sporinite), Northumberland coal (higher rank coal, rich in vitrinite and inertinite) and alginite rich New Albany Shale.
+Initial findings on the New Albany Shale indicate that kerogen isolation is not a suitable preparation technique for atomic force microscopy and as such, no alginite maceral moduli are accurately reported.
+Therefore results of the coal derived macerals (cutinite, inertinite and sporinite) are included in this study.
+The results at this length scale indicate that the mean and modal Young's modulus values in all coal macerals is less than 10 GPa.
+This range is similar to Young's modulus values acquired by nanoindentation within previous studies.
+A major difference is that the modal modulus values obtained here are significantly lower than the modal values obtained within previous studies.
+Thermally immature liptinite macerals (cutinite/sporinite) have a lower modal modulus (1.35–2.97GPa) than the inertinites (1.44–3.42 GPa) from the same coal.
+The modulus response is also non-normally distributed and most likely conforms to a gamma distribution with shape parameter between 1.5 and 2.5. The modal Young's modulus of all macerals increases with maturity, but not at the same rate, whereby the liptinite macerals become stiffer than the inertinites by the dry gas window (1.56 % Ro in Northumberland Coal).
+Modelling of volumetric strain under CO2 injection indicates an inversely proportionate relationship to Young's modulus, which suggests that differential swelling is more likely to occur in immature coals.
+It is therefore preferable to target mature coals for CCUS, as the reaction of macerals at higher maturities is more predictable across an entire coal seam.

@@ -1,0 +1,6 @@
+Herein, Cu-BDC/poly(N-methylol acrylamide-co-sodium allyl sulfonate) [Cu-BDC/P(NMA-co-SAS)] macroporous foam was synthesized templating from CO2-in-water (C/W) high internal phase emulsions (HIPEs), and using Cu-BDC as Pickering emulsifier.
+The features of the macroporous monolith, such as structure and void diameter, can be adjusted by changing the emulsion composition.
+The resultant macroporous foams have a low bulk density (0.317 g cm−3), high porosity (79.60 %), suitable pore volume (3.956 cm3 g-1), and pore size ranging from 5.46 μm to 36.47 μm.
+The maximum swelling degree of 20.7 g/g for the composite foam was obtained when a high MBAM dosage of 12.5 wt% was used.
+Moreover, adsorption behavior and antibacterial property of the composite foam with 5.0 wt% Cu-BDC were investigated.
+The results proved that the obtained foam could behave as a potential multi-functional antibacterial material.

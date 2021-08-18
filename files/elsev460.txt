@@ -1,0 +1,8 @@
+Four Phyllostachys species grown in Europe were analysed with the aim of extracting long bamboo fibres for composite applications.
+The morphological characteristics of the plant were determined and compared to the species grown in their native region.
+Though the species tend to grow smaller, the Phyllostachys vivax showed similar Young’s modulus as the tropical Guadua angustifolia Kunth, i.e. 49 GPa versus 52 GPa.
+But the strength of all species was 16–44% lower.
+A chemical analysis of the fibres and an interface study of their composites was performed by analysing the wetting behaviour of the fibres and the chemical composition of their surface.
+All fibres showed a lignin rich surface, with minor differences in wetting behaviour; therefore difference in the fibre mechanical properties cannot be explained by interface differences.
+The chemical bulk composition of the fibres was determined as well, and the cellulose content of the fibres showed a linear correlation with the Young’s modulus and strength of the fibres.
+Seasonal investigation, performed on one selected species, revealed that harvest in autumn or winter lead to higher fibre extraction yields with higher mechanical properties.

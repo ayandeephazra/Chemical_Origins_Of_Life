@@ -1,0 +1,4 @@
+In this paper, the electronic, phononic, elastic and thermodynamic properties of Ti x Zr 1 − x N are investigated using the first principle density functional theory (DFT) calculations.
+The parameters like electron effective mass, bonding forces, mechanical stability, incompressibility and thermodynamic stability of this compound are studied with different compositions of Ti (x= 0.125, 0.25, 0.375, 0.50).
+Absence of negative modes in phonon dispersion and phonon density of states results, low slope of the stress–strain curves, high elastic modulus and a large negative Gibbs free energy indicate the dynamic stability, high hardness, and thermodynamic stability of the compound.
+Our findings for electronic band structure, phonons, and elastic properties suggest that the Ti x Zr 1 − x N can be a suitable compound for the thermoelectric and hard coating applications.

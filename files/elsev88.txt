@@ -1,0 +1,12 @@
+We calculated the structural stability, electronic, optical, and thermoelectric properties for α-PtO2 structures (bulk, bilayer, and monolayer) via first-principles density functional theory calculations.
+The results show that there is good agreement between the calculated lattice parameters and the available experimental data for the bulk structure.
+The in-plane Young's modulus and Poisson's ratio were calculated in the harmonic elastic strain range, and the results show that the monolayer is harder than the bulk.
+GW0 calculations on top of a semi-local generalised gradient approximation for the exchange-correlation energy predicted that the bilayer, monolayer, and the bulk α-PtO2 are all semiconductors with indirect band gaps.
+The results reveal that the band gap increases from bulk to monolayer.
+Calculations of optical properties show that the monolayer can absorb up to 8% of incident radiation in the visible range, which is higher than the 2.3% for graphene of the same thickness.
+In contrast, the bulk absorbs 1.77%.
+Phonon calculations confirm that all structures are dynamically stable.
+To examine the lattice thermal conductivity, the Boltzmann transport equation calculations in conjunction with density functional theory were implemented.
+The in-plane calculated lattice thermal conductivity were 8.47 × 10−8Wm−1K−1 for bulk, 4.59 × 10−8Wm−1K−1 for bilayer and 1.06 × 10−8Wm−1K−1 per layer at 300 K.
+The obtained thermoelectric figure of merit (ZT) per layer were 0.11 for bulk, 0.62 for bilayer and 0.74 for monolayer, respectively.
+The investigation shows that the n-type in monolayer has the most promise for thermoelectric applications.

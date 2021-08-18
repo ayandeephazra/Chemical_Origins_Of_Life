@@ -1,0 +1,13 @@
+Recycling aerated concrete blocks (ACB) and sintered clay bricks (SCB) is difficult due to their high porosity and low strength for concrete production.
+The workability and mechanical properties of cementitious composites will be severely deteriorated when ACB and SCB are used as recycled coarse aggregate.
+However, using them as recycled sand in concrete can reduce the degradation in mechanical properties and workability.
+Moreover, the internal curing effect of recycled sand can contribute to a dense microstructure.
+This paper intends to study the recycled sand generated from ACB and SCB.
+Recycled sand is divided into different groups according to particle sizes, ranging from 0.15-0.3 mm, 0.3-0.6 mm, and 0.6–4.75 mm.
+Varied groups of recycled sand are used to cast mortar specimens with natural sand replacements of 10%, 20% and 30%.
+Slump and slump loss of fresh mortar and mechanical properties of hardened mortar are investigated, as well as the shrinkage performance within 65 days.
+Micro-structures of the interfacial transition zone between recycled sand and hardened cement paste have also been studied with SEM images for revealing the influence of recycled sand on the hydration productions.
+The results show that the mortar strength can be improved by replacing natural sand with the recycled sand from ACB and SCB.
+The shrinkage tests indicate that the mortar containing recycled sand from ACB has higher shrinkage than the control, while the recycled sand from SCB can keep the shrinkage comparable with the control.
+ACB and SCB sand particles contain micro-pores, according to SEM images.
+This explains that the ACB and SCB sand can work as an internal curing agent to improve the microstructure of the interfacial transition zone (ITZ) between the recycled sand particle and the cement paste.

@@ -1,0 +1,9 @@
+Natural gas hydrate is a new alternative energy that has attracted global attention in recent years.
+Depressurization is considered a fundamental method of producing natural gas from gas hydrate-bearing sediments (GHBSs).
+However, soil compaction during depressurization is a significant problem for production efficiency and safety.
+The compressibility of soil affects the hydrate dissociation in the coupled process of heat transfer, fluid flow, and soil compaction.
+In this study, a fully coupled Thermo-hydro-chemo-mechanical (THCM) model is applied to simulate Masuda's core-scale gas production experiments.
+The effects of compressibility on the changes in gas production rate, pore pressure, temperature, hydrate saturation, permeability, and heat conductivity are investigated by varying the parameters governing compressibility including the bulk modulus of host sediments and hydrate-enhanced bulk modulus.
+The results show that the higher compressibility corresponds to a larger reduction in porosity further impacting the variation in effective permeability, heat conductivity, and heat convection during depressurization.
+In Masuda's test, the pressure changes indicate that the soil compaction might occurs during depressurization.
+Because the real field production is implemented under confining condition, Masuda's test should be developed to consider the compressibility of GHBSs.

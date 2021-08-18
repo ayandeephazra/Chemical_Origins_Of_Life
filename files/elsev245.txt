@@ -1,0 +1,5 @@
+Mechanical and thermal properties of materials are intricately linked.
+Particularly, this fully applies to metallic glasses.
+In this work, we study shear modulus behavior and heat effects occurring upon heating up of Ti16.7Zr16.7Hf16.7Cu16.7Ni16.7Be16.7 high entropy bulk metallic glass up to the full crystallization.
+In the framework of the Interstitialcy theory, we show that shear modulus relaxation data can be applied to quantitatively predict exo- and endothermal effects related to structural relaxation, glass transition and crystallization of this high entropy metallic glass.
+This fact suggests that the underlying physical mechanism responsible for this link can be conditioned by the relaxation of the system of structural defects, which by their properties are similar to dumbbell interstitials in metals.

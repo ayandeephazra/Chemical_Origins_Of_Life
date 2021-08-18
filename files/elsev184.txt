@@ -1,0 +1,8 @@
+Bending proof strength (σ p) is a key material property for spring-like flexible components.
+In this work, initial yielding behavior of Zr61Ti2Cu25Al12 (ZT1) bulk metallic glass (BMG) in bending was investigated by an approach of stepwise cyclic loading-unloading under three-point bending (3 PB).
+It was shown that to meet the requirement of small-deflection condition in mechanics, a range of span-to-thickness ratio was specified at 10–15 for the BMGs subjected to 3 PB, which is one order of magnitude less than that of conventional polycrystalline metals.
+With conventional monotonic loading tests, the modulus of elasticity in bending and the proportional limit/flexural yield strength of the ZT1 BMG were determined to be E b  = 84 GPa and 2070 MPa, respectively.
+Combining stepwise loading-unloading with LOM observations alternately, it was shown that apparent yielding response of ZT1 beam in bending directly correlates with the event of first shear-band initiation.
+With an approach of stepwise cyclic loading-unloading with a measure in high accuracy, the σ p at a permanent strain of 0.005% for the ZT1 BMG was determined to be 1900 ± 10 MPa.
+It is noticeable that the σ p of ZT1 BMG is ~16% higher than its uniaxial tensile strength.
+In addition, high modulus of resilience (22 MJ/m3) in bending for this BMG manifest significant advantage as a candidate material of flexible components in engineering.

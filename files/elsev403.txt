@@ -1,0 +1,6 @@
+In this study, different peak loads and varying cooling rates on creep behavior of (Zr0.6336Cu0.1425Ni0.1012Al0.12)97.4Er2.6 bulk metallic glass were studied by nanoindentation tester and atomic force microscopy (AFM).
+The results show that the change of different load and cooling rate has a great influence on the creep behavior of the alloy.
+Under high peak load conditions, the increasing of the creep displacement and the stress exponent (n) show strong indentation size effect.
+The hardness of the specimen without rare earth element is 5 times larger than the specimen with rare earth element.
+With the increase of the cooling rate, the creep displacement of the specimen is increasing and the time to enter the steady state creep is prolonging.
+The hardness and elastic modulus of the material are sensitive to the cooling rate relative to the load change.

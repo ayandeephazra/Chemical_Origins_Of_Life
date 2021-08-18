@@ -1,0 +1,7 @@
+Granular materials can be used as protection to stop ballistic projectiles.
+Nevertheless, very few studies discuss the mechanisms of kinetic energy dissipation into granulates.
+An experimental setup using ballistic screens was developed to evaluate the deceleration of rigid spherical projectiles penetrating CRUSHMAT® targets.
+The method was validated by varying the thickness of the target, measuring residual velocities and checking whether the ballistic screens and samples end surfaces did influence the target's response or not.
+Based on numerical simulations and a suitable constitutive model for CRUSHMAT®, the experimental method was further validated, the projectile kinetic energy dissipation assessed and the validity of the proposed constitutive model discussed.
+The use of ballistic screens looked suitable to perform such experimental investigations and the proposed constitutive model for CRUSHMAT® satisfying to simulate its ballistic impact response.
+Additional analyses should be performed to acquire a better understanding of the CRUSHMAT® structure on its mechanical behaviour.

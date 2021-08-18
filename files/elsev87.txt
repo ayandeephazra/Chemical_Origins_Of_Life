@@ -1,0 +1,11 @@
+A thorough study on the structural, electronic, vibrational, mechanical, and thermoelectric properties of 3D (rock-salt) and 2D (hexagonal) barium chalcogenides (BaX; X = GrVI or O, S, Se, and Te) is carried out in the present work.
+For the first time, transport properties with respect to temperature (ranging from 50 to 800 K) for 3D (rock-salt or rs) and 2D (hexagonal or h) barium chalcogenides are studied.
+Together with their wide indirect and direct energy bandgaps, the dynamical and mechanical stability of both the rock-salt (rs) and hexagonal (h) BaX compounds motivates us to look at their temperature-dependent thermoelectric properties, viz.
+thermal or heat conductivity (κ), specific conductance or electrical conductivity (σ), thermopower or Seebeck coefficient (S) and figure of merit (ZT), under the framework of semi-classical Boltzmann transport equations (BTE).
+Phonon dispersion findings demonstrated the dynamic stability of BaX compounds, while via different elastic parameters, viz.
+Young's modulus and Poisson's ratio, the mechanical stability and elastic nature of these compounds are evaluated.
+As per the present investigation, it is noted that the GGA-PBE measurement provides stability in all the rs and h phases of BaX, which is in contrary to the previous report in which h-BaO, h-BaS and h-BaSe compounds were identified as unstable at the DFT-LDA (local density approximation) computation.
+For all the BaX except for rs-BaO and h-BaTe, the electronic band structure reveals indirect bandgap nature.
+The evaluation of effective mass, mobility and relaxation time has also been included in the electronic properties and, as per our observation, the maximum mobility for rs-BaSe, rs-BaTe and h-BaTe are confirmed.
+The BaSe in both of its rs (ZT > 0.8) and h (ZT > 0.75) phases has revealed to be outstanding thermoelectric materials in the present work.
+This investigation reveals excellent figure of merit (ZT) in the range of 0.5–1.1 for all the considered BaX compounds at the temperature of 800 K, suggesting its viability in thermoelectric generators and thermoelectric coolers.

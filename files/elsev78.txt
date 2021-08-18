@@ -1,0 +1,7 @@
+Superhydrophobic surfaces possess susceptibility towards mechanical and chemical damages as well as oil fouling, which limits their widespread use in practical applications.
+Here, we demonstrate a straightforward approach to fabricate tunable bulk material with robust and renewable superhydrophobicity by in-situ loading of interconnected surface-wrinkled microparticles.
+The bulk material shows mechanochemically robust superhydrophobicity across its whole 3D volume, features renewable superhydrophobicity after extremely chemical corrosion, and could regenerate its water repellency after oil contamination.
+The bulk material also features ultrahigh efficiency (~98%) in oil-water mixtures separation, due to its selective oil absorption capability from water.
+Notably, the mechanical performances, microstructures and density of the bulk material can be adjusted on demand by simply changing the amount of loaded microparticles.
+Compared to the pristine commercial melamine-formaldehyde based porous substrate (MFPS), the achieved bulk material shows up to ~230 folds increase in Young’s modulus, ~145 folds increase in flexure stress and ~25 folds increase in tensile stress.
+This strategy features great potential for designing lightweight structural materials with robust waterproof functionality as well as materials with efficient oil recovery capability from wastewater.

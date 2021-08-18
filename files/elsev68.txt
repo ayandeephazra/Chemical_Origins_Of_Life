@@ -1,0 +1,7 @@
+The density functional theory (DFT) was used to investigate the mechanical properties of the pristine, hydrogenated, and fluorinated germanene sheets, including Young's and bulk moduli, and plastic properties.
+Young's and bulk moduli were calculated through the second derivation of the total energy versus strain.
+The electronic properties, namely the planar electron difference density and partial DOS were considered to evaluate the bonding characteristics of the structures.
+The results show that the adsorption decreases the electron accumulation between Ge atoms, which leads to weaker covalent bonds and reduced Young's and bulk moduli.
+Furthermore, it is observed that the yield strain of fully fluorinated germanene remains unchanged under uniaxial loading in comparison with the pristine structure.
+However, the yield strain of the hydrogenated germanene is increased under biaxial loadings.
+Our results show that germanene has a good mechanical tenability using surface functionalization.

@@ -1,0 +1,11 @@
+Selective laser melting (SLM) is a promising powder bed based additive manufacturing technique for the near-net-shape production of large-scale bulk metallic glasses (i.e. 3D-printed BMGs).
+Initial defects such as pores inherent to the SLM process are regarded as key factors for the mechanical integrity of BMGs.
+Here the structural defects in the form of pores are controlled in the SLM-processing of large-scale and fully-amorphous Zr-based BMGs.
+Their effects on the tensile fracture behaviors are revealed by experimental and computational studies.
+Under uniaxial tension, 3D-printed BMGs fracture in a brittle mode with almost zero macroscopic plasticity.
+The ultimate tensile strength (UTS) exhibits a rapid linear decrease with increasing porosity, while the Young's modulus is found to be insensitive in the low-porosity ( < 2 % ) regime but decreases quickly in the high-porosity regime.
+Finite element (FE) simulations show different deformation mechanisms for pore-free and pore-containing BMGs.
+The former fractures with abundant homogeneously distributed shear bands initiated from material inherent weak points, while the latter experiences firstly plastic deformation around some pores with shear transformation zones (STZs).
+These STZs connect with each other as the load increases, forming a small number of highly localized shear bands, which develop into the final fracture surface.
+The orientation of the fracture surface in 3D-printed BMGs tends to show a larger angle than that of most as-cast Zr-based BMGs under tension (e.g. 50 ∘ ) and is predominantly affected by pore structures.
+The experimental and computational results imply that the printing defects play a dominant role in shear band formation and corresponding mechanical properties for 3D-printed BMGs.

@@ -1,0 +1,286 @@
+Recently, many numerical studies on the simulation of pile driving have been presented in the literature using various numerical methods.
+This includes simulations using a fully Lagrangian description of the soil (reported e.g. in Chrisopoulos and Vogelsang, 2019; Staubach and Machacek, 2019), an Eulerian description (see e.g. Hamann et al., 2015; Staubach et al., 2020), an Arbitrary Lagrangian–Eulerian (ALE) approach (reported e.g. in Daryaei et al., 2020; Yang et al., 2020) or the Material-Point-Method (e.g. N.T.V., 2014; Galavi et al., 2019; Giridharan et al., 2020).
+Apart from the work reported in Chrisopoulos and Vogelsang (2019), Staubach and Machacek (2019), Galavi et al. (2019), Staubach et al. (2020) and Giridharan et al. (2020), these simulations were mostly restricted to ideally drained cases or slow driving processes as encountered for jacking of piles.
+In Staubach et al. (2020), a hydro-mechanically coupled Coupled-Eulerian–Lagrangian (CEL) method has been proposed by the authors of this work, which is suitable to model vibratory pile driving in water-saturated soil as large deformations as well as the accumulation and dissipation of pore water pressure can be accounted for.
+A validation of this approach, by means of back-calculation of model tests, was missing up to now.
+This work presents the back-analysis of vibratory pile driving model tests in water-saturated sand using the proposed hydro-mechanically coupled CEL method.
+The implementation of this approach into the commercial software package Abaqus is explained first.
+Subsequently, the set-up of the model tests performed by Vogelsang et al. (2015), Vogelsang et al. (2017) and Vogelsang (2017) used for the back-analysis and the numerical models adopted for the simulations are introduced.
+A comparison in terms of pile penetration and pore water pressure development between the CEL simulation, a fully Lagrangian simulation and the model tests is made.
+To show the capabilities of the presented method in more detail, the simulation of vibratory driving of real scale open-profile piles under partially drained conditions is shown as an example.
+For the discretisation using the u-p formulation, Eq. (3) is substituted into Eq. (1) resulting in(4)φf1K ̅fṗf+divKPermηf-grad(pf)+ρ ̄fb-u ̈s+div(u̇s)=0.As mentioned earlier, the similarity between Eq. (4) and the energy balance for the simulation of thermal processes is utilized to incorporate the hydro-mechanically coupled analyses in Abaqus.
+The energy balance is(5)ρcθ̇+λdiv-grad(θ)=-ṁT,where ρ is the total density, c the specific heat, θ the temperature, λ the thermal conductivity and ṁT the internal heat production.
+Using the relationship ρ ̄fb-grad(pf)=-grad(Δpf) and expressing the pore fluid pressure rate only in terms of the change relative to the initial state (ṗf=Δṗf), Eq. (4) can be rewritten as follows(6)φfΔṗfK ̅f+KPermηfdiv-grad(Δpf)-KPermηfdivu ̈s+div(u̇s)=0.By (re)interpreting the temperature as the excess pore fluid pressure θ=Δpf, the following three matching terms can be identified from a comparison of Eq. (6) and Eq. (5) (7)cρθ̇=φfΔṗfK ̅f, (8)λdiv-grad(θ)=KPermηfdiv-grad(Δpf), (9)ṁT=div(u̇s)-KPermηfdivu ̈s.Note that Eq. (8) requires the aforementioned assumption of an isotropic permeability of the porous medium.
+Performing a thermal-displacement analysis with Abaqus, the constants in Eqs. (7) and (8) are set to(10)c=φfK ̅fρandλ=KPermηfand the heat production following Eq. (9) is defined in a user material subroutine (VUMAT in the present case).
+As the interface of the VUMAT provides no information on the acceleration of the solid phase, the divergence of the solid acceleration is approximated using an explicit mid-point rule(11)div(u ̈s)t+Δt=tr(ε̇)t+Δt-tr(ε̇)t2Δt+div(u ̈s)t2,where ()t+Δt corresponds to the current and ()t to the previous time increment.
+The proposed method allows for the simulation of hydro-mechanically coupled problems using the full balance equations.
+One draw-back of this approach is the constant density employed by Abaqus, e.g. no changes of the density due to a compression of the solid are considered.
+However, in case of saturated porous media the influence of a restriction to constant density is judged small compared to the restrictions of simulations assuming ideally drained/undrained conditions or neglecting the influence of inertia.
+For unsaturated soils, however, the influence of this drawback has to be re-evaluated.
+Note that the presented extension works for both, fully Lagrangian or Eulerian analyses with Abaqus.
+The key feature of the CEL method is the concurrent availability of domains with a Lagrangian and an Eulerian description of the field movement within one model.
+While the region of the model subjected to large deformations is modelled using the Eulerian description, the region showing merely small intrinsic deformation is modelled using the Lagrangian framework.
+Since there is technically no movement of the nodes in the Eulerian region but only transport movement, no mesh distortion caused by large deformations takes place.
+In every increment the solution is first progressed in time in a Lagrangian step (determining the displacements at nodes) and subsequently mapped back to the Eulerian mesh in the so-called remap step (the nodes are moved back to their original position in case they have moved by a significant magnitude).
+Thus, displacement of the nodes only occurs temporarily within the increment.
+This procedure is also known as Lagrange-plus-remap.
+The Eulerian region can interact with the Lagrangian region using special contact algorithms.
+The CEL method has been sucessfully applied to many geotechnical boundary value problems as reported in Qiu et al. (2011), Hamann et al. (2015), Wang et al. (2015), Heins and Grabe (2017), Bakroon et al. (2018) and Nagula and Grabe (2020), amongst other.
+However, as already mentioned in the introduction, most of these simulations were performed under the premise of ideally drained conditions.
+Hamann et al. (2015) developed a hydro-mechanically coupled CEL method suitable for simulations involving slow processes without high accelerations using the commercial software package Abaqus.
+For this purpose, the similarity between the energy balance and the mass balance for fluids was exploited.
+Since Abaqus allows for thermal–mechanical coupled CEL simulations (but not hydro-mechanically), (Hamann et al., 2015) proposed to conduct a thermal–mechanical analysis modifying the contributions to the energy balance via a user-defined subroutine.
+In the following, this approach and its extension to arbitrary problems (involving high accelerations) is presented.
+The most commonly applied element formulation for hydro-mechanically coupled problems is the so-called u-p formulation (Zienkiewicz and Shiomi, 1984), where the displacement of the solid phase us and the pore fluid pressure pf are discretised.
+Technically, four balance equations are needed to solve for the two unknowns in the framework of the u-p formulation.
+In the present case, we use the balance of linear momentum of the solid phase solved with respect to the solid displacement us, the mass balance of the pore fluid solved with respect to the pore fluid pressure pf, the mass balance of the solid which yields the evolution law of the porosity (ṅ) and lastly the balance of linear momentum of the pore fluid used to obtain the Darcy velocity of the pore fluid (wf).
+The latter two balance equations are substituted into the balance of linear momentum of the solid phase and the mass balance of the pore fluid.
+The mass balance of the pore fluid is given by(1)φf1K ̅fṗf+φfdiv(u̇f)+(1-φf)div(u̇s)=0,where φf is the volume fraction of the pore fluid, K ̅f is the bulk modulus of the fluid, u̇f and u̇s are the velocities of the pore fluid and the solid, respectively.
+The pore fluid velocity u̇f being unknown, the balance of linear momentum of the pore fluid is utilized(2)grad(pf)+ρ ̄fu ̈f+ηfKPermwf=ρ ̄fb,with the (intrinsic) density of the fluid ρ ̄f, the acceleration of the fluid u ̈f, the permeability of the solid KPerm=kfηfγf (with the hydraulic conductivity kf and the specific weight of fluid γf), the dynamic viscosity of the fluid ηf and the gravity b.
+wf=φf(u̇f-u̇s) denotes the Darcy-type relative velocity between the pore fluid and the solid.
+Note that the permeability is assumed to be isotropic and constant.
+In the framework of the u-p formulation, Eq. (2) is rewritten to(3)wf=KPermηf-grad(pf)+ρ ̄fb-u ̈s.
+Note that arriving in Eq. (3), the main assumption of the u-p formulation, i.e. identical accelerations of the pore fluid and the solid u ̈f=u ̈s, is implied.
+This simplification is necessary, as the acceleration of the pore fluid is unknown with the chosen set of governing equations.
+As noted in Zienkiewicz et al. (1980), the validity of the assumption of negligible relative acceleration depends on the nature of the studied problem.
+In case of simulations involving both high wave frequencies and simultaneously high hydraulic conductivity of the soil, the applicability of the u-p formulation can be questioned.
+As for the herein presented simulations of vibratory pile driving both of these criteria are met1 1The vibratory frequency was 25 Hz and the hydraulic conductivity was ≈1.1·10-3 m/s for the herein simulated tests., the authors conducted an investigation on the influence of the relative acceleration previous to the present study which is reported in Staubach and Machacek (2019) and Staubach and Machaček (2019).
+For the sake of completeness, the results of this study will be briefly recapped in the following.
+To study the influence of the relative acceleration, a semi-analytical solution for the one-dimensional compression wave propagation in a linear elastic porous medium was developed and presented in Staubach and Machacek (2019) and Staubach and Machaček (2019).
+Opposite to the u-p formulation, the semi-analytical solution takes into account the relative acceleration.
+Based on the development of the pore fluid pressure during the (first) compression wave propagation, the difference between the semi-analytical solution (taking into account relative acceleration) and the solution obtained by the u-p formulation was quantified.
+In a sensitivity study, the loading frequency and the hydraulic conductivity have been varied.
+The results of this study are provided in Fig. 1 , where the difference between both solutions, being identical to the error of the u-p formulation, is given in dependency of the wave frequency and the hydraulic conductivity.
+For a hydraulic conductivity lower than 10-4 m/s an error of 2 % is only exceeded for very large frequencies.
+For hydraulic conductivities larger than 10-4 m/s only wave frequencies exceeding approximately 55 Hz show a significant influence on the simulation results.
+Thus, based on the semi-analytical solution, there is negligible influence of the relative acceleration for most geotechnical processes and the u-p formulation is judged valid.
+In Fig. 1 the regimes of frequency and hydraulic conductivity for the simulations presented in Sections 3 and 6 are marked by cross symbols.
+Note that the semi-analytical solution has a stability limit in terms of hydraulic conductivity (around 10-3 m/s) and the model tests lie slightly above that limit.
+To prove that relative acceleration is negligible for the model tests, the u-U and u-p-U element formulations, both taking into account the relative acceleration, were applied in Staubach and Machacek (2019) and Staubach and Machaček (2019) for the simulation of the model tests.
+In accordance with the preliminary study using the analytical solution, no significant influence of relative acceleration was found in those simulations.
+For the discretisation using the u-p formulation, Eq. (3) is substituted into Eq. (1) resulting in(4)φf1K ̅fṗf+divKPermηf-grad(pf)+ρ ̄fb-u ̈s+div(u̇s)=0.As mentioned earlier, the similarity between Eq. (4) and the energy balance for the simulation of thermal processes is utilized to incorporate the hydro-mechanically coupled analyses in Abaqus.
+The energy balance is(5)ρcθ̇+λdiv-grad(θ)=-ṁT,where ρ is the total density, c the specific heat, θ the temperature, λ the thermal conductivity and ṁT the internal heat production.
+Using the relationship ρ ̄fb-grad(pf)=-grad(Δpf) and expressing the pore fluid pressure rate only in terms of the change relative to the initial state (ṗf=Δṗf), Eq. (4) can be rewritten as follows(6)φfΔṗfK ̅f+KPermηfdiv-grad(Δpf)-KPermηfdivu ̈s+div(u̇s)=0.By (re)interpreting the temperature as the excess pore fluid pressure θ=Δpf, the following three matching terms can be identified from a comparison of Eq. (6) and Eq. (5) (7)cρθ̇=φfΔṗfK ̅f, (8)λdiv-grad(θ)=KPermηfdiv-grad(Δpf), (9)ṁT=div(u̇s)-KPermηfdivu ̈s.Note that Eq. (8) requires the aforementioned assumption of an isotropic permeability of the porous medium.
+Performing a thermal-displacement analysis with Abaqus, the constants in Eqs. (7) and (8) are set to(10)c=φfK ̅fρandλ=KPermηfand the heat production following Eq. (9) is defined in a user material subroutine (VUMAT in the present case).
+As the interface of the VUMAT provides no information on the acceleration of the solid phase, the divergence of the solid acceleration is approximated using an explicit mid-point rule(11)div(u ̈s)t+Δt=tr(ε̇)t+Δt-tr(ε̇)t2Δt+div(u ̈s)t2,where ()t+Δt corresponds to the current and ()t to the previous time increment.
+The proposed method allows for the simulation of hydro-mechanically coupled problems using the full balance equations.
+One draw-back of this approach is the constant density employed by Abaqus, e.g. no changes of the density due to a compression of the solid are considered.
+However, in case of saturated porous media the influence of a restriction to constant density is judged small compared to the restrictions of simulations assuming ideally drained/undrained conditions or neglecting the influence of inertia.
+For unsaturated soils, however, the influence of this drawback has to be re-evaluated.
+Note that the presented extension works for both, fully Lagrangian or Eulerian analyses with Abaqus.
+The small-scale model tests used for the back-analysis were performed by Vogelsang and are documented in Vogelsang et al. (2015), Vogelsang et al. (2017) and Vogelsang (2017).
+A schematic sketch and a picture of the half-axisymmetric test device is displayed in Fig. 2 .
+The vibrator was realized as a pair of unbalances mounted on top of the pile.
+A load cell was placed between the vibrator and the pile.
+Two pore pressure transducers (PPT A and PPT B, see Fig. 2) were installed at the front window.
+So-called Karlsruhe sand has been used, which was pluviated into deaerated water and further densified through hammer blows against the container.
+The final relative density was 71 % which corresponds to a porosity of φf=0.39 and a total density of ρ=2.02 g/cm3.
+The index properties of Karlsruhe sand are given in Table 1 .
+A closed-profile pile with a 60° pointed tip and a radius of 16.5 mm was used in the experiments.
+The closed-profile was preferred over an open-profile in order to be able to simulate the experiments without mesh distortion using a fully Lagrangian analysis and the so-called ”zipper-method” (see Section 4.2).
+The aluminium pile had a smooth surface and the friction coefficient between the pile surface and the soil is assumed to be μ=0.25.
+Prior to driving, the pile was pushed into the sand up to a depth of approximately 15 cm.
+During driving, the vibrator was free to move in vertical direction and its self-weight was completely carried by the pile.
+A guiding allowed movement of the pile in vertical direction only.
+A vibratory frequency of 25 Hz has been used.
+Additional experiments with pile installation in a full cylindrical container have shown results very close to those obtained with the set-up shown in Fig. 2 as reported in Vogelsang (2017).
+Thus, the model test can be treated as an axisymmetric problem in the numerical simulations.
+Apart from the obvious differences in the element formulations, there are additional differences between the simulations:•An explicit time integration scheme is used for the CEL simulation whereas an implicit scheme based on the Hilber-Hughes-Taylor method is applied for the Lagrangian calculations.•Without the occurence of cavitation, no void hole can develop below the pile tip during the upwards movement of the pile caused by the rotating unbalances.
+This is taken into account in the fully Lagrangian simulations by a no-separation condition between pile and soil.
+However, there is no such possibility for the CEL simulation.
+Thus, the pile could technically lift up and separate from the soil during driving.•Contrary to the CEL simulation, the monotonic push of the pile to the depth of 15 cm prior to the driving process is not fully incorporated in the Lagrangian simulation.
+Therefore, the change in the soil state due to the installation of the pile to that depth is not taken into account.
+However, the application of the self-weight of the unbalances and the pile leads to a penetration into the soil by approximately 1 cm prior to the vibratory driving in case of the Lagrangian simulation which results in a decreased density below the pile tip similar to the one in the CEL simulation.•While the edges of the pile tip were slightly rounded in the Lagrangian model to allow for a smooth push of the soil to the side, the tip in the CEL model had, apart from a slightly blunted end of the tip, exactly the geometry as the pile in the model test.
+The numerical model adopted for the CEL simulations is displayed in Fig. 3 .
+The red volume indicates the initially material-empty elements whereas the blue elements are initially material-filled.
+The height of the initially material-filled volume is identical to the height of the soil in the model tests.
+During the pile driving the soil might heave, in which case the initially empty Eulerian elements are filled with material.
+Note that only once an element is filled with material it contributes to the global force equilibrium.
+The pile is modelled using Lagrangian elements.
+The bottom boundary of the Eulerian region is constrained in vertical direction, the back in both horizontal directions and the boundaries in the symmetry axis in the direction normal to them.
+The top of the Eulerian region is made permeable by imposing zero excess pore water pressure.
+Every other boundary of the model is impermeable.
+The pile tip is located directly on top of the material-filled region of the model before the simulation starts.
+The Eulerian elements below the pile tip have a small size while the mesh gets coarser with greater distance to the pile.
+A variation of element size in the vicinity of the pile has proven that the results are not strongly dependent on the mesh size.
+Even though the problem is axisymmetric, three-dimensional elements have to be used as the CEL method available in Abaqus does not support two-dimensional analyses.
+The masses and forces of the half-axisymmetric experimental set-up have been scaled to fit to the quarter model presented in Fig. 3.
+The load cell has been replaced by a spring with identical stiffness.
+The driving force of the vibrator was applied on this spring and transferred to the top of the pile.
+Since the pile in the experiments was installed in a depth of approximately 0.15 m before the vibration started, the pile was pushed to this depth prior to the actual driving process in the numerical simulation as well.
+Friction between pile and soil has been considered using a Coulomb friction model with a friction coefficient of μ=0.125.
+This approximately corresponds to the assumed friction coefficient of μ=0.25 in the model tests since total normal stresses are used for the computation of the shear stresses in the pile-soil interface and the ratio between the initial effective and the initial total stress is approximately 2.
+This is due to the inability of Abaqus to distinguish between effective and total normal contact pressure in dynamic analyses.
+Furthermore, using the CEL method, Abaqus does not allow the use of user-defined contact models to modify the calculation of (frictional) contact forces.
+Obviously, the friction forces calculated are not correct if the pore water pressure changes significantly along the pile-soil interface.
+In order to evaluate the influence of the friction coefficient, an additional simulation assuming a frictionless contact (μ=0) was performed.
+An explicit time integration scheme was applied.
+The critical time increment(12)Δtcrit=λLminvcrepresents the largest possible time increment for which numerical stability is still secured.
+Lmin is the smallest element dimension, vc is the compression wave velocity (of the solid-water mixture) of this element and λ is the critical time scaling parameter.
+The compression wave velocity is defined by(13)vc=D+Kf/φfρwith D=E(1-ν)(1+ν)(1-2ν).
+Considering the pressure level at the half height of the test device, D≈6000 kPa can be calculated for Karlsruhe sand.
+Using the bulk modulus of water Kf=2.2 GPa, the compression wave velocity is vc≈1672 m/s.
+In the present case, elements with dimensions smaller than 4 mm exist in the model, which define the minimum length in Eq. (12).
+Using these values and setting λ=1, the maximum stable time increment is Δtcrit≈2·10-6 s.
+Since the computational effort running the simulation using this value for the critical time increment would exceed computational resources, and considering that a saturation of S=1 is unrealistic for the sand placement method applied in the model tests, an air inclusion of 5 % has been assumed, resulting in a degree of saturation of S=0.95.
+This leads to a reduction of the bulk modulus of the pore water from 2.2 GPa to approximately 5 MPa and thus a reduced compression wave velocity of vc≈97 m/s.
+Simulations with a bulk modulus of 2.2 GPa lead to similar pile penetration but to slightly more excess pore water pressure development during the driving process as will be shown in Section 5.
+A reduction of the critical time increment by the factor λ=0.8 has been applied in the simulations.
+Additional simulations proved that even the choice of a factor λ=0.5 did not change the results of the simulation significantly.
+Eq. (12) also indicates that the critical time increment is a function of the size of the discretized domain which is problematic in case small-scale model tests are simulated since the element size is generally smaller compared to the real-scale problem.
+As mentioned previously, elements with very small dimensions exist in the model.
+They strongly reduce the stable time increment and make the analysis extremely time-consuming.
+This, however, is a drawback mainly encountered in the analysis of small scale tests, being of minor relevance for the simulations of real-scale problems as discussed in Section 6.
+Since using an explicit time integration scheme is a rather unusual choice for the solution of hydro-mechanically coupled problems it is worth mentioning here that other researches have also applied explicit time integration methods for hydro-mechanically coupled problems before (see e.g. Ye et al., 2010; Bandara and Soga, 2015; Navas et al., 2017).
+Apart from the decreased critical time increment due to the increased wave velocity in case of a hydro-mechanically coupled problem, oscillations in pore water pressure are reported when using an explicit integration scheme in Navas et al. (2017).
+Similar observations were made for the wave propagation in a poro-elastic medium using the hydro-mechanically coupled CEL method reported in Staubach et al. (2020).
+However, the oscillations could be noticeably reduced by increasing the number of elements.
+The results of the CEL method in terms of pore water pressure reported in Staubach et al. (2020) were in good accordance with an analytical and a numerical implicit Lagrangian solution once a certain number of elements were used.
+For a detailed description of the model used for the Lagrangian simulation the reader is referred to Staubach and Machacek (2019).
+However, contrary to the simulations in Staubach and Machacek (2019), the simulations presented herein are performed with the new finite element code numgeo 2 2numgeo (see www.numgeo.de and Machaček, 2020) is an inhouse finite-element program, developed by the first two authors for the solution of non-linear, coupled (dynamic) geotechnical boundary value problems..
+The mesh including boundary conditions and dimensions is given in Fig. 4 .
+A full axisymmetric model is used.
+The forces and masses have been scaled again to fit to the half-axisymmetric experimental set-up.
+The so-called zipper-method is used to avoid mesh distortion when the pile penetrates into the soil which has been used in Chrisopoulos et al. (2016) and Staubach and Machacek (2019) as well.
+Using this approach, the boundary of the soil in the symmetry axis below the pile tip is not constraint by Dirichlet boundary conditions in horizontal direction but by a contact constraint with a thin vertical extension of the pile directly in the symmetry axis (see red line in Fig. 4).
+When the pile penetrates into the soil this allows the elements below the tip to be pushed to the side by the pile which would not be possible if they would be constrained by a Dirichlet boundary condition.
+u-p Elements are used.
+u-U and u-p-U elements are also available in numgeo but since the u-p formulation has less degrees of freedom compared to the other formulations, it is preferred here.
+A frictional contact is considered using a Coulomb friction model with a friction coefficient of μ=0.25 as the shear stress is calculated based on the effective normal contact stress.
+Analogous to the CEL simulation, an additional simulation assuming a frictionless contact (μ=0) is performed.
+A reduced bulk modulus for the pore water is used for the sake of comparability with the CEL simulation.
+The influence of the reduced bulk modulus for the pore water is investigated in Section 5.2.
+The hypoplastic model of von Wolffersdorff (1996) extended by the intergranular strain concept Niemunis and Herle (1997) has been applied as constitutive model.
+For tensile mean effective stress p, the material response of the hypoplastic model is not defined.
+Therefore, the effective stress σij is modified by adding a hydrostatic stress ΔσiiHP to guarantee (σii+ΔσiiHP)/3<p̃HP (Chrisopoulos et al., 2016; Machaček et al., 2018).
+A value of p̃HP=-0.02 kPa is chosen.
+The material parameters of Karlsruhe sand calibrated based on laboratory tests are given in Table 2 .
+These parameters have been applied in Chrisopoulos and Vogelsang (2019) and Staubach and Machacek (2019) as well.
+Apart from the obvious differences in the element formulations, there are additional differences between the simulations:•An explicit time integration scheme is used for the CEL simulation whereas an implicit scheme based on the Hilber-Hughes-Taylor method is applied for the Lagrangian calculations.•Without the occurence of cavitation, no void hole can develop below the pile tip during the upwards movement of the pile caused by the rotating unbalances.
+This is taken into account in the fully Lagrangian simulations by a no-separation condition between pile and soil.
+However, there is no such possibility for the CEL simulation.
+Thus, the pile could technically lift up and separate from the soil during driving.•Contrary to the CEL simulation, the monotonic push of the pile to the depth of 15 cm prior to the driving process is not fully incorporated in the Lagrangian simulation.
+Therefore, the change in the soil state due to the installation of the pile to that depth is not taken into account.
+However, the application of the self-weight of the unbalances and the pile leads to a penetration into the soil by approximately 1 cm prior to the vibratory driving in case of the Lagrangian simulation which results in a decreased density below the pile tip similar to the one in the CEL simulation.•While the edges of the pile tip were slightly rounded in the Lagrangian model to allow for a smooth push of the soil to the side, the tip in the CEL model had, apart from a slightly blunted end of the tip, exactly the geometry as the pile in the model test.
+Fig. 7 displays the development of pore water pressure at transducer PPT A recorded in the experiment and the corresponding results of the simulations using the Lagrangian and the CEL model, respectively.
+The simulations with a friction coefficient of μ=0.25 are considered.
+The periodic pile movement is very well visible in the recorded pore water pressure.
+When the pile tip passes the transducer at around 0.8 s, the pore water pressure recorded in the experiments oscillates with the highest amplitudes which reduce subsequently.
+Almost no increase in the mean trend of the pore water pressure is observed.
+Thus, the pore water pressure is mainly oscillating around the hydrostatic value.
+The simulation using the Lagrangian model is able to reproduce this development in a qualitative manner but predicts too small amplitudes of the pore water pressure.
+Furthermore, a doubling of frequency is observed in the curve of pore water pressure versus time, with a smaller amplitude in every second cycle which is not in accordance with the experiment.
+The results of the simulation using the CEL model show an irregular development of pore water pressure which differs to the one observed in the Lagrangian simulation.
+The periodic movement of the pile is not well represented and oscillations are visible.
+The oscillations can be partly traced back to the application of an explicit time integration scheme as discussed in Section 4.1. Despite these oscillations, the amplitudes of pore water pressure are comparable to the ones of the Lagrangian simulation.
+Similar to the simulation using the Lagrangian model, the amplitudes of pore water pressure are too small compared to the measurements.
+The field of excess pore water pressure during driving of the pile is given in Fig. 8 for the simulations using the CEL and the Lagrangian model, respectively.
+The results are quantitatively and qualitatively in accordance.
+Both simulations show considerable increase in pore water pressure in the vicinity of the pile tip.
+Lastly, to inspect the influence of the reduced bulk modulus of the pore water, a comparison in terms of pore water pressure development using the reduced value of 5000 kPa and the bulk modulus of pure water of 2.2 GPa is shown in Fig. 9 .
+As mentioned earlier, using the CEL method it is not feasible to apply the full bulk modulus as the stable time increment gets very small.
+Thus, the comparison is made using the Lagrangian model.
+As expected, the increased bulk modulus leads to slightly larger pore water pressure amplitudes, which also fit better to the measurements of the experiment.
+Overall it can be noted that the assumption of a reduced bulk modulus of the pore water made in Section 4.1 affects the outcome of the simulation only moderately.
+The comparison of the pile penetration over the vibration time between the measured values, the fully Lagrangian simulation and the simulation using the CEL method is displayed in Fig. 5 .
+Two different friction coefficients μ=0 and μ=0.25 are compared.
+Note that only the mean trend of displacement is given in case of the experiment.
+In case of the frictionless contact, both numerical methods are in good accordance with each other and with the experimental data.
+In case of μ=0.25 the CEL method predicts slightly less pile penetration compared to the fully Lagrangian simulation towards the end of the test.
+Compared to the frictionless contact a better agreement between Lagrangian simulation and experiment is achieved using μ=0.25 which is best visible towards the end of the vibration process.
+A slight deviation at the beginning of the test is observed independently of the chosen friction coefficient as the rate of pile penetration is overestimated in the numerical simulations.
+An enlarged section of Fig. 5 is presented in Fig. 6 in order to identify the pile movement during individual cycles.
+Both simulations with μ = 0 show a slightly too large upwards movement within the cycles in comparison to the experiment.
+The downwards movement is reproduced almost perfectly by the simulations.
+Interestingly, the CEL method shows a slightly different amplitude in every second cycle.
+It can be concluded that the results of the CEL simulations fit reasonably well to the outcomes of the Lagrangian simulations in terms of pile displacement.
+The influence of pile-soil interface friction is less in case of the Lagrangian simulation, which can be traced back to the erroneous calculation of frictional contact stress in case of the CEL simulation discussed in Section 4.1. However, the influence of friction is not large for either of the two applied numerical methods.
+Fig. 7 displays the development of pore water pressure at transducer PPT A recorded in the experiment and the corresponding results of the simulations using the Lagrangian and the CEL model, respectively.
+The simulations with a friction coefficient of μ=0.25 are considered.
+The periodic pile movement is very well visible in the recorded pore water pressure.
+When the pile tip passes the transducer at around 0.8 s, the pore water pressure recorded in the experiments oscillates with the highest amplitudes which reduce subsequently.
+Almost no increase in the mean trend of the pore water pressure is observed.
+Thus, the pore water pressure is mainly oscillating around the hydrostatic value.
+The simulation using the Lagrangian model is able to reproduce this development in a qualitative manner but predicts too small amplitudes of the pore water pressure.
+Furthermore, a doubling of frequency is observed in the curve of pore water pressure versus time, with a smaller amplitude in every second cycle which is not in accordance with the experiment.
+The results of the simulation using the CEL model show an irregular development of pore water pressure which differs to the one observed in the Lagrangian simulation.
+The periodic movement of the pile is not well represented and oscillations are visible.
+The oscillations can be partly traced back to the application of an explicit time integration scheme as discussed in Section 4.1. Despite these oscillations, the amplitudes of pore water pressure are comparable to the ones of the Lagrangian simulation.
+Similar to the simulation using the Lagrangian model, the amplitudes of pore water pressure are too small compared to the measurements.
+The field of excess pore water pressure during driving of the pile is given in Fig. 8 for the simulations using the CEL and the Lagrangian model, respectively.
+The results are quantitatively and qualitatively in accordance.
+Both simulations show considerable increase in pore water pressure in the vicinity of the pile tip.
+Lastly, to inspect the influence of the reduced bulk modulus of the pore water, a comparison in terms of pore water pressure development using the reduced value of 5000 kPa and the bulk modulus of pure water of 2.2 GPa is shown in Fig. 9 .
+As mentioned earlier, using the CEL method it is not feasible to apply the full bulk modulus as the stable time increment gets very small.
+Thus, the comparison is made using the Lagrangian model.
+As expected, the increased bulk modulus leads to slightly larger pore water pressure amplitudes, which also fit better to the measurements of the experiment.
+Overall it can be noted that the assumption of a reduced bulk modulus of the pore water made in Section 4.1 affects the outcome of the simulation only moderately.
+Having validated the hydro-mechanically coupled CEL method, the application to the simulation of vibratory driving of open-profile piles with realistic dimensions is presented in this section.
+A rigid pile with a diameter of 2 m and a wall thickness of 8 cm has been considered.
+Analogous to the previous simulations, the hypoplastic model with the extension of the intergranular strain is used as constitutive model but with the parameters for Karlsruhe fine sand (see Table 3 ).
+An initial relative density of 40 % and a hydraulic conductivity of 1·10-3 m/s are chosen for the simulations.
+Similar to the vibratory pile driving tests, an air inclusion of 2 % is assumed for the pore water, corresponding to a bulk modulus of Kf=13 MPa.
+A rigid pile with a diameter of 2 m and a wall thickness of 8 cm has been considered.
+One simulation has been performed with a frictionless contact between the pile and the soil, considering the limitation that total effective normal contact stresses are used to calculate the transmittable shear stresses, as already discussed in Section 4.1. As will be shown in the following, the vibratory driving leads to a strong reduction of effective stress around the pile shaft resulting in a corresponding loss of shear resistance.
+The assumption of a frictionless contact may be justified by this observation.
+Furthermore, the simulation of the model tests discussed in Section 5.1 showed a rather small influence of the pile-soil interface friction.
+However, to investigate the influence of friction, an additional calculation was performed using a friction coefficient of μ=0.2. The results of this simulation are compared to the frictionless case at the end of this section.
+In order to avoid reflections of the waves caused by the driving process at the boundaries, the soil part of the model has rather large dimensions, with a depth of 200 m and a radius of 40 m.
+The geometry and the mesh of the model are given in Fig. 10 a) and b).
+Fig. 10c) displays the field of the acceleration magnitude during the vibratory driving process.
+It is well visible that the waves do not travel to the borders of the model as they are ‘damped out’ by the increasing mesh size with increasing distance to the pile.
+Thus, no influence of artificially reflected waves at the boundaries exists.
+The water table is assumed to be 2 m below the ground surface.
+Drainage is possible here by imposing the condition of zero excess pore water pressure.
+Apart of its self-weight (including the weight of the oscillator), the pile is loaded by a sinusoidal load with a frequency of 36 Hz and an amplitude of 625 kN which represents the vibratory driving force.
+According to Fig. 1, the relative acceleration is not decisive for the assigned vibratory frequency and hydraulic conductivity.
+Even though waves with higher frequencies than the one of the driving force travel through the model, their influence is judged negligible, which has been proven for the case of the model tests discussed in Section 2.2. Despite the increased number of elements, the model of the real-scale problem is computationally noticeably more performant compared to the small-scale model used for the back-analysis of the model tests, which is due to the increased critical time increment caused by the larger element size.
+While the CEL model presented in Section 4.1 took one week to run (being parallelized with 8 CPUs with a clock speed of 3.6 GHz each3 3One Intel® CoreTM i9 9900 K processor has been used.
+The working memory requirement of an explicit calculation is negligible (only about ~200 MB).
+However, ~31 GB could have been used by the process if needed.), the real scale model took merely a few days utilizing similar computational resources (a total vibration time of 25 s has been considered).
+The field of excess pore water pressure at different times during the driving process for the frictionless contact is displayed in Fig. 11 .
+Despite the large hydraulic conductivity, a considerable build-up of excess pore water pressure inside the pile and below the pile tip is visible.
+The time history of excess pore water pressure at two nodes passed by the pile after approximately 10 s of driving is given in Fig. 12 .
+The nodes have the same horizontal distance to the pile but are located outside and inside the pile, respectively (see the locations marked in the central part of Fig. 11).
+In both points the maximum excess pore water pressure occurs slightly before the pile tip reaches the depth of the points.
+Higher excess pore water pressure develops at the point located inside compared to the point outside the pile.
+Once the pile tip has passed the points, the decrease in excess pore water pressure occurs faster outside than inside because the drainage path is longer in the latter case.
+Remarkably, the mean value of excess pore water pressure inside the pile is almost constant over a certain time, until the consolidation process prevails over the pore water pressure increase due to the driving process at approximately 18 s.
+The increase of the excess pore water pressure inside of the pile also reduces the mean effective stress considerably as visible in Fig. 13 .
+While the effective stress is increased in the vicinity of the pile tip, it strongly decreases at the inner and the outer shaft to values close to zero.
+Due to the decreased effective stress around the pile shaft visible in Fig. 13, the assumption of a frictionless contact between pile and soil seems to be justified.
+Since almost no excess pore water pressure is generated at the outer pile shaft, it is unlikely that the effective stress will recover once the driving process is stopped and consolidation is completed.
+This strong decrease in effective stress alongside the shaft caused by the driving process can explain the general observation that vibratory driven piles have less load capacity once in service compared to impact driven or jacked piles (for simulations of impact driven or jacked piles using the CEL method see Staubach et al., 2020; Staubach et al., 2020).
+This is also mentioned in the German guidelines for piles ‘EA Pfähle’ (DGGT, 2012).
+However, no guidelines for the estimation of the amount of reduction are given in DGGT (2012).
+In this regard the effect of pile ‘set-up’ has to be mentioned.
+It is known that over time the normal stress on the pile shaft, reduced by the installation process, increases again, which, however, is not connected to pore water pressure changes but attributed to a reduction of the high stress gradients in the vicinity of the pile shaft.
+This effect is for instance described in White and Bolton (2004) and Chow et al. (1997).
+While in case of impact driven or jacked piles the zone of reduced stress is limited to a narrow strip alongside the pile shaft (accompanied by a sharp increase caused by the installation further away from the pile shaft, see e.g. (Jardine et al., 2013) for the experimental evidence of this phenomenon and (Staubach et al., 2020) for a numerical one), Fig. 13 does not show these high effective stress gradients close to the pile shaft.
+However a consolidation analysis following the simulation of the installation process would be needed in order to analyse the effective stress distribution after the installation in more detail.
+Even though the literature on set-up effects of driven piles is extensive (e.g. Sawant et al., 2013; Gavin et al., 2015; Lee et al., 2010; Alawneh and Sharo, 2019; Haque and Steward, 2020), the impact of the installation method on the increase of pile resistance due to the set-up has not been quantified yet.
+The only study mentioning an influence of the installation method is (Lim and Lehane, 2014; Lim and Lehaneim, 2015), stating that the set-up effect is larger in case of impact driven piles compared to jacked piles.
+However, no study regarding the set-up effect of vibratory driven piles exists.
+There is no tendency towards the formation of a soil plug which is well visible by the fields of void ratio during the driving process given in Fig. 14 .
+While a slight decrease in void ratio along the outer pile shaft and below the pile tip is observed, a large increase inside the pile occurs.
+Compared to impact driving or jacking under partially drained conditions, which tended to generate a dense soil plug in the vicinity of the pile tip (again, see (Staubach et al., 2020; Staubach et al., 2020)), the vibratory driving process densifies the soil around the pile tip only moderately.
+As mentioned in Moriyasu et al. (2018), the Overseas Coastal Area Development Institute of Japan (The Overseas Coastal Area Development Institute of Japan, 2002) incorporates similar advises as the ‘EA Pfähle’ by recommending to switch to impact driving for the final phase of the vibratory driving process of a pile in order to ensure its bearing capacity.
+This will lead to the aforementioned densification around the pile tip and thus a higher bearing capacity of the pile once installed.
+The soil inside the pile tends to heave slightly which can be traced back to the upwards directed flow of the pore water as the preferred consolidation path inside the pile is directed to the ground surface.
+This is also visible by the time history of excess pore water pressure inside the pile presented in Fig. 12.
+Large excess pore water pressures are present inside the pile long after the pile tip has passed, and the decrease in excess pore water pressure occurs considerably slower than outside the pile.
+In order to evaluate the influence of pile-soil interface friction on the change of the soil state during the driving process, an additional simulation using a friction coefficient of μ=0.2 (setting μ=0.1 and assuming that the ratio between total and effective stress is two as explained in Section 4.1) is performed.
+The results in terms of void ratio and mean effective stress after 10 s of driving are compared to the frictionless simulation in Fig. 15 .
+Due to the friction the pile penetrates slower into the soil.
+Likewise the consideration of friction leads to more densification around the pile tip and a lower void ratio inside the pile.
+Alongside the outer pile shaft, however, the void ratio is nearly unchanged compared to the frictionless simulation.
+The mean effective stress distributions are very similar for both simulations.
+The comparison of the two simulations clearly shows that friction has considerable influence on the change of void ratio in the vicinity of the pile.
+These results highlight the need for a correct determination of effective normal stress in the pile-soil interface using the CEL method in Abaqus in order to correctly take into account frictional contacts.
+Based on back-analysis of model tests it was demonstrated that the hydro-mechanically coupled Coupled-Eulerian–Lagrangian (CEL) method is capable of simulating vibratory pile driving in water-saturated sand.
+While the pile penetration predicted by the CEL method was in good accordance with the results of the vibratory pile driving experiment and the results of a Lagrangian simulation, the pore water pressure development was captured worse compared to the Lagrangian simulation.
+The lower amplitudes of pore water pressure in both the CEL and the Lagrangian simulation compared to the measurements in the model test can be partly attributed to the assumption of a reduced bulk modulus of the pore water.
+This assumption was necessary due the explicit time integration used in the framework of the CEL method in order to achieve computationally feasible and stable time increments.
+The application to the vibratory driving of open-profile piles under partially drained conditions showed that the hydro-mechanically coupled CEL method is capable to realistically capture the main mechanisms acting during vibratory pile driving.
+However, due to the inability to distinguish between total and effective contact stress, the application of the CEL approach implemented in Abaqus has some limitations in case of problems involving frictional contacts.
+The VUMAT subroutine (as well as the applied hypoplastic model with the intergranular strain extension) used for the simulations presented herein can be obtained from the first author upon request.

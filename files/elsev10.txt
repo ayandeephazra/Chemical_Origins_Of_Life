@@ -1,0 +1,7 @@
+An ab − initio density functional theory (DFT) method has been used to study the elastic and thermodynamical properties of Fe2CoAl under hydrostatic pressure.
+In calculating mechanical and dynamical properties we have studied the elastic constants, anisotropy parameters, compressibility, ductility, plasticity, Debye temperature, vibrational energy, specific heat etc., under different applied pressures.
+While applying isotropic compressive pressure we have observed that elastic stiffness constants and hardness of the system increases almost linearly.
+However, the Pugh's ratio, B/G > 1.75 for all applied pressures except for 20 GPa ≤ P ≤ 40 GPa.
+The value of Poisson's ratio (σ) fluctuates around 0.25.
+Our calculations have revealed an admixture of covalent and ionic bond in Fe2CoAl.
+The compound under investigation is ductile in nature at all pressures considered.

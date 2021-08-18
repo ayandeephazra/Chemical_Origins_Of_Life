@@ -1,0 +1,5 @@
+Among bulk metallic glass (BMG) alloys, molybdenum(Mo)-based BMGs are lacking due to the weak glass forming ability (GFA) of existing Mo-based alloys.
+In this work, we developed a novel family of low-cost refractory Mo-Co-B BMGs with enhanced GFA and high thermal stability.
+These Mo-based BMGs exhibit ultra-high glass transition temperatures ranging from 1020 to 1048 K, paired with exceptional nano-hardness and Young's modulus up to 17.1 GPa and 260 GPa, respectively.
+The excellent thermal stability and mechanical properties are closely related to the prominent covalent metal-metalloid bonds in the Mo-Co-B BMGs.
+Our study expands the palette of BMG alloys and opens a new arena for the exploration of low-cost refractory BMGs for high-temperature applications.

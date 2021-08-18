@@ -1,0 +1,4 @@
+Ni- and Be-free Ti-based (Ti45Zr10Cu31Pd10Sn4) bulk metallic glass (BMG) with high glass forming ability shows great potentials as implantable orthopedic biomedical materials, but the excessively high Young's modulus compared with human bones greatly affects its clinical practicability.
+To solve this problem, we successfully prepared porous Ti45Zr10Cu31Pd10Sn4 BMG (diameter >15 mm) with similar mechanical properties to human bones only by adjusting the sintering parameters of spark plasma sintering (SPS) without additional additives and process procedures.
+In this study, the influence of loading pressure during SPS on the phase composition, thermal stability, porosity, microstructure, mechanical properties and corrosion resistance of porous BMG were systematically studied.
+This work may open a new door for promoting novel Ti–Zr–Cu–Pd–Sn metallic glass as an implantable orthopedic biomedical material.

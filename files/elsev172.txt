@@ -1,0 +1,6 @@
+We analyzed the relation among the dissociation pressure, the heat of formation, and the strain energy of metal hydrides, thermodynamically.
+Logarithm of hydrogen dissociation pressure P MH of alloy-based metal hydrides with different composition ratio linearly increased with the calculated bulk modulus of the hydrogen storage alloys B c.
+The heat of formation ΔH 0 also linearly increased with the calculated bulk modulus of the hydrogen storage alloys B c.
+Those hydrogen dissociation pressure and the heat of formation were analyzed by the thermodynamic relations including strain energy.
+We obtained the following equation [dΔH 0/dB c]/[d(RTln(P MH))/dB c] >1 for metal hydrides having different composition ratio.
+The value above 1 of this equation was based on the experimental results that the standard entropy change was proportional to the heat of formation of the metal hydride.

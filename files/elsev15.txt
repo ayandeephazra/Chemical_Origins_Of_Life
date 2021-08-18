@@ -1,0 +1,7 @@
+First-principles calculation for anti-fluorite type cubic V2Se compound has been performed to study its structural, electronic and magnetic properties using WIEN2k.
+We used LDA and GGA as exchange-correlation energy functional for our calculation.
+For the calculation of ground state electronic properties, we implemented DFT + U method with the Hubbard parameter of 5.5 eV.
+Geometry optimization for the ferromagnetic, anti-ferromagnetic and non-magnetic states were done and results indicate that the material is more stable in ferromagnetic state.
+The equilibrium lattice constant and bulk modulus were found for both LDA and GGA exchange correlation energy functional which is in agreement with the experimental lattice constant.
+Electronic band structure and density of states have been studied.
+The electronic properties indicate that the material exhibit metallic behavior.

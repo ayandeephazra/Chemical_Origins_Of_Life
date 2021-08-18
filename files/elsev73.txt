@@ -1,0 +1,7 @@
+For a regular material, in a single state, the effect of increasing pressure is to produce a linear relation between shear modulus (G), bulk modulus (K) and pressure (p).
+Such a dependence on pressure fits the behaviour of individual mineral and mineral composites well.
+For the iron bearing minerals in the lower mantle, the transition from the high-spin state to the low-spin state with increasing pressure produces deviations from this simple behaviour, due to a much larger reduction of the bulk modulus than the shear modulus in the spin crossover.
+There are linear zones in the dependence of the modulus ratio G / K on pressure scaled by bulk modulus ( p / K ) above and below the transition, with a complex excursion to high ratios in between.
+With increasing temperature the spin transition is smoothed out in depth, and is expected to be smooth along a mantle geotherm.
+For the ak135 body-wave model of radial Earth structure there is a slight, but distinct, change of slope in the relation between the modulus ratio and scaled pressure corresponding to a depth range around 1550 km.
+This feature is strongly suggestive of a residual effect of a 3-D averaged spin transition in the ferropericlase component of the lower mantle.

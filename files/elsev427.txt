@@ -1,0 +1,7 @@
+Bulk moduli are important parameters to assess the mechanical performance of materials including nuclear fuels.
+However, little experimental data exist for U3Si2, a potential accident-tolerant nuclear fuel, whose bulk modulus has only been measured by resonant ultrasonic spectroscopy (RUS).
+In addition, the knowledge for high-pressure structural behavior and phase equilibrium of U3Si2 is largely lacking.
+Here we studied pressure dependence of the crystal structure of U3Si2 using high-energy synchrotron X-ray diffraction coupled with Rietveld analysis.
+The pressurization was achieved using a diamond anvil cell (DAC) which provides quasi-hydrostatic pressures up to 37.6 GPa.
+Crystal structural variation and equations of state of U3Si2 were obtained, and its bulk modulus, a- and c-axial moduli were derived to be 107.11 ± 5.65 GPa, 82.87 ± 4.78 GPa and 194.52 ± 12.03 GPa, respectively.
+The determined elastic parameters are compared with those obtained by RUS and nanoindentation.

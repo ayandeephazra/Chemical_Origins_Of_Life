@@ -1,0 +1,6 @@
+Grape stalks are a lignocellulosic biomass, which is a very complex material, whose easy and profitable fractionation to obtain its basic components is still not available.
+Therefore, alternative ways to try and make use of grape stalks are currently being explored.
+In the present study, the possible use of dried and milled grape stalks as filler in bio-composites was assessed using polybutylene succinate as a basic polymer.
+The tensile specimens produced using 10% grape stalk powder as it is and functionalized through pre-extrusion acetylation and silylation, and silylation in situ were characterized for their structural, mechanical, thermal, morphological, and color properties.
+The bio-composites showed to be stiffer than the control polymer, with an increase of Young’s modulus from 616 MPa to 732 MPa in the specimens obtained with acetylated grape stalk powder.
+This led to a potentially new method to valorize by-products of the wine industry such as grape stalks in order to recover raw materials which could prove useful in the biomaterials and bio-composites sector.

@@ -1,0 +1,4 @@
+A dilute random distribution of identical elastic spheres in a poroelastic isotropic matrix obeying Biot’s theory is considered.
+Using Luppe, Conoir and Norris (LCN) multiple scattering formula up to the corrective second order term in concentration, approximations are sought in the low frequency domain (Rayleigh limit) for the fast and slow effective wavenumbers.
+The contribution of the corrective second order term – which contains the coupling (i.e. mode conversions) between the fast, slow and shear waves and accounts for multiple scattering – is discussed.
+Considering the fast and slow wavenumbers, some effective quantities (bulk modulus, mass density and diffusion coefficient) are estimated.

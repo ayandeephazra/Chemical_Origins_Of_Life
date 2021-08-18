@@ -1,0 +1,7 @@
+Magnesium potassium phosphate cement (MKPC) is gaining increasing popularity for specialized applications, e.g., structural rehabilitation, waste encapsulation, and 3D printing.
+However, the mechanical properties of struvite-K, the binding phase of MKPC, have rarely been examined.
+This study utilized synchrotron-based high-pressure X-ray diffraction to determine the intrinsic mechanical properties of struvite-K at the unit-cell scale, for the first time.
+The deformation of the unit cell, axial incompressibility, and bulk modulus was studied under hydrostatic pressures up to ~10 GPa.
+The unit cell shifts from orthorhombic to monoclinic lattice below 1 GPa; phase transition and amorphization occur at ~5 and ~10 GPa, respectively.
+The axial incompressibility shifts from anisotropy to isotropy, and the bulk modulus increases from 27 to 37 GPa upon phase transition.
+The experimental results are of great importance in calibration of atomistic modelling and provide implications on the problem with nanoindentation for studying mechanical properties of struvite-K or MKPC.

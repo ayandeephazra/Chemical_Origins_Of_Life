@@ -1,0 +1,95 @@
+The orthorhombic, ternary, nano-laminated boride MoAlB belongs to the family of MAB-phases [1], being a promising candidate for the synthesis of MBenes by Al deintercalation [2].
+MoAlB is electrically and thermally conductive [1,3–5].
+Due to the formation of protective Al2O3 scale [1,4,6,7], MoAlB is an oxidation resistant transition metal boride with the capability of self-healing [8].
+Thus, MoAlB is promising for high-temperature applications, withstanding even temperatures as high as 2000 °C for up to 60 s [9].
+However, the conventional synthesis of bulk MoAlB requires temperatures of at least 1000 °C [1,4–8,10–19] and up to 40 % excess aluminium in the feedstock [11,19].
+Thin film synthesis enables the reduction of synthesis temperature to 700 °C, as reported by Achenbach et al. [20].
+However, these films contained impurity phases as well as pores [20].
+Here we systematically investigate the influence of substrate temperature during direct current magnetron sputtering from a stoichiometric target and report the phase formation of single phase, dense MoAlB thin films.
+MoAlB thin films were synthesized by magnetron sputtering in an ultra-high vacuum growth system with a base pressure of <9∙10−7 mbar before heating and <5∙10-5 mbar at the respective deposition temperatures, which were systematically varied between 350 and 740 °C.
+A MoAlB composite target (2′′ diameter, Plansee Composite Materials GmbH, Lechbruck am See, Germany) was powered in DC mode by an MKS RPG-50E power supply with a power density of 6 W∙cm-2.
+The deposition time was 1 h, yielding a thin film thickness of approximately 1 μm and a deposition rate of 17 nm/min.
+The working gas was Ar (6.0 purity) with a pressure of 0.3 Pa.
+One-side polished single-crystal sapphire (0001) pieces (10 × 10 mm) were used as substrates.
+To enhance heat absorption and to stabilize the substrate temperature, the unpolished backsides of the substrates were coated with Mo for 2 min with a power density of 5 W∙cm-2.
+The target-to-substrate distance during MoAlB deposition was 10 cm and the target surface parallel to the substrate.
+The composition was determined by standard-based energy-dispersive X-ray spectroscopy (EDX) with a BrukerQuantax75 EDS system in a Hitachi TM4000plus scanning electron microscope.
+As a standard, the stoichiometric sample of Achenbach et al. [20] was employed, where the composition was determined by time-of-flight elastic recoil detection analysis.
+The phase formation was analysed by X-ray diffraction in a Bruker D8 Discovery general area detector diffraction system.
+To obtain pole figures, X-ray diffraction in Bragg-Brentano geometry was performed by rotating Phi and Chi in steps of 10°.
+For in-situ heating, an Anton Paar DHS 1100 heating stage was employed.
+During heating in vacuum (<1∙10−2 mbar), the temperature was increased stepwise, and measurements were performed after homogenisation of the temperature.
+Multiple lamellae were extracted parallel (cross-section) and perpendicular (plan view) to the growth direction of the thin films, and Ga ions were used at an acceleration voltage of 30 kV.
+First, a 1.5–2 μm thick Pt protection layer was grown with 80 pA, followed by trench milling at 9 nA.
+Final lamella thicknesses were <100 nm.
+The lamellae were investigated using a FEI Helios Nanolab 660 field-emission gun in scanning transmission electron microscopy (STEM) mode, equipped with a STEM III detector.
+The acceleration voltage and current were set to 30 kV and 50 pA, respectively.
+The morphology, specifically the areal pore fraction, was analysed based on the plan view dark field and high-angle annular dark field (HAADF) micrographs employing the software ImageJ2 [21].
+To this end, 11 micrographs were analysed for each substrate temperature with a magnification of 200.000× to obtain the mean value and uncertainty of the pore areal fraction.
+For resistivity measurements of the films, a four-point probe described in [22], which is based on the van der Paw method, employing a Keithley 2611B source meter unit was employed at room temperature with a measurement current of 5 mA.
+Load-controlled nanoindentation measurements were performed in a Hysitron TI-950 TriboIndenterTM to determine hardness and Young’s modulus according to the method of Oliver and Pharr [23].
+A Berkovich tip was loaded with 3500 μN to obtain a maximum indentation depth of 110 nm.
+The indentation depth was below 11 % of the film thickness to minimize the substrate influence while each sample was indented 25 times.
+To obtain the Young’s modulus of the samples, a Poisson’s ratio of 0.23 was assumed [20].
+The composition of the synthesized MoAlB films is given as a function of substrate temperature in Table 1 .
+While the B concentration is difficult to evaluate based on EDX, the Mo/Al ratio ranges from 1.2 ± 0.1 to 1.3 ± 0.1 and indicates a slight Al understoichiometry.
+Within the error of measurement, the metal ratio does not change significantly for the here probed temperature range.
+EDX maps of the cross sections (Supplementary Information, Fig. S1) show a homogeneous elemental distribution, in contrast to the thin films of Achenbach et al. [20], where O rich and Al rich regions with an areal fraction of 4–6 % were identified.
+In Fig. 1 the temperature dependent phase formation is analysed by X-ray diffraction.
+The sample deposited at 350 °C is X-ray amorphous.
+Small peaks in the diffraction pattern at 400 °C indicate the onset of the formation MoAlB crystals.
+At synthesis temperatures between 450 and 650 °C, phase pure orthorhombic MoAlB is observed.
+At 700 and 740 °C, the formation of the impurity phase MoB3 is observed in addition to MoAlB.
+However, the presence of MoB3 cannot explain the Al-deficiency over the whole temperature range, as MoB3 is only detected at 700 and 740 °C.
+Fig. 2 shows the phase evolution of MoAlB from an amorphous sample observed by in situ X-ray diffraction during heating from 455 to 647 °C.
+For temperatures of 545 °C and lower, the diffractograms show a broad hump characteristic for the presence of an amorphous phase.
+At 575 °C and higher temperatures, reflections are visible that indicate the formation of orthorhombic MoAlB.
+Thus, phase formation of MoAlB by nucleation and growth from an amorphous film takes place between 545 and 575 °C and hence at temperatures more than 100 °C higher than required for synthesis by magnetron sputtering.
+Based on this analysis, the phase formation mechanisms active during sputter deposition can be discussed: Since crystallization from an amorphous film requires bulk diffusion to be activated, we infer that the formation of MoAlB thin films by magnetron sputtering at substrate temperatures between 450 and 545 °C is surface diffusion mediated.
+With bulk diffusion – in addition to surface diffusion – being activated for temperatures > 545 °C.
+The change of relative peak intensities in Fig. 1 indicate a texture evolution as a function of substrate temperature.
+Thus, pole figures of the (111) and (060) planes with reflections at 2Θ angles of 41.069° and 38.777°, respectively, are shown in Fig. 3 .
+The (111) texture visible at 450 and 500 °C (Fig. 3a, b) changes to a preferred orientation with (111) and (060) planes parallel to the film surface at 600 °C (Figs. 1 and 3d).
+At substrate temperatures of 650 °C and higher, a strong (111) texture is observed.
+The evolution of full width at half maximum (FWHM) and crystal size, of the (060) and (111) peaks is depicted in Fig. 4 .
+The FWHM of the (060) peak decreases between 500 and 600 °C and remains constant at higher substrate temperatures.
+In conjunction with the evolution of the strong (111) texture evolution, the FWHM of the (111) peak decreases with substrate temperatures above 600 °C.
+Accordingly, the crystal size of films increases with increasing temperature by factors of 1.8 and 2.0 in (111) and (060) direction, respectively.
+The microstructure of the films is shown in cross-sectional and plan view HAADF-STEM micrographs in Fig. 5 .
+At 400 °C (Fig. 5a), a 223 ± 35 nm thick featureless dense layer is deposited initially on which crystals nucleate and grow.
+It appears that competitive growth enables preferential directional growth, consistent with the limited number of peaks in the 400 °C diffractogram in Fig. 1.
+Small columnar grains are present at 450 and 500 °C (Fig. 5b and c), which correspond to a homologous temperatures TH of 0.42 and 0.45, respectively [25].
+At 550 and 600 °C, the grains form a V-shaped, feather-like structure (see Fig. 5d and e) and the amount of porosities, visible in the plan view micrographs, decreases, as surface diffusion is amplified [25].
+Increasing the temperature further to 650 °C (TH = 0.54), grain coarsening takes place accompanied by the formation of numerous pores between the columnar grains (Fig. 5f–h).
+The average grain size, determined from 10 individual measurements, is shown in Fig. 5g for two directions A and B of the grains, which are indicated in Fig. 5h.
+In direction A, the grain size increases from approx.
+100 nm between 500 and 600 °C to 150 nm at 740 °C, which is consistent with changes in crystal size shown in Fig. 4.
+In direction B, the grain size remains constant within the error of measurement.
+Hence, anisotropic grain growth is observed.
+To analyse the porosity quantitatively, the substrate temperature dependent areal pore fractions in the plan view micrographs are plotted in Fig. 6 .
+As the substrate temperature is increased from 450 to 600 °C (TH from 0.42 to 0.54), the areal fraction of pores decreases by 90 % relatively.
+This can be understood by the concomitantly enhanced adatom mobility [25,26].
+As bulk diffusion is activated by increasing the substrate temperature to 575 °C (TH = 0.5) and higher (indicated by the grey area in Fig. 6), the areal fraction of pores increases by 56 % relatively between 650 and 740 °C (TH between 0.54 and 0.59).
+This formation of pores with the concomitantly increasing grain size (Figs. 4 and 5f–h) and a (111) texture evolving (Fig. 3) may also be explained by a mobility enhancement, namely by pronounced anisotropic surface diffusion enabling preferential growth along the (111) direction.
+With the whole picture of phase formation and micro-structure analysis at hand, the temperature range for the formation of dense orthorhombic MoAlB thin films becomes obvious: Between 550 and 600 °C, the highest density and hence the lowest amount of pores is observed (Figs. 6 and 5d-e), the films are phase pure (Fig. 1), and the crystal orientation is random (Figs. 1 and 2c and d).
+Therefrom, we infer that the formation of dense orthorhombic MoAlB is surface and bulk diffusion mediated for the here explored growth conditions.
+The room temperature electrical resistivity (Fig. 6) decreases for samples synthesized between 400 and 600 °C from 3.4 to 1.0 μΩm consistent with the decreasing amount of pores.
+However, the resistivity is up to one order of magnitude larger than the 0.35 – 0.49 μΩm reported for bulk MoAlB at 300 K [4].
+This larger resistivity may be caused by the presence of pores and the lower grain size compared to the bulk samples [4] resulting in a higher density of grain boundaries, which increases resistivity [27].
+The resistivity remains approximately constant between 1.0 and 1.5 μΩm for substrate temperatures above 600 °C, despite the enlarged formation of pores.
+However, the temperature dependent resistivity observed here is in contrast to the increasing resistivity with temperature reported for bulk MoAlB [4].
+Thus, for temperatures larger than 600 °C, the temperature dependent resistivity may be understood based on the complex interplay between porosity induced resistivity increase and crystal size induced resistivity reduction [27].
+Finally, Young’s modulus and hardness are shown as a function of substrate temperature in Fig. 7 .
+At 350 and 400 °C, where the presence of an amorphous phase is detected, Young’s modulus is 322 ± 20 and 313 ± 13 GPa, respectively, which is lower than the value for phase pure MoAlB reported by Achenbach et al. [20].
+Between 450 and 740 °C, the Young’s modulus with values between 348 ± 17 and 379 ± 30 GPa is consistent with literature [20] and constant within the error of the measurement, despite pore formation at higher temperatures.
+It may be speculated, that the effect of stresses [28] varying with substrate temperature as well as the effect of impurity phases compensates the expected, porosity induced change in Young’s modulus.
+The hardness is the highest for the purely amorphous sample with 17 ± 2 GPa and lowest for the partially crystalline sample at 450 °C with 12 ± 1 GPa.
+The hardness of the crystalline samples is constant within the error of measurement between 13 ± 2 and 15 ± 2 GPa, which is consistent with the hardness of fine-grained bulk samples [19].
+Here, we report that for the synthesis of phase pure MoAlB thin films by magnetron sputtering from a stoichiometric MoAlB target, the substrate temperature range of 450–650 °C is sufficient.
+Crystallization of orthorhombic MoAlB from an amorphous phase begins between 545 and 575 °C, based on in situ X-ray diffraction.
+Thus, the formation of orthorhombic MoAlB below 545 °C is surface diffusion mediated.
+Between 545 and 575 °C, in addition to surface diffusion, bulk diffusion is activated.
+Due to this activation of bulk diffusion and as fully dense MoAlB films are observed between 550 and 600 °C, we infer that the formation of dense films is surface and bulk diffusion mediated.
+At temperatures of 650 °C and higher, however, the concomitant evolution of a strong (111) texture and porosity formation as well as the increasing crystal size may be caused by a strong anisotropy of surface diffusion.
+Young’s modulus and hardness with a maximum of 379 ± 30 GPa and 17 ± 2 GPa, respectively, do not change significantly in the temperature range of 450–740 °C and are consistent with literature.
+The here communicated synthesis strategy allows for the deposition of dense, single phase MoAlB films onto technologically relevant substrate materials and enables thus further exploitation of the application potential thereof.

@@ -1,0 +1,7 @@
+Density functional theory-based calculations in combination with the continuum approach are used to study the mechanical properties of vanadium nitride (VN) and the method of Debye-Grüneisen is used to investigate its thermodynamic characteristics.
+Elastic constants of the structure C11 = 580.97, C12 = 205.02 and C44 = 108.92 GPa are obtained.
+Ductility ratio between 2.35 and 2.52 is calculated which predicts the VN compound to be malleable and structurally stable and it is categorized among tough coating materials.
+Also, thermodynamic behavior, bulk modulus, specific heat capacity in constant pressure and temperature expansion coefficient of VN are rigorously investigated.
+Results indicate that as the temperature increases, the bulk modulus decreases.
+At room temperature the bulk modulus reaches 294.53 GPa, at 400 K it is 284.24 GPa and finally reduces to 221.25 GPa at 1000 K.
+Hence, compared to the ground state calculations the bulk modulus obtained here is fairly consistent with the experimental data.

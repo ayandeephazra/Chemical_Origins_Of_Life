@@ -1,0 +1,8 @@
+Poly(L-lactic acid) (PLLA) has been widely used as a promising biomaterial in biomedical applications due to its biodegradability and high mechanical strength.
+However, because of the inherent brittleness, low impact resistance, and weak thermal stability of PLLA, the modification process is usually required to utilize it for biomedical devices.
+Furthermore, acidic byproducts resulting from the hydrolysis of PLLA after implantation reduce the pH of the surrounding environment and cause inflammatory responses in the implanted area, leading to the failure of their clinical applications.
+To this end, here, we demonstrate a novel modification process for the PLLA composite with various functional additives, such as cis-aconitic anhydride (AA), triacetin (TA), isosorbide derivative (ISB), and/or Pluronic® F127 (F).
+The modified PLLA composite with TA and F (PLLA/TF) showed significantly improved elongation at break and Young’s modulus and retained tensile strength.
+Moreover, incorporating magnesium hydroxide (MH) nanoparticles (PLLA/TFMH) significantly reduced acid-induced inflammation responses caused by the acidic degradation products of PLLA.
+Reduced plasma protein adsorption was observed in the PLLA/TFMH.
+These results suggest that the one step bulk modification of biodegradable PLLA using TA, F, and MH will have great potential in cardiovascular implant applications.

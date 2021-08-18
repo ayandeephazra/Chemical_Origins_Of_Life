@@ -1,0 +1,14 @@
+The thought of biodegradable organic-inorganic composites composed of natural polymer chitosan and ceramic nanoparticles (hydroxyapatite and bioglass) can be considered as a solution for hard tissue engineering.
+In this paper, we described a comparative assessment of chitosan-nanohydroxyapatite (CTS-nHA) and chitosan-nano-bioglass (CTS-nBG) scaffolds.
+The dispersion of nanoscaled hydroxyapatite (nHA) and bioglass (nBG) in chitosan remained satisfactory.
+The freeze-dried composite based CTS-nHA and CTS-nBG scaffolds shown porous structure.
+The physiochemical and morphological analysis of all samples has been performed through X-ray powder diffraction (XRD), Fourier-transform infrared spectroscopy (FTIR), Brunauer-Emmett-Teller (BET), scanning electron microscopy (SEM), and transmission electron microscopy (TEM).
+The SEM image confirmed the presence of spherically shaped nHA particles of 4.20 μm and irregularly shaped nBG particles of 6.89 μm.
+The TEM analysis revealed the existence of 165.52 to 255.17 nm sized nHA particles and 167.35 to 334.69 nm sized nBG particles.
+TEM analysis also showed the interconnected structure of CTS-nHA and CTS-nBG nanocomposites.
+After seven days' incubation period, the CTS-nHA and CTS-nBG scaffolds shown good mineralization behavior in simulated body fluid (SBF).
+The CTS-nHA scaffolds exhibited enhanced compressive strength and elastic modulus compared with the CTS-nBG sample.
+The cell culture experiment revealed that fabricated scaffolds had good compatibility with fibroblast cells (L929, ATCC) and MG-63 which are able to adhere, proliferate, and migrate through the porous structure.
+All the obtained results clearly recommend that pre-loaded hydroxyapatite and bioglass nanoparticles can enhance the apatite formation.
+The scaffolds with chitosan, bioglass, and hydroxyapatite have better biomechanical characteristics and allow cell growth.
+Therefore, these scaffolds can be perfect candidates for various hard tissue engineering applications such as bone regeneration.

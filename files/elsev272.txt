@@ -1,0 +1,5 @@
+We have investigated the high-pressure behavior of sodium oxide (Na2O) up to 30 GPa by synchrotron angle-dispersive powder X-ray diffraction in a diamond anvil cell at room temperature.
+Between 15.9 and 17.3 GPa crystalline Na2O transforms to an amorphous state, and on decompression the amorphous structure recrystallizes back between 4.9 and 10.3 GPa.
+The zero-pressure bulk modulus of Na2O is obtained in experimental observations for the first time.
+The pressure-volume data is fitted according to the third-order Birch-Murnaghan equation of state and yields four bulk modulus values by setting the V 0 or B 0 ’ either as a constant or variable.
+The bulk modulus values of Na2O are smaller than α-Li2O, which is in good agreement with the previous calculation results.

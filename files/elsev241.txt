@@ -1,0 +1,8 @@
+In the present study, a thermodynamic model is formulated to determine the melting temperature of metals with increasing pressure using an equation of state (EoS).
+The model is applied to determine the melting temperature of Cu, Au, Ag, Zn, Cd, In and Pb at high pressure.
+The model formulation is based on Goyal and Gupta EoS which follows Stacey's criteria and is valid in high pressure conditions and also it does not involve any adjustable parameter.
+The volume compression, bulk modulus and its first order pressure derivative is determined using the EoS with an increase in pressure.
+It is observed that melting temperature show increase with the increase in pressure, however, variation is not linear.
+The comparison of present computed results of melting temperature under pressure is done with the theoretical and experimental results available and good consistency between the compared results is observed.
+This study helps in understanding the quantitative effect of pressure on the melting behavior of metals.
+The melting temperature at high pressures can also be predicted using the present formalism.

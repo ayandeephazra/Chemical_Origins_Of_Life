@@ -1,0 +1,15 @@
+Objective To determine the effect of organosilane content on the physicochemical properties of model composites formulated with nano-sized fillers.
+Methods Model composites were formulated with dimethacrylate-based monomers, a photoinitiator/co-initiator system and silicon dioxide nano-sized fillers treated with different amounts of 3-methacryloxypropyltrimethoxysilane (MPTS): 1.0 (G1%), 2.0 (G2%), 5.0 (G5%), 7.5 (G7.5%) and 10 (G10%) wt.% relative to SiO2.
+Non-silanized fillers (G0%) were used in the control group.
+Degree of conversion (DC) was assessed by Fourier-transformed infrared spectroscopy (ATR-FTIR).
+Knoop hardness (KHN) and elastic modulus were determined before and after water storage for 4 months.
+Water sorption (Wsp) and solubility (Wsl) were calculated by successive mass determinations in analytical balance.
+Surface gloss and roughness were characterized before and after toothbrushing simulation.
+Results With the exception of those fillers treated with 1% MPTS, DC was not dependent on the silane content.
+Within the silanized groups, G1% showed the lowest initial and final KHN, without statistical difference from G0%.
+The elastic modulus was not affected by the silane content, regardless of the storage condition, but those groups formulated with at least 5% silane presented improved values after storage.
+Silane content did not affect the WSl, but affected Wsp, in which those groups formulated with at least 2 wt.% of MPTS produced a more resistant material than G0%.
+The use of treated particles with at least 2 wt.% of silane was able to produce materials that did not change their gloss after the brushing process.
+Additionally, these materials presented lower surface roughness than G0% after the brushing process (p < 0.05).
+Significance The concentration of MPTS affected the physicochemical properties of nano-filled composites.
+Therefore, 2 wt.% of silane was the optimized quantity to produce materials resistant to degradation, both in bulk and surface properties.

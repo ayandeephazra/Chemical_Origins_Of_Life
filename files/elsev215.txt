@@ -1,0 +1,10 @@
+Hypothesis The properties of oil-in-water emulsions are influenced by the rheology of the aqueous phase (continuous phase) and the rheology of the oil-water interfaces.
+The bulk and interfacial rheological parameters can be tuned by incorporating nanoparticles (NPs) featuring different surface chemistries and polymers with different chemical or physical structures.
+Therefore, NPs and polymers can be used to formulate emulsions with different properties.
+Experiments The viscoelasticity at the oil-(aqueous phase) interface and the bulk viscoelasticity of aqueous phase were investigated in the presence of different fumed silica NPs (i.e., hydrophilic, hydrophobic, and slightly hydrophobic) and polymers with two different molecular weights.
+Bulk and interfacial viscoelastic properties were investigated, employing oscillatory rheological techniques.
+Furthermore, morphology and stability of the oil-in-(aqueous nanofluid) emulsions were explored utilizing bulk emulsification and single drop coalescence experiments.
+Findings Introducing polymers into the aqueous nanofluids had opposite effects on bulk and interfacial viscoelasticity.
+Despite the significant increase in bulk viscoelasticity upon addition of polymers into the aqueous nanofluids, the interfacial viscoelasticity and emulsion stability considerably decreased.
+The slightly hydrophobic NP nanofluids without polymers showed no bulk viscoelasticity, but displayed the highest interfacial viscoelasticity and emulsion stability.
+This provided us a unique opportunity to unravel the importance of bulk and interfacial viscoelasticity on oil-in-water emulsification and proved the dominant role of interfacial viscoelasticity over bulk viscoelasticity on emulsion stability.

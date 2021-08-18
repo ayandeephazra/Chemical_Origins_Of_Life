@@ -1,0 +1,4 @@
+We present theoretical and experimental results to obtain an intuitive understanding of bulk modulus of metamaterials composed of Helmholtz resonators (HR).
+Using transmission line theory, we introduce an intuitive method to determine the frequency domain in which the negative bulk modulus appears.
+The results obtained by simulations and experiments are consistent with theoretical results found using transmission line theory.
+The results suggest that wider negative (BNG) areas of bulk modulus can be obtained using two HRs than one HR of the same total cavity volume.

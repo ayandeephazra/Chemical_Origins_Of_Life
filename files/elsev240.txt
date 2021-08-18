@@ -1,0 +1,9 @@
+We consider a broad range of 13 BMGs from different alloy systems to represent the material class of bulk metallic glasses (BMGs) and characterize their fracture toughness.
+To determine the effect of composition on the fracture toughness within one alloy system, we consider alloys in Zr-Al-Ni-Cu and Pd-Ni-Cu-P BMG forming alloy systems, specifically Zr x (Al0.25Ni0.25Cu0.5)100- x (at.%) and Pd x (NiCu2)(80- x )/3P20.
+Sample preparation follows a thermoplastic forming based method ensuring constant fictive temperature, which allows us to eliminate extrinsic effects and detangle the effect of fictive temperature and alloy chemistry on the fracture toughness.
+We found that fracture toughness varies significantly with composition, even in a non-monotonic way.
+Within one alloy system, fracture toughness correlates closely with the ratio of shear modulus over bulk modulus.
+Such correlation however is not present when comparing BMGs across alloy systems.
+Observed behavior suggests that shear modulus and bulk modulus serves as an incomplete proxy describing the BMGs ability to resist shear and cavitation.
+Further, our results reveal a general inverse correlation between fracture toughness and glass forming ability suggesting a trade-off of both desired properties.
+Such trade-off is not necassary present in metal-metalloid containing BMGs, where our results reveal a possibility to optimize alloys for both GFA and fracture toughness simultaneously.

@@ -1,0 +1,219 @@
+Selective laser melting (SLM) has become the mainstream powder bed fusion technique [1–4] used for fabrication of components consisting of metals, polymers and ceramics [5–8].
+SLM has also been used for sintering/melting of amorphous silicate glasses [9–11] and has also been identified as a promising approach for manufacturing components from metallic glasses [12–15].
+The high heating and cooling rates in SLM are essential in that context as these exceed those required for the complete vitrification in bulk metallic glasses (BMGs).
+BMGs can have unique mechanical and functional properties such as high strength, hardness, corrosion resistance, toughness, and ductility [16–18].
+They have therefore been used for fabricating biomedical instruments, electromagnetic materials, pressure sensors, as well as sporting accessories [19–21].
+Solidification rates necessary to form an amorphous structure through conventional methods imposes size restrictions, often referred to as critical casting thickness.
+The typical critical casting thickness of BMGs are of the orders of a few millimetres [22].
+The use of selective laser melting can be used to circumvents this limitation, allowing the fabrication of structures much larger than the critical casting thickness of the material [23–25].
+AM also circumvents the geometric restrictions imposed by conventional BMG manufacturing techniques and allows fabrication of close to arbitrary shapes through SLM.
+Small processing (melting) volumes per layer and short duration of the heating can be used to obtain cooling rates of the order of 104-106 K/s.
+This allows processing of a wide range of BMGs, even materials with a poor glass forming ability (GFA), exhibiting low critical casting thickness.
+Furthermore, the microstructure can be influenced in the SLM process, by controlling e.g. the power of the laser, scan speed, hatch length, hatch distance etc.
+This opens up completely new routes for combining e.g. amorphous and crystalline phases within a printed component, which is only possible by SLM and is not afforded by any classical BMG processing technique.
+The presence of secondary phases in the amorphous matrix have been shown to allow the improvement of ductility and fracture toughness [26–30].
+Pauly et al. reported the first additively manufactured Fe-based BMG scaffold produced from a metallic glass powder, also demonstrating the feasibility of SLM fabrication of BMG with complex geometries [15].
+The rapid cooling and heating used in the SLM process induces thermal stress which can result in micro-cracks during printing [31].
+However, appropriate selection of laser process parameters allows the fabrication of crack-free components [32].
+Another process related issue is porosity, which can result from incomplete melting and recent studies have shown that residual stresses can be at least partially released by the choice of scan strategies [33–35].
+Here we address the influence of laser power on the properties of additively manufactured Zr-based alloy (Zr59.3Cu28.8Al10.4Nb1.5, trade name AMZ4).
+We discuss the effect of power on the porosity, crack-formation, phase composition and mechanical properties and identify an optimal processing window with respect to these observables.
+The gas-atomized powder, Zr59.3Cu28.8Al10.4Nb1.5 (trade name AMZ4), was produced by Heraeus, GmbH.
+The shape of the powder particles were determined to be predominantly spherical, as illustrated by the scanning electron microscopy (SEM) results in Fig. 1 .
+However, several oblong and “carrot shaped” particles are also observed, the formation of such particles can be attributed to the high viscosity of the glass forming metal alloy.
+The D50 and D90 values of the powder particles are 25 μm and 44 μm respectively.
+The SLM samples were manufactured using an EOS M100 (EOS GmbH, Germany), a direct metal laser sintering (DMLS), system equipped with ytterbium fibre laser.
+Cylindrical samples, 8 mm in diameter and 8 mm in height, were fabricated for compositional analysis and material characterization.
+Argon was used as the process gas to minimize the oxygen contamination in the samples.
+The SLM samples were processed using a re-melting scan strategy (each layer melted twice) with 67° rotations between each layer.
+The layer thickness was 20 μm.
+Titanium was used as the build plate material and the average build plate temperature was observed to be 35 °C.
+A total of 64 samples were fabricated with a wide variation in laser process parameters, allowing the creation of a process map enabling the identification of the optimum parameters.
+Cylindrical samples were manufactured with laser powers from 55 W to 105 W with steps of 5 W.
+The laser spot diameter is 40 μm in the present experiment and wavelength of the laser is between 900−1200 nm.
+The scan speed (2000 mm/s), hatch spacing (100 μm), layer thickness (20 μm) and scan strategy (X–Y re-melting scan with 67 ̊ rotation of the scan vectors) were all kept constant in the experiments.
+All samples were investigated by X-ray diffraction (XRD, Cu-Kα radiation, Bruker D8 advanced diffractometer) to determine the presence of crystalline phases.
+The TOPAS software for Rietveld refinement (Bruker) was used to determine the present crystal structure and estimate phase fraction of amorphous and crystalline phases [36].
+The oxygen content in the samples was determined using inert gas fusion method, at Laboratory Testing Inc.
+(LTI)., USA.
+Optical micrographs (Olympus AX70) were used to characterize porosity in the printed samples.
+The relative density of as-printed x-ray amorphous samples (55 W to 75 W) were measured using the Archimedes principle.
+The weight of the sample (W1) was measured in air at room temperature (RT).
+The samples were then immersed in water and the weight (W2) was measured at RT.
+The relative density of the sample was calculated as follows;Relative density (%) =(W1 x density of water)W1-W2 x 6.64x 100.
+The density of water at RT was taken to be 0.9980 g/cm3.
+The absolute density of conventionally cast AMZ4 (6.64 g/cm3) measured using Archimedes principle is used as the reference.
+The weight of the samples was measured using electronic balance with 0.1 mg accuracy.
+Microstructure and elemental distribution at the microscale in the as-processed AMZ4 samples were determined using scanning electron microscopy (SEM) and energy dispersive X-ray spectroscopy (EDS) (Zeiss 1550 with Aztec EDS).
+Transmission Electron Microscopy (TEM) investigations of the as-processed samples were carried out using a probe corrected FEI Titan Themis 200 microscope operating at 200 keV; equipped with a four detector SuperX EDS system.
+The selected area electron diffraction patterns (SAED) were indexed using CrysTbox software [37].
+The TEM specimens were prepared using a focused ion beam and scanning electron microscope (FIB-SEM, FEI strata DB235).
+Differential scanning calorimetry (DSC) was carried out using NETZSCH DSC204F1 with sealed aluminum crucibles that were pressed in a high purity argon-filled glove box with an oxygen contents below 1 ppm.
+Hardness mapping from cross-sections of printed samples were obtained by nanoindentation.
+A load of 2 mN at a rate of 1000 μN/s was applied for loading and unloading conditions, using CSM Instruments Ultra Nano Hardness Tester (UNHT) equipped with diamond Berkovich tip.
+The phase evolution during SLM was predicted using a thermal finite element (FE) analysis together with a phase model for crystallization.
+A cylinder with a diameter of 8 mm and height of 1 mm was modelled on a 10 mm thick base plate.
+The layer thickness was taken to be the same as in the experiments, 20 μm, which gives 50 layers in total.
+Fully integrated solid brick elements were utilized to generate the powder bed layers, where each new layer is introduced by element activation.
+The analysis was performed with the commercial FE software MSC Marc [38].
+The heat source model included parameters such as laser power, penetration depth and hatch spacing to represent a volumetric heat density equation in one dimension.
+The phase model is developed and calibrated to DSC measurements with different heating rates to predict devitrification in AMZ4 during SLM [39].
+The gas-atomized powder, Zr59.3Cu28.8Al10.4Nb1.5 (trade name AMZ4), was produced by Heraeus, GmbH.
+The shape of the powder particles were determined to be predominantly spherical, as illustrated by the scanning electron microscopy (SEM) results in Fig. 1 .
+However, several oblong and “carrot shaped” particles are also observed, the formation of such particles can be attributed to the high viscosity of the glass forming metal alloy.
+The D50 and D90 values of the powder particles are 25 μm and 44 μm respectively.
+The SLM samples were manufactured using an EOS M100 (EOS GmbH, Germany), a direct metal laser sintering (DMLS), system equipped with ytterbium fibre laser.
+Cylindrical samples, 8 mm in diameter and 8 mm in height, were fabricated for compositional analysis and material characterization.
+Argon was used as the process gas to minimize the oxygen contamination in the samples.
+The SLM samples were processed using a re-melting scan strategy (each layer melted twice) with 67° rotations between each layer.
+The layer thickness was 20 μm.
+Titanium was used as the build plate material and the average build plate temperature was observed to be 35 °C.
+A total of 64 samples were fabricated with a wide variation in laser process parameters, allowing the creation of a process map enabling the identification of the optimum parameters.
+Cylindrical samples were manufactured with laser powers from 55 W to 105 W with steps of 5 W.
+The laser spot diameter is 40 μm in the present experiment and wavelength of the laser is between 900−1200 nm.
+The scan speed (2000 mm/s), hatch spacing (100 μm), layer thickness (20 μm) and scan strategy (X–Y re-melting scan with 67 ̊ rotation of the scan vectors) were all kept constant in the experiments.
+All samples were investigated by X-ray diffraction (XRD, Cu-Kα radiation, Bruker D8 advanced diffractometer) to determine the presence of crystalline phases.
+The TOPAS software for Rietveld refinement (Bruker) was used to determine the present crystal structure and estimate phase fraction of amorphous and crystalline phases [36].
+The oxygen content in the samples was determined using inert gas fusion method, at Laboratory Testing Inc.
+(LTI)., USA.
+Optical micrographs (Olympus AX70) were used to characterize porosity in the printed samples.
+The relative density of as-printed x-ray amorphous samples (55 W to 75 W) were measured using the Archimedes principle.
+The weight of the sample (W1) was measured in air at room temperature (RT).
+The samples were then immersed in water and the weight (W2) was measured at RT.
+The relative density of the sample was calculated as follows;Relative density (%) =(W1 x density of water)W1-W2 x 6.64x 100.
+The density of water at RT was taken to be 0.9980 g/cm3.
+The absolute density of conventionally cast AMZ4 (6.64 g/cm3) measured using Archimedes principle is used as the reference.
+The weight of the samples was measured using electronic balance with 0.1 mg accuracy.
+Microstructure and elemental distribution at the microscale in the as-processed AMZ4 samples were determined using scanning electron microscopy (SEM) and energy dispersive X-ray spectroscopy (EDS) (Zeiss 1550 with Aztec EDS).
+Transmission Electron Microscopy (TEM) investigations of the as-processed samples were carried out using a probe corrected FEI Titan Themis 200 microscope operating at 200 keV; equipped with a four detector SuperX EDS system.
+The selected area electron diffraction patterns (SAED) were indexed using CrysTbox software [37].
+The TEM specimens were prepared using a focused ion beam and scanning electron microscope (FIB-SEM, FEI strata DB235).
+Differential scanning calorimetry (DSC) was carried out using NETZSCH DSC204F1 with sealed aluminum crucibles that were pressed in a high purity argon-filled glove box with an oxygen contents below 1 ppm.
+Hardness mapping from cross-sections of printed samples were obtained by nanoindentation.
+A load of 2 mN at a rate of 1000 μN/s was applied for loading and unloading conditions, using CSM Instruments Ultra Nano Hardness Tester (UNHT) equipped with diamond Berkovich tip.
+The phase evolution during SLM was predicted using a thermal finite element (FE) analysis together with a phase model for crystallization.
+A cylinder with a diameter of 8 mm and height of 1 mm was modelled on a 10 mm thick base plate.
+The layer thickness was taken to be the same as in the experiments, 20 μm, which gives 50 layers in total.
+Fully integrated solid brick elements were utilized to generate the powder bed layers, where each new layer is introduced by element activation.
+The analysis was performed with the commercial FE software MSC Marc [38].
+The heat source model included parameters such as laser power, penetration depth and hatch spacing to represent a volumetric heat density equation in one dimension.
+The phase model is developed and calibrated to DSC measurements with different heating rates to predict devitrification in AMZ4 during SLM [39].
+Nanoindentation measurements were performed on as-processed AMZ4 samples.
+The hardness and Young’s modulus are shown in Fig. 12 , a gradual increase in both hardness and Young’s modulus are observed when the power exceeds 75 W.
+The hardness increases from 6.3 ± 0.3 GPa to 7.6 ± 0.1 GPa, with peak value of 8.1 GPa at and around 85 W.
+Similar trends are observed in variation of Young’s modulus, which is determined to be 105.2 ± 3.5 GPa below 80 W.
+Above 80 W in power, the Young’s modulus increases close to linearly and reaches 126.4 ± 6.2 GPa at 115 W.
+The increase in the observed hardness can be attributed to the devitrification of a harder crystalline phase within the amorphous matrix.
+Lui et al. made a similar observation in hardness measured at room temperature on Cu40Zr44Ag8Al8 BMG.
+An increase in microhardness was reported as compared to a fully amorphous composition, due to presence of a harder second phase (CuZr2) in the amorphous matrix [62].
+The effect of nanocrystalline phase fraction on hardness was also studied by Székely et al. in Zr52.5Ti5Cu17.9Ni14.6Al10.
+A metastable big cube phase similar to our present study was observed to devitrify on annealing the glassy composition [63].
+These metastable nano precipitates can also act as barriers to shear band motion thereby increasing the overall hardness within the BMG composite [64,65].
+The increase in Young’s modulus observed can be attributed to the decrease in average interatomic distance (denser atomic packing) as well as to higher strength in atomic bonding on devitrification as compared to an amorphous state [66].
+The hardness Young’s modulus relationship observed these processed AMZ4 samples follows a predictable change in mechanical properties with crystallization which have been previously reported elsewhere [67–69].
+The influence of the processing on the structure was analysed using X-ray diffraction and typical results are illustrated in Fig. 2 .
+The gas atomized powder shows a broad scattering maximum at around 2θ = 37°, which can be attributed to mainly amorphous structure.
+The printed samples exhibit similar pattern as the powder, up to a power of 75 W.
+At 80 W and above, peaks originating from crystalline phases within the samples are appearing.
+The phase fraction of crystallites formed in as-processed samples is determined from XRD analysis by calculating the ratio of peak areas between the crystalline to amorphous phase using TOPAS.
+The results are illustrated in Fig. 3 , showing an onset of crystallization at 80 W and a continuous increase of the volume fraction of the crystalline phase above that value.
+The peaks are identified as Cu2Zr4O phase (space group Fd 3 ̄ m (227)) and with a unit cell of 12.02 ± 0.01 Å.
+This phase is metastable and has previously been reported to form in Zr52.5Cu17.9Ni14.6Al10Ti5 metallic glasses [40–42].
+The metastable Cu2Zr4O phase is observed at an oxygen content at and above 0.5 at.% [40,42–44].
+The oxygen content reported in the AMZ4 samples investigated here is ∼1 at.
+% (0.2 wt.%).
+The presence of a large powder surface and melting area in SLM makes it challenging to obtain samples with low oxygen content.
+To obtain amorphous materials by SLM, the critical cooling rate, Rc, of the melt pool must be high enough to avoid the formation of any crystallites.
+Rc can be obtained from TTT- diagrams (or CCT diagrams) of the alloy.
+From the data in ref. [46], Rc for AMZ4 can be estimated to be 20 K/s.
+Secondly, in SLM previously formed deeper layers will be re-heated as the laser scans the top-layer.
+The degree of re-heating will depend on the material properties and the scan strategy.
+To avoid crystallization, a critical heating rate, Rh, is required [47].
+If Rh is too low, devitrification will occur under the formation of crystalline precipitations.
+Consequently, the formation of a completely amorphous BMG requires a combination of appropriate heating and cooling rates (Rh and Rc) [48,49].
+A FE model developed by Lindwall et al. was utilized to explore the effect of the thermal history of the layers [38].
+A Johnson-Mehl-Avrami-Kolmogorov (JMAK) phase model was used to predict crystal formation during the SLM process, where reheating and cooling of the underlying layers was taken into account.
+The phase model is coupled to thermal FE model to predict devitrification and also estimates the volume crystallite fraction during the process [39].
+It was shown that the cooling rate of the melt-pool is high, and devitrification due to reheating is a major source for the formation of crystallites.
+The crystalline volume fraction is estimated to peak 5 layers beneath the top surface and is close to 5% at a laser power of 80 W.
+The results are in good agreement with the experimental results as seen in Fig. 3.
+The discussion above is restricted to conditions where the laser power is high enough to accomplish complete melting.
+Optical microscopy was performed to determine the porosity in samples.
+Representative images are depicted in Fig. 4 .
+The change in porosity and size of pores with laser power are illustrated in Fig. 3 and Fig. 5 , respectively.
+A decrease in average pore diameter, area porosity and pore size distribution (see supplementary figure S2) is observed with an increase in laser power.
+Low power results in smaller melt pool and the formation irregular and large pores (as observed in Fig. 4a and b) due to partial melting of the powder bed during SLM.
+Lack of fusion of grains, due to low energy densities, can further lead to improper powder bed spreading in the subsequent layers giving rise to a very porous components [50].
+The pores become more circular and smaller with increasing power (as shown in Fig. 4e and f).
+Increased power improves the fusion between the powder particles, which is at least partially caused by the increased size of the melt pool [51].
+No cracks were observed in the as-processed samples.
+The relative density measurements of as-printed X-ray amorphous samples are illustrated in table S1.
+Large pores arise due to incomplete consolidation of powder particles as mentioned above, while the smaller pores originate most likely from gas entrapped in the particles [52], formed during atomization process of the powder as shown in the supplementary information (see figure S3).
+The oxygen content in the gas atomized AMZ4 powder was determined to be ∼1 at.
+% (0.2 % by weight) by inert gas fusion.
+The oxygen content in the printed sample was, within the uncertainty of the measurements, the same as the impurity level of the as-received powder.
+SEM EDS elemental mapping was performed on the 75 W (X-ray amorphous) sample in order to study the elemental distribution, as shown in Fig. 6 .
+The distribution of the elements was found to be homogenous at the micron scale and no elemental segregation was observed.
+A re-melting scan strategy was used for averaging the melt flow to create homogenous distribution of elements in the melt pool during SLM [53].
+However, at very high magnifications nanocrystals were observed in SEM as illustrated in figure S4.
+STEM with EDS mapping was performed on two as-processed AMZ4 samples (65 W and 100 W) in order to determine the compositions of the amorphous and crystalline phases.
+The STEM analysis confirms that most of the samples processed at 65 W are amorphous.
+However, small crystallites with diameter 75–100 nm were observed as shown in Fig. 7 .
+The crystallites appear in groups of two or three and appear to originate from a common crystallization point.
+SAED pattern could be indexed to alpha-Zr (hexagonal closed packed crystal structure) enriched with oxygen, within the amorphous matrix.
+The formation of α-Zr(O) metastable nanocrystals in 65 W X-ray amorphous sample can be understood when considering the elemental composition of the powder material (̴1 at.
+% oxygen).
+The α-Zr(O) metastable phase was previously found to be stabilized at oxygen concentrations of 0.8–1.5 at.
+% [43,54].
+It is also known from the Zr-O binary phase diagram [55], at high temperatures the maximum solubility of oxygen in α-Zr can reach values as high as 28–35 at.% [56].
+Hence, upon cooling from high temperatures during SLM, oxygen could influence the precipitation of α-Zr(O) within the amorphous matrix [57].
+The EDS mapping from TEM shows that the nanocrystals in the 65 W sample are enriched in Zr and O and depleted in Cu and Al (see Fig. 8 ).
+The result from the 100 W processing is shown in Fig. 9 .
+The SAED pattern could be indexed using the Cu2OZr4 structure confirming the XRD results.
+The STEM EDS maps depicted in Fig. 10 show that the crystals are enriched in Zr, Cu and O.
+A close examination of the EDS mapping shows that elements are not homogeneously distributed within the grain.
+The precipitation consists of a zirconium and copper enriched core surrounded by an Al and O enriched shell.
+Around the Al an O enriched shell, another thin shell enriched in Cu is detected.
+A similar metastable Ni2Zr4O phase (space group Fd 3 ̄ m (227)) was found to occur in oxygen enriched Zr65Al7.5Cu17.5Ni10 BMG on solidification from the melt and also upon crystallization [43,58].
+The formation of Ni2Zr4O metastable phase in Zr65Al7.5Cu17.5Ni10 could be explained by considering the conformity of its structure with oxygen atoms dissolved in α-Zr (oxygen is surrounded by six atoms in the octahedral configuration) [59].
+It is supposed that a similar mechanism as described above, which involves significant rearrangement of Zr and O atoms plays an important role in the formation of metastable Cu2Zr4O phase (isostructural to metastable Ni2Zr4O) in Zr59.3Cu28.8Al10.4Nb1.5 (AMZ4) during devitrification from the amorphous phase.
+This metastable phase becomes predominant at higher laser power as observed from X-ray results illustrated in Fig. 2.
+It has been previously reported that laser triggered melt flow within the melt pool may be one of the reasons for the observed chemical inhomogeneity at higher laser powers, despite the high cooling rates achieved during SLM [32].
+The distribution of the elements in the melt is influenced by damped capillary oscillations and thermocapillary flows within the melt pool on laser melting [60,61].
+However, at low laser power the fluid flow in the melt pool is weaker and the distribution of the elements becomes more homogenous, which is consistent with the results displayed in Fig. 6.
+Our findings show that oxygen plays an important role in the devitrification process, by stabilizing metastable phases α-Zr(O) and Cu2Zr4O during SLM.
+The observed results are in good agreement with a previous study by Bordeenithikasem et al. wherein they reported on detrimental effect of oxygen, resulting in decreasing glass forming ability (GFA) in AMZ4 [25].
+However, the high cooling/heating rates achieved during SLM allows the production of bulk X-ray amorphous samples despite a large oxygen contamination in the feedstock powder.
+The samples were evaluated with differential scanning calorimetry (see supplementary information for details).
+The values of the characteristic temperatures, glass transition onset and end and crystallization temperature (Tg onset, Tg end and Tx), as well as the crystallization enthalpy (ΔHx), are summarized in Table 1 .
+The crystallization enthalpy (ΔHx) was estimated up to the maximum temperature used in the measurements (588 °C) as shown in the supplementary information (see figure S6).
+The results in Table 1 show that the crystallization enthalpy decreases with increasing laser power.
+The decrease in crystallization enthalpy is consistent with an increased volume fraction of crystalline material with increasing laser power.
+The estimate fraction of crystals formed in as-printed samples has also been calculated from the crystallization enthalpies by considering the powders as a reference and is shown in supplementary table S2.
+This is in a good agreement with the XRD results shown in Fig. 2.
+We also note that the values of Tg onset and Tx for the XRD amorphous samples (≤ 75 W according to Fig. 2), are similar to the ones reported by Bordeenithikasem et al. [25] for AMZ4 samples produced with the same method; 399 °C and 468 °C for Tg onset and Tx, respectively.
+The DSC scans shows that selective laser melting process causes some changes on the supercooled liquid region (SCLR) of the alloy, as seen by that the as-processed samples do not exhibit an end temperature for the glass transition region (Tg end), while a Tg end temperature can be distinguished in the DSC thermogram of the printing powder.
+A comparison between the supercooled liquid region of as-processed sample (55 W) and the printing powder is illustrated in Fig. 11 .
+The absence of a discernible Tg end indicates that the as-processed samples do not reach a plateau in the supercooled liquid region before crystallization.
+The presence of oxygen in the powder (≈1 at.
+%) reduces the stability of the amorphous structure and leads to the formation of metastable Cu2Zr4O phase in the printed samples (see Fig. 10 (a)).
+Nanoindentation measurements were performed on as-processed AMZ4 samples.
+The hardness and Young’s modulus are shown in Fig. 12 , a gradual increase in both hardness and Young’s modulus are observed when the power exceeds 75 W.
+The hardness increases from 6.3 ± 0.3 GPa to 7.6 ± 0.1 GPa, with peak value of 8.1 GPa at and around 85 W.
+Similar trends are observed in variation of Young’s modulus, which is determined to be 105.2 ± 3.5 GPa below 80 W.
+Above 80 W in power, the Young’s modulus increases close to linearly and reaches 126.4 ± 6.2 GPa at 115 W.
+The increase in the observed hardness can be attributed to the devitrification of a harder crystalline phase within the amorphous matrix.
+Lui et al. made a similar observation in hardness measured at room temperature on Cu40Zr44Ag8Al8 BMG.
+An increase in microhardness was reported as compared to a fully amorphous composition, due to presence of a harder second phase (CuZr2) in the amorphous matrix [62].
+The effect of nanocrystalline phase fraction on hardness was also studied by Székely et al. in Zr52.5Ti5Cu17.9Ni14.6Al10.
+A metastable big cube phase similar to our present study was observed to devitrify on annealing the glassy composition [63].
+These metastable nano precipitates can also act as barriers to shear band motion thereby increasing the overall hardness within the BMG composite [64,65].
+The increase in Young’s modulus observed can be attributed to the decrease in average interatomic distance (denser atomic packing) as well as to higher strength in atomic bonding on devitrification as compared to an amorphous state [66].
+The hardness Young’s modulus relationship observed these processed AMZ4 samples follows a predictable change in mechanical properties with crystallization which have been previously reported elsewhere [67–69].
+We have shown that the laser power in SLM can be used as an effective route to influence the density and structure of Zr59.3Cu28.8Al10.4Nb1.5 (AMZ4).
+Increased laser power reduces the porosity in printed parts, however it also results in devitrification of the glassy alloy.
+Re-melting of powder bed layers during the process was found to be vital in ensuring dense and crack-free material, which also ensured a homogenous distribution of elements in the micron scale.
+Formation of metastable nanocrystalline phases such as α-Zr(O) and a cubic phase Cu2Zr4O demonstrates the role of oxygen in phase stabilization.
+Oxygen stabilized metastable phases are detrimental to the glass forming ability of the alloy and hence minimization of the oxygen contamination in the powder and in process chamber is required to obtain fully amorphous components.
+Our findings also highlight the influence of the process parameters for phase formation, mechanical properties and density achieved during selective laser melting.
+This knowledge allows us to tailor material properties such as hardness, strength, wear and corrosion resistance in the future by tuning the process parameters for favorable phase formations through additive manufacturing of glass-forming alloy powders.

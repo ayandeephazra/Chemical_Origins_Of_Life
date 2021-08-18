@@ -1,0 +1,5 @@
+In this work, a family of ternary Co100-x-yWxBy (at.%, x=15~30, y=11~19) bulk metallic glasses (BMGs) with near-recorded ultrahigh strength up to 6 GPa was successfully developed.
+With extremely high tungsten content, the Co-W-B BMGs show very high glass transition temperature of 850-975 K and high density of 11.13-12.43 g/cm3, which are much higher than most of Co-based BMGs previously reported.
+Moreover, the glassy alloys exhibit a good glass-forming ability with critical diameter of 2 mm in diameter and a wide supercooled liquid region of over 80 K.
+Furthermore, these BMGs possess ultrahigh strength of 5.5–6 GPa, high Young's modulus of 243.6-273.1 GPa, high specific strength of ~ 500 Nm/g and obvious plastic strain of 0.5-2.6 %, respectively.
+The novel ternary Co-based BMGs with outstanding mechanical properties and less components are promising as structural materials and model system for theoretical research.

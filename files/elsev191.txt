@@ -1,0 +1,7 @@
+Relying on magnetron sputtering technology, a Polytetrafluoroethylene (PTFE) thin film was deposited on silicon substrate.
+We systematically investigated the atomic bonding, growth mode, and surface morphology of the as-prepared PTFE thin films by different nominal deposition power with different thicknesses.
+The mechanical properties including elastic modulus, hardness, strain rate sensitivity and creep resistance were carefully detected in a thick (1270 nm) PTFE film by an instrumental nanoindentation.
+In comparison to its bulk counterpart, PTFE thin film owns much higher elastic modulus and stronger resistances to the plastic and time-dependent plastic deformation.
+The results of its chemistry and mechanical properties show the films are hydrophobic and of higher mechanical strength.
+The enhanced mechanical properties of PTFE thin film could be intrinsically tied to its complex fluorocarbon groups which generated from the breakage and re-organization of C-F chains during sputtering process.
+The creep resistance of PTFE thin film was approximately two times stronger than the bulk PTFE.

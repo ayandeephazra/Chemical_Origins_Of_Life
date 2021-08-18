@@ -1,0 +1,6 @@
+Berkovich nanoindentation experiments were conducted on Zr55Cu30Al10Ni5 bulk metallic glass under a constant loading rate.
+Indentation hardness decreased linearly with contact depth, which defied the direct application of conventional indentation size effect model for crystalline material.
+Elastic modulus remained invariant under small loads, but decreased linearly under large loads.
+The scaling relationships between indentation variables such as contact depth, permanent depth, the maximum indentation displacement, plastic energy, the total work of indentation and their ratios were investigated.
+The area of shear band circle, the projected contact area at the maximum load, and the residual projected area were all found to be proportional to one another.
+A new methodology to determine fracture toughness was proposed based on the total work of indentation, provided that the critical indentation displacement at the onset of fracture corresponds to zero value of elastic modulus extrapolated from curve fitting.

@@ -1,0 +1,19 @@
+Bone-like materials comprise carbonated-hydroxyapatite nanocrystals (c-Ap) embedding a fibrillar collagen matrix.
+The mineral particles stiffen the nanocomposite by tight attachment to the protein fibrils creating a high strength and toughness material.
+The nanometer dimensions of c-Ap crystals make it very challenging to measure their mechanical properties.
+Mineral in bony tissues such as dentine contains 2~6 wt.% carbonate with possibly different elastic properties as compared with crystalline hydroxyapatite.
+Here we determine strain in biogenic apatite nanocrystals by directly measuring atomic deformation in pig dentine before and after removing carbonate.
+Transmission electron microscopy revealed the platy 3D morphology while atom probe tomography revealed carbon inside the calcium rich domains.
+High-energy X-ray diffraction in combination with in situ hydrostatic pressurization quantified reversible c-Ap deformations.
+Crystal strains differed between annealed and ashed (decarbonated) samples, following 1 or 10 h heating at 250 °C or 550 °C respectively.
+Measured bulk moduli (K) and a-/c-lattice deformation ratios (η) were used to generate synthetic Ksyn and η syn identifying the most likely elastic constants C 33 and C 13 for c-Ap.
+These were then used to calculate the nanoparticle elastic moduli.
+For ashed samples, we find an average E11 =107 GPa and E 33  =128 GPa corresponding to ~5% and ~17% stiffening of the a-/c-axes of the nanocrystals as compared with the biogenic nanocrystals in annealed samples.
+Ashed samples exhibit ~10% lower Poisson's ratios as compared with the 0.25~0.36 range of carbonated apatite.
+Carbonate in c-Ap may therefore serve for tuning local deformability within bony tissues.
+Statement of Significance Carbonated apatite nanoparticles, typical for bony tissues, stiffen the network of collagen fibrils.
+However, it is not known if the biogenic apatite mechanical (elastic) properties differ from those of geologic mineral counterparts.
+Indeed the tiny dimensions and variable carbonate composition may have strong effects on deformation resistance.
+The present study provides experimental measurements of the elastic constants which we use to estimate Young's moduli and Poisson's ratio values.
+Comparison between ashed and annealed dentine samples quantifies the properties of both carbonated and decarbonated apatite nanocrystals.
+The results reveal fundamental attributes of bony mineral and showcase the additive advantages of combining X-ray diffraction with in situ hydrostatic compression, backed by atom probe and transmission electron microscopy tomography.

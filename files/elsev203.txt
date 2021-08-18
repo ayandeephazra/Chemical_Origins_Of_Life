@@ -1,0 +1,10 @@
+Volcano-seismic signatures are the convolution of source and path effects.
+The source signature provides important information about the dynamic rock deformation and fluid resonance processes within the volcano, but path effects are the result of the volcanic plumbing, the edifice physical conditions, and the complex geological structure.
+Complicating the inversion of seismic data further, is the influence of fluid properties.
+Here, we use ultrasonic experiments to understand the effect of variable fluid viscosity and bulk modulus on P-wave attenuation and velocity for volcanic rocks from White Island volcano (Whakaari), New Zealand.
+Our experimental conditions for high-porosity ash tuff and low-porosity lava resemble shallow and deep volcano facies respectively.
+P-wave velocity, V p , and quality factor, Q p , increase with the viscosity and bulk modulus of the saturating fluid and decrease with porosity and fracture volume.
+Tuffs are highly sensitive to saturating fluid, with variations in V p of up to 67% and Q p of 383%.
+V p and Q p in fractured lavas are slightly less sensitive to fluids (24% and 296% respectively), but V p can be used to identify lithology for these tuff vs. lavas.
+Comparison of the experimental data with rock physics models suggests that squirt flow is the dominant attenuation mechanism for viscosities greater than that of water, while scattering losses may be important in gas saturated rocks.
+Our results have significant implications for the interpretation of seismic tomography studies and for volcano hazard monitoring based on the characteristics of detected seismicity.

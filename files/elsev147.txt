@@ -1,0 +1,3 @@
+The Debye-Waller factors of refractory bcc solid-solution alloys TiVNbTa and TiVNbMoTa measured by low temperature neutron diffraction are obviously larger than that of the face-centered cubic (fcc) solid-solution alloy NiCoFeCrMn.
+The bcc lattice of the studied solid-solution alloys is stable up to ∼50 GPa, but a structural distortion is clearly observed at pressures higher than ∼20 GPa.
+The bulk modulus of bcc high entropy alloys (HEAs) is closely relevant to both the size mismatch in the lattice and the number of elements in the systems.

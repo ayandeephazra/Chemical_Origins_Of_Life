@@ -1,0 +1,9 @@
+In the present study, the density functional theory and the ab initio method in projector augmented wave (PAW) pseudopotentials framework have been used to calculate the phonon spectrum, structural, elastic and thermodynamic properties of ThP.
+The calculated structural and elastic properties are compared to the theoretical and experimental values.
+The obtained results show that the elastic constants apply to the Born-Huang approximation, therefore, the structure is mechanically stable.
+Zener’s anisotropy factor (Z) is computed to be approximately 0.26, which shows that ThP is an anisotropic material.
+The obtained B G ratio is about 2.04, which indicates the ductile manner of ThP compound.
+We calculate the phonon density of states and phonon dispersion of ThP along high symmetry directions.
+All of the obtained frequencies are in the positive phonon spectrum and the structure is in dynamical stability.
+The thermodynamic properties of ThP, including Debye temperature, isothermal bulk modulus, vibrational entropy, volumetric thermal expansion, isochoric molar heat and the Grüneisen parameter, are calculated using quasi-harmonic Debye (QHD) model under high temperatures and pressures.
+It is observed that the Grüneisen parameter rapidly decreases when pressure increases at a fixed temperature, whereas it slowly increases at a constant pressure when temperature increases.

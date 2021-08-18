@@ -1,0 +1,9 @@
+In this work, the 3D printing technique based on selective laser melting (SLM) was applied to fabricate a Ni-free and Ag-bearing Zr-based bulk metallic glass (BMG) and porous architectures with complex geometries and various functions.
+The 3D-printed Zr-based BMG was systematically examined by a set of experiments, including microstructure characterizations, mechanical testing, wear and corrosion resistance measurements, in vitro biocompatibility and antibacterial capability assessments.
+We revealed that the 3D-printed BMG presents almost fully amorphous structure with a high strength (>1700 MPa) and relatively low Young's modulus (∼80 GPa).
+The wear resistance was comparable to the commercial Ti6Al4V medical alloy in simulated body fluid (SBF), and the corrosion resistance surpassed Ti6Al4V due to lower corrosion rate as well as smaller passive current density.
+In addition, the 3D-printed BMG showed excellent biocompatibility, as indicated by superior cell proliferation support and ppb level of ion release.
+More importantly, the 3D printed BMG also exhibited excellent antibacterial ability against E.
+coli due to the inclusion of a trace amount of Ag.
+Furthermore, for application purposes, porous BMG components with pore size of 500 μm were printed by SLM technique, which displayed an interconnected porosity of 70% and extremely low Young's modulus of 13 GPa (being comparable to the human bone tissue), while maintaining a high yield strength of 350 MPa.
+The findings in this work suggested that the SLM-based 3D printing technique could be promising for manufacturing Zr-based BMGs with complex geometries in a wide range of biomedical applications.

@@ -1,0 +1,7 @@
+Polymer gel has been widely used as a plugging agent for blocking the thief zones and improving the oil production.
+However, the performance of conventional polymer gel is unsatisfactory in high salinity conditions because of its rapid syneresis.
+In this work, an amphiphilic polymer gel was formulated by crosslinking salt resistant amphiphilic polymer with organic chromium, which had very low syneresis under high salinity (NaCl 80,000 mg/L) and temperature (85 °C) conditions.
+Together with low syneresis gelling mechanism proposal, the static and dynamic properties of the formulated gel were evaluated in terms of bulk gel stability, gelation time, and gel strength, on the effect of polymer and crosslinker concentration, salinity, temperature, storage and loss modulus and plugging rate.
+Bottle test method and breakthrough vacuum method were used to determine the gelation time and gel strength and sand pack tube experiment was done to analyze the plugging behavior.
+The result showed that the formulated gel with 3000 mg/L polymer and 0.3 wt% crosslinker ensures a good gelling code F and gel strength of 0.037 MPa with a gelling time of 4 h with 93% bulk gel stability up to 60 days and has better plugging rate.
+Therefore, it can be concluded that amphiphilic polymer gel with low polymer concentration can be more effective for high salinity reservoirs.

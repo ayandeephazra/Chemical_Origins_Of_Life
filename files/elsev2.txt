@@ -1,0 +1,5 @@
+Magnesium-based metallic glasses are well-known for their low density, high specific strength and potential as resorbable biological implant materials.
+In this study a range of magnesium-rich (85-87 atomic percent) metallic glasses are developed from the Mg–Pd–Ca and Mg–Pd–Yb alloy systems.
+A solvent-rich amorphous alloy design method and properties of these amorphous alloys are reported.
+Mg87Pd7Ca6, Mg86.5Pd7.5Ca6, Mg86.43Pd7.69Ca5.88, Mg86.5Pd7.5Yb6 and Mg86.43Pd7.69Yb5.88 alloys exhibit critical casting thicknesses of 670-750 μm and could be cast as fully-glassy 1 mm diameter rods.
+Alloys exhibit hardness of 2.7-3.2 GPa, Young's modulus of 62-64 GPa and density of 2.15-2.35 g/cm3 for Ca- and 2.81-2.96 g/cm3 for Yb-containing glasses.

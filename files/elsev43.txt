@@ -1,0 +1,14 @@
+A hydroacoustic projector is a compact device which converts pressure energy of fluid into low frequency sounds.
+It uses a direction control valve with time varying opening to periodically reverse the direction of flow.
+Its performance is strongly influenced by oil’s effective bulk modulus, and coefficient of discharge ( C d ) of orifices in the valve.
+Such dependence is fundamentally different in nature from that in systems with unidirectional oil flow and constant valve opening.
+Thus, there is a need to study such effects in a hydroacoustic projector.
+For this we have developed a validated multi-physics model of the system.
+In most hydraulic systems, direction control valves are on–off arrangements.
+However, in our case the valve opening varies with time at different frequencies, and amplitudes.
+Thus, we have developed a method to characterize effective C d for such orifices.
+Our work shows that C d is a strong function of pressure difference across the valve, frequency of valve actuation, and valve motion amplitude.
+We have accounted for such dependencies in our projector model.
+We have also investigated the effect of increase in effective compliance of hydraulic oil on projector’s behavior, which can occur due to the presence of compliant pipes or air in the oil.
+We show that such an increase can drastically degrade projector’s performance.
+Hence, using steel pipes and reducing air content in oil can significantly improve projector performance, particularly at post-resonance frequencies.

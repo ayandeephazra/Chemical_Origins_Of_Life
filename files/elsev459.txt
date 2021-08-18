@@ -1,0 +1,9 @@
+Thermodynamic properties of calcium nitrate are of interest for development of thermodynamic databases, which can be applicable for thermal energy storage technologies.
+In the present work thermodynamic properties of Ca(NO3)2, i.e. heat capacity (C p) and enthalpy of fusion, were determined experimentally.
+The enthalpy of fusion of Ca(NO3)2 (33.4 ± 1 kJ/mol) was measured in a closed Pt-crucible at the melting temperature 823 K for the first time.
+The heat capacity of Ca(NO3)2 was measured in the temperature range from 143 K to 723 K by three different differential scanning calorimeters.
+High temperature X-ray diffraction was used for determination of the temperature dependence of volume from 298 K to 723 K.
+Combination of heat capacity and volume allowed us to calculate the molar volume at 0 K and to obtain the thermal expansion.
+The Grüneisen parameter and bulk modulus were deduced from combination of the available ab initio values of C v and the values of C p as well as the thermal expansion obtained in this work.
+This methodology allowed us to perform a comprehensive analysis of experimental values and first principal calculations.
+A complete thermodynamic dataset for solid and liquid Ca(NO3)2 has been derived.

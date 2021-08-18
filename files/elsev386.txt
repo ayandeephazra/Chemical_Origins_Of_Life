@@ -1,0 +1,15 @@
+The micromechanical behaviour of the cornea is important for understanding and modelling of many ocular disorders.
+Whereas inflation testing has been utilised to determine the bulk mechanical properties of the cornea under physiological pressures, micromechanical testing has been limited to unpressurised corneal samples.
+In this study the micromechanical properties of pressurised porcine corneas were determined using oscillatory nanoindentation coupled with a custom inflation method.
+Inflation was conducted in phosphate buffered saline (PBS) and tissue culture (TC) solutions.
+The shear storage modulus (G′) and shear loss modulus (G”) was determined for corneas inflated corneas with PBS and TC.
+Central corneal thickness (CCT) was monitored during the inflation (0–60 mmHg).
+Elastic modulus (E) was also calculated and quantitatively mapped for corneas.
+The results showed that G′ at 15 mmHg was 86.18 ± 16 kPa and 88.86 + 13.54 kPa inflated by PBS and TC respectively.
+These values increased 3.2 times in an approximate linear relationship to 60 mmHg.
+G′′ at 15 mmHg was 12.5 ± 2.5 kPa and 13.54 + 1.9 kPa inflated by PBS and TC respectively.
+G′′ increased 1.9 times in an approximate linear relationship to 60 mmHg.
+No significant change was noticed in viscoelastic properties of corneas inflated by TC for 4 h whereas 4 h of hydration on PBS affected the mechanical properties.
+The central corneal region was found to be stiffer than in peripheral region.
+Mapping of elasticity revealed a symmetrical distribution of properties that varied with inflation.
+Our method has potential for measurement of viscoelastic properties of corneas in conditions where there have been localised changes in mechanical properties such as keratoconus.

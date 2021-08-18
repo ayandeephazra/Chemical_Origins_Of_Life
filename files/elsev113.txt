@@ -1,0 +1,7 @@
+Soil strength is an influential property in determining agricultural and geotechnical outcomes.
+In uniaxial compression test the strength of artificial aggregates containing different proportions of kaolinite (cementing agent) and feldspar (skeletal particles) was determined in uniaxial compression test, and empirical model of aggregates breakage was constructed.
+Using scanning electron microscopy (SEM), mercury intrusion porosimetry (MIP) and bulk density (BD) measurements, structural parameters influencing the aggregates strength were estimated.
+Next the strength of the aggregates was simulated by discrete elements (DEM) coupled with parallel bonds (BPM) model.
+The structure of the aggregates was approximated as spherical silt particles joined by kaolinite bonds, similarly as it appeared in SEM images.
+Real breakage curves and failure development were satisfactorily simulated for aggregates in which kaolinite filled not more than their total pore space.
+The micro-parameters of interactions inside the aggregate (mean bond normal and tangent forces and critical bond force) provided links between the modeled and real physical interactions (Young’s modulus and the compressive strength) resulting from aggregate formation.

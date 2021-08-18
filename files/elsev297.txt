@@ -1,0 +1,6 @@
+The mechanical properties of polymer composite thin films are critically important to their applications, but its investigation is still far from complete.
+In this study, phase separated polyurethane/polystyrene blend thin films with a variety of thicknesses ranging from ~135 to ~675 nm are mainly employed, and their apparent moduli are measured by tensile testing on water surface.
+Unlike bulk materials, the phase height difference is a common topography in blend thin films, which causes an unavoidable deviation between the measured moduli and the predicted values calculated from any existing model.
+An equivalent box model with void geometry is developed to describe the polymer blend thin films with a cratered morphology, where both the composition and the phase structure of the dispersed phase are considered.
+The predicted values from the new model demonstrate a good agreement with the measured moduli.
+In addition, thin films with both components in rubbery state or both components in glassy state are tested, and the validity of the proposed model is verified as well.
