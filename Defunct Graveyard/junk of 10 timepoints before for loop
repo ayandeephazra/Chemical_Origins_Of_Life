@@ -1,0 +1,30 @@
+x = 3 * np.exp(-2 * t)
+y = 0.5 * np.exp(t)
+# First column is x, second is y
+
+y100_init = [0.09, 0.01, 0, 0, 0]
+y100_1 = [0.075, 0.053246277, 0.053244499, 0.053244498, 0.053244501]
+y100_2 = [0.025, 0.019920837, 0.019919003, 0.019919049, 0.019919044]
+y100_3 = [0, 0.007370377, 0.007369057, 0.007369122, 0.00736912]
+y100_4 = [0, 6.38e-04, 6.38e-04, 6.38e-04, 6.38e-04]
+y100_5 = [0, 2.63e-03, 2.63e-03, 2.63e-03, 2.63e-03]
+
+X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
+differentiation_method = ps.FiniteDifference(order=2)
+
+feature_library = ps.PolynomialLibrary(degree=3)
+
+optimizer = ps.STLSQ(threshold=0.00001)
+
+model = ps.SINDy(
+    differentiation_method=differentiation_method,
+    feature_library=feature_library,
+    optimizer=optimizer,
+    feature_names=["y1", "y2", "y3", "y4", "y5"]
+)
+
+model.fit(X, t=t);
+
+model.equations(precision=5)
+model.print()
+print("\n")

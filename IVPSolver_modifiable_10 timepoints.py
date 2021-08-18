@@ -18,8 +18,8 @@ def f(t, y, c):
     return dydt
 
 
-tspan = np.linspace(0, 4, 5)
-yinit = [0, 0.09, 0.01, 0, 0, 0]
+tspan = np.linspace(0, 9, 10)
+yinit = [0, 0.075, 0.025, 0, 0, 0]
 c = [0, 9.75, 3.5, 8, 4.5, 9.5, 4.5, 10, 3, 9.75, 8, 0.5, 2, 9.75, 0.75, 10, 0, 9.75, 0.25, 4, 5, 1.75, 6.5]
 
 sol = solve_ivp(lambda t, y: f(t, y, c),
