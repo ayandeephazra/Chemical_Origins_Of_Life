@@ -5,6 +5,7 @@ import numpy as np
 
 np.set_printoptions(suppress=True)
 
+#hard coded dydt for first 5 params
 
 def f(t, y, c):
     dydt = [1, 7 * y[3] - 19.5 * y[1] ** 2 - 9.5 * y[1] * y[2] + 4.5 * y[5] - 10 * y[1] * y[5] - 9.75 * y[1] * y[
