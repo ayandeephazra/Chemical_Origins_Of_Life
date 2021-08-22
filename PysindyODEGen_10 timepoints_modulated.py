@@ -9,6 +9,7 @@ import numpy as np
 from scipy.integrate import odeint
 from sklearn.linear_model import Lasso
 import pysindy as ps
+from generate_Sindy_model import generate
 
 plt.interactive(False)
 
@@ -49,27 +50,9 @@ for i in range(10):
     y100_5 = [0., 0.001347, 0.000791, 0.000469, 0.000278, 0.000164, 0.000096, 0.000056, 0.000032, 0.000018]
 
     X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
+    print("Original Data Matrix\n\n", X.round(4), "\n")
+    model = generate(X, t)
 
-    print(X.shape)
-
-    print(X.round(5), "\n")
-    differentiation_method = ps.FiniteDifference(order=2)
-
-    feature_library = ps.PolynomialLibrary(degree=3)
-
-    # use 0.05 for good clean results
-    optimizer = ps.STLSQ(threshold=0.0001)
-
-    model = ps.SINDy(
-        differentiation_method=differentiation_method,
-        feature_library=feature_library,
-        optimizer=optimizer,
-        feature_names=["y1", "y2", "y3", "y4", "y5"]
-    )
-
-    model.fit(X, t=t);
-
-    model.equations(precision=5)
     print("Original System\n")
     model.print()
     print("\n")
@@ -86,26 +69,11 @@ for i in range(10):
     # t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
-    print(X, "\n\n", noise.round(5), "\n\n", (X * noise).round(5), "\n")
+    print("Noise", "\n\n", noise.round(4), "\n\nNoise * Data\n\n", (X * noise).round(4), "\n")
     X = X + X * noise
     X[X < 0] = 0
-    print(X.round(5), "\n")
-    differentiation_method = ps.FiniteDifference(order=2)
-
-    feature_library = ps.PolynomialLibrary(degree=3)
-
-    # use 0.05 for good clean results
-
-    model2 = ps.SINDy(
-        differentiation_method=differentiation_method,
-        feature_library=feature_library,
-        optimizer=optimizer,
-        feature_names=["y1", "y2", "y3", "y4", "y5"]
-    )
-
-    model2.fit(X, t=t);
-
-    model2.equations(precision=2)
+    print("\n Recovered Data (after noise addition)\n\n", X.round(4), "\n")
+    model2 = generate(X, t)
 
     print("Recovered System\n")
     model2.print()
