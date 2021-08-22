@@ -10,6 +10,7 @@ from scipy.integrate import odeint
 from sklearn.linear_model import Lasso
 import pysindy as ps
 from generate_Sindy_model import generate
+from IVPSolver_n_timepoints import solver
 
 plt.interactive(False)
 
@@ -37,9 +38,11 @@ y0_lowC_50 = [0.05, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_25 = [0.025, 0.025, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_0 = [0, 0.05, 0, 0, 0, 0, 0, 0, 0, 0]
 
-# time in units of days, 1 is 1 day
-t = np.linspace(0, 9, 10)
-print(t)
+##############################################
+# t = np.linspace(start, end, start - end + 1)
+
+
+
 
 for i in range(10):
     y100_init = [0.09, 0.01, 0, 0, 0]
@@ -50,6 +53,20 @@ for i in range(10):
     y100_5 = [0., 0.001347, 0.000791, 0.000469, 0.000278, 0.000164, 0.000096, 0.000056, 0.000032, 0.000018]
 
     X = np.stack((y100_1, y100_2, y100_3, y100_4, y100_5), axis=-1)
+    print("actual", X)
+
+    timepoints = 10
+
+    #####################################################################
+    # IN THIS FORMAT ONLY, INDEX 0 MUST BE 0 TO COMPILE CODE
+    # X = solver(timepoints, [0, 0.075, 0.025, 0., 0., 0.])
+    # REST 5 DATAPOINTS CAN BE WHATEVER YOU WANT THE CONCENTRATIONS TO BE
+    #####################################################################
+
+    X = solver(timepoints, [0, 0.075, 0.025, 0., 0., 0.])
+    t = np.linspace(0, timepoints-1, timepoints)
+    print(t)
+    print("MODULAR", X)
     print("Original Data Matrix\n\n", X.round(4), "\n")
     model = generate(X, t)
 
