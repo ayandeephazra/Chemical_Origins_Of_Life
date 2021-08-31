@@ -9,6 +9,7 @@ from sklearn.linear_model import Lasso
 import pysindy as ps
 from generate_Sindy_model import generate
 from IVPSolver_n_timepoints import solver
+from originalSystemPrettyPrint import originalSystemPrettyPrint
 
 matplotlib.use('TkAgg')
 
@@ -40,7 +41,7 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     t = np.linspace(0, timepoints - 1, timepoints)
     print("\n", t, "\n")
     print("MODULAR\n\n", X)
-    print("\nOriginal Data Matrix\n\n", X.round(4), "\n")
+    print("\nNo noise Data Matrix\n\n", X.round(4), "\n")
     model = generate(X, t)
 
     print("\n")
@@ -63,9 +64,11 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     print("\n Recovered Data (after noise addition)\n\n", X.round(4), "\n")
     model2 = generate(X, t)
 
-    print("Original System\n")
+    temp = originalSystemPrettyPrint()
+    print(temp, "\n")
+    print("Recovered System without noise\n")
     model.print()
-    print("\nRecovered System\n")
+    print("\nRecovered System with noise\n")
     model2.print()
 
     print("\n")

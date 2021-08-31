@@ -1,13 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import os
 
 
 def state_plotter(times, states, fig_num):
     num_states = np.shape(states)[0]
     num_cols = int(np.ceil(np.sqrt(num_states)))
     num_rows = int(np.ceil(num_states / num_cols))
-    plt.figure("G = " + str(states[1][0]) + " A = " + str(states[2][0]))
+    plt.figure("G = " + str(states[1][0]) + " A = " + str(states[2][0]) + " for " + str(len(times)) + " timepoints")
     plt.clf()
     fig, ax = plt.subplots(num_rows, num_cols, num=fig_num, clear=True,
                            squeeze=False)
@@ -28,6 +27,6 @@ def state_plotter(times, states, fig_num):
     # plt.figure("G = " + str(states[1][0]) + " A = " + str(states[2][0]))
     # plt.subtitle("G = " + str(states[1][0]) + " A = " + str(states[2][0]))
 
-    plt.savefig("outputs//G = " + str(states[1][0]) + " A = " + str(states[2][0]) + ".jpg")
+    plt.savefig("outputs//G = " + str(states[1][0]) + " A = " + str(states[2][0]) + " for " + str(len(times)) + " timepoints" + ".jpg")
     plt.show()
-    return fig, ax
+    return fig, ax, plt

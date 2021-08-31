@@ -8,7 +8,7 @@ for i in range(1):
     A[A<0] = -1*A
 
     print(G, A)
-    init = [0, G[0], A[0], 0, 0, 0]
 
-    val = ode_gen(100, init)
+    init = [0, 0.0, 0.1, 0, 0, 0]
 
+    ode_gen(100, init)

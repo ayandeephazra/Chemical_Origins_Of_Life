@@ -17,6 +17,8 @@ def generate(matrix, t):
     # use 0.05 for good clean results
     optimizer = ps.STLSQ(threshold=0.0001)
 
+    optimizer.fit_intercept = False
+
     speciesName = []
 
     for i in range(matrix.shape[1]):
