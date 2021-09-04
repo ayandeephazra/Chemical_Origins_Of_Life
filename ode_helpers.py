@@ -28,5 +28,5 @@ def state_plotter(times, states, fig_num):
     # plt.subtitle("G = " + str(states[1][0]) + " A = " + str(states[2][0]))
 
     plt.savefig("outputs//G = " + str(states[1][0]) + " A = " + str(states[2][0]) + " for " + str(len(times)) + " timepoints" + ".jpg")
-    plt.show()
+    #plt.show()
     return fig, ax, plt

@@ -38,6 +38,7 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     #####################################################################
 
     X = solver(timepoints, initial)
+    org = X
     t = np.linspace(0, timepoints - 1, timepoints)
     print("\n", t, "\n")
     print("MODULAR\n\n", X)
@@ -72,3 +73,4 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     model2.print()
 
     print("\n")
+    return org, X, t
