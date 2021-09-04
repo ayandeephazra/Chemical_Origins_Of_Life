@@ -1,5 +1,5 @@
 from randomStartingConditions import randomStartingConditions
-import matplotlib
+from originalSystemPrettyPrint import originalSystemPrettyPrint
 import pysindy as ps
 
 ret = randomStartingConditions()
@@ -17,8 +17,9 @@ speciesName = []
 
 # ret[0].shape[1]
 
-
-for i in range(5):
+# we will use the first matrix of the list as a template, which makes sense
+# all matrices are the same in dimensionality
+for i in range(ret[0][0].shape[1]):
     speciesName.append("y" + str(i + 1))
 
 model = ps.SINDy(
@@ -31,5 +32,6 @@ model = ps.SINDy(
 # ret 0 is no noise data, ret 1 is noise data and ret 2 is time data
 model.fit(ret[0], ret[2], multiple_trajectories=True, quiet=True)
 
+print(originalSystemPrettyPrint(), "\n")
 print("this is your multiple run system")
 model.print()
