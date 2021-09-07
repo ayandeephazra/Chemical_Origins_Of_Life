@@ -6,7 +6,8 @@ def randomStartingConditions():
     orglist = []
     Xlist = []
     tlist = []
-    for i in range(2):
+
+    for i in range(100):
         G = 0.1 * np.random.normal(loc=0, scale=1, size=1)
         G[G < 0] = -1 * G
         A = 0.1 * np.random.normal(loc=0, scale=1, size=1)

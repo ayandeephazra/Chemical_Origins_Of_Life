@@ -47,15 +47,15 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
 
     print("\n")
 
-    t1 = np.random.normal(loc=0, scale=0.01, size=timepoints)
+    t1 = np.random.normal(loc=0, scale=0.1, size=timepoints)
     # t1[t1<0] = 0
-    t2 = np.random.normal(loc=0, scale=0.01, size=timepoints)
+    t2 = np.random.normal(loc=0, scale=0.1, size=timepoints)
     # t2[t2 < 0] = 0
-    t3 = np.random.normal(loc=0, scale=0.01, size=timepoints)
+    t3 = np.random.normal(loc=0, scale=0.1, size=timepoints)
     # t3[t3 < 0] = 0
-    t4 = np.random.normal(loc=0, scale=0.01, size=timepoints)
+    t4 = np.random.normal(loc=0, scale=0.1, size=timepoints)
     # t4[t4 < 0] = 0
-    t5 = np.random.normal(loc=0, scale=0.01, size=timepoints)
+    t5 = np.random.normal(loc=0, scale=0.1, size=timepoints)
     # t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
