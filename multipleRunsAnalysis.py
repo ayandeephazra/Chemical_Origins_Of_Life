@@ -63,5 +63,7 @@ print("#########################################################################
 print(originalSystemPrettyPrint(), "\n")
 print("this is the multiple run system sans noise:\n")
 model.print()
+
+#print(type(model.predict(multiple_trajectories=True)))
 print("\nthis is the multiple run system with noise:\n")
 model2.print()
