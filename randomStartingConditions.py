@@ -2,12 +2,12 @@ from PysindyODEGen_variableIC import ode_gen
 import numpy as np
 
 
-def randomStartingConditions():
+def randomStartingConditions(printVals):
     orglist = []
     Xlist = []
     tlist = []
 
-    for i in range(100):
+    for i in range(10):
         G = 0.1 * np.random.normal(loc=0, scale=1, size=1)
         G[G < 0] = -1 * G
         A = 0.1 * np.random.normal(loc=0, scale=1, size=1)
@@ -16,7 +16,7 @@ def randomStartingConditions():
         print(G, A)
         init = [0, G[0], A[0], 0, 0, 0]
 
-        val = ode_gen(100, init)
+        val = ode_gen(False, 100, init)
 
         # no noise
         orglist.append(val[0])
@@ -28,4 +28,4 @@ def randomStartingConditions():
     return orglist, Xlist, tlist
 
 
-randomStartingConditions()
+randomStartingConditions(False)

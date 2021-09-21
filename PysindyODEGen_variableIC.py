@@ -29,7 +29,7 @@ y0_lowC_25 = [0.025, 0.025, 0, 0, 0, 0, 0, 0, 0, 0]
 y0_lowC_0 = [0, 0.05, 0, 0, 0, 0, 0, 0, 0, 0]
 
 
-def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
+def ode_gen(printVals, timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     print("##########################################################################################################")
     #####################################################################
     # IN THIS FORMAT ONLY, INDEX 0 MUST BE 0 TO COMPILE CODE
@@ -40,9 +40,12 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     X = solver(timepoints, initial)
     org = X
     t = np.linspace(0, timepoints - 1, timepoints)
-    print("\n", t, "\n")
-    print("MODULAR\n\n", X)
-    print("\nNo noise Data Matrix\n\n", X.round(4), "\n")
+    if printVals:
+        print("\n", t, "\n")
+        print("MODULAR\n\n", X)
+        print("\nNo noise Data Matrix\n\n", X.round(4), "\n")
+
+
     model = generate(X, t)
 
     print("\n")
@@ -59,18 +62,23 @@ def ode_gen(timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
     # t5[t5 < 0] = 0
 
     noise = np.stack((t1, t2, t3, t4, t5), axis=-1)
-    print("Noise", "\n\n", noise.round(4), "\n\nNoise * Data\n\n", (X * noise).round(4), "\n")
+    if printVals:
+        print("Noise", "\n\n", noise.round(4), "\n\nNoise * Data\n\n", (X * noise).round(4), "\n")
+
     X = X + X * noise
     X[X < 0] = 0
-    print("\n Recovered Data (after noise addition)\n\n", X.round(4), "\n")
+    if printVals:
+        print("\n Recovered Data (after noise addition)\n\n", X.round(4), "\n")
     model2 = generate(X, t)
 
     temp = originalSystemPrettyPrint()
-    print(temp, "\n")
-    print("Recovered System without noise\n")
-    model.print()
-    print("\nRecovered System with noise\n")
-    model2.print()
+    if printVals:
+        print(temp, "\n")
+        print("Recovered System without noise\n")
+        model.print()
+        print("\nRecovered System with noise\n")
+        model2.print()
 
-    print("\n")
+        print("\n")
+
     return org, X, t
