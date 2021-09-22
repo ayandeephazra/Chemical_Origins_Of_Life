@@ -1,3 +1,2 @@
 # pythonProject1
- ![flow diagram](https://user-images.githubusercontent.com/68752381/132077875-18ca697f-325d-4323-9c59-695d9b95118d.png)
-
+![Flowchart](https://user-images.githubusercontent.com/68752381/134272391-79652e01-4c62-412a-aa0e-e1f435dfc2da.jpg)
