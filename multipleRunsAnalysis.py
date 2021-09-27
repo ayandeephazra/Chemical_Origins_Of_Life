@@ -1,17 +1,28 @@
 from randomStartingConditions import randomStartingConditions
 from originalSystemPrettyPrint import originalSystemPrettyPrint
 import pysindy as ps
+from forwardSimulation import forwardSimulation
 
 
 def thresholdSweep(thresh):
     # PARAMETER PRINTS VALUES TO SCREEN
     ret = randomStartingConditions(False)
 
+    # forward simulation aspect
+    model = ret[3]
+    model2 = ret[4]
+    init = ret[5]
+
+    print("here", model.equations())
+
+    forwardSimulation(model, model2, init)
+    ################################
+
     differentiation_method = ps.FiniteDifference(order=2)
 
     feature_library = ps.PolynomialLibrary(degree=3)
 
-    # use 0.05 for good clean results
+    # parametrized the thresh parameter
     optimizer = ps.STLSQ(threshold=thresh)
 
     optimizer.fit_intercept = False

@@ -7,7 +7,7 @@ def randomStartingConditions(printVals):
     Xlist = []
     tlist = []
 
-    for i in range(10):
+    for i in range(1):
         G = 0.1 * np.random.normal(loc=0, scale=1, size=1)
         G[G < 0] = -1 * G
         A = 0.1 * np.random.normal(loc=0, scale=1, size=1)
@@ -16,7 +16,7 @@ def randomStartingConditions(printVals):
         print(G, A)
         init = [0, G[0], A[0], 0, 0, 0]
 
-        val = ode_gen(False, 100, init)
+        val = ode_gen(printVals, 100, init)
 
         # no noise
         orglist.append(val[0])
@@ -25,7 +25,8 @@ def randomStartingConditions(printVals):
         # time
         tlist.append(val[2])
 
-    return orglist, Xlist, tlist
+        #val 3 and 4 are model and model2, sans and with noise
+    return orglist, Xlist, tlist, val[3], val[4], init
 
 
 randomStartingConditions(False)

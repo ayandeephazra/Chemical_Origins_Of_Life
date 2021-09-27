@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-def state_plotter(times, states, fig_num):
+# plot is a boolean that decides if we should display plot or not
+def state_plotter(times, states, fig_num, plot):
     num_states = np.shape(states)[0]
     num_cols = int(np.ceil(np.sqrt(num_states)))
     num_rows = int(np.ceil(num_states / num_cols))
@@ -27,6 +27,8 @@ def state_plotter(times, states, fig_num):
     # plt.figure("G = " + str(states[1][0]) + " A = " + str(states[2][0]))
     # plt.subtitle("G = " + str(states[1][0]) + " A = " + str(states[2][0]))
 
-    plt.savefig("outputs//G = " + str(states[1][0]) + " A = " + str(states[2][0]) + " for " + str(len(times)) + " timepoints" + ".jpg")
-    #plt.show()
+    plt.savefig("outputs//G = " + str(states[1][0]) + " A = " + str(states[2][0]) + " for " + str(
+        len(times)) + " timepoints" + ".jpg")
+    if plot:
+        plt.show()
     return fig, ax, plt

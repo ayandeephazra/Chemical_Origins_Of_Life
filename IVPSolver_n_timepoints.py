@@ -28,6 +28,6 @@ def solver(n, yinit=[0, 0.075, 0.025, 0, 0, 0]):
 
     # print(sol.y.__class__)
     # print(sol.y.round(6))
-    state_plotter(sol.t, sol.y, 1)
+    state_plotter(sol.t, sol.y, 1, False)
 
     return sol.y.T[:,1:]

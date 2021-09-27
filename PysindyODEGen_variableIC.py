@@ -47,8 +47,8 @@ def ode_gen(printVals, timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
 
 
     model = generate(X, t)
-
-    print("\n")
+    if printVals:
+        print("\n")
 
     t1 = np.random.normal(loc=0, scale=0.1, size=timepoints)
     # t1[t1<0] = 0
@@ -78,7 +78,6 @@ def ode_gen(printVals, timepoints = 100, initial=[0, 0.075, 0.025, 0., 0., 0.]):
         model.print()
         print("\nRecovered System with noise\n")
         model2.print()
-
         print("\n")
 
-    return org, X, t
+    return org, X, t, model, model2
