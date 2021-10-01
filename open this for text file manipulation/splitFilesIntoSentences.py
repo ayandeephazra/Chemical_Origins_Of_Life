@@ -9,7 +9,7 @@ for data_file in sorted(os.listdir(folder_path)):
 
 i = 0
 for j in range(len(list)):
-    f = open("files/"+str(list[j]), "r", encoding="utf-8")
+    f = open("C:\\Users\\Ayan Deep Hazra\\PycharmProjects\\pythonProject1\\files\\"+str(list[j]), "r", encoding="utf-8")
 
     content = f.read()
 
@@ -21,3 +21,4 @@ for j in range(len(list)):
         i = i + 1
         f2.write(sentence)
         f2.close()
+
