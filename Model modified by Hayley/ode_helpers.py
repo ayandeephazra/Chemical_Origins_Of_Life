@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # plot is a boolean that decides if we should display plot or not
 def state_plotter(times, states, fig_num, plot):
     num_states = np.shape(states)[0]
