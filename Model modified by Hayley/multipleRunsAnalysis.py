@@ -13,9 +13,9 @@ def thresholdSweep(thresh):
     model2 = ret[4]
     init = ret[5]
 
-    #print("here", model.equations())
+    # print("here", model.equations())
 
-    #forwardSimulation(model, model2, init)
+    # forwardSimulation(model, model2, init)
     ################################
 
     differentiation_method = ps.FiniteDifference(order=2)
@@ -82,5 +82,11 @@ def thresholdSweep(thresh):
     print("\nthis is the multiple run system with noise with threshold: ", thresh, "\n")
     model2.print()
 
+    # use .simulate()
+    # use several multiple-run models with same I.C.
+    # make a graph?
+    # several pentuple set of I.C.
+    # start with more diverse (larger maybe) I.C. for random datapoint generation during training
+    # start with non zero initial starting con. for AG, AA, GG
 
 thresholdSweep(0.005)
