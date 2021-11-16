@@ -9,7 +9,7 @@ flag = 0
 flag2 = 0
 totalRawCount = 0
 flag5 = 0
-with open("file8.txt", "r", encoding="cp1252") as file:
+with open("file1.txt", "r", encoding="cp1252") as file:
     for line in file:
 
         # print(line)
