@@ -6,3 +6,5 @@ def originalSystemPrettyPrint():
           "y5' = 9.5 y1 y2 + -4.5 y5"
 
     return var
+
+print(originalSystemPrettyPrint())

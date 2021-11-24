@@ -1,6 +1,7 @@
 import pysindy as ps
 import numpy as np
 from scipy.integrate import odeint
+from ode_helpers import state_plotter
 
 c = [0, 9.75, 3.5, 8, 4.5, 9.5, 4.5, 10, 3, 9.75, 8, 0.5, 2, 9.75, 0.75, 10, 0, 9.75, 0.25, 4, 5, 1.75, 6.5]
 
@@ -25,10 +26,40 @@ init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
 
 z = [odeint(ayan, i, t_span) for i in init]
 
-model = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=3),
+model = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=2),
                  feature_library=ps.PolynomialLibrary(degree=2, include_bias=False))
 
 model.fit(z, t_span, multiple_trajectories=True)
 
 model.print()
 
+# enter starting condition you want to simulate
+x = model.simulate([0, 0.09, 0.01, 0, 0, 0], t_span)
+
+print(x.round(3))
+
+state_plotter(t_span, x.transpose(), 1, True)
+
+x = model.simulate([0, 0.075, 0.025, 0, 0, 0], t_span)
+
+print(x.round(3))
+
+state_plotter(t_span, x.transpose(), 1, True)
+
+x = model.simulate([0, 0.05, 0.05, 0, 0, 0], t_span)
+
+print(x.round(3))
+
+state_plotter(t_span, x.transpose(), 1, True)
+
+x = model.simulate([0, 0.025, 0.075, 0, 0, 0], t_span)
+
+print(x.round(3))
+
+state_plotter(t_span, x.transpose(), 1, True)
+
+x = model.simulate([0, 0.01, 0.09, 0, 0, 0], t_span)
+
+print(x.round(3))
+
+state_plotter(t_span, x.transpose(), 1, True)
