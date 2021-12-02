@@ -18,7 +18,7 @@ def f(t, y):
 
 # number of samples, say p, p*n
 def solver(n, yinit=[0, 0.075, 0.025, 0, 0, 0]):
-    tspan = np.linspace(0, ((n - 1) / 1000), n)
+    tspan = np.linspace(0, (10*(n - 1) / 1000), 10*n)
     yinit = [0, 0.09, 0.01, 0, 0, 0]
 
     sol = solve_ivp(f, [0, 1], yinit, dense_output=True, t_eval=tspan)
