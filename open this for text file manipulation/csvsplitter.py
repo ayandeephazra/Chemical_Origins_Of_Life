@@ -6,10 +6,10 @@ list = []
 # This is the path where all the files are stored.
 
 folder_path = "C:\\Users\\Ayan Deep Hazra\\PycharmProjects\\pythonProject1\\open this for text file " \
-              "manipulation\\labeled_papers_in_txt(w_crystals).csv"
+              "manipulation\\filtered_test_scibert.csv"
 
 # try multiple encodings if one fails
-file = open(folder_path, encoding="cp1252")
+file = open(folder_path, encoding="utf-8")
 csvreader = csv.reader(file)
 rows = []
 
