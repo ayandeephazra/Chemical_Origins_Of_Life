@@ -9,7 +9,7 @@ flag = 0
 flag2 = 0
 totalRawCount = 0
 flag5 = 0
-with open("file1.txt", "r", encoding="cp1252") as file:
+with open("file2.txt", "r", encoding="utf-8") as file:
     for line in file:
 
         # print(line)
@@ -36,7 +36,7 @@ with open("file1.txt", "r", encoding="cp1252") as file:
                         # tp = tp + 1
 
                     if flag == 1 and (
-                            str.find("GPa") != -1 or str.find("range of") != -1 or str.find("ranges of") != -1):
+                            str.find("GPa") != -1 or str.find("gpa") != -1 or str.find("range of") != -1 or str.find("ranges of") != -1):
                         tp = tp + 1
 
                     # printing the positive sentences
