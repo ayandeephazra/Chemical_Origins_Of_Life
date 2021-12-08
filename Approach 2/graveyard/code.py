@@ -7,7 +7,7 @@ from model_with_noise import model_with_noise
 from noise import noise
 
 n = 60
-t_span = np.arange(0, 2, 0.001)
+t_span = np.arange(0, 1, 0.001)
 
 ret = model(n, t_span)
 
@@ -28,6 +28,16 @@ print(x.round(3))
 
 state_plotter(t_span, x.transpose(), 1, True)
 
+#noise1 = noise(1, sd, ic)
+
+#array = np.array(ic + ic*noise1)
+
+#x = model.simulate(array, t_span)
+
+#print(x.round(3))
+
+#state_plotter(t_span, x.transpose(), 1, True)
+
 ret2 = model_with_noise(n, t_span, sd, ic)
 
 model2 = ret2[0]
@@ -42,7 +52,7 @@ x = model2.simulate(ic, t_span)
 
 print(x.round(3))
 
-state_plotter(t_span, x.transpose(), 1, True, noise=1)
+state_plotter(t_span, x.transpose(), 1, True)
 ###################################################################
 
 ic2 = np.array([0, 0.075, 0.025, 0, 0, 0])
@@ -52,21 +62,15 @@ print(x.round(3))
 
 state_plotter(t_span, x.transpose(), 1, True)
 
-ret2 = model_with_noise(n, t_span, sd, ic2)
+noise2 = noise(1, sd, ic2)
 
-model2 = ret2[0]
-z = ret2[1]
+array = np.array(ic2 + ic2*noise2)
 
-model2.fit(z, t_span, multiple_trajectories=True)
-
-print("grwgrwgwrg")
-model2.print()
-
-x = model2.simulate(ic2, t_span)
+x = model.simulate(array, t_span)
 
 print(x.round(3))
 
-state_plotter(t_span, x.transpose(), 1, True, noise=1)
+state_plotter(t_span, x.transpose(), 1, True)
 ###################################################################
 
 ic3 = np.array([0, 0.05, 0.05, 0, 0, 0])
@@ -76,21 +80,15 @@ print(x.round(3))
 
 state_plotter(t_span, x.transpose(), 1, True)
 
-ret2 = model_with_noise(n, t_span, sd, ic3)
+noise3 = noise(1, sd, ic3)
 
-model2 = ret2[0]
-z = ret2[1]
+array = np.array(ic3 + ic3*noise3)
 
-model2.fit(z, t_span, multiple_trajectories=True)
-
-print("grwgrwgwrg")
-model2.print()
-
-x = model2.simulate(ic3, t_span)
+x = model.simulate(array, t_span)
 
 print(x.round(3))
 
-state_plotter(t_span, x.transpose(), 1, True, noise=1)
+state_plotter(t_span, x.transpose(), 1, True)
 ###################################################################
 
 ic4 = np.array([0, 0.025, 0.075, 0, 0, 0])
@@ -100,21 +98,15 @@ print(x.round(3))
 
 state_plotter(t_span, x.transpose(), 1, True)
 
-ret2 = model_with_noise(n, t_span, sd, ic4)
+noise4 = noise(1, sd, ic4)
 
-model2 = ret2[0]
-z = ret2[1]
+array = np.array(ic4 + ic4*noise4)
 
-model2.fit(z, t_span, multiple_trajectories=True)
-
-print("grwgrwgwrg")
-model2.print()
-
-x = model2.simulate(ic4, t_span)
+x = model.simulate(array, t_span)
 
 print(x.round(3))
 
-state_plotter(t_span, x.transpose(), 1, True, noise=1)
+state_plotter(t_span, x.transpose(), 1, True)
 ###################################################################
 
 ic5 = np.array([0, 0.01, 0.09, 0, 0, 0])
@@ -124,18 +116,12 @@ print(x.round(3))
 
 state_plotter(t_span, x.transpose(), 1, True)
 
-ret2 = model_with_noise(n, t_span, sd, ic5)
+noise5 = noise(1, sd, ic5)
 
-model2 = ret2[0]
-z = ret2[1]
+array = np.array(ic5 + ic5*noise5)
 
-model2.fit(z, t_span, multiple_trajectories=True)
-
-print("grwgrwgwrg")
-model2.print()
-
-x = model2.simulate(ic5, t_span)
+x = model.simulate(array, t_span)
 
 print(x.round(3))
 
-state_plotter(t_span, x.transpose(), 1, True, noise=1)
+state_plotter(t_span, x.transpose(), 1, True)

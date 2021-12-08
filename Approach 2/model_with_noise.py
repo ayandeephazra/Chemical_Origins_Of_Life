@@ -2,8 +2,11 @@ import numpy as np
 from scipy.integrate import odeint
 from ode_helpers import state_plotter
 import pysindy as ps
+from noise import noise
 
-def model(n, t_span):
+
+###############################
+def model_with_noise(n, t_span, sd, ic=np.array([0, 0.09, 0.01, 0, 0, 0])):
     c = [0, 9.75, 3.5, 8, 4.5, 9.5, 4.5, 10, 3, 9.75, 8, 0.5, 2, 9.75, 0.75, 10, 0, 9.75, 0.25, 4, 5, 1.75, 6.5]
 
     def ayan(y, t):
@@ -17,8 +20,12 @@ def model(n, t_span):
     np.random.seed(6)
 
     scale = np.random.uniform(1, n % 5, n)
-    print("icx", scale[1] * np.random.normal(10, 3, size=6))
-    init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
+
+    # noise1 = noise(1, sd, ic)
+    # array = np.array(ic + ic * noise1)
+    # scale[1] *
+    print("ic", scale[1] * (ic + ic * noise(1, sd, ic)))
+    init = [10*(ic + noise(1, sd, ic)) for i in range(n)]
 
     z = [odeint(ayan, i, t_span) for i in init]
 
