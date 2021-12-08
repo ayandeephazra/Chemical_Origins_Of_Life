@@ -21,13 +21,18 @@ def model_with_noise(n, t_span, sd, ic=np.array([0, 0.09, 0.01, 0, 0, 0])):
 
     scale = np.random.uniform(1, n % 5, n)
 
-    # noise1 = noise(1, sd, ic)
-    # array = np.array(ic + ic * noise1)
-    # scale[1] *
-    print("ic", scale[1] * (ic + ic * noise(1, sd, ic)))
-    init = [10*(ic + noise(1, sd, ic)) for i in range(n)]
-
+    # print("ic", 100 * (ic + noise(1, sd, ic)))
+    init = [50*(ic + noise(1, sd, ic)) for i in range(n)]
+    # FIX!
+    #print("init", list(init))
+    #state_plotter(t_span, np.array(list(init)), 1, True, noise=1)
+    # init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
     z = [odeint(ayan, i, t_span) for i in init]
+    row = len(z)
+    col = len(z[0])
+
+    #t = np.array(np.random.normal(10, 3 * sd, size=(row, col, 6))).tolist()
+    #z = z + t * np.array(z)
 
     retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=2),
                         feature_library=ps.PolynomialLibrary(degree=2, include_bias=False))

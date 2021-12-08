@@ -7,7 +7,7 @@ from model_with_noise import model_with_noise
 from noise import noise
 
 n = 60
-t_span = np.arange(0, 2, 0.001)
+t_span = np.arange(0, 2, 0.0002)
 
 ret = model(n, t_span)
 
@@ -18,7 +18,7 @@ model.fit(z, t_span, multiple_trajectories=True)
 
 model.print()
 
-sd = 0.025
+sd = 0.05
 
 # enter starting condition you want to simulate
 ic = np.array([0, 0.09, 0.01, 0.00, 0.00, 0])
@@ -139,3 +139,7 @@ x = model2.simulate(ic5, t_span)
 print(x.round(3))
 
 state_plotter(t_span, x.transpose(), 1, True, noise=1)
+
+print(model2.coefficients())
+print(model.coefficients())
+print(np.sum(np.abs(model2.coefficients() - model.coefficients())) / np.sum(np.absolute(model.coefficients())))

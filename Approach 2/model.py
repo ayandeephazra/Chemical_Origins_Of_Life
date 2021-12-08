@@ -17,7 +17,7 @@ def model(n, t_span):
     np.random.seed(6)
 
     scale = np.random.uniform(1, n % 5, n)
-    print("icx", scale[1] * np.random.normal(10, 3, size=6))
+
     init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
 
     z = [odeint(ayan, i, t_span) for i in init]
