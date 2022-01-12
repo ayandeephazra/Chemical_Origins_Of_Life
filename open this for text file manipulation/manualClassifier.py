@@ -1,3 +1,5 @@
+import csv
+
 positives = 0
 negatives = 0
 i = 1
@@ -9,10 +11,39 @@ flag = 0
 flag2 = 0
 totalRawCount = 0
 flag5 = 0
-with open("file2.txt", "r", encoding="utf-8") as file:
+linelist = []
+
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+
+folder_path = "C:\\Users\\Ayan Deep Hazra\\PycharmProjects\\pythonProject1\\open this for text file " \
+              "manipulation\\filtered_test_scibert.csv"
+csvfile = open(folder_path, encoding="utf-8")
+csvreader = csv.reader(csvfile)
+rows = []
+truelabel = []
+
+for row in csvreader:
+    rows.append(row[0])
+
+for row in csvreader:
+    truelabel.append(row[1])
+
+#################################################################################################################
+#################################################################################################################
+#################################################################################################################
+
+with open(folder_path, "r", encoding="utf-8") as filetemp:
+    for line in filetemp:
+        words = line.split()
+        if len(words) > 0:
+            linelist.append(line)
+
+with open("file4.txt", "r", encoding="utf-8") as file:
     for line in file:
 
-        # print(line)
+        print(line)
         words = line.split()
         if len(words) > 0:
             # totalRawCount = totalRawCount + 1
@@ -36,7 +67,8 @@ with open("file2.txt", "r", encoding="utf-8") as file:
                         # tp = tp + 1
 
                     if flag == 1 and (
-                            str.find("GPa") != -1 or str.find("gpa") != -1 or str.find("range of") != -1 or str.find("ranges of") != -1):
+                            str.find("GPa") != -1 or str.find("gpa") != -1 or str.find("range of") != -1 or str.find(
+                        "ranges of") != -1):
                         tp = tp + 1
 
                     # printing the positive sentences
@@ -72,5 +104,5 @@ precision = tp / (tp + fp)
 
 print("recall: ", recall)
 print("precision: ", precision)
-print("F score:", 2*precision*recall/(precision+recall))
+print("F score:", 2 * precision * recall / (precision + recall))
 print(totalRawCount)
