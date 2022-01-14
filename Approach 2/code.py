@@ -6,8 +6,10 @@ from model import model
 from model_with_noise import model_with_noise
 from noise import noise
 
-n = 60
-t_span = np.arange(0, 2, 0.0002)
+# increase for better results
+n = 1000
+days = 2
+t_span = np.arange(0, days, days/n)
 
 ret = model(n, t_span)
 
@@ -17,9 +19,9 @@ z = ret[1]
 model.fit(z, t_span, multiple_trajectories=True)
 
 model.print()
-
-sd = 0.05
-
+###############################################
+sd = 0.01
+###############################################
 # enter starting condition you want to simulate
 ic = np.array([0, 0.09, 0.01, 0.00, 0.00, 0])
 x = model.simulate(ic, t_span)

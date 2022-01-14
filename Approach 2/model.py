@@ -3,6 +3,7 @@ from scipy.integrate import odeint
 from ode_helpers import state_plotter
 import pysindy as ps
 
+
 def model(n, t_span):
     c = [0, 9.75, 3.5, 8, 4.5, 9.5, 4.5, 10, 3, 9.75, 8, 0.5, 2, 9.75, 0.75, 10, 0, 9.75, 0.25, 4, 5, 1.75, 6.5]
 
