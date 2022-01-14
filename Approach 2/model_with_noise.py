@@ -33,6 +33,8 @@ def model_with_noise(n, t_span, sd, ic=np.array([0, 0.09, 0.01, 0, 0, 0])):
     # change back to this if things go wrong
     # init = [50*(ic + noise(1, sd, ic)) for i in range(n)]
     init = [scale[i] * picker(ic, sd) for i in range(n)]
+
+    # DEBUG PRINT STATEMENTS
     print("sizeinit", len(init))
     print("init", list(init))
     init_np = np.array(init)
