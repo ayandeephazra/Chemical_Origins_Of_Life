@@ -15,15 +15,15 @@ def model(n, t_span):
                 c[5] * y[1] * y[2] - c[6] * y[5]]
         return dydt
 
-    np.random.seed(6)
+    np.random.seed(5)
 
     scale = np.random.uniform(1, n % 5, n)
 
-    init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
+    init = [scale[i] * np.random.normal(10, 3, size=6) for i in range(n)]
 
     z = [odeint(ayan, i, t_span) for i in init]
 
-    retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=2),
+    retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=3),
                         feature_library=ps.PolynomialLibrary(degree=2, include_bias=False))
 
     return retmodel, z

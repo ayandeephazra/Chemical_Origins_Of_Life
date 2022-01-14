@@ -7,7 +7,12 @@ from model_with_noise import model_with_noise
 from noise import noise
 
 # increase for better results
-n = 1000
+n = 100
+#############################
+# 100 is realistic
+# 1000 is good recovery
+#############################
+
 days = 2
 t_span = np.arange(0, days, days/n)
 
@@ -37,7 +42,7 @@ z = ret2[1]
 
 model2.fit(z, t_span, multiple_trajectories=True)
 
-print("grwgrwgwrg")
+print("model 3")
 model2.print()
 
 x = model2.simulate(ic, t_span)
@@ -61,7 +66,7 @@ z = ret2[1]
 
 model2.fit(z, t_span, multiple_trajectories=True)
 
-print("grwgrwgwrg")
+print("model 2")
 model2.print()
 
 x = model2.simulate(ic2, t_span)
@@ -85,7 +90,7 @@ z = ret2[1]
 
 model2.fit(z, t_span, multiple_trajectories=True)
 
-print("grwgrwgwrg")
+print("model 2")
 model2.print()
 
 x = model2.simulate(ic3, t_span)
@@ -109,7 +114,7 @@ z = ret2[1]
 
 model2.fit(z, t_span, multiple_trajectories=True)
 
-print("grwgrwgwrg")
+print("model 2")
 model2.print()
 
 x = model2.simulate(ic4, t_span)
@@ -133,7 +138,7 @@ z = ret2[1]
 
 model2.fit(z, t_span, multiple_trajectories=True)
 
-print("grwgrwgwrg")
+print("model 2")
 model2.print()
 
 x = model2.simulate(ic5, t_span)

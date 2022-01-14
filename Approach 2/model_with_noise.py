@@ -6,8 +6,10 @@ from noise import noise
 
 
 def picker(ic, sd):
-    ret = 50*(ic + ic * noise(1, sd, ic))
-    #retabs = abs(ret)
+    randplaceholder = np.random.normal(10, 3, size=6)
+    ret = 1 * (randplaceholder + randplaceholder * noise(1, sd, ic))
+    # ret = 1*(ic + ic * noise(1, sd, ic))
+    # retabs = abs(ret)
     ret[ret < 0] = 0
     return ret
 
@@ -28,24 +30,20 @@ def model_with_noise(n, t_span, sd, ic=np.array([0, 0.09, 0.01, 0, 0, 0])):
 
     scale = np.random.uniform(1, n % 5, n)
 
-    # change back to this
-    #init = [50*(ic + noise(1, sd, ic)) for i in range(n)]
-    init = [ scale[i] * picker(ic, sd) for i in range(n)]
+    # change back to this if things go wrong
+    # init = [50*(ic + noise(1, sd, ic)) for i in range(n)]
+    init = [scale[i] * picker(ic, sd) for i in range(n)]
     print("sizeinit", len(init))
     print("init", list(init))
+    init_np = np.array(init)
+    print(init_np)
+    state_plotter(t_span, init_np.T, 1, True, noise=0, printnoise=1)
 
-    # FIX!
-    # print("init", list(init))
-    # state_plotter(t_span, np.array(list(init)), 1, True, noise=1)
-    # init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
     z = [odeint(ayan, i, t_span) for i in init]
     row = len(z)
     col = len(z[0])
 
-    # t = np.array(np.random.normal(10, 3 * sd, size=(row, col, 6))).tolist()
-    # z = z + t * np.array(z)
-
-    retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=25000, threshold=2),
+    retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=3),
                         feature_library=ps.PolynomialLibrary(degree=2, include_bias=False))
 
     return retmodel, z

@@ -1,0 +1,13 @@
+model_with_noise.py
+
+
+    # FIX!
+    # print("init", list(init))
+    # state_plotter(t_span, np.array(list(init)), 1, True, noise=1)
+    # init = [scale[1] * np.random.normal(10, 3, size=6) for i in range(n)]
+    z = [odeint(ayan, i, t_span) for i in init]
+    row = len(z)
+    col = len(z[0])
+
+    # t = np.array(np.random.normal(10, 3 * sd, size=(row, col, 6))).tolist()
+    # z = z + t * np.array(z)
