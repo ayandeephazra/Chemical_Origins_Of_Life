@@ -7,9 +7,12 @@ from noise import noise
 
 def picker(ic, sd):
     randplaceholder = np.random.normal(10, 3, size=6)
+    ###############################################
+    # 1 is scale factor, change as needed
+    ###############################################
     ret = 1 * (randplaceholder + randplaceholder * noise(1, sd, ic))
     # ret = 1*(ic + ic * noise(1, sd, ic))
-    # retabs = abs(ret)
+    # ret_abs = abs(ret)
     ret[ret < 0] = 0
     return ret
 
@@ -26,7 +29,7 @@ def model_with_noise(n, t_span, sd, ic=np.array([0, 0.09, 0.01, 0, 0, 0])):
                 c[5] * y[1] * y[2] - c[6] * y[5]]
         return dydt
 
-    np.random.seed(6)
+    #np.random.seed(6)
 
     scale = np.random.uniform(1, n % 5, n)
 
@@ -35,10 +38,8 @@ def model_with_noise(n, t_span, sd, ic=np.array([0, 0.09, 0.01, 0, 0, 0])):
     init = [scale[i] * picker(ic, sd) for i in range(n)]
 
     # DEBUG PRINT STATEMENTS
-    print("sizeinit", len(init))
-    print("init", list(init))
+
     init_np = np.array(init)
-    print(init_np)
     state_plotter(t_span, init_np.T, 1, True, noise=0, printnoise=1)
 
     z = [odeint(ayan, i, t_span) for i in init]
