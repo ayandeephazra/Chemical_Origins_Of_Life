@@ -66,11 +66,11 @@ def simulate(n, t_span, sd, ic):
     error_percent_list = []
     #expected_mass_balance = model1_coeffs[0][1] / 75.07 + model1_coeffs[0][2] / 89.09 + model1_coeffs[0][3] / 132.12 + \
                             #model1_coeffs[0][4] / 160.171 + model1_coeffs[0][5] / 146.14
-    expected_mass_balance = ic[1] / 75.07 + ic[2] / 89.09 + ic[3] / 132.12 + ic[4] / 160.171 + ic[5] / 146.14
+    expected_mass_balance = ic[1] * 75.07 + ic[2] * 89.09 + ic[3] * 132.12 + ic[4] * 160.171 + ic[5] * 146.14
 
     for i in range(len(x)):
-        mass_balance = model1_coeffs[i][1] / 75.07 + model1_coeffs[i][2] / 89.09 + model1_coeffs[i][3] / 132.12 + \
-                       model1_coeffs[i][4] / 160.171 + model1_coeffs[i][5] / 146.14
+        mass_balance = model1_coeffs[i][1] * 75.07 + model1_coeffs[i][2] * 89.09 + model1_coeffs[i][3] * 132.12 + \
+                       model1_coeffs[i][4] * 160.171 + model1_coeffs[i][5] * 146.14
         error_percent = (mass_balance - expected_mass_balance) * 100 / expected_mass_balance
         error_percent_list.append(abs(error_percent))
 
@@ -90,11 +90,11 @@ def simulate(n, t_span, sd, ic):
     error_percent_list = []
     #expected_mass_balance = model2_coeffs[0][1] / 75.07 + model2_coeffs[0][2] / 89.09 + model2_coeffs[0][3] / 132.12 + \
                             #model2_coeffs[0][4] / 160.171 + model2_coeffs[0][5] / 146.14
-    expected_mass_balance = ic[1] / 75.07 + ic[2] / 89.09 + ic[3] / 132.12 + ic[4] / 160.171 + ic[5] / 146.14
+    expected_mass_balance = ic[1] * 75.07 + ic[2] * 89.09 + ic[3] * 132.12 + ic[4] * 160.171 + ic[5] * 146.14
 
     for i in range(len(x)):
-        mass_balance = model2_coeffs[i][1] / 75.07 + model2_coeffs[i][2] / 89.09 + model2_coeffs[i][3] / 132.12 + \
-                       model2_coeffs[i][4] / 160.171 + model2_coeffs[i][5] / 146.14
+        mass_balance = model2_coeffs[i][1] * 75.07 + model2_coeffs[i][2] * 89.09 + model2_coeffs[i][3] * 132.12 + \
+                       model2_coeffs[i][4] * 160.171 + model2_coeffs[i][5] * 146.14
         error_percent = (mass_balance - expected_mass_balance) * 100 / expected_mass_balance
         error_percent_list.append(abs(error_percent))
 
