@@ -23,8 +23,6 @@ def model(n, t_span):
 
     z = [odeint(ayan, i, t_span) for i in init]
 
-
-
     retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=3),
                         feature_library=ps.PolynomialLibrary(degree=2, include_bias=False))
 
