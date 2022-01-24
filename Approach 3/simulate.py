@@ -1,9 +1,11 @@
+import numpy
 import pysindy as ps
 import numpy as np
 from scipy.integrate import odeint
 from ode_helpers import state_plotter
 from model import model
-from model_with_noise import model_with_noise
+from data_plotter import data_plotter
+# from model_with_noise import model_with_noise
 from noise import noise
 
 
@@ -11,12 +13,14 @@ def simulate(n, t_span, sd, ic):
     ##########################################################
     # MAIN MODEL INSTANTIATION / CHANGE NOTHING
     ##########################################################
-    ret = model(n, t_span)
+    ret = model(n, t_span, sd)
 
-    model1 = ret[0]
-    z = ret[1]
+    model1 = ret[2]
+    z = list(ret[0])
+    normal_data = np.array(ret[0])
 
-    print("z", z)
+    # plotting no-noise data
+    data_plotter(t_span, normal_data[0].T, 1, True)
 
     model1.fit(z, t_span, multiple_trajectories=True)
 
@@ -26,25 +30,27 @@ def simulate(n, t_span, sd, ic):
     x = model1.simulate(ic, t_span)
     model1_coeffs = x
 
-    print(x.round(3))
+    #print("coeffs", x.round(3))
 
     state_plotter(t_span, x.transpose(), 1, True)
+    # ret2 = model_with_noise(n, t_span, sd, ic)
 
-    ret2 = model_with_noise(n, t_span, sd, ic)
-
-    model2 = ret2[0]
-    z = ret2[1]
+    model2 = ret[2]
+    z = list(ret[1])
+    noise_data = np.array(ret[1])
+    print("ND", noise_data[0].T)
+    #plotting noise data
+    data_plotter(t_span, noise_data[0].T, 1, True, noise=1)
 
     model2.fit(z, t_span, multiple_trajectories=True)
 
-    print("model 3")
     model2.print()
 
     x = model2.simulate(ic, t_span)
     model2_coeffs = x
     species = x.transpose()
 
-    print("simulated values", x.round(3))
+    #print("simulated values", x.round(3))
 
     state_plotter(t_span, x.transpose(), 1, True, noise=1)
 
@@ -52,7 +58,8 @@ def simulate(n, t_span, sd, ic):
 
     print(model2.coefficients())
     print(model1.coefficients())
-    print("Fractional Error between Noise and No-Noise Model Coefficients", np.sum(np.abs(model2.coefficients() - model1.coefficients())) / np.sum(np.absolute(model1.coefficients())))
+    print("Fractional Error between Noise and No-Noise Model Coefficients",
+          np.sum(np.abs(model2.coefficients() - model1.coefficients())) / np.sum(np.absolute(model1.coefficients())))
 
     ############################################################################################################
     ############################################################################################################
@@ -66,8 +73,8 @@ def simulate(n, t_span, sd, ic):
     ############################################################################################################
 
     error_percent_list = []
-    #expected_mass_balance = model1_coeffs[0][1] / 75.07 + model1_coeffs[0][2] / 89.09 + model1_coeffs[0][3] / 132.12 + \
-                            #model1_coeffs[0][4] / 160.171 + model1_coeffs[0][5] / 146.14
+    # expected_mass_balance = model1_coeffs[0][1] / 75.07 + model1_coeffs[0][2] / 89.09 + model1_coeffs[0][3] / 132.12 + \
+    # model1_coeffs[0][4] / 160.171 + model1_coeffs[0][5] / 146.14
     expected_mass_balance = ic[1] * 75.07 + ic[2] * 89.09 + ic[3] * 132.12 + ic[4] * 160.171 + ic[5] * 146.14
 
     for i in range(len(x)):
@@ -90,8 +97,8 @@ def simulate(n, t_span, sd, ic):
     ############################################################################################################
 
     error_percent_list = []
-    #expected_mass_balance = model2_coeffs[0][1] / 75.07 + model2_coeffs[0][2] / 89.09 + model2_coeffs[0][3] / 132.12 + \
-                            #model2_coeffs[0][4] / 160.171 + model2_coeffs[0][5] / 146.14
+    # expected_mass_balance = model2_coeffs[0][1] / 75.07 + model2_coeffs[0][2] / 89.09 + model2_coeffs[0][3] / 132.12 + \
+    # model2_coeffs[0][4] / 160.171 + model2_coeffs[0][5] / 146.14
     expected_mass_balance = ic[1] * 75.07 + ic[2] * 89.09 + ic[3] * 132.12 + ic[4] * 160.171 + ic[5] * 146.14
 
     for i in range(len(x)):
