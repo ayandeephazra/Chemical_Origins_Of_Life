@@ -5,7 +5,7 @@ from scipy.integrate import odeint
 from ode_helpers import state_plotter
 from model import model
 from data_plotter import data_plotter
-# from model_with_noise import model_with_noise
+
 from noise import noise
 
 
@@ -20,7 +20,7 @@ def simulate(n, t_span, sd, ic):
     normal_data = np.array(ret[0])
 
     # plotting no-noise data
-    data_plotter(t_span, normal_data[0].T, 1, True)
+    data_plotter(t_span, normal_data[2].T, 1, True)
 
     model1.fit(z, t_span, multiple_trajectories=True)
 
@@ -40,7 +40,7 @@ def simulate(n, t_span, sd, ic):
     noise_data = np.array(ret[1])
     print("ND", noise_data[0].T)
     #plotting noise data
-    data_plotter(t_span, noise_data[0].T, 1, True, noise=1)
+    data_plotter(t_span, noise_data[2].T, 1, True, noise=1)
 
     model2.fit(z, t_span, multiple_trajectories=True)
 

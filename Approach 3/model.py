@@ -38,18 +38,19 @@ def model(n, t_span, sd):
 
     def mass_balance(t_data, y_data, y_noise_data, plot_if_true):
         if plot_if_true:
-            A_bal = y_noise_data[1] + 2 * y_noise_data[3] + y_noise_data[5]
+            A_bal = y_noise_data.T[1] + 2 * y_noise_data.T[3] + y_noise_data.T[5]
 
-            B_bal = y_noise_data[2] + 2 * y_noise_data[4] + y_noise_data[5]
+            B_bal = y_noise_data.T[2] + 2 * y_noise_data.T[4] + y_noise_data.T[5]
 
             # print(y_data.shape, t_data.shape, A_bal.shape)
+            print(y_noise_data, A_bal)
             plt.plot(t_data, A_bal)
             plt.plot(t_data, B_bal)
 
-            upper_75 = [1.2 * 0.075] * len(t_data)
-            lower_75 = [0.8 * 0.075] * len(t_data)
-            upper_25 = [1.2 * 0.025] * len(t_data)
-            lower_25 = [0.8 * 0.025] * len(t_data)
+            upper_75 = [1.2 * 0.05] * len(t_data)
+            lower_75 = [0.8 * 0.05] * len(t_data)
+            upper_25 = [1.2 * 0.05] * len(t_data)
+            lower_25 = [0.8 * 0.05] * len(t_data)
 
             plt.plot(t_data, upper_25)
             plt.plot(t_data, lower_75)
@@ -85,7 +86,7 @@ def model(n, t_span, sd):
             elif fixed_cond_data == 4:
                 yinit = [0, 0.01, 0.09, 0, 0, 0]
                 fixed_cond_data = 5
-                
+
         if selection == 3:
             if fixed_cond_noise == 0:
                 yinit = [0, 0.09, 0.01, 0, 0, 0]
@@ -109,7 +110,7 @@ def model(n, t_span, sd):
         y_noise_data_ = y_data_ + y_data_ * np.random.normal(0, sd, size=y_data_.shape)
         # state_plotter(t_data_, y_noise_data_, 1, True, noise=1, printnoise=0)
         # True to do mass balance calc and display plot, else not
-        mass_balance(t_data_, y_data_, y_noise_data_, False)
+        mass_balance(t_data_, y_data_, y_noise_data_, True)
 
         if selection == 1:
             return t_data_
@@ -127,4 +128,4 @@ def model(n, t_span, sd):
     retmodel = ps.SINDy(optimizer=ps.STLSQ(alpha=250, threshold=3, max_iter=15),
                         feature_library=ps.PolynomialLibrary(degree=2, include_bias=False))
 
-    return data, noise_data, retmodel
+    return data, noise_data, retmodel, t_span
