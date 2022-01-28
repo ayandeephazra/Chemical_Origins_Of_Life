@@ -1,3 +1,4 @@
 # PYSINDY O.D.E GENERATION FOR BIOLOGICAL SYSTEMS
 
-![Flowchart](https://user-images.githubusercontent.com/68752381/134288366-76864942-ae31-4506-b0c7-e6912a7652af.jpg)
+
+![Approach 3 diagram](https://user-images.githubusercontent.com/68752381/151466516-97b3513d-d549-483f-826e-ace500ec2448.png)
